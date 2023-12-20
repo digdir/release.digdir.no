@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ partial "product-menu.html" . }}
+
+<div class="grid gap-6 grid-cols-1">
+    {{ range .Paginator.Pages.ByDate.Reverse }}
+        {{ .Render "li" }}
+    {{ end }}
+</div>
+
+<!-- Pagination -->
+<div class="mt-8">
+    {{ partial "pagination.html" . }}
+</div>
+{{ end }}

@@ -1,0 +1,24 @@
+{{ $currentPage := . }}
+{{ $section := .Site.GetPage $currentPage.Section }}
+<nav>
+    <ul class="flex flex-wrap md:space-x-4 mb-6">
+        {{ range site.Menus.product }}
+        <li class="mt-2 sm:mt-0">
+            <a href="{{ .URL }}"
+                class="inline-block text-sm font-semibold py-1 px-3 rounded-full transition-colors 
+                {{ if eq $currentPage.RelPermalink .URL }}
+                    {{ if .Page }}
+                        bg-{{.Page.Params.label_color}}-200 text-black
+                    {{ else }}
+                        bg-blue-600 text-white
+                    {{ end }}
+                {{ else }}
+                    text-gray-900 hover:bg-{{.Page.Params.label_color}}-200
+                {{ end }}">
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+        
+    </ul>
+</nav>
