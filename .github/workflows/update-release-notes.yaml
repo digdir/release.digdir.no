@@ -1,0 +1,14 @@
+name: Update release notes
+on:
+  repository_dispatch:
+    types: [update-release-notes]
+
+jobs:
+  update-release-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - run: |
+          echo ${{ github.event.client_payload.test-message }}
+
+          
