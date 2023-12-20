@@ -1,0 +1,14 @@
+disableKinds = ["taxonomy","taxonomyTerm"]
+
+baseURL = 'https://release.digdir.no'
+languageCode = 'NO'
+title = 'Release notes'
+
+[outputFormats]
+[outputFormats.JSON]
+mediatype = "application/json"
+baseName = "index"
+isPlainText = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    <title>
+        {{ block "title" . }}
+            {{ if .Page.Title }}
+                {{.Page.Title}} | {{ .Site.Title }}
+            {{ else }}
+                {{ .Site.Title }}
+            {{ end }}
+        {{ end }}
+    </title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- use only for Development -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-100">
+    <main id="main-content">
+    
+        <!-- Header -->
+        {{ $currentPage := . }}
+        {{ $section := .Site.GetPage $currentPage.Section }}
+        <header style="background-color: #1e2b3c;" class="text-white p-4 lg:px-0">
+            <div class="max-w-screen-lg mx-auto flex justify-between items-center">
+                <a href="/" class="text-xl font-semibold">{{.Site.Title}}</a>
+                <nav>
+                    <ul class="flex space-x-4">
+                        {{ range site.Menus.main }}
+                            <li>
+                                <a href="{{ .URL }}" class="hover:text-blue-300 {{if $section.IsMenuCurrent "main" . }}text-blue-300{{end}}">
+                                    {{ .Name }}
+                                </a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- Container -->
+        <main class="max-w-screen-lg m-4 lg:mx-auto">
+            {{ block "main" . }}
+    
+            {{end}}  
+        </main>
+    
+        <!-- Footer -->
+        <footer class="bg-gray-200 text-gray-600 py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2023 Digdir. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
