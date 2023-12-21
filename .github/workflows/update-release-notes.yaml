@@ -25,7 +25,7 @@ jobs:
 
             let releaseNotes = '';
 
-            for (const releaseNoteItem of releaseNoteArray) {
+            for (const releaseNoteItem of releaseNotesArray) {
               releaseNotes += `- ${releaseNoteItem}\n`;
             }
 
