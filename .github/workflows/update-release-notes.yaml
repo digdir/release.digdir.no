@@ -31,14 +31,18 @@ jobs:
               let issue = `- ${item}`;
 
               for (const [search, replacement] of replacements) {
-                if (!searchesFound.has(search) && item.startsWith(search)) {
-                  issue = `- ${replacement}`;
-                  searchesFound.add(search);
+                if (item.startsWith(search)) {
+                  if (!searchesFound.has(search)) {
+                    issue = `- ${replacement}`;
+                    searchesFound.add(search);
+                  } else {
+                    issue = null;
+                  }
                   break;
                 }
               }
               return issue;
-            }).join('\n');
+            }).filter(issue => issue !== null).join('\n');
 
             const fileContent = templateFile
               .replace('<title>', '${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.version }}')
