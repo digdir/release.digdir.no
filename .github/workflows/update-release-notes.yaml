@@ -20,34 +20,11 @@ jobs:
             const templatePath = '${{ github.workspace }}/.github/templates/template.md';
             const filePath = '${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.version }}.md';
             const templateFile = fs.readFileSync(templatePath, 'utf8');
-            const releaseNotesArray = ${{ toJSON(github.event.client_payload.release-notes-array) }};
            
-            const replacements = new Map([
-              ["Bump", "Library upgrades"],
-            ]);
-
-            const searchesFound = new Set();
-            const releaseNotesIssues = releaseNotesArray.map(item => {
-              let issue = `- ${item}`;
-
-              for (const [search, replacement] of replacements) {
-                if (item.startsWith(search)) {
-                  if (!searchesFound.has(search)) {
-                    issue = `- ${replacement}`;
-                    searchesFound.add(search);
-                  } else {
-                    issue = null;
-                  }
-                  break;
-                }
-              }
-              return issue;
-            }).filter(issue => issue !== null).join('\n');
-
             const fileContent = templateFile
               .replace('<title>', '${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.version }}')
               .replace('<date>', '${{ github.event.client_payload.date }}')
-              .replace('<issues>', `\n${releaseNotesIssues}`);
+              .replace('<issues>', `\n${{ github.event.client_payload.release-notes) }}`);
 
             fs.writeFileSync(filePath, fileContent, 'utf8');  
 
