@@ -3,7 +3,6 @@ on:
   repository_dispatch:
     types: [update-release-notes]
 
-
 jobs:
   update-release-notes:
     runs-on: ubuntu-latest
