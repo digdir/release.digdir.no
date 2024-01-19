@@ -13,7 +13,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            core.setSecret(${{ github.event.client_payload.release-notes-array }});
+            core.setSecret(${{ toJSON(github.event.client_payload.release-notes-array) }});
       - run: |
           mkdir -p ${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/
       - name: Create release notes list
