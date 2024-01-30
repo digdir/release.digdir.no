@@ -18,11 +18,11 @@ jobs:
           script: |
             const fs = require('fs');
             const templatePath = '${{ github.workspace }}/.github/templates/template.md';
-            const filePath = '${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.version }}.md';
+            const filePath = '${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.sha }}.md';
             const templateFile = fs.readFileSync(templatePath, 'utf8');
            
             const fileContent = templateFile
-              .replace('<title>', '${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.version }}')
+              .replace('<title>', '${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.sha }}')
               .replace('<date>', '${{ github.event.client_payload.date }}')
               .replace('<issues>', `\n${{ github.event.client_payload.release-notes }}`);
 
