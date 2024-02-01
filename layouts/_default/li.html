@@ -8,6 +8,10 @@
         <li>{{.}}</li>
         {{ end }}
     </ul>
+    {{ else }}
+        <div class="markdown">
+            {{.Content}}
+        </div>
     {{ end }}
 
     {{ with .Site.GetPage "section" .Section}}
