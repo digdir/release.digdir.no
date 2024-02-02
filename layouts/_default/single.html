@@ -1,4 +1,13 @@
 {{ define "main" }}
 
-<h1>{{.Page.Title}}</h1>
+
+<div class="py-5">
+    <a href="/" class="text-gray-600 hover:text-gray-900"> ← Tilbake</a>
+</div>
+
+<div class="grid gap-6 grid-cols-1">
+    
+    {{ .Render "li" }}
+
+</div>
 {{ end }}
