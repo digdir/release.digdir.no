@@ -1,6 +1,6 @@
 disableKinds = ["taxonomy","taxonomyTerm"]
 
-baseURL = 'https://digdir.github.io/release.digdir.no/'
+baseURL = 'https://release.digdir.no'
 languageCode = 'NO'
 title = 'Release notes'
 
