@@ -1,5 +1,5 @@
 ---
-title: idporten
+title: ID-porten
 date: 2024-02-01T14:26:03Z
 ---
 - ID-3872: Issuer https://kontaktregister.idporten.no/ for ny cp (#937)
