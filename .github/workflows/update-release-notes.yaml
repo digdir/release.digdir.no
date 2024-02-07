@@ -27,6 +27,9 @@ jobs:
               .replace('<issues>', `\n${{ github.event.client_payload.release-notes }}`);
 
             fs.writeFileSync(filePath, fileContent, 'utf8');  
+     
+      - name: Install Dependencies
+        run: npm install octokit
 
       - name: Generate token for release notes app
         uses: actions/github-script@v7
