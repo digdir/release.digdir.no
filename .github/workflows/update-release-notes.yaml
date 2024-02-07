@@ -28,6 +28,28 @@ jobs:
 
             fs.writeFileSync(filePath, fileContent, 'utf8');  
 
+      - name: Generate token for release notes app
+        uses: actions/github-script@v7
+        id: release-notes-app-token
+        env:
+          GH_APP_ID: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_APP_ID }}
+          GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_PRIVATE_KEY }}
+          INSTALLATION_ID: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_INSTALLATION_ID }}
+        with:
+          script: |
+            const { createAppAuth } = require("@octokit/auth-app");
+
+            const auth = createAppAuth({
+              appId: +process.env.GH_APP_ID,
+              privateKey: process.env.GH_APP_PRIVATE_KEY
+            });
+
+            const { token } = await auth({ type: "installation", installationId: +process.env.INSTALLATION_ID });
+
+            core.setSecret(token);
+            core.setOutput('token', token);
+          result-encoding: string
+
       - name: Create release notes pull request
         id: create-pull-request
         uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38 # pin@v5.0.2
@@ -37,3 +59,17 @@ jobs:
           branch-suffix: random
           title: "New release notes for ${{ github.event.client_payload.application-name }}"
           delete-branch: true
+
+      - name: Auto approve
+        if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
+        run: gh pr review --approve "${{ steps.create-pull-request.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ steps.release-notes-app-token.outputs.token }}
+      
+      - name: Pull Request Activate Automerge
+        if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
+        run: |
+          sleep 3
+          gh pr merge --squash --auto --delete-branch "${{ steps.create-pull-request.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
