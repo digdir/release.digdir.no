@@ -65,6 +65,7 @@ jobs:
         run: gh pr review --approve "${{ steps.create-pull-request.outputs.pull-request-number }}"
         env:
           GH_TOKEN: ${{ steps.release-notes-app-token.outputs.token }}
+      
       - name: Pull Request Activate Automerge
         if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
         run: |
