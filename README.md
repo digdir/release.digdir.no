@@ -8,6 +8,9 @@ This webpage is created with [Hugo](https://gohugo.io/).
 
 ## Development
 
-Requirements: [Hugo](https://gohugo.io/getting-started/installing/)
+1. Get submodules: `git submodule update`
+2. Install dependencies with: `npm install`
+3. Run local server: `hugo serve`
 
-Start local server with: `hugo serve`, available at `localhost:1313`.
+Build site with: `hugo`
+
