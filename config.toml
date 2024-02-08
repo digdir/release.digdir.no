@@ -1,8 +1,14 @@
 disableKinds = ["taxonomy","taxonomyTerm"]
 
 baseURL = 'https://release.digdir.no'
-languageCode = 'NO'
+languageCode = 'nb'
 title = 'Release notes'
+
+timeZone = "Europe/Oslo"
+
+defaultContentLanguage = 'no'
+
+theme = 'digdir-hugo-theme'
 
 [outputFormats]
 [outputFormats.JSON]
@@ -18,3 +24,6 @@ home = ["HTML", "RSS", "JSON"]
   [markup.goldmark]
       [markup.goldmark.extensions]     
         linkify = false
+
+[params]
+  logo = "/images/digdir_positiv.png"

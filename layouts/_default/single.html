@@ -1,13 +1,18 @@
 {{ define "main" }}
 
 
-<div class="py-5">
-    <a href="/" class="text-gray-600 hover:text-gray-900"> ← Tilbake</a>
-</div>
 
-<div class="grid gap-6 grid-cols-1">
-    
-    {{ .Render "li" }}
 
+<div class="container my-3">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="py-2 mb-3">
+                <a href="/" class="text-gray-600 text-decoration-none hover:text-gray-900"> ← Tilbake</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        {{ .Render "li" }}
+    </div>
 </div>
 {{ end }}
