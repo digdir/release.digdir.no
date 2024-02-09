@@ -1,0 +1,12 @@
+{
+  "name": "release.digdir.no",
+  "version": "1.0.0",
+  "description": "This repo receives deployment details from Argo CD, which is then used to build https://release.digdir.no/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd themes/digdir-hugo-theme && npm install"
+  },
+  "author": "",
+  "license": "ISC"
+}

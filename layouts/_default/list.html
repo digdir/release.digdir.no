@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-{{ partial "product-menu.html" . }}
-
-<div class="grid gap-6 grid-cols-1">
-    {{ range .Paginator.Pages.ByDate.Reverse }}
-        {{ .Render "li" }}
-    {{ end }}
+<div class="container mt-3">
+    <div class="row gap-3">
+        {{ range .Paginator.Pages.ByDate.Reverse }}
+            {{ .Render "li" }}
+        {{ end }}
+    </div>
 </div>
 
 <!-- Pagination -->

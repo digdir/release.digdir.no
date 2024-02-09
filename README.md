@@ -1,13 +1,15 @@
-# About
-
+# Release notes
 This repo receives deployment details from Argo CD, which is then used to build https://release.digdir.no/
 
-# Release notes
+## Getting started
+1. Install [Hugo](https://gohugo.io/getting-started/installing/)
+2. Clone the repo
+3. Run `git submodule update --init --recursive` to fetch the theme
+3. Run `npm install` to install dependencies
+4. Run `hugo serve` to start the local server
 
-This webpage is created with [Hugo](https://gohugo.io/).
+### Development
+Run local server: `hugo serve`
 
-## Development
+Build site with: `hugo`
 
-Requirements: [Hugo](https://gohugo.io/getting-started/installing/)
-
-Start local server with: `hugo serve`, available at `localhost:1313`.

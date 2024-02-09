@@ -16,11 +16,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      
       - name: Checkout code
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1 
         with:
           submodules: true
           fetch-depth: 1
+
+      # install dependencies in hugo-theme
+      - run: npm install
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@16361eb4acea8698b220b76c0d4e84e1fd22c61d # 2.6.0
