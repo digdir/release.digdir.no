@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="container mt-3">
+<div class="container my-3">
     <div class="row gap-3">
         {{ range .Paginator.Pages.ByDate.Reverse }}
             {{ .Render "li" }}

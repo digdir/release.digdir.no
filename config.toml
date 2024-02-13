@@ -8,6 +8,9 @@ timeZone = "Europe/Oslo"
 
 defaultContentLanguage = 'no'
 
+sectionPagesMenu = 'main'
+pluralizelisttitles = false
+
 theme = 'digdir-hugo-theme'
 
 [outputFormats]
