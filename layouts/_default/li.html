@@ -3,7 +3,7 @@
 
         <label class="text-muted border-bottom w-100 pb-3" style="font-size:15px;">{{ .Date.Format "Jan 02, 2006 kl 15:04 UTC" }}</label>
         <a href="{{.RelPermalink}}" class="text-decoration-none">
-            <h2 class="text-xl mt-3 text-capitalize font-semibold mb-2">{{.Title}}</h2>
+            <h2 class="text-xl mt-3 text-capitalize font-semibold mb-2">{{.FirstSection.Title}}</h2>
         </a>
 
         {{ with .Params.Issues }}
