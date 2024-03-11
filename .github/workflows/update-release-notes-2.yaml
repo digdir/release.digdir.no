@@ -1,0 +1,69 @@
+name: Update release notes
+on:
+  repository_dispatch:
+    types: [update-release-notes-2]
+
+jobs:
+  update-release-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate token for release notes app
+        uses: felleslosninger/github-actions/github-app-token@f84e741fdbbd4be8d607d8baf428702ca29e9ec8 # pin@v0.5.0
+        id: generate-release-notes-token
+        with:
+          app-id: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_APP_ID }}
+          private-key: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_PRIVATE_KEY }}
+          installation-id: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_INSTALLATION_ID }}
+
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v4.1.1
+
+      - run: |
+          mkdir -p ${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/
+
+      - name: Create release notes list
+        id: release-note-list
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const templatePath = '${{ github.workspace }}/.github/templates/template.md';
+            const filePath = '${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.sha }}.md';
+            const templateFile = fs.readFileSync(templatePath, 'utf8');
+            const releaseNotesArray = JSON.parse('${{ github.event.client_payload.release-notes }}');
+            let releaseNotes = '';
+
+            for (const releaseNotesItem of releaseNotesArray) {
+              releaseNotes += `- ${releaseNotesItem}\n`;
+            }
+
+            const fileContent = templateFile
+              .replace('<title>', '${{ github.event.client_payload.title }}')
+              .replace('<date>', '${{ github.event.client_payload.date }}')
+              .replace('<issues>', releaseNotes);
+
+            fs.writeFileSync(filePath, fileContent, 'utf8');
+
+      - name: Create release notes pull request
+        id: create-pull-request
+        uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38 # pin@v5.0.2
+        with:
+          commit-message: "New release notes for ${{ github.event.client_payload.application-name }}"
+          branch: release-notes-${{ github.event.client_payload.application-name }}
+          branch-suffix: random
+          title: "New release notes for ${{ github.event.client_payload.application-name }}"
+          delete-branch: true
+
+      - name: Auto approve
+        if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
+        run: gh pr review --approve "${{ steps.create-pull-request.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ steps.generate-release-notes-token.outputs.token }}
+
+      - name: Pull Request Activate Automerge
+        if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
+        run: |
+          sleep 3
+          gh pr merge --squash --auto --delete-branch "${{ steps.create-pull-request.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
