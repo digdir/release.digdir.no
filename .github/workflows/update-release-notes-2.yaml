@@ -16,7 +16,7 @@ jobs:
           installation-id: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_INSTALLATION_ID }}
 
       - name: Checkout repository
-        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # pin@v4.1.4
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # pin@v4.1.6
 
       - run: |
           mkdir -p ${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/
