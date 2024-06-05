@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate token for release notes app
-        uses: felleslosninger/github-actions/github-app-token@e8db52bf0bd0f3b1412b89c7039403eec3ebabd7 # pin@v0.7.2
+        uses: felleslosninger/github-actions/github-app-token@bb702913dc7fc7ba16f6a2ce32624ba9eaf54262 # pin@v0.7.4
         id: generate-release-notes-token
         with:
           app-id: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_APP_ID }}
