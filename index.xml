@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 10 Sep 2024 19:52:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-f66c8d9fe50ebf2e1f741eaf396c91372a492374/</link><pubDate>Tue, 10 Sep 2024 19:52:26 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-f66c8d9fe50ebf2e1f741eaf396c91372a492374/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Sep 2024 04:46:18 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-9a638860b0bd327cc605af19cd0ba9c1dfc07d66/</link><pubDate>Wed, 11 Sep 2024 04:46:18 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-9a638860b0bd327cc605af19cd0ba9c1dfc07d66/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-f66c8d9fe50ebf2e1f741eaf396c91372a492374/</link><pubDate>Tue, 10 Sep 2024 19:52:26 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-f66c8d9fe50ebf2e1f741eaf396c91372a492374/</guid><description>&lt;ul>
 &lt;li>KRR-767 Forbedringstiltak ved henting av JWK-set (#430)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-765 Sonarlint fikser (#423)&lt;/li>
@@ -225,9 +227,6 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-748 Støtte oppdatering av bruker dersom kontaktopplysningene er (#343)&lt;/li>
 &lt;li>KRR-732 Delegering via Altinn (#336)&lt;/li>
-&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-9a638860b0bd327cc605af19cd0ba9c1dfc07d66/</link><pubDate>Tue, 20 Aug 2024 04:40:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-9a638860b0bd327cc605af19cd0ba9c1dfc07d66/</guid><description>&lt;ul>
-&lt;li>Library upgrades&lt;/li>
-&lt;li>KRR-747 Støtte oppdatering av bruker dersom kontaktopplysningene er (#407)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-54e240c2b65bf448b8a62591e00f736babb32d40/</link><pubDate>Tue, 20 Aug 2024 04:40:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-54e240c2b65bf448b8a62591e00f736babb32d40/</guid><description>&lt;ul>
 &lt;li>Merge pull request #263 from felleslosningerdependabotmavennet.logstash.logback-logstash-logback-encoder-8.0&lt;/li>
 &lt;li>Library upgrades&lt;/li>
