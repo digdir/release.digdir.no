@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Sep 2024 08:53:35 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-7ba2eb5a396afe7a9422ea7cd4e72dfc9f643ae2/</link><pubDate>Tue, 24 Sep 2024 08:53:35 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-7ba2eb5a396afe7a9422ea7cd4e72dfc9f643ae2/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Sep 2024 10:46:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-c09caeaf5d6bc44e0e1b5dc1d9b45712d85a02de/</link><pubDate>Tue, 24 Sep 2024 10:46:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-c09caeaf5d6bc44e0e1b5dc1d9b45712d85a02de/</guid><description>&lt;ul>
+&lt;li>MIN-1742_Zisson_Update (#425)&lt;/li>
+&lt;li>MIN-1544_Version_Update (#420) REVERT (#423)&lt;/li>
+&lt;li>MIN-1544_Version_Update (#420)&lt;/li>
+&lt;li>MIN-000 testkonfig klientar (#419)&lt;/li>
+&lt;li>MIN-000 oppdatere app site association (#415)&lt;/li>
+&lt;li>MIN-1724 oppdatere apple-app-site-association (#410)&lt;/li>
+&lt;li>MIN-1657 title fix (#408)&lt;/li>
+&lt;li>MIN-000: update fingerprint for dev-app 2 (#407)&lt;/li>
+&lt;li>MIN-000: Update dev app fingerprint in assetlinks.json (#406)&lt;/li>
+&lt;li>MIN-000 betre handerting av IOException (#405)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-7ba2eb5a396afe7a9422ea7cd4e72dfc9f643ae2/</link><pubDate>Tue, 24 Sep 2024 08:53:35 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-7ba2eb5a396afe7a9422ea7cd4e72dfc9f643ae2/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-2a10369d2af50fb08f30b3b8000b3800550d3544/</link><pubDate>Tue, 24 Sep 2024 04:43:41 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-2a10369d2af50fb08f30b3b8000b3800550d3544/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
