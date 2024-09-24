@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Sep 2024 10:46:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-c09caeaf5d6bc44e0e1b5dc1d9b45712d85a02de/</link><pubDate>Tue, 24 Sep 2024 10:46:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-c09caeaf5d6bc44e0e1b5dc1d9b45712d85a02de/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Sep 2024 11:49:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-92461492fd768e37f6bd077abb4c24f8fd62e0a7/</link><pubDate>Tue, 24 Sep 2024 11:49:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-92461492fd768e37f6bd077abb4c24f8fd62e0a7/</guid><description>&lt;ul>
+&lt;li>Merge pull request #244 from felleslosningerKRR-781&lt;/li>
+&lt;li>Cucumber-test: fjernet kall til freg-gateway&lt;/li>
+&lt;li>Cucumber-test: fjernet kall til freg-gateway&lt;/li>
+&lt;li>Laget featureswitch for freg-sjekk&lt;/li>
+&lt;li>Laget featureswitch for freg-sjekk&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-c09caeaf5d6bc44e0e1b5dc1d9b45712d85a02de/</link><pubDate>Tue, 24 Sep 2024 10:46:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-c09caeaf5d6bc44e0e1b5dc1d9b45712d85a02de/</guid><description>&lt;ul>
 &lt;li>MIN-1742_Zisson_Update (#425)&lt;/li>
 &lt;li>MIN-1544_Version_Update (#420) REVERT (#423)&lt;/li>
 &lt;li>MIN-1544_Version_Update (#420)&lt;/li>
