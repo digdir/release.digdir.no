@@ -1,0 +1,31 @@
+---
+title: krr
+date: 2024-09-26T11:15:17Z
+---
+- Merge pull request #89 from felleslosningerKRR-785-tilgang
+- Rettet tilgang
+- Library upgrades
+- Merge pull request #87 from felleslosningerKRR-785-reservasjon
+- Rettet test
+- Fjerner unødvendig washerService
+- feilende cucumber-test
+- feilende cucumber-test
+- Jobb for å reservere automatisk
+- Merge pull request #85 from felleslosningerworkKRR-784
+- KRR-784 datamaintainer ikke datawasher
+- Merge pull request #84 from felleslosningerworkKRR-780
+- KRR-780 Korrigere github-scripts for krr-datamaintainer
+- Merge pull request #80 from felleslosningerworkKRR-771
+- KRR-771 krr-datamaintainer feiler i systest pga manglende API key
+- Merge pull request #23 from felleslosningerpf-974-improve-security
+- Moves to update-image workflow
+- Merge pull request #21 from felleslosningerfix-promotion-for-dependabot-auto-merge
+- Applies fix for promotion on Dependabot auto merging
+- Merge pull request #17 from felleslosningerpf-974-move-to-new-update-version-workflow
+- Merge pull request #19 from felleslosningerworkKRR-519
+- KRR-519 Automatisk merging av dependabot PRer i krr-datamaintainer
+- Use spring-boot-build workflow from github-workflows
+- Merge pull request #13 from felleslosningerdependabotmavencom.google.guava-guava-33.0.0-jre
+- Merge pull request #12 from felleslosningerdependabotmavenorg.checkerframework-checker-qual-3.42.0
+- Merge pull request #11 from felleslosningerdependabotmavenorg.apache.maven.plugins-maven-surefire-plugin-3.2.3
+
