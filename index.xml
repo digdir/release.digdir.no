@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 26 Sep 2024 08:40:32 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-1527c95063201b42e86d31f936a1d1f7f4c893e3/</link><pubDate>Thu, 26 Sep 2024 08:40:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-1527c95063201b42e86d31f936a1d1f7f4c893e3/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 26 Sep 2024 11:15:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datamaintainer-40c039eff12b9ec81b1438a997695a8fbeff35fa/</link><pubDate>Thu, 26 Sep 2024 11:15:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datamaintainer-40c039eff12b9ec81b1438a997695a8fbeff35fa/</guid><description>&lt;ul>
+&lt;li>Merge pull request #89 from felleslosningerKRR-785-tilgang&lt;/li>
+&lt;li>Rettet tilgang&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge pull request #87 from felleslosningerKRR-785-reservasjon&lt;/li>
+&lt;li>Rettet test&lt;/li>
+&lt;li>Fjerner unødvendig washerService&lt;/li>
+&lt;li>feilende cucumber-test&lt;/li>
+&lt;li>feilende cucumber-test&lt;/li>
+&lt;li>Jobb for å reservere automatisk&lt;/li>
+&lt;li>Merge pull request #85 from felleslosningerworkKRR-784&lt;/li>
+&lt;li>KRR-784 datamaintainer ikke datawasher&lt;/li>
+&lt;li>Merge pull request #84 from felleslosningerworkKRR-780&lt;/li>
+&lt;li>KRR-780 Korrigere github-scripts for krr-datamaintainer&lt;/li>
+&lt;li>Merge pull request #80 from felleslosningerworkKRR-771&lt;/li>
+&lt;li>KRR-771 krr-datamaintainer feiler i systest pga manglende API key&lt;/li>
+&lt;li>Merge pull request #23 from felleslosningerpf-974-improve-security&lt;/li>
+&lt;li>Moves to update-image workflow&lt;/li>
+&lt;li>Merge pull request #21 from felleslosningerfix-promotion-for-dependabot-auto-merge&lt;/li>
+&lt;li>Applies fix for promotion on Dependabot auto merging&lt;/li>
+&lt;li>Merge pull request #17 from felleslosningerpf-974-move-to-new-update-version-workflow&lt;/li>
+&lt;li>Merge pull request #19 from felleslosningerworkKRR-519&lt;/li>
+&lt;li>KRR-519 Automatisk merging av dependabot PRer i krr-datamaintainer&lt;/li>
+&lt;li>Use spring-boot-build workflow from github-workflows&lt;/li>
+&lt;li>Merge pull request #13 from felleslosningerdependabotmavencom.google.guava-guava-33.0.0-jre&lt;/li>
+&lt;li>Merge pull request #12 from felleslosningerdependabotmavenorg.checkerframework-checker-qual-3.42.0&lt;/li>
+&lt;li>Merge pull request #11 from felleslosningerdependabotmavenorg.apache.maven.plugins-maven-surefire-plugin-3.2.3&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-1527c95063201b42e86d31f936a1d1f7f4c893e3/</link><pubDate>Thu, 26 Sep 2024 08:40:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-1527c95063201b42e86d31f936a1d1f7f4c893e3/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>Merge pull request #297 from felleslosningerworkKRR-779&lt;/li>
 &lt;li>KRR-779 Legge til støtte for internal-api-oauth&lt;/li>
