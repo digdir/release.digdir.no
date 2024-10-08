@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 01 Oct 2024 06:56:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-13ccc979d801f08ff2d6b456745b46135a43f0e0/</link><pubDate>Tue, 01 Oct 2024 06:56:27 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-13ccc979d801f08ff2d6b456745b46135a43f0e0/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 08 Oct 2024 08:37:39 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-a7e886253102ef7bac2bb761fb663a8e67e4b256/</link><pubDate>Tue, 08 Oct 2024 08:37:39 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-a7e886253102ef7bac2bb761fb663a8e67e4b256/</guid><description>&lt;ul>
+&lt;li>MIN-000 null-sjekk (#243)&lt;/li>
+&lt;li>MIN-000 robustifisering (#242)&lt;/li>
+&lt;li>MIN-000 endre feature (#241)&lt;/li>
+&lt;li>MIN-000 featureswitch hibp nytt-passord (#240)&lt;/li>
+&lt;li>MIN-1782 hbip oppdatere passord (#237)&lt;/li>
+&lt;li>MIN-000 add workflow dependabot to confluence (#236)&lt;/li>
+&lt;li>MIN-000 dikse databasekall (#235)&lt;/li>
+&lt;li>MIN-000 slette passord ved delete (#234)&lt;/li>
+&lt;li>MIN-1774 lagre hibp databasa (#232)&lt;/li>
+&lt;li>MIN-000 async kall hibp (#230)&lt;/li>
+&lt;li>MIN-000 restclient hibp (#228)&lt;/li>
+&lt;li>MIN-000 enable hibp kt (#227)&lt;/li>
+&lt;li>MIN-000 betre feilhandtering hibp (#226)&lt;/li>
+&lt;li>MIN-000 skru av hibp kt (#225)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-1752 hibp (#222)&lt;/li>
+&lt;li>MIN-000 dependencies (#221)&lt;/li>
+&lt;li>MIN-0000 fix test user bug (#215)&lt;/li>
+&lt;li>MIN-000: skip sending user state updates through kafka for test users (#214)&lt;/li>
+&lt;li>MIN-000: Kafka entity fix (#213)&lt;/li>
+&lt;li>MIN-1659 registrering utan epost (#212)&lt;/li>
+&lt;li>MIN-000 oppdatering av dependencys (#209)&lt;/li>
+&lt;li>MIN-000 oppdatere kafka topic (#208)&lt;/li>
+&lt;li>MIN-1668 audit message change (#206)&lt;/li>
+&lt;li>MIN-0000 uuid change (#205)&lt;/li>
+&lt;li>MIN-0000 notify on state change (#201)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-13ccc979d801f08ff2d6b456745b46135a43f0e0/</link><pubDate>Tue, 01 Oct 2024 06:56:27 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-13ccc979d801f08ff2d6b456745b46135a43f0e0/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-1725 valgfri epostadresse (#410)&lt;/li>
 &lt;li>MIN-1723 oppdatere react-client med direct onboarding (#409)&lt;/li>
