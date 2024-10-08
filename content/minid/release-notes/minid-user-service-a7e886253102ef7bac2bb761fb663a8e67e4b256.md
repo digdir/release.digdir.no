@@ -1,0 +1,31 @@
+---
+title: minid
+date: 2024-10-08T08:37:39Z
+---
+- MIN-000 null-sjekk (#243)
+- MIN-000 robustifisering (#242)
+- MIN-000 endre feature (#241)
+- MIN-000 featureswitch hibp nytt-passord (#240)
+- MIN-1782 hbip oppdatere passord (#237)
+- MIN-000 add workflow dependabot to confluence (#236)
+- MIN-000 dikse databasekall (#235)
+- MIN-000 slette passord ved delete (#234)
+- MIN-1774 lagre hibp databasa (#232)
+- MIN-000 async kall hibp (#230)
+- MIN-000 restclient hibp (#228)
+- MIN-000 enable hibp kt (#227)
+- MIN-000 betre feilhandtering hibp (#226)
+- MIN-000 skru av hibp kt (#225)
+- Library upgrades
+- MIN-1752 hibp (#222)
+- MIN-000 dependencies (#221)
+- MIN-0000 fix test user bug (#215)
+- MIN-000: skip sending user state updates through kafka for test users (#214)
+- MIN-000: Kafka entity fix (#213)
+- MIN-1659 registrering utan epost (#212)
+- MIN-000 oppdatering av dependencys (#209)
+- MIN-000 oppdatere kafka topic (#208)
+- MIN-1668 audit message change (#206)
+- MIN-0000 uuid change (#205)
+- MIN-0000 notify on state change (#201)
+
