@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 15 Oct 2024 07:02:03 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/dpi-registration-24f3de3b9faa6817715a31ab8a907043c5ea46ae/</link><pubDate>Tue, 15 Oct 2024 07:02:03 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/dpi-registration-24f3de3b9faa6817715a31ab8a907043c5ea46ae/</guid><description>&lt;ul>
 &lt;li>KRR-814 Graceful shutdown (#301)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-38e8d7c1c2af561d612a4b3ed27954e0fcfbb1b8/</link><pubDate>Tue, 15 Oct 2024 07:01:55 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-38e8d7c1c2af561d612a4b3ed27954e0fcfbb1b8/</guid><description>&lt;ul>
+&lt;li>KRR-814 Graceful shutdown (#423)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-0b2ff87ef4dfc6d3738c4f69aaa505efaa00141e/</link><pubDate>Tue, 15 Oct 2024 05:01:58 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-0b2ff87ef4dfc6d3738c4f69aaa505efaa00141e/</guid><description>&lt;ul>
 &lt;li>KRR-814 Graceful shutdown (#394)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
