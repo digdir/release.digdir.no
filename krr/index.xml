@@ -214,6 +214,11 @@
 &lt;li>KRR-756 Forbedre visningen av feilmeldinger og info (#383)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-752 Fjerne unsafe elementer fra CSP (#377)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/dpi-registration-d6904e3565814bf74b70cfa431c6cff8ebbf1d4b/</link><pubDate>Fri, 23 Aug 2024 06:22:21 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/dpi-registration-d6904e3565814bf74b70cfa431c6cff8ebbf1d4b/</guid><description>&lt;ul>
+&lt;li>KRR-756 Forbedre visningen av feilmeldinger og info (#260)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-754 Enkelte feilmeldinger mangler rødfarge (#257)&lt;/li>
+&lt;li>KRR-753 Fjerne unsafe elementer fra CSP i dpi-registration (#256)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/dpi-registration-ec5cf5ebd9db1e58957cf08056583c501e8d15e6/</link><pubDate>Tue, 20 Aug 2024 04:50:35 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/dpi-registration-ec5cf5ebd9db1e58957cf08056583c501e8d15e6/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-741 Redisserialisering feiler i systest for HashSet (#240)&lt;/li>
