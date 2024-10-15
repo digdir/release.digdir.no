@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 14 Oct 2024 14:38:56 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>skyporten</title><link>https://release.digdir.no/skyporten/release-notes/skyporten-oauth2-server-59f59db303403570975dd888961b1da8896e942f/</link><pubDate>Mon, 14 Oct 2024 14:38:56 +0000</pubDate><guid>https://release.digdir.no/skyporten/release-notes/skyporten-oauth2-server-59f59db303403570975dd888961b1da8896e942f/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 15 Oct 2024 04:50:01 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-df399669f69cf1d0dbd8907228aeba4fa87be779/</link><pubDate>Tue, 15 Oct 2024 04:50:01 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-df399669f69cf1d0dbd8907228aeba4fa87be779/</guid><description>&lt;ul>
+&lt;li>KRR-813 Connection is closed (#472)&lt;/li>
+&lt;li>KRR-814 Graceful shutdown (#474)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-812 ValidateMobile og ValidateEmail skal håndtere at brukeren ikke (#470)&lt;/li>
+&lt;li>KRR-812 ValidateMobile og ValidateEmail skal håndtere at brukeren ikke (#468)&lt;/li>
+&lt;li>KRR-812 ValidateMobile og ValidateEmail skal håndtere at brukeren ikke (#467)&lt;/li>
+&lt;li>KRR-807 Forbedre oppvarming av krr-backend (#464)&lt;/li>
+&lt;li>KRR-807 Forbedre oppvarming av krr-backend (#463)&lt;/li>
+&lt;li>KRR-807 Forbedre oppvarming av krr-backend (#462)&lt;/li>
+&lt;li>KRR-797 Ta i bruk internal-api-oauth-sever i krr-backend (#458)&lt;/li>
+&lt;li>KRR-797 Ta i bruk internal-api-oauth-sever i krr-backend (#457)&lt;/li>
+&lt;li>KRR-795 Støtte for å bare få nye brukere i hentEndringer (#451)&lt;/li>
+&lt;li>KRR-792 Legge til en ID i meldingene om endring (#450)&lt;/li>
+&lt;li>KRR-791 Fikse årsakene til diverse warnings i loggen (#449)&lt;/li>
+&lt;li>KRR-789 Oppvarmingscript for krr-backend (#448)&lt;/li>
+&lt;/ul></description></item><item><title>skyporten</title><link>https://release.digdir.no/skyporten/release-notes/skyporten-oauth2-server-59f59db303403570975dd888961b1da8896e942f/</link><pubDate>Mon, 14 Oct 2024 14:38:56 +0000</pubDate><guid>https://release.digdir.no/skyporten/release-notes/skyporten-oauth2-server-59f59db303403570975dd888961b1da8896e942f/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MP-575: Skriv ut feature switches ved oppstart og nullable sjekk (#511)&lt;/li>
 &lt;li>MP-573: bruke redis i systest (#509)&lt;/li>

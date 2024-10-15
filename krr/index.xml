@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 27 Sep 2024 04:46:30 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-a31d8480256d6ab01537535803c9031ca6c44178/</link><pubDate>Fri, 27 Sep 2024 04:46:30 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-a31d8480256d6ab01537535803c9031ca6c44178/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 15 Oct 2024 04:50:01 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-df399669f69cf1d0dbd8907228aeba4fa87be779/</link><pubDate>Tue, 15 Oct 2024 04:50:01 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-df399669f69cf1d0dbd8907228aeba4fa87be779/</guid><description>&lt;ul>
+&lt;li>KRR-813 Connection is closed (#472)&lt;/li>
+&lt;li>KRR-814 Graceful shutdown (#474)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-812 ValidateMobile og ValidateEmail skal håndtere at brukeren ikke (#470)&lt;/li>
+&lt;li>KRR-812 ValidateMobile og ValidateEmail skal håndtere at brukeren ikke (#468)&lt;/li>
+&lt;li>KRR-812 ValidateMobile og ValidateEmail skal håndtere at brukeren ikke (#467)&lt;/li>
+&lt;li>KRR-807 Forbedre oppvarming av krr-backend (#464)&lt;/li>
+&lt;li>KRR-807 Forbedre oppvarming av krr-backend (#463)&lt;/li>
+&lt;li>KRR-807 Forbedre oppvarming av krr-backend (#462)&lt;/li>
+&lt;li>KRR-797 Ta i bruk internal-api-oauth-sever i krr-backend (#458)&lt;/li>
+&lt;li>KRR-797 Ta i bruk internal-api-oauth-sever i krr-backend (#457)&lt;/li>
+&lt;li>KRR-795 Støtte for å bare få nye brukere i hentEndringer (#451)&lt;/li>
+&lt;li>KRR-792 Legge til en ID i meldingene om endring (#450)&lt;/li>
+&lt;li>KRR-791 Fikse årsakene til diverse warnings i loggen (#449)&lt;/li>
+&lt;li>KRR-789 Oppvarmingscript for krr-backend (#448)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-a31d8480256d6ab01537535803c9031ca6c44178/</link><pubDate>Fri, 27 Sep 2024 04:46:30 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-a31d8480256d6ab01537535803c9031ca6c44178/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-779 Legge til støtte for internal-api-oauth (#445)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-20357e75fe31db4bf0ffb2d9438c231f03e7500a/</link><pubDate>Fri, 27 Sep 2024 04:40:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-20357e75fe31db4bf0ffb2d9438c231f03e7500a/</guid><description>&lt;ul>
