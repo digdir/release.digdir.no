@@ -871,6 +871,13 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;li>Merge pull request #197 from felleslosningerworkKRR-726&lt;/li>
 &lt;li>KRR-726 Legge til mulighet for manuell trigging av deploy&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-25a997c4aa06e65461372a9af0b92cfbac70493a/</link><pubDate>Wed, 07 Aug 2024 05:19:45 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-25a997c4aa06e65461372a9af0b92cfbac70493a/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-726 Legge til mulighet for manuell trigging av deploy (#346)&lt;/li>
+&lt;li>KRR-708 Utvide validering til å støtte kontaktopplysninger som ikke (#332)&lt;/li>
+&lt;li>KRR-716 GET eller POST logout styrt av property (#328)&lt;/li>
+&lt;li>KRR-715 Rydde i freg properties i MinProfil (#327)&lt;/li>
+&lt;li>KRR-710 Post logout i MinProfil (#320)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-98fdf2439d31653739ca169263a47ef38c6b4b9b/</link><pubDate>Wed, 07 Aug 2024 05:13:52 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-98fdf2439d31653739ca169263a47ef38c6b4b9b/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-729 Støtte for allerede validert i tjenesten for Registrer postkasse (#325)&lt;/li>
