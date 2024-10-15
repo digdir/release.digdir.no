@@ -138,8 +138,6 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-user-service-10250d5f34be4f70c18132e6d6744c410d206362/</link><pubDate>Tue, 20 Aug 2024 06:22:13 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-user-service-10250d5f34be4f70c18132e6d6744c410d206362/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-89fab2efba1c64bc0dbc29016cc708921c8dbaf4/</link><pubDate>Tue, 20 Aug 2024 06:00:48 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-89fab2efba1c64bc0dbc29016cc708921c8dbaf4/</guid><description>&lt;ul>
-&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-ed21b4d7575de2e006ac8368de68e3e528fffa46/</link><pubDate>Tue, 20 Aug 2024 05:46:53 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-ed21b4d7575de2e006ac8368de68e3e528fffa46/</guid><description>&lt;ul>
 &lt;li>ID-4541: Audit query params state trunkering (#1055)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
@@ -190,6 +188,8 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-scope-api-b03815049cdf896d59077676de71b69364127a9c/</link><pubDate>Mon, 12 Aug 2024 08:13:28 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-scope-api-b03815049cdf896d59077676de71b69364127a9c/</guid><description>&lt;ul>
 &lt;li>ID-3994: cache mer som maskinporten (#246)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-89fab2efba1c64bc0dbc29016cc708921c8dbaf4/</link><pubDate>Mon, 12 Aug 2024 07:54:47 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-89fab2efba1c64bc0dbc29016cc708921c8dbaf4/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-operational-status-service-cb846a3b98b2390c2f891adeeda3c90224d58a46/</link><pubDate>Mon, 12 Aug 2024 07:47:28 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-operational-status-service-cb846a3b98b2390c2f891adeeda3c90224d58a46/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
