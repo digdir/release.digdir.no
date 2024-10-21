@@ -2,18 +2,13 @@
 title: krr
 date: 2024-10-15T07:47:38Z
 ---
-- Merge pull request #196 from felleslosningerworkKRR-783
 - KRR-783 No handler for life event endringIBostedsadresseUtenFlytting
 - KRR-783 No handler for life event endringIBostedsadresseUtenFlytting
 - Library upgrades
-- Merge pull request #192 from felleslosningerworkKRR-782
 - KRR-782 Locking problematikk i krr-datawasher
-- Merge pull request #188 from felleslosningerKRR-743-sequence
 - Lagt til endepunkt for å sette sequence-id for import fra krr
-- Merge pull request #186 from felleslosningerKRR-743-schedule-from-krr
 - Byttet navn på property
 - Lagt til egen scheduler
-- Merge pull request #183 from felleslosningerKRR-743-krr-backend
 - Oppdatert versjon av eid-datawasher-lib
 - Oppdatert versjon av eid-datawasher-lib
 - Oppdatert versjon av eid-datawasher-lib
@@ -25,7 +20,5 @@ date: 2024-10-15T07:47:38Z
 - Oppdatert versjon av eid-datawasher-lib
 - Laget ny tjeneste for å hente ned personer fra KRR
 - Laget ny tjeneste for å hente ned personer fra KRR
-- Merge pull request #179 from felleslosningerKRR-743
-- Merge branch main into KRR-743
 - Lagt til handler for å vedlikeholde adresse
 
