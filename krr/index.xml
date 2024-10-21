@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 17 Oct 2024 04:58:55 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-303cfabf85ddd8a88a0172a15b8009572348fb61/</link><pubDate>Thu, 17 Oct 2024 04:58:55 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-303cfabf85ddd8a88a0172a15b8009572348fb61/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 21 Oct 2024 08:20:10 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-d5843bc6d652cbae4a28cae93d19b18f8f6b1f38/</link><pubDate>Mon, 21 Oct 2024 08:20:10 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-d5843bc6d652cbae4a28cae93d19b18f8f6b1f38/</guid><description>&lt;ul>
+&lt;li>Merge pull request #262 from felleslosningerKRR-793-for-prod&lt;/li>
+&lt;li>Slår på sjekk mot FREG i prod logger&lt;/li>
+&lt;li>Merge pull request #261 from felleslosningerKRR-793-rettelse&lt;/li>
+&lt;li>Retter kall mot freg-gateway&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge pull request #259 from felleslosningerworkKRR-803&lt;/li>
+&lt;li>KRR-803 Ta i bruk internal-api-oauth-client i krr-reservasjon&lt;/li>
+&lt;li>Merge pull request #253 from felleslosningerKRR-810&lt;/li>
+&lt;li>Rettet etter kommentarer fra Frode&lt;/li>
+&lt;li>La tilbake contenttype og greier&lt;/li>
+&lt;li>rettet internal-api-oauth i cucumber&lt;/li>
+&lt;li>Lagt inn internal-api-oauth mot krr-backend&lt;/li>
+&lt;li>Lagt inn internal-api-oauth mot krr-backend&lt;/li>
+&lt;li>Merge pull request #249 from felleslosningerKRR-793-featureswitch&lt;/li>
+&lt;li>Feilsøking av oppslag mot freg-gateway&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-303cfabf85ddd8a88a0172a15b8009572348fb61/</link><pubDate>Thu, 17 Oct 2024 04:58:55 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-303cfabf85ddd8a88a0172a15b8009572348fb61/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datawasher-c81efbf8537bd87ac433300c2855fc009cb632ae/</link><pubDate>Tue, 15 Oct 2024 07:47:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datawasher-c81efbf8537bd87ac433300c2855fc009cb632ae/</guid><description>&lt;ul>
 &lt;li>Merge pull request #196 from felleslosningerworkKRR-783&lt;/li>

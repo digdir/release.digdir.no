@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 21 Oct 2024 08:14:04 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-41efe1ad5e1ef504c481da706afab2c1c8713420/</link><pubDate>Mon, 21 Oct 2024 08:14:04 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-41efe1ad5e1ef504c481da706afab2c1c8713420/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 21 Oct 2024 08:20:10 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-d5843bc6d652cbae4a28cae93d19b18f8f6b1f38/</link><pubDate>Mon, 21 Oct 2024 08:20:10 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-d5843bc6d652cbae4a28cae93d19b18f8f6b1f38/</guid><description>&lt;ul>
+&lt;li>Merge pull request #262 from felleslosningerKRR-793-for-prod&lt;/li>
+&lt;li>Slår på sjekk mot FREG i prod logger&lt;/li>
+&lt;li>Merge pull request #261 from felleslosningerKRR-793-rettelse&lt;/li>
+&lt;li>Retter kall mot freg-gateway&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge pull request #259 from felleslosningerworkKRR-803&lt;/li>
+&lt;li>KRR-803 Ta i bruk internal-api-oauth-client i krr-reservasjon&lt;/li>
+&lt;li>Merge pull request #253 from felleslosningerKRR-810&lt;/li>
+&lt;li>Rettet etter kommentarer fra Frode&lt;/li>
+&lt;li>La tilbake contenttype og greier&lt;/li>
+&lt;li>rettet internal-api-oauth i cucumber&lt;/li>
+&lt;li>Lagt inn internal-api-oauth mot krr-backend&lt;/li>
+&lt;li>Lagt inn internal-api-oauth mot krr-backend&lt;/li>
+&lt;li>Merge pull request #249 from felleslosningerKRR-793-featureswitch&lt;/li>
+&lt;li>Feilsøking av oppslag mot freg-gateway&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-41efe1ad5e1ef504c481da706afab2c1c8713420/</link><pubDate>Mon, 21 Oct 2024 08:14:04 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-41efe1ad5e1ef504c481da706afab2c1c8713420/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-f4c2a39633ae9539f1f4c089000468bf344f49e5/</link><pubDate>Mon, 21 Oct 2024 07:53:18 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-f4c2a39633ae9539f1f4c089000468bf344f49e5/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
