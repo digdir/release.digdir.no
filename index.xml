@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 21 Oct 2024 08:20:10 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-d5843bc6d652cbae4a28cae93d19b18f8f6b1f38/</link><pubDate>Mon, 21 Oct 2024 08:20:10 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-d5843bc6d652cbae4a28cae93d19b18f8f6b1f38/</guid><description>&lt;ul>
-&lt;li>Merge pull request #262 from felleslosningerKRR-793-for-prod&lt;/li>
 &lt;li>Slår på sjekk mot FREG i prod logger&lt;/li>
-&lt;li>Merge pull request #261 from felleslosningerKRR-793-rettelse&lt;/li>
 &lt;li>Retter kall mot freg-gateway&lt;/li>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #259 from felleslosningerworkKRR-803&lt;/li>
 &lt;li>KRR-803 Ta i bruk internal-api-oauth-client i krr-reservasjon&lt;/li>
-&lt;li>Merge pull request #253 from felleslosningerKRR-810&lt;/li>
 &lt;li>Rettet etter kommentarer fra Frode&lt;/li>
 &lt;li>La tilbake contenttype og greier&lt;/li>
-&lt;li>rettet internal-api-oauth i cucumber&lt;/li>
+&lt;li>Rettet internal-api-oauth i cucumber&lt;/li>
 &lt;li>Lagt inn internal-api-oauth mot krr-backend&lt;/li>
 &lt;li>Lagt inn internal-api-oauth mot krr-backend&lt;/li>
-&lt;li>Merge pull request #249 from felleslosningerKRR-793-featureswitch&lt;/li>
 &lt;li>Feilsøking av oppslag mot freg-gateway&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-41efe1ad5e1ef504c481da706afab2c1c8713420/</link><pubDate>Mon, 21 Oct 2024 08:14:04 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-41efe1ad5e1ef504c481da706afab2c1c8713420/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -74,18 +69,13 @@
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-2bb26d902af0a248287ef66aed2d16a3daac4276/</link><pubDate>Wed, 16 Oct 2024 05:46:58 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-2bb26d902af0a248287ef66aed2d16a3daac4276/</guid><description>&lt;ul>
 &lt;li>MIN-1754: preferred address (#511)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datawasher-c81efbf8537bd87ac433300c2855fc009cb632ae/</link><pubDate>Tue, 15 Oct 2024 07:47:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datawasher-c81efbf8537bd87ac433300c2855fc009cb632ae/</guid><description>&lt;ul>
-&lt;li>Merge pull request #196 from felleslosningerworkKRR-783&lt;/li>
 &lt;li>KRR-783 No handler for life event endringIBostedsadresseUtenFlytting&lt;/li>
 &lt;li>KRR-783 No handler for life event endringIBostedsadresseUtenFlytting&lt;/li>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #192 from felleslosningerworkKRR-782&lt;/li>
 &lt;li>KRR-782 Locking problematikk i krr-datawasher&lt;/li>
-&lt;li>Merge pull request #188 from felleslosningerKRR-743-sequence&lt;/li>
 &lt;li>Lagt til endepunkt for å sette sequence-id for import fra krr&lt;/li>
-&lt;li>Merge pull request #186 from felleslosningerKRR-743-schedule-from-krr&lt;/li>
 &lt;li>Byttet navn på property&lt;/li>
 &lt;li>Lagt til egen scheduler&lt;/li>
-&lt;li>Merge pull request #183 from felleslosningerKRR-743-krr-backend&lt;/li>
 &lt;li>Oppdatert versjon av eid-datawasher-lib&lt;/li>
 &lt;li>Oppdatert versjon av eid-datawasher-lib&lt;/li>
 &lt;li>Oppdatert versjon av eid-datawasher-lib&lt;/li>
@@ -97,53 +87,30 @@
 &lt;li>Oppdatert versjon av eid-datawasher-lib&lt;/li>
 &lt;li>Laget ny tjeneste for å hente ned personer fra KRR&lt;/li>
 &lt;li>Laget ny tjeneste for å hente ned personer fra KRR&lt;/li>
-&lt;li>Merge pull request #179 from felleslosningerKRR-743&lt;/li>
-&lt;li>Merge branch main into KRR-743&lt;/li>
 &lt;li>Lagt til handler for å vedlikeholde adresse&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minid-varsling-4e1e2260c9817af6ac1dc82aef3f0aa483d20102/</link><pubDate>Tue, 15 Oct 2024 07:44:05 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minid-varsling-4e1e2260c9817af6ac1dc82aef3f0aa483d20102/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>MIN-000 whiteliste eit mobilnummer (#196)&lt;/li>
-&lt;li>MIN-000 dependencies (#193)&lt;/li>
-&lt;li>MIN-000 justere readme (#191)&lt;/li>
-&lt;li>MIN-000 nye LM kontoar i prod (#186)&lt;/li>
-&lt;li>MIN-000 tilbakestille KT (#185)&lt;/li>
-&lt;li>MIN-000 teste prod i KT (#184)&lt;/li>
-&lt;li>MIN-000 oppdatere dependencies (#183)&lt;/li>
-&lt;li>MIN-000 sette detail ved valideringsfeil (#173)&lt;/li>
 &lt;li>MIN-1666 logge manglande KRR brukar som WARN (#171)&lt;/li>
 &lt;li>MIN-1665 logge feil ved 400 (#170)&lt;/li>
 &lt;li>MIN-1652 fix logging (#166)&lt;/li>
-&lt;li>MIN-000 Oppdatering av dependencies (#163)&lt;/li>
 &lt;li>MIN-1578 logging av respons LM (#151)&lt;/li>
 &lt;li>MIN-1477: Fikser NPE hvis kontaktinfo er null (#136)&lt;/li>
 &lt;li>MIN-860 rename client til requester (#135)&lt;/li>
-&lt;li>MIN-000 enable ratelimiting prod (#134)&lt;/li>
-&lt;li>MIN-000 prod config (#133)&lt;/li>
 &lt;li>MIN-1468 avsendarar (#130)&lt;/li>
 &lt;li>MIN-1461 eventlogging ratelimiting (#129)&lt;/li>
 &lt;li>MIN-1454 tvinge sms (#128)&lt;/li>
-&lt;li>MIN-000 fjerne trivy ignore (#127)&lt;/li>
 &lt;li>MIN-1402 refactored rate-limiter (#126)&lt;/li>
-&lt;li>MIN-000 ignorere vuln (#125)&lt;/li>
-&lt;li>MIN-000 dependency bump (#124)&lt;/li>
 &lt;li>MIN-1444 fix ratelimiting (#123)&lt;/li>
-&lt;li>MIN-000 disable ratelimiting (#122)&lt;/li>
-&lt;li>MIN-000 featureswitch ratelimiting (#121)&lt;/li>
 &lt;li>MIN-1402 ratelimiting (#120)&lt;/li>
 &lt;li>MIN-1426: dont log at level INFO in PROD (#119)&lt;/li>
-&lt;li>MIN-000: logging level fix (#117)&lt;/li>
 &lt;li>PF-974 Updates update-image workflow (#116)&lt;/li>
 &lt;li>Use spring-boot-build workflow from github-workflows (#114)&lt;/li>
-&lt;li>MIN-000 justere loggnivå prod (#113)&lt;/li>
 &lt;li>MIN-1306 eventlogging av sms og epost (#112)&lt;/li>
-&lt;li>MIN-000 CVE-2023-5072 Update pom.xml (#96)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-varsling-4e1e2260c9817af6ac1dc82aef3f0aa483d20102/</link><pubDate>Tue, 15 Oct 2024 07:24:17 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-varsling-4e1e2260c9817af6ac1dc82aef3f0aa483d20102/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-3af81131cbe62f95c6901fda6f0f67fbe4c79542/</link><pubDate>Tue, 15 Oct 2024 07:07:34 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-3af81131cbe62f95c6901fda6f0f67fbe4c79542/</guid><description>&lt;ul>
-&lt;li>Merge pull request #312 from felleslosningerworkKRR-814&lt;/li>
 &lt;li>KRR-814 Graceful shutdown&lt;/li>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #299 from felleslosningerworkKRR-787&lt;/li>
 &lt;li>KRR-787 Fjerne maskinporten tilgang til krr-postboxoperator-gateway&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/dpi-registration-24f3de3b9faa6817715a31ab8a907043c5ea46ae/</link><pubDate>Tue, 15 Oct 2024 07:02:03 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/dpi-registration-24f3de3b9faa6817715a31ab8a907043c5ea46ae/</guid><description>&lt;ul>
 &lt;li>KRR-814 Graceful shutdown (#301)&lt;/li>
@@ -292,39 +259,24 @@
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-20357e75fe31db4bf0ffb2d9438c231f03e7500a/</link><pubDate>Fri, 27 Sep 2024 04:40:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-20357e75fe31db4bf0ffb2d9438c231f03e7500a/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datamaintainer-40c039eff12b9ec81b1438a997695a8fbeff35fa/</link><pubDate>Thu, 26 Sep 2024 11:15:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datamaintainer-40c039eff12b9ec81b1438a997695a8fbeff35fa/</guid><description>&lt;ul>
-&lt;li>Merge pull request #89 from felleslosningerKRR-785-tilgang&lt;/li>
 &lt;li>Rettet tilgang&lt;/li>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #87 from felleslosningerKRR-785-reservasjon&lt;/li>
 &lt;li>Rettet test&lt;/li>
 &lt;li>Fjerner unødvendig washerService&lt;/li>
 &lt;li>feilende cucumber-test&lt;/li>
 &lt;li>feilende cucumber-test&lt;/li>
 &lt;li>Jobb for å reservere automatisk&lt;/li>
-&lt;li>Merge pull request #85 from felleslosningerworkKRR-784&lt;/li>
 &lt;li>KRR-784 datamaintainer ikke datawasher&lt;/li>
-&lt;li>Merge pull request #84 from felleslosningerworkKRR-780&lt;/li>
 &lt;li>KRR-780 Korrigere github-scripts for krr-datamaintainer&lt;/li>
-&lt;li>Merge pull request #80 from felleslosningerworkKRR-771&lt;/li>
 &lt;li>KRR-771 krr-datamaintainer feiler i systest pga manglende API key&lt;/li>
-&lt;li>Merge pull request #23 from felleslosningerpf-974-improve-security&lt;/li>
 &lt;li>Moves to update-image workflow&lt;/li>
-&lt;li>Merge pull request #21 from felleslosningerfix-promotion-for-dependabot-auto-merge&lt;/li>
 &lt;li>Applies fix for promotion on Dependabot auto merging&lt;/li>
-&lt;li>Merge pull request #17 from felleslosningerpf-974-move-to-new-update-version-workflow&lt;/li>
-&lt;li>Merge pull request #19 from felleslosningerworkKRR-519&lt;/li>
 &lt;li>KRR-519 Automatisk merging av dependabot PRer i krr-datamaintainer&lt;/li>
 &lt;li>Use spring-boot-build workflow from github-workflows&lt;/li>
-&lt;li>Merge pull request #13 from felleslosningerdependabotmavencom.google.guava-guava-33.0.0-jre&lt;/li>
-&lt;li>Merge pull request #12 from felleslosningerdependabotmavenorg.checkerframework-checker-qual-3.42.0&lt;/li>
-&lt;li>Merge pull request #11 from felleslosningerdependabotmavenorg.apache.maven.plugins-maven-surefire-plugin-3.2.3&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-1527c95063201b42e86d31f936a1d1f7f4c893e3/</link><pubDate>Thu, 26 Sep 2024 08:40:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-1527c95063201b42e86d31f936a1d1f7f4c893e3/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #297 from felleslosningerworkKRR-779&lt;/li>
 &lt;li>KRR-779 Legge til støtte for internal-api-oauth&lt;/li>
-&lt;li>Merge pull request #295 from felleslosningerworkKRR-779&lt;/li>
 &lt;li>KRR-779 Legge til støtte for internal-api-oauth&lt;/li>
-&lt;li>Merge pull request #294 from felleslosningerworkKRR-779&lt;/li>
 &lt;li>KRR-779 Legge til støtte for internal-api-oauth&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-cd06f2698a657275872f927ef797383af79d3c82/</link><pubDate>Thu, 26 Sep 2024 08:22:42 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-cd06f2698a657275872f927ef797383af79d3c82/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -332,7 +284,6 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-b7aa720aae0cc8bf364de496a4ffef9ae5ec14b6/</link><pubDate>Thu, 26 Sep 2024 08:22:35 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-b7aa720aae0cc8bf364de496a4ffef9ae5ec14b6/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #245 from felleslosningerKRR-781-tekst&lt;/li>
 &lt;li>Oppdatert link til Minprofil&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-bb9abd1197ca2aa95e0448d7b3cac79690470448/</link><pubDate>Thu, 26 Sep 2024 06:26:48 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-bb9abd1197ca2aa95e0448d7b3cac79690470448/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -424,7 +375,6 @@
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-122b536a5861c97c09d35662cb7e64af68ec28af/</link><pubDate>Wed, 25 Sep 2024 05:00:18 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-122b536a5861c97c09d35662cb7e64af68ec28af/</guid><description>&lt;ul>
 &lt;li>MIN-000 endre kid mp (INTERNAL COMMIT) (#422)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-92461492fd768e37f6bd077abb4c24f8fd62e0a7/</link><pubDate>Tue, 24 Sep 2024 11:49:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-92461492fd768e37f6bd077abb4c24f8fd62e0a7/</guid><description>&lt;ul>
-&lt;li>Merge pull request #244 from felleslosningerKRR-781&lt;/li>
 &lt;li>Cucumber-test: fjernet kall til freg-gateway&lt;/li>
 &lt;li>Cucumber-test: fjernet kall til freg-gateway&lt;/li>
 &lt;li>Laget featureswitch for freg-sjekk&lt;/li>
@@ -450,9 +400,7 @@
 &lt;li>KRR-769 Justere timeouts (#437)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-0eca46c43272378deba1d5d91cddaa28171403df/</link><pubDate>Mon, 23 Sep 2024 12:04:26 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-0eca46c43272378deba1d5d91cddaa28171403df/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #289 from felleslosningerworkKRR-769&lt;/li>
 &lt;li>KRR-769 Justere timeouts mot JWK-endepunktet&lt;/li>
-&lt;li>Merge pull request #285 from felleslosningerworkKRR-768&lt;/li>
 &lt;li>KRR-768 Timeout mot backend fungerer ikke&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-9830e632909debe89107fee9498351ff597498eb/</link><pubDate>Mon, 23 Sep 2024 11:58:25 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-9830e632909debe89107fee9498351ff597498eb/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -752,7 +700,6 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-741 Redisserialisering feiler i systest for HashSet (#240)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-782569de8cb68330fa57d3059273df518b022884/</link><pubDate>Tue, 20 Aug 2024 04:50:35 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-782569de8cb68330fa57d3059273df518b022884/</guid><description>&lt;ul>
-&lt;li>Merge pull request #203 from felleslosningerdependabotmavennet.logstash.logback-logstash-logback-encoder-8.0&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-0cdc50654fa23c62c8fb654beae907111bff1947/</link><pubDate>Tue, 20 Aug 2024 04:50:35 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-0cdc50654fa23c62c8fb654beae907111bff1947/</guid><description>&lt;ul>
 &lt;li>KRR-751 Bokstaver utenfor ASCII skal ikke tillates i e-postadresser (#376)&lt;/li>
@@ -763,7 +710,6 @@
 &lt;li>KRR-748 Støtte oppdatering av bruker dersom kontaktopplysningene er (#343)&lt;/li>
 &lt;li>KRR-732 Delegering via Altinn (#336)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-54e240c2b65bf448b8a62591e00f736babb32d40/</link><pubDate>Tue, 20 Aug 2024 04:40:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-54e240c2b65bf448b8a62591e00f736babb32d40/</guid><description>&lt;ul>
-&lt;li>Merge pull request #263 from felleslosningerdependabotmavennet.logstash.logback-logstash-logback-encoder-8.0&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-commfides-integration-69321d27d7b8e8db7f1d6a8181d66edaf8e996b9/</link><pubDate>Mon, 19 Aug 2024 09:50:07 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-commfides-integration-69321d27d7b8e8db7f1d6a8181d66edaf8e996b9/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -933,18 +879,12 @@
 &lt;li>KRR-726 Legge til mulighet for manuell trigging av deploy (#225)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datawasher-5a0afcc5978767cbe714b97c4f62d766cba171f1/</link><pubDate>Wed, 07 Aug 2024 05:19:53 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datawasher-5a0afcc5978767cbe714b97c4f62d766cba171f1/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #162 from felleslosningerworkKRR-726&lt;/li>
 &lt;li>KRR-726 Legge til mulighet for manuell trigging av deploy&lt;/li>
-&lt;li>Merge pull request #146 from felleslosningerdependabotmavenorg.apache.commons-commons-compress-1.26.2&lt;/li>
-&lt;li>Merge pull request #141 from felleslosningerworkKRR-687&lt;/li>
 &lt;li>KRR-687 Legge til byggescript for PR label i krr-datawasher&lt;/li>
-&lt;li>Merge pull request #140 from felleslosningerworkKRR-677&lt;/li>
 &lt;li>KRR-677 Oppgradere byggepipelinen i krr-datawasher&lt;/li>
-&lt;li>Merge pull request #131 from felleslosningerID-4637-api-key&lt;/li>
 &lt;li>Bruker api-key mot freg-gateway&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-e9801495decc09537c20b3b157aa4cb13f14edf5/</link><pubDate>Wed, 07 Aug 2024 05:19:49 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-e9801495decc09537c20b3b157aa4cb13f14edf5/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #197 from felleslosningerworkKRR-726&lt;/li>
 &lt;li>KRR-726 Legge til mulighet for manuell trigging av deploy&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-25a997c4aa06e65461372a9af0b92cfbac70493a/</link><pubDate>Wed, 07 Aug 2024 05:19:45 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-25a997c4aa06e65461372a9af0b92cfbac70493a/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -962,7 +902,6 @@
 &lt;li>KRR-707 Utvide validering til å støtte kontaktopplysninger som ikke (#303)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-63947beb46233cce5b3004f78d4bebdd39d09d45/</link><pubDate>Wed, 07 Aug 2024 05:06:18 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-63947beb46233cce5b3004f78d4bebdd39d09d45/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;li>Merge pull request #256 from felleslosningerworkKRR-726&lt;/li>
 &lt;li>KRR-726 Legge til mulighet for manuell trigging av deploy&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-6f34d79211c923a9d8b2e7e1e1cf2fb2f540b451/</link><pubDate>Wed, 07 Aug 2024 05:01:54 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-6f34d79211c923a9d8b2e7e1e1cf2fb2f540b451/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -1353,14 +1292,10 @@
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/dpi-registration-8747df9b52b0a6df5eb3631def7254e2b6708a68/</link><pubDate>Mon, 03 Jun 2024 04:36:24 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/dpi-registration-8747df9b52b0a6df5eb3631def7254e2b6708a68/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-7a69882e6a03f85cee5e12cb47d30745fd9cdd88/</link><pubDate>Mon, 03 Jun 2024 04:36:24 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-postboxoperator-gateway-7a69882e6a03f85cee5e12cb47d30745fd9cdd88/</guid><description>&lt;ul>
-&lt;li>Merge pull request #232 from felleslosningerdependabotmavenno.idporten.logging-idporten-access-log-spring-boot-3-starter-2.3.4&lt;/li>
-&lt;li>Merge pull request #233 from felleslosningerdependabotmavenorg.apache.commons-commons-compress-1.26.2&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-6ed690c41145ccf442db55f72c93a41fbf156239/</link><pubDate>Mon, 03 Jun 2024 04:36:24 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-6ed690c41145ccf442db55f72c93a41fbf156239/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-a2bee3057349be5705d5154016b27694c11f3c6d/</link><pubDate>Mon, 03 Jun 2024 04:36:23 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-a2bee3057349be5705d5154016b27694c11f3c6d/</guid><description>&lt;ul>
-&lt;li>Merge pull request #170 from felleslosningerdependabotmavenorg.apache.commons-commons-compress-1.26.2&lt;/li>
-&lt;li>Merge pull request #172 from felleslosningerdependabotmavenno.idporten.logging-idporten-access-log-spring-boot-3-starter-2.3.4&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-279448a884a47c58fc535665e7ad18cadaec1cb9/</link><pubDate>Thu, 30 May 2024 08:51:30 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-279448a884a47c58fc535665e7ad18cadaec1cb9/</guid><description>&lt;ul>
 &lt;li>ID-4328: Tekstendring beskrivelse av MinID (#1003)&lt;/li>
