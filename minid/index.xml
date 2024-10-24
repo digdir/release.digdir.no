@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 22 Oct 2024 10:31:44 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-f279e621b18268fd0871b722f998a64b64c3b4be/</link><pubDate>Tue, 22 Oct 2024 10:31:44 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-f279e621b18268fd0871b722f998a64b64c3b4be/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 24 Oct 2024 06:01:57 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-school-a11f2ccec4d5ae6504ac13e4a556fa600e214da7/</link><pubDate>Thu, 24 Oct 2024 06:01:57 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-school-a11f2ccec4d5ae6504ac13e4a556fa600e214da7/</guid><description>&lt;ul>
+&lt;li>MIN-1811 dependabot (#84)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-1734 test endpoint (#82)&lt;/li>
+&lt;li>MIN-1795: Som rektor ønsker eg å få ein melding dersom FREG ikkje svarer (#77)&lt;/li>
+&lt;li>MIN-1793: oppfordrer lærer at logge ut etter endt økt (#75)&lt;/li>
+&lt;li>MIN-1787: valider status i freg (#71)&lt;/li>
+&lt;li>MIN-1792: mer enn en lærer - bugfix (#70)&lt;/li>
+&lt;li>MIN-1687 eventlogging av minid utsteding (#63)&lt;/li>
+&lt;li>MIN-1674: Updated admin texts (#61)&lt;/li>
+&lt;li>MIN-1780: validate that logged in user cant add themselves (#60)&lt;/li>
+&lt;li>MIN-1686: Updated teacher texts (#59)&lt;/li>
+&lt;li>MIN-1779: undervisningsgrupper (#58)&lt;/li>
+&lt;li>MIN-1775: Admin teaching groups and search filter (#57)&lt;/li>
+&lt;li>MIN-1773: teacher manual request (#56)&lt;/li>
+&lt;li>MIN-1758: add validation 2 (#55)&lt;/li>
+&lt;li>MIN-1758: add validation (#54)&lt;/li>
+&lt;li>MIN-1740: Done status admin (#53)&lt;/li>
+&lt;li>MIN-1735: altinn 3 delegering (#52)&lt;/li>
+&lt;li>MIN-1732: Admin class status (#51)&lt;/li>
+&lt;li>MIN-1729: Signed out page (#50)&lt;/li>
+&lt;li>MIN-1733: bugfix - disabled teacher must not be able to order (#49)&lt;/li>
+&lt;li>MIN-1730: Close modals on backdrop click (#48)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-f279e621b18268fd0871b722f998a64b64c3b4be/</link><pubDate>Tue, 22 Oct 2024 10:31:44 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-f279e621b18268fd0871b722f998a64b64c3b4be/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-1808 Bedre feilmelding og returverdi (#518)&lt;/li>
 &lt;li>MIN-1797 Fikse Prometheus (#516)&lt;/li>
