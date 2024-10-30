@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 30 Oct 2024 13:26:11 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-93eb710714259defc4b2d575bf5e9c36132c3f78/</link><pubDate>Wed, 30 Oct 2024 13:26:11 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-93eb710714259defc4b2d575bf5e9c36132c3f78/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-1811 dependabot (#519)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-670fe810e63280ca04f66c8ca2bc55b7d2d294c6/</link><pubDate>Wed, 30 Oct 2024 13:25:44 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-670fe810e63280ca04f66c8ca2bc55b7d2d294c6/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-1815 fix url (#256)&lt;/li>
+&lt;li>MIN-1815 nytt endepunkt for testing (#255)&lt;/li>
+&lt;li>MIN-1811 dependabot (#254)&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-ec18a83a166374a41c5317e5c69985120db7e691/</link><pubDate>Wed, 30 Oct 2024 13:16:39 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-ec18a83a166374a41c5317e5c69985120db7e691/</guid><description>&lt;ul>
 &lt;li>ID-4756: returnere feilside direkte og logge litt mer når sesjon er null. (#1103)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
