@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 22 Nov 2024 08:46:19 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-ccd8e065c7ec427fdf21adfaa58ea72cc60d8666/</link><pubDate>Fri, 22 Nov 2024 08:46:19 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-ccd8e065c7ec427fdf21adfaa58ea72cc60d8666/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 22 Nov 2024 08:52:45 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-9bf0483114f09f78af324f114b91b48b86c20458/</link><pubDate>Fri, 22 Nov 2024 08:52:45 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-9bf0483114f09f78af324f114b91b48b86c20458/</guid><description>&lt;ul>
+&lt;li>ID-4829: log specific sso scenarios (#759)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>ID-4806: Aktivere web sso plugin (#755)&lt;/li>
+&lt;li>ID-4807: Annonsere RAR-typer i ID-porten (#756)&lt;/li>
+&lt;li>ID-4803: Connect2id server 16.1.1 (#753)&lt;/li>
+&lt;li>ID-4791: disable sso spi (#750)&lt;/li>
+&lt;li>ID-4743: Feature switch og validering for headless login (kun test) (#740)&lt;/li>
+&lt;li>ID-4741: Plugin for isolerte SSO-sesjoner (#739)&lt;/li>
+&lt;/ul></description></item><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-ccd8e065c7ec427fdf21adfaa58ea72cc60d8666/</link><pubDate>Fri, 22 Nov 2024 08:46:19 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-ccd8e065c7ec427fdf21adfaa58ea72cc60d8666/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-client-sync-app-b6ec9bdad7033df807c25945beca64b0a9a8c8a0/</link><pubDate>Fri, 22 Nov 2024 08:34:12 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-client-sync-app-b6ec9bdad7033df807c25945beca64b0a9a8c8a0/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
