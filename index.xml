@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 26 Nov 2024 10:42:57 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-1dbd5065054a4f83cef9b17f6263600adff524c7/</link><pubDate>Tue, 26 Nov 2024 10:42:57 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-1dbd5065054a4f83cef9b17f6263600adff524c7/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 26 Nov 2024 10:54:42 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-ebc00e40aa4022cf791d44bfabbcd7e9109f0b44/</link><pubDate>Tue, 26 Nov 2024 10:54:42 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-ebc00e40aa4022cf791d44bfabbcd7e9109f0b44/</guid><description>&lt;ul>
+&lt;li>KRR-855 Tjenesten språkvalg for ikke digitale skal ikke varsle bruker (#428)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-1dbd5065054a4f83cef9b17f6263600adff524c7/</link><pubDate>Tue, 26 Nov 2024 10:42:57 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-1dbd5065054a4f83cef9b17f6263600adff524c7/</guid><description>&lt;ul>
 &lt;li>ID-4853: Fix CSP valg av eID Ansattporten (#1124)&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-authorization-api-0385ee827b1c2d57b44472b2e49dce397fb1a5b6/</link><pubDate>Tue, 26 Nov 2024 08:43:27 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-authorization-api-0385ee827b1c2d57b44472b2e49dce397fb1a5b6/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
@@ -93,16 +95,6 @@
 &lt;li>KRR-821 Skille ut klient exceptions i egen pakke (#309)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minid-varsling-4a3dff8cf75dcf1ee1baf91fb90cb8913641371a/</link><pubDate>Thu, 21 Nov 2024 07:25:12 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minid-varsling-4a3dff8cf75dcf1ee1baf91fb90cb8913641371a/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
-&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-ebc00e40aa4022cf791d44bfabbcd7e9109f0b44/</link><pubDate>Thu, 21 Nov 2024 07:19:24 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-ebc00e40aa4022cf791d44bfabbcd7e9109f0b44/</guid><description>&lt;ul>
-&lt;li>KRR-855 Tjenesten språkvalg for ikke digitale skal ikke varsle bruker (#428)&lt;/li>
-&lt;li>KRR-849 Reservasjon skal godta confirm-scope (#427)&lt;/li>
-&lt;li>KRR-848 Bekreft skal støtte endring av reservasjon (#426)&lt;/li>
-&lt;li>Library upgrades&lt;/li>
-&lt;li>KRR-832 Restriksjoner på sjekk av delegation source (#409)&lt;/li>
-&lt;li>KRR-831 Audit-logge delegation source i Oppslagstjenesten (#408)&lt;/li>
-&lt;li>KRR-824 Nye delegerbare scopes i Oppslagstjenesten (#405)&lt;/li>
-&lt;li>KRR-823 Ukjente ressurser gir server feil (#404)&lt;/li>
-&lt;li>KRR-821 Skille ut klient exceptions i egen pakke (#403)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-27535f5217cf46737b134560dbee08ffcf88cb72/</link><pubDate>Thu, 21 Nov 2024 07:07:18 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-27535f5217cf46737b134560dbee08ffcf88cb72/</guid><description>&lt;ul>
 &lt;li>KRR-847 Varsel om reservasjon ved endring av bruker (#507)&lt;/li>
 &lt;li>KRR-846 Tidsstempel på bruker skal oppdateres selv om ikke noe er endret (#506)&lt;/li>
