@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 26 Nov 2024 07:36:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-9c791c539ca01a833948d8bd6cbd5ae1d240b52b/</link><pubDate>Tue, 26 Nov 2024 07:36:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-9c791c539ca01a833948d8bd6cbd5ae1d240b52b/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 26 Nov 2024 08:24:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datawasher-b83b69bf4c2c24f2b7ee61b2009c0d4295cff25f/</link><pubDate>Tue, 26 Nov 2024 08:24:50 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datawasher-b83b69bf4c2c24f2b7ee61b2009c0d4295cff25f/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Lagt til personreport&lt;/li>
+&lt;li>Rettet test&lt;/li>
+&lt;li>Rettet test&lt;/li>
+&lt;li>Rettet test&lt;/li>
+&lt;li>Rettet i README.md&lt;/li>
+&lt;li>En test feiler&lt;/li>
+&lt;li>Tester innsjekking&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-9c791c539ca01a833948d8bd6cbd5ae1d240b52b/</link><pubDate>Tue, 26 Nov 2024 07:36:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-9c791c539ca01a833948d8bd6cbd5ae1d240b52b/</guid><description>&lt;ul>
 &lt;li>KRR-859 Eksponere CREATED_DATE for postkasse til oppslagstjenesten (#432)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-scope-api-f27a5f71e363a8ad2b79bd1253e915025f7d133e/</link><pubDate>Mon, 25 Nov 2024 12:57:24 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-scope-api-f27a5f71e363a8ad2b79bd1253e915025f7d133e/</guid><description>&lt;ul>
