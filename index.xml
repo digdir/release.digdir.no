@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Dec 2024 08:20:37 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-freg-gateway-d477e01bcb944676596f0a09fe146ab4d83192a6/</link><pubDate>Wed, 11 Dec 2024 08:20:37 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-freg-gateway-d477e01bcb944676596f0a09fe146ab4d83192a6/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Dec 2024 09:01:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-f96aa84f38ddf18ab8b0c08cf686f689886dcd8f/</link><pubDate>Wed, 11 Dec 2024 09:01:26 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-f96aa84f38ddf18ab8b0c08cf686f689886dcd8f/</guid><description>&lt;ul>
+&lt;li>Merge pull request #28 from felleslosningerSet_correct_version_sr-proxy&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge branch main into Set_correct_version_sr-proxy&lt;/li>
+&lt;li>Comment cleanup&lt;/li>
+&lt;li>Merge pull request #27 from felleslosningerSet_correct_version_sr-proxy&lt;/li>
+&lt;li>Upgrade sr-proxy to versjon 1.4.0&lt;/li>
+&lt;li>Merge pull request #25 from felleslosningerMOVE-3664-oppgradere-efm-sr-proxy-til-java-21-og-spring-boot-3&lt;/li>
+&lt;li>Trivy, will get fixed with common&lt;/li>
+&lt;li>MOVE-3664 Upgrade spring boot&lt;/li>
+&lt;li>MOVE-3664 remove dependencies&lt;/li>
+&lt;li>MOVE-3664 Upgrade common&lt;/li>
+&lt;li>MOVE-3664 Fix trivy&lt;/li>
+&lt;li>MOVE-3664 Use java 21 ci&lt;/li>
+&lt;li>MOVE-3554 Junit 5 changes&lt;/li>
+&lt;li>MOVE-3664 Update junit&lt;/li>
+&lt;li>MOVE-3664 Change scopes to string&lt;/li>
+&lt;li>MOVE-3664 Logback-spring env specific logging&lt;/li>
+&lt;li>MOVE-3664 ProxyController error code changes&lt;/li>
+&lt;li>MOVE-3664 spring and java config changes&lt;/li>
+&lt;li>MOVE-3664 Upgrade to spring boot 3.3.5 and java 21&lt;/li>
+&lt;li>MOVE-3731 Add dependabot&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-freg-gateway-d477e01bcb944676596f0a09fe146ab4d83192a6/</link><pubDate>Wed, 11 Dec 2024 08:20:37 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-freg-gateway-d477e01bcb944676596f0a09fe146ab4d83192a6/</guid><description>&lt;ul>
 &lt;li>MIN-1837 internal oauth api support (#294)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-1736ae48f02bae584e7fb19e24ce926471efac9a/</link><pubDate>Wed, 11 Dec 2024 07:41:45 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-1736ae48f02bae584e7fb19e24ce926471efac9a/</guid><description>&lt;ul>
 &lt;li>KRR-873 Feil tag på dok til hentEndringer for postkasseleverandør (#445)&lt;/li>
