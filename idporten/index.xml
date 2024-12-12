@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ID-porten on Release notes</title><link>https://release.digdir.no/idporten/</link><description>Recent content in ID-porten on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Dec 2024 23:50:24 +0000</lastBuildDate><atom:link href="https://release.digdir.no/idporten/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-a1e047aab514b6d2edf8e70b9ceeab5f162ce94c/</link><pubDate>Wed, 11 Dec 2024 23:50:24 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-a1e047aab514b6d2edf8e70b9ceeab5f162ce94c/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ID-porten on Release notes</title><link>https://release.digdir.no/idporten/</link><description>Recent content in ID-porten on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Dec 2024 23:57:14 +0000</lastBuildDate><atom:link href="https://release.digdir.no/idporten/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-1d979f0430dcdbf44334180ca0ad0414c4859161/</link><pubDate>Wed, 11 Dec 2024 23:57:14 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-1d979f0430dcdbf44334180ca0ad0414c4859161/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>ID-4877: Ny javascriptcss med inline-unsafe csp fiks (#1129)&lt;/li>
+&lt;li>ID-4881: Cookie properties ved logout - secure httponly (#1127)&lt;/li>
+&lt;li>ID-4853: Fix CSP valg av eID Ansattporten (#1124)&lt;/li>
+&lt;li>ID-4831: Fiks bug i språk-dropdown under international-tab (#1122)&lt;/li>
+&lt;li>ID-4842: Do not log stacktraces on invalid request method (#1121)&lt;/li>
+&lt;li>ID-4823: Design minified jscss (#1119)&lt;/li>
+&lt;li>ID-4823: Design tech. upgrades like Storybook and typescript. No visible changes (#1117)&lt;/li>
+&lt;li>oyri&lt;/li>
+&lt;li>ID-4821: Tilbakestill tjeneste-logo til høgre og fiks feil med alignmentspacing i eID-selektor (#1114)&lt;/li>
+&lt;li>ID-4804: Rette tekstar for internasjonal login i selektor (#1113)&lt;/li>
+&lt;li>ID-4786: oppdatere config for å bruke fullmakt i systesttestprod (#1110)&lt;/li>
+&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-a1e047aab514b6d2edf8e70b9ceeab5f162ce94c/</link><pubDate>Wed, 11 Dec 2024 23:50:24 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-a1e047aab514b6d2edf8e70b9ceeab5f162ce94c/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>ID-4883: Rulle tilbake til forrige log4j versjon for å vera kompatibel med c2id-server docker image (#770)&lt;/li>
 &lt;li>ID-4872: Traceid i Tomcat-accesslogg for c2id-server (#762)&lt;/li>
