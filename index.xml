@@ -200,6 +200,8 @@
 &lt;li>ID-4860: fikse previous origin og event origin (#512)&lt;/li>
 &lt;li>ID-4857: bytte fra ekstern til intern adresse (#511)&lt;/li>
 &lt;li>ID-4853: motta og behandle client push events (#509)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/dpi-registration-31fb5f7c99ef4f831aaf649079edc05eba814ef1/</link><pubDate>Mon, 09 Dec 2024 07:44:52 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/dpi-registration-31fb5f7c99ef4f831aaf649079edc05eba814ef1/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-reservasjon-9974237f0ae23ae1fd9685b72586094beeb36ff1/</link><pubDate>Mon, 09 Dec 2024 07:44:42 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-reservasjon-9974237f0ae23ae1fd9685b72586094beeb36ff1/</guid><description>&lt;ul>
 &lt;li>KRR-875 Fikse Azure AD i krr-reservasjon&lt;/li>
 &lt;li>KRR-875 Fikse Azure AD i krr-reservasjon&lt;/li>
