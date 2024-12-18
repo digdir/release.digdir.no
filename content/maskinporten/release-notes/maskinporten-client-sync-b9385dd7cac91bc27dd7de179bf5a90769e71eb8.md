@@ -1,6 +1,6 @@
 ---
 title: maskinporten
-date: 2024-12-09T13:09:07Z
+date: 2024-12-12T14:46:00Z
 ---
 - Library upgrades
 
