@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 09 Jan 2025 08:18:58 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-98d38d8b30a4195ed541174e0152acc56f200cc4/</link><pubDate>Thu, 09 Jan 2025 08:18:58 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-98d38d8b30a4195ed541174e0152acc56f200cc4/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 09 Jan 2025 09:26:08 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>skyporten</title><link>https://release.digdir.no/skyporten/release-notes/skyporten-altinn-gateway-bc8a3e307c5660021ee38c53516e40909e538c42/</link><pubDate>Thu, 09 Jan 2025 09:26:08 +0000</pubDate><guid>https://release.digdir.no/skyporten/release-notes/skyporten-altinn-gateway-bc8a3e307c5660021ee38c53516e40909e538c42/</guid><description>&lt;ul>
+&lt;li>MP-603: deploye til skyporten (#462)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>returnere status for org reportees (#441)&lt;/li>
+&lt;li>MP-595: failover cache. liveness sjekk endret til readiness sjekk (#433)&lt;/li>
+&lt;li>MP-533: Disable CacheMetricsAutoconfiguration, bump SpringBoot starter til 3.3.1 (#382)&lt;/li>
+&lt;li>SP-484 Egne sjolvbetjening profiler (#380)&lt;/li>
+&lt;li>revert spring-boot-starter til 3.2.6 (#378)&lt;/li>
+&lt;li>ID-4226: la ver2 fortsatt bruke ver2 (#360)&lt;/li>
+&lt;li>bytt frå mp ver2 til mp test i systest og test-miljø (#359)&lt;/li>
+&lt;li>ID-4226: Bytte mp ver2 til mp test (#356)&lt;/li>
+&lt;li>PF-974: Moves to update-image workflow (#327)&lt;/li>
+&lt;li>ID-4076: Unngå Vector-feltkonflikt i auditlog for PID (#335)&lt;/li>
+&lt;li>ID-3624: fikse lokal dockerfil (#315)&lt;/li>
+&lt;li>MP-492: retry på internal server error pga altinn proxy issue og revert fra altinn3 (#299)&lt;/li>
+&lt;li>delegations mot altinn3 (#298)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-98d38d8b30a4195ed541174e0152acc56f200cc4/</link><pubDate>Thu, 09 Jan 2025 08:18:58 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-98d38d8b30a4195ed541174e0152acc56f200cc4/</guid><description>&lt;ul>
 &lt;li>ID-3394: sikre at vi ikke dobbelt-invaliderer (#1140)&lt;/li>
 &lt;/ul></description></item><item><title>skyporten</title><link>https://release.digdir.no/skyporten/release-notes/skyporten-client-sync-1fbf1064b0dd99134bcc18a359ab0b8384d599f0/</link><pubDate>Thu, 09 Jan 2025 08:18:39 +0000</pubDate><guid>https://release.digdir.no/skyporten/release-notes/skyporten-client-sync-1fbf1064b0dd99134bcc18a359ab0b8384d599f0/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
