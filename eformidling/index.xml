@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Dec 2024 12:02:06 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-6344b30576c7ae1df48dd20e6eadf199bc4d07ad/</link><pubDate>Wed, 11 Dec 2024 12:02:06 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-6344b30576c7ae1df48dd20e6eadf199bc4d07ad/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 13 Jan 2025 12:56:00 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-b7e848c80a3fcd73fea6d47acba4c2583f9cae76/</link><pubDate>Mon, 13 Jan 2025 12:56:00 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-b7e848c80a3fcd73fea6d47acba4c2583f9cae76/</guid><description>&lt;ul>
+&lt;li>Merge pull request #340 from felleslosningerfinare-config&lt;/li>
+&lt;li>Make difi.move.freg.endpointURL in application configuration less horrible looking&lt;/li>
+&lt;li>Merge pull request #339 from felleslosningerMOVE-4236-fjerne-bruk-av-netflix-eureka-fra-service-registry&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>Merge pull request #335 from felleslosningerMOVE-4236-fjerne-bruk-av-netflix-eureka-fra-service-registry&lt;/li>
+&lt;li>MOVE-4236 Change virksert version&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>MOVE-4236 Change virksert version&lt;/li>
+&lt;li>MOVE-4236 Remove eureka&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-6344b30576c7ae1df48dd20e6eadf199bc4d07ad/</link><pubDate>Wed, 11 Dec 2024 12:02:06 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-6344b30576c7ae1df48dd20e6eadf199bc4d07ad/</guid><description>&lt;ul>
 &lt;li>Merge pull request #18 from felleslosningerdependabotmavennet.logstash.logback-logstash-logback-encoder-8.0&lt;/li>
 &lt;li>Merge branch main into dependabotmavennet.logstash.logback-logstash-logback-encoder-8.0&lt;/li>
 &lt;li>Library upgrades&lt;/li>
