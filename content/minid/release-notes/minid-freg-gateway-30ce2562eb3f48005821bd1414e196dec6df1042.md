@@ -1,6 +1,6 @@
 ---
 title: minid
-date: 2024-10-30T13:00:59Z
+date: 2025-01-14T11:53:50Z
 ---
 - KRR-833 Rydde og oppdatere avhangigheter (#287)
 
