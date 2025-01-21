@@ -1,0 +1,40 @@
+---
+title: eformidling
+date: 2025-01-21T08:07:33Z
+---
+- Merge pull request #346 from felleslosningerMOVE-4299_sr-mariadb
+- docs: Update README (MariaDB)
+- refactor: Remove unnecessary property value
+- feat: MOVE-4299: MariaDB database dependencies and settings
+- Merge branch main into MOVE-4299_sr-mariadb
+- Merge pull request #344 from felleslosningerMOVE-4299_fix-workflow
+- fix: Test and code scanning workflow
+- feat: MOVE-4299: MariaDB database dependencies and settings
+- Merge pull request #338 from felleslosningerMOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3
+- build: new
+- Merge remote-tracking branch refsremotesoriginMOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3 into MOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3
+- build: Add build and test workflow
+- Merge branch main into MOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3
+- Merge pull request #343 from felleslosningerMOVE-3658_upgrade-kotlin
+- feat: Upgrade Kotlin version
+- fix: Set correct locator.smp-identifier value in test profile
+- build(deps): Remove Prometheus registry version override
+- Merge branch main into MOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3
+- Library upgrades
+- update trivyignore, vuln from paketo
+- bump dependencies
+- Whipe trivyignore and update Dockerfile to use j21 base image
+- Use j21 instead of j11 in github actions
+- test: Remove not-used import, fix indentation
+- Upgrade dependencies for sun.xml. which required vefa-peppol to be uprgaded as well
+- Renamed 2 profiles to test and itest and make sure itest is used in tests
+- WIP, all but 1 test failing
+- Updated tests
+- Updated security config to sb3
+- Upgrade field to j21
+- Updated bindings
+- MOVE-3658 code changes necessary due to java 21 and spring boot 3
+- MOVE-3658 WIP javax to jakarta
+- MOVE-3658 WIP upgrade dependencies in preparation for java 21 and spring boot 3
+- Add package-lock.json to gitignore
+
