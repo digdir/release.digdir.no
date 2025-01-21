@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 21 Jan 2025 08:07:33 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-caa4cca8c2b45a17c535b5b6827f62496d3b2951/</link><pubDate>Tue, 21 Jan 2025 08:07:33 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-caa4cca8c2b45a17c535b5b6827f62496d3b2951/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 21 Jan 2025 12:28:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-b0e73e600a4f6b92cc613cc6d22c740ad18bf9bc/</link><pubDate>Tue, 21 Jan 2025 12:28:27 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-b0e73e600a4f6b92cc613cc6d22c740ad18bf9bc/</guid><description>&lt;ul>
+&lt;li>Merge pull request #58 from felleslosningerMOVE-3661_redis-config&lt;/li>
+&lt;li>MOVE-3661 Fix redis config for Spring Boot 3&lt;/li>
+&lt;li>Merge pull request #52 from felleslosningerfeaturejava21&lt;/li>
+&lt;li>Merge branch main into featurejava21&lt;/li>
+&lt;li>Merge pull request #57 from felleslosningertullball&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>Build with Java 11, please&lt;/li>
+&lt;li>bump major version after j21 and sb3 upgrade&lt;/li>
+&lt;li>add ignore vuln from paketo buildpacks&lt;/li>
+&lt;li>bump spring security version&lt;/li>
+&lt;li>cleanup&lt;/li>
+&lt;li>Merge branch featurejava21 of https:github.comfelleslosningerefm-organization-registry into featurejava21&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge branch main into featurejava21&lt;/li>
+&lt;li>whipe trivyignore and change to j21 based efm-commons&lt;/li>
+&lt;li>Merge pull request #53 from felleslosningerMOVE-3948_use-main-github-workflow-branch&lt;/li>
+&lt;li>chore: Add CVE-2024-45338 to .trivyignore&lt;/li>
+&lt;li>build(deps): Bump spring-security-web to mitigate CVE-2024-38821&lt;/li>
+&lt;li>build(deps): commons-io 2.14.0, mitigate CVE-2024-47554&lt;/li>
+&lt;li>build(deps): spring-boot-starter-parent 2.7.18&lt;/li>
+&lt;li>chore: Add CVE-2024-38816 to .trivyignore&lt;/li>
+&lt;li>chore: Add CVE-2024-45337 to .trivyignore&lt;/li>
+&lt;li>build: Use main workflow branch instead of efm adaptations&lt;/li>
+&lt;li>replace mockBean med MockitoBean siden MockBean ble deprecated&lt;/li>
+&lt;li>Oppgradering av datatables etter ny release uten bug&lt;/li>
+&lt;li>nedgradering av datatables pakke etter den nye har en bug med require js&lt;/li>
+&lt;li>fjerner asserts som var system avhengig&lt;/li>
+&lt;li>bytte til ny converter for Iso6523 identifier i organization&lt;/li>
+&lt;li>endringer i thymeleaf templates etter testing lokaklt med spring boot 3&lt;/li>
+&lt;li>bygging og test kjører i java 21springboot3&lt;/li>
+&lt;li>MOVE-3726 Fix access rights for dependabot&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-caa4cca8c2b45a17c535b5b6827f62496d3b2951/</link><pubDate>Tue, 21 Jan 2025 08:07:33 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-caa4cca8c2b45a17c535b5b6827f62496d3b2951/</guid><description>&lt;ul>
 &lt;li>Merge pull request #346 from felleslosningerMOVE-4299_sr-mariadb&lt;/li>
 &lt;li>docs: Update README (MariaDB)&lt;/li>
 &lt;li>refactor: Remove unnecessary property value&lt;/li>
