@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 21 Jan 2025 10:10:24 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</link><pubDate>Tue, 21 Jan 2025 10:10:24 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 21 Jan 2025 10:39:05 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-fa445f7073971eb24479e3779687dc6a1c860396/</link><pubDate>Tue, 21 Jan 2025 10:39:05 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-fa445f7073971eb24479e3779687dc6a1c860396/</guid><description>&lt;ul>
+&lt;li>MIN-1954: add locale keys for nn and se (#519)&lt;/li>
+&lt;li>MIN-1952: set domain for locale cookie (#518)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-1932: New compromised password (#513)&lt;/li>
+&lt;li>MIN-1935: la i bruk locale cookie på server-siden (#516)&lt;/li>
+&lt;li>MIN-1926: automatisk vise frem timeout side når innloggingen tar for lang tid (#511)&lt;/li>
+&lt;li>MIN-1913: Special character error (#509)&lt;/li>
+&lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</link><pubDate>Tue, 21 Jan 2025 10:10:24 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</guid><description>&lt;ul>
 &lt;li>Merge pull request #529 from felleslosningerMOVE-4296_Feilande-Flyway-migreringar-i-elma-web-(dev)&lt;/li>
 &lt;li>Thats fine, thank you github&lt;/li>
 &lt;li>Nice to get to know how trivy works :)&lt;/li>
