@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elma on Release notes</title><link>https://release.digdir.no/elma/</link><description>Recent content in Elma on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Dec 2024 08:25:35 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-e60e12202f8d0f9c187180d593fece799ed4a183/</link><pubDate>Fri, 06 Dec 2024 08:25:35 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-e60e12202f8d0f9c187180d593fece799ed4a183/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elma on Release notes</title><link>https://release.digdir.no/elma/</link><description>Recent content in Elma on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 21 Jan 2025 10:10:24 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</link><pubDate>Tue, 21 Jan 2025 10:10:24 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</guid><description>&lt;ul>
+&lt;li>Merge pull request #529 from felleslosningerMOVE-4296_Feilande-Flyway-migreringar-i-elma-web-(dev)&lt;/li>
+&lt;li>Thats fine, thank you github&lt;/li>
+&lt;li>Nice to get to know how trivy works :)&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>Trigger build&lt;/li>
+&lt;li>Actually ignore application-dev-local.yml for real this time&lt;/li>
+&lt;li>Ignore application-dev-local.yml&lt;/li>
+&lt;li>MOVE-4296 Required for newer versions of flyway&lt;/li>
+&lt;li>MOVE-4296 Upgrade flyway to latest version (that is compatible with Java versions earlier than 17)&lt;/li>
+&lt;li>Merge pull request #525 from felleslosningerMOVE-3948_use-main-github-workflow-branch&lt;/li>
+&lt;li>build: Use main workflow branch instead of efm adaptations&lt;/li>
+&lt;li>Merge pull request #524 from felleslosningerMOVE-4252-dato-for-siste-oppdatering-av-elma-deltakar-vert-ikkje-oppdatert-ved-automatisk-synkronisering&lt;/li>
+&lt;li>MOVE-4252 Change component to service&lt;/li>
+&lt;li>MOVE-4252 Fix circular dependency by applying Lazy annotation to service dependencies&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>MOVE-4252 create updateparticipant and call in from organizationService&lt;/li>
+&lt;li>MOVE-4252 Set modificationDate for organization&lt;/li>
+&lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-e60e12202f8d0f9c187180d593fece799ed4a183/</link><pubDate>Fri, 06 Dec 2024 08:25:35 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-e60e12202f8d0f9c187180d593fece799ed4a183/</guid><description>&lt;ul>
 &lt;li>Merge pull request #515 from felleslosningerfeature-smp-identifier&lt;/li>
 &lt;li>fix: Set correct locator.smp-identifier value in production profile&lt;/li>
 &lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-35d68bce63a6ccb126cc27a9acf75d08598a31af/</link><pubDate>Fri, 29 Nov 2024 13:21:48 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-35d68bce63a6ccb126cc27a9acf75d08598a31af/</guid><description>&lt;ul>
