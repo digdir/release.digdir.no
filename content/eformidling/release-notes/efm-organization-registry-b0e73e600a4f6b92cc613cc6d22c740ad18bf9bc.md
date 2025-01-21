@@ -1,0 +1,36 @@
+---
+title: eformidling
+date: 2025-01-21T12:28:27Z
+---
+- Merge pull request #58 from felleslosningerMOVE-3661_redis-config
+- MOVE-3661 Fix redis config for Spring Boot 3
+- Merge pull request #52 from felleslosningerfeaturejava21
+- Merge branch main into featurejava21
+- Merge pull request #57 from felleslosningertullball
+- trivy
+- Build with Java 11, please
+- bump major version after j21 and sb3 upgrade
+- add ignore vuln from paketo buildpacks
+- bump spring security version
+- cleanup
+- Merge branch featurejava21 of https:github.comfelleslosningerefm-organization-registry into featurejava21
+- Library upgrades
+- Merge branch main into featurejava21
+- whipe trivyignore and change to j21 based efm-commons
+- Merge pull request #53 from felleslosningerMOVE-3948_use-main-github-workflow-branch
+- chore: Add CVE-2024-45338 to .trivyignore
+- build(deps): Bump spring-security-web to mitigate CVE-2024-38821
+- build(deps): commons-io 2.14.0, mitigate CVE-2024-47554
+- build(deps): spring-boot-starter-parent 2.7.18
+- chore: Add CVE-2024-38816 to .trivyignore
+- chore: Add CVE-2024-45337 to .trivyignore
+- build: Use main workflow branch instead of efm adaptations
+- replace mockBean med MockitoBean siden MockBean ble deprecated
+- Oppgradering av datatables etter ny release uten bug
+- nedgradering av datatables pakke etter den nye har en bug med require js
+- fjerner asserts som var system avhengig
+- bytte til ny converter for Iso6523 identifier i organization
+- endringer i thymeleaf templates etter testing lokaklt med spring boot 3
+- bygging og test kjører i java 21springboot3
+- MOVE-3726 Fix access rights for dependabot
+
