@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 14 Jan 2025 16:01:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-5da37ac6c39d6553bc1af741f6a973b0a3ddae6a/</link><pubDate>Tue, 14 Jan 2025 16:01:26 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-5da37ac6c39d6553bc1af741f6a973b0a3ddae6a/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 21 Jan 2025 08:07:33 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-caa4cca8c2b45a17c535b5b6827f62496d3b2951/</link><pubDate>Tue, 21 Jan 2025 08:07:33 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-caa4cca8c2b45a17c535b5b6827f62496d3b2951/</guid><description>&lt;ul>
+&lt;li>Merge pull request #346 from felleslosningerMOVE-4299_sr-mariadb&lt;/li>
+&lt;li>docs: Update README (MariaDB)&lt;/li>
+&lt;li>refactor: Remove unnecessary property value&lt;/li>
+&lt;li>feat: MOVE-4299: MariaDB database dependencies and settings&lt;/li>
+&lt;li>Merge branch main into MOVE-4299_sr-mariadb&lt;/li>
+&lt;li>Merge pull request #344 from felleslosningerMOVE-4299_fix-workflow&lt;/li>
+&lt;li>fix: Test and code scanning workflow&lt;/li>
+&lt;li>feat: MOVE-4299: MariaDB database dependencies and settings&lt;/li>
+&lt;li>Merge pull request #338 from felleslosningerMOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3&lt;/li>
+&lt;li>build: new&lt;/li>
+&lt;li>Merge remote-tracking branch refsremotesoriginMOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3 into MOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3&lt;/li>
+&lt;li>build: Add build and test workflow&lt;/li>
+&lt;li>Merge branch main into MOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3&lt;/li>
+&lt;li>Merge pull request #343 from felleslosningerMOVE-3658_upgrade-kotlin&lt;/li>
+&lt;li>feat: Upgrade Kotlin version&lt;/li>
+&lt;li>fix: Set correct locator.smp-identifier value in test profile&lt;/li>
+&lt;li>build(deps): Remove Prometheus registry version override&lt;/li>
+&lt;li>Merge branch main into MOVE-3658-Oppgradere-efm-service-registry-til-Java-21-og-Spring-Boot-3&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>update trivyignore, vuln from paketo&lt;/li>
+&lt;li>bump dependencies&lt;/li>
+&lt;li>Whipe trivyignore and update Dockerfile to use j21 base image&lt;/li>
+&lt;li>Use j21 instead of j11 in github actions&lt;/li>
+&lt;li>test: Remove not-used import, fix indentation&lt;/li>
+&lt;li>Upgrade dependencies for sun.xml. which required vefa-peppol to be uprgaded as well&lt;/li>
+&lt;li>Renamed 2 profiles to test and itest and make sure itest is used in tests&lt;/li>
+&lt;li>WIP, all but 1 test failing&lt;/li>
+&lt;li>Updated tests&lt;/li>
+&lt;li>Updated security config to sb3&lt;/li>
+&lt;li>Upgrade field to j21&lt;/li>
+&lt;li>Updated bindings&lt;/li>
+&lt;li>MOVE-3658 code changes necessary due to java 21 and spring boot 3&lt;/li>
+&lt;li>MOVE-3658 WIP javax to jakarta&lt;/li>
+&lt;li>MOVE-3658 WIP upgrade dependencies in preparation for java 21 and spring boot 3&lt;/li>
+&lt;li>Add package-lock.json to gitignore&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-5da37ac6c39d6553bc1af741f6a973b0a3ddae6a/</link><pubDate>Tue, 14 Jan 2025 16:01:26 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-5da37ac6c39d6553bc1af741f6a973b0a3ddae6a/</guid><description>&lt;ul>
 &lt;li>Merge pull request #342 from felleslosningerfix-typo-and-log&lt;/li>
 &lt;li>Change loglevel for returning unsigned response to INFO from WARN&lt;/li>
 &lt;li>Fix typo in new log&lt;/li>
