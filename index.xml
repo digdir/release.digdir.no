@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 28 Jan 2025 12:57:54 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-saml2-proxy-05a8e91591fcfa38733644c9ecd0a07f55ab2378/</link><pubDate>Tue, 28 Jan 2025 12:57:54 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-saml2-proxy-05a8e91591fcfa38733644c9ecd0a07f55ab2378/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 29 Jan 2025 08:38:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-ce4b0fb23e17119706d7d3b3b9f1320bce3b99bc/</link><pubDate>Wed, 29 Jan 2025 08:38:26 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-ce4b0fb23e17119706d7d3b3b9f1320bce3b99bc/</guid><description>&lt;ul>
+&lt;li>MIN-1979 internsikring (#210)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-1939: legg til locale filter (#205)&lt;/li>
+&lt;li>MIN-1867 compromised password flow change (#200)&lt;/li>
+&lt;li>MIN-1911 add origin service in application yaml and push with mfa request too auth (#190)&lt;/li>
+&lt;li>MIN-1910 Internsikring nytt passord (#182)&lt;/li>
+&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-saml2-proxy-05a8e91591fcfa38733644c9ecd0a07f55ab2378/</link><pubDate>Tue, 28 Jan 2025 12:57:54 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-saml2-proxy-05a8e91591fcfa38733644c9ecd0a07f55ab2378/</guid><description>&lt;ul>
 &lt;li>ID-5022: Disable saml2-legacy.idporten.dev-v1 i systesyt (#354)&lt;/li>
 &lt;li>ID-5015: Forberede utfasing av IDPer som skal stenges (#353)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
