@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 04 Feb 2025 12:22:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-school-d46b88b64d405cf804f7c815a5a7ea261a15835c/</link><pubDate>Tue, 04 Feb 2025 12:22:38 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-school-d46b88b64d405cf804f7c815a5a7ea261a15835c/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 04 Feb 2025 12:31:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-3b52a164bf5c1871f766dd71b7d270ca013c8d58/</link><pubDate>Tue, 04 Feb 2025 12:31:15 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-3b52a164bf5c1871f766dd71b7d270ca013c8d58/</guid><description>&lt;ul>
+&lt;li>Merge pull request #536 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>MOVE-4313 Fjern unødvendig logging&lt;/li>
+&lt;li>Merge branch main into MOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>MOVE-4313 Rydde opp imports&lt;/li>
+&lt;li>Merge pull request #534 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>MOVE-4313 add participantupdate to create organization&lt;/li>
+&lt;li>Merge pull request #533 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>Cleanup: Remove unnecessary characters from comment&lt;/li>
+&lt;li>Merge pull request #532 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>Merge branch main into MOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>MOVE-4313 refactor: delegate participant update logic to ParticipantUpdater&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-school-d46b88b64d405cf804f7c815a5a7ea261a15835c/</link><pubDate>Tue, 04 Feb 2025 12:22:38 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-school-d46b88b64d405cf804f7c815a5a7ea261a15835c/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-cf6e97601af4fd8e0481f69e5593be897cda8470/</link><pubDate>Tue, 04 Feb 2025 07:34:38 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-cf6e97601af4fd8e0481f69e5593be897cda8470/</guid><description>&lt;ul>
 &lt;li>MIN-1928_internal_oauth (#350)&lt;/li>

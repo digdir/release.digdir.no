@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elma on Release notes</title><link>https://release.digdir.no/elma/</link><description>Recent content in Elma on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 23 Jan 2025 08:05:42 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</link><pubDate>Thu, 23 Jan 2025 08:05:42 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Elma on Release notes</title><link>https://release.digdir.no/elma/</link><description>Recent content in Elma on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 04 Feb 2025 12:31:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-3b52a164bf5c1871f766dd71b7d270ca013c8d58/</link><pubDate>Tue, 04 Feb 2025 12:31:15 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-3b52a164bf5c1871f766dd71b7d270ca013c8d58/</guid><description>&lt;ul>
+&lt;li>Merge pull request #536 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>MOVE-4313 Fjern unødvendig logging&lt;/li>
+&lt;li>Merge branch main into MOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>MOVE-4313 Rydde opp imports&lt;/li>
+&lt;li>Merge pull request #534 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>MOVE-4313 add participantupdate to create organization&lt;/li>
+&lt;li>Merge pull request #533 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>Cleanup: Remove unnecessary characters from comment&lt;/li>
+&lt;li>Merge pull request #532 from felleslosningerMOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>Merge branch main into MOVE-4313-feil-ved-forsok-pa-innlegging-av-heilt-nye-deltakarar-i-elma&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>MOVE-4313 refactor: delegate participant update logic to ParticipantUpdater&lt;/li>
+&lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</link><pubDate>Thu, 23 Jan 2025 08:05:42 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-55bf367bc3b225fb348bdfec6bf46aa3a340ba14/</guid><description>&lt;ul>
 &lt;li>Merge pull request #529 from felleslosningerMOVE-4296_Feilande-Flyway-migreringar-i-elma-web-(dev)&lt;/li>
 &lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-e60e12202f8d0f9c187180d593fece799ed4a183/</link><pubDate>Fri, 06 Dec 2024 08:25:35 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-e60e12202f8d0f9c187180d593fece799ed4a183/</guid><description>&lt;ul>
 &lt;li>Merge pull request #515 from felleslosningerfeature-smp-identifier&lt;/li>
