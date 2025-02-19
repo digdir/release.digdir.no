@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 18 Feb 2025 08:50:43 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</link><pubDate>Tue, 18 Feb 2025 08:50:43 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 19 Feb 2025 07:02:19 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-4fb7f40b3d279b654fa7468ee6b86149731b4ffc/</link><pubDate>Wed, 19 Feb 2025 07:02:19 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-4fb7f40b3d279b654fa7468ee6b86149731b4ffc/</guid><description>&lt;ul>
+&lt;li>MIN-2031: More transit logging 3 (#555)&lt;/li>
+&lt;li>MIN-2031: More transit logging 2 (#554)&lt;/li>
+&lt;li>MIN-2031: debuglogging av transit client (#553)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2029: Fix typo (#552)&lt;/li>
+&lt;li>MIN-1776 feilmelding for krr og sms feil (#549)&lt;/li>
+&lt;li>MIN-2022: bugfix vault token (#545)&lt;/li>
+&lt;li>MIN-2003: Correct links for pwd help (#543)&lt;/li>
+&lt;li>MIN-2017: oppdatere konfig for transit i KT og PROD (#539)&lt;/li>
+&lt;li>MIN-2004: Improve accessibility (#535)&lt;/li>
+&lt;li>MIN-2001: Fix 2 click required (#533)&lt;/li>
+&lt;li>MIN-2000: Fix missing styles (#532)&lt;/li>
+&lt;li>MIN-1970: støtte for å veksle inn maskinporten token mot vault token (#527)&lt;/li>
+&lt;li>MIN-1962: Språkstøtte for meldinger på sms (#526)&lt;/li>
+&lt;li>MIN-1945 fix pattern warning (#523)&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</link><pubDate>Tue, 18 Feb 2025 08:50:43 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</guid><description>&lt;ul>
 &lt;li>Merge pull request #368 from felleslosningerMOVE-4325-Slutt-å-kall-FREG-når-difi.move.freg.enabled-false&lt;/li>
 &lt;li>Handle vulnerability&lt;/li>
 &lt;li>Stop calling FREG when using mock.&lt;/li>
