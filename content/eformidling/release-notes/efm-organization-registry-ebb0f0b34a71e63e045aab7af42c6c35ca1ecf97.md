@@ -1,0 +1,31 @@
+---
+title: eformidling
+date: 2025-02-20T11:15:17Z
+---
+- Merge pull request #62 from felleslosningerMOVE-4341-legg-til-maven-release-plugin-i-efm-organization-registry
+- Merge branch main into MOVE-4341-legg-til-maven-release-plugin-i-efm-organization-registry
+- Merge pull request #63 from felleslosningerMOVE-4303_Endra-standard-database-for-miljøprofilar-i-OrganizationRegistry-til-MariaDB
+- Trivy
+- Netty trivy CVE
+- MOVE-4303 (Temp) revert DB driver back to mysql
+- MOVE-4341 Cleanup
+- MOVE-4341 Update README
+- MOVE-4341 Update README
+- gitignore
+- maven-release-plugin prepare for next development iteration
+- maven-release-plugin prepare release efm-organization-registry-2.0.0
+- MOVE-4341 Ugrade commons
+- gitignore
+- MOVE-4341 Add maven-release-plugin
+- MOVE-4303 (Temp) Revert flyway changes
+- Merge pull request #60 from felleslosningerMOVE-4303_Endra-standard-database-for-miljøprofilar-i-OrganizationRegistry-til-MariaDB
+- MOVE-4303 New flyway scripts to change binary16 ids to uuid
+- MOVE-4303 Revert flyway scripts to be same as old mysql version so that they dont fail because of checksum in case of already existing database
+- Merge pull request #59 from felleslosningerMOVE-4303_Endra-standard-database-for-miljøprofilar-i-OrganizationRegistry-til-MariaDB
+- MOVE-4303 explicitly defining vendor is unnecessary
+- MOVE-4303 update dev-local profile for mariadb
+- MOVE-4303 Fix duplicate primary key WARN caused by Shedlock
+- MOVE-4303 Update readme for java 21 and mariadb
+- MOVE-4303 Add Flyway migration files for mariadb
+- MOVE-4303 Update config and dependencies for mariadb
+
