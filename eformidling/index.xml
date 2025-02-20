@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 18 Feb 2025 08:50:43 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</link><pubDate>Tue, 18 Feb 2025 08:50:43 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 20 Feb 2025 11:15:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-ebb0f0b34a71e63e045aab7af42c6c35ca1ecf97/</link><pubDate>Thu, 20 Feb 2025 11:15:17 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-ebb0f0b34a71e63e045aab7af42c6c35ca1ecf97/</guid><description>&lt;ul>
+&lt;li>Merge pull request #62 from felleslosningerMOVE-4341-legg-til-maven-release-plugin-i-efm-organization-registry&lt;/li>
+&lt;li>Merge branch main into MOVE-4341-legg-til-maven-release-plugin-i-efm-organization-registry&lt;/li>
+&lt;li>Merge pull request #63 from felleslosningerMOVE-4303_Endra-standard-database-for-miljøprofilar-i-OrganizationRegistry-til-MariaDB&lt;/li>
+&lt;li>Trivy&lt;/li>
+&lt;li>Netty trivy CVE&lt;/li>
+&lt;li>MOVE-4303 (Temp) revert DB driver back to mysql&lt;/li>
+&lt;li>MOVE-4341 Cleanup&lt;/li>
+&lt;li>MOVE-4341 Update README&lt;/li>
+&lt;li>MOVE-4341 Update README&lt;/li>
+&lt;li>gitignore&lt;/li>
+&lt;li>maven-release-plugin prepare for next development iteration&lt;/li>
+&lt;li>maven-release-plugin prepare release efm-organization-registry-2.0.0&lt;/li>
+&lt;li>MOVE-4341 Ugrade commons&lt;/li>
+&lt;li>gitignore&lt;/li>
+&lt;li>MOVE-4341 Add maven-release-plugin&lt;/li>
+&lt;li>MOVE-4303 (Temp) Revert flyway changes&lt;/li>
+&lt;li>Merge pull request #60 from felleslosningerMOVE-4303_Endra-standard-database-for-miljøprofilar-i-OrganizationRegistry-til-MariaDB&lt;/li>
+&lt;li>MOVE-4303 New flyway scripts to change binary16 ids to uuid&lt;/li>
+&lt;li>MOVE-4303 Revert flyway scripts to be same as old mysql version so that they dont fail because of checksum in case of already existing database&lt;/li>
+&lt;li>Merge pull request #59 from felleslosningerMOVE-4303_Endra-standard-database-for-miljøprofilar-i-OrganizationRegistry-til-MariaDB&lt;/li>
+&lt;li>MOVE-4303 explicitly defining vendor is unnecessary&lt;/li>
+&lt;li>MOVE-4303 update dev-local profile for mariadb&lt;/li>
+&lt;li>MOVE-4303 Fix duplicate primary key WARN caused by Shedlock&lt;/li>
+&lt;li>MOVE-4303 Update readme for java 21 and mariadb&lt;/li>
+&lt;li>MOVE-4303 Add Flyway migration files for mariadb&lt;/li>
+&lt;li>MOVE-4303 Update config and dependencies for mariadb&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</link><pubDate>Tue, 18 Feb 2025 08:50:43 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-6484549e39eff4e7adfa20fab3c545401ec91ae0/</guid><description>&lt;ul>
 &lt;li>Merge pull request #368 from felleslosningerMOVE-4325-Slutt-å-kall-FREG-når-difi.move.freg.enabled-false&lt;/li>
 &lt;li>Handle vulnerability&lt;/li>
 &lt;li>Stop calling FREG when using mock.&lt;/li>
