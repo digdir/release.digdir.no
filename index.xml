@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Feb 2025 07:21:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-3b21d151d420d69ea7d21e9830a4da26525b5276/</link><pubDate>Wed, 26 Feb 2025 07:21:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-3b21d151d420d69ea7d21e9830a4da26525b5276/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Feb 2025 07:28:31 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-448898193ab8bd58f6ff124e1931ed176560247e/</link><pubDate>Wed, 26 Feb 2025 07:28:31 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-448898193ab8bd58f6ff124e1931ed176560247e/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-1948 Oppdatert maskinporten-klient i systest (#572)&lt;/li>
+&lt;li>MIN-2021 401 mot check-password-compromised (#571)&lt;/li>
+&lt;li>MIN-1948 Setter maskinporten-token (#570)&lt;/li>
+&lt;li>MIN-1948 Fikset trivy (#569)&lt;/li>
+&lt;li>MIN-1948 fix pid claim (#568)&lt;/li>
+&lt;li>MIN-1948 Tatt bort feil interceptor (#567)&lt;/li>
+&lt;li>MIN-1948 merge (#564)&lt;/li>
+&lt;li>MIN-1948 Oppgradert til Java 21 og spring-boot 3.4.1 og (#555)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-3b21d151d420d69ea7d21e9830a4da26525b5276/</link><pubDate>Wed, 26 Feb 2025 07:21:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-3b21d151d420d69ea7d21e9830a4da26525b5276/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2040: Fix async validators not cleared (#560)&lt;/li>
 &lt;li>MIN-2005-legge-til-unittest-totpservice (#559)&lt;/li>
