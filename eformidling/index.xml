@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 20 Mar 2025 11:43:02 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-a89735a84b253e3f9ddea8bb4c9ebcd0784f73ad/</link><pubDate>Thu, 20 Mar 2025 11:43:02 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-a89735a84b253e3f9ddea8bb4c9ebcd0784f73ad/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 20 Mar 2025 19:03:43 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-6eab53d3e727488d54fb7935629dd6c3f9499602/</link><pubDate>Thu, 20 Mar 2025 19:03:43 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-6eab53d3e727488d54fb7935629dd6c3f9499602/</guid><description>&lt;ul>
+&lt;li>Merge pull request #67 from felleslosningerfeature-MOVE-4380&lt;/li>
+&lt;li>MOVE-4380 upgrade spring boot and whipe trivyignore&lt;/li>
+&lt;li>Merge pull request #66 from felleslosningerMOVE-4303_Re-add_flyway_migrations_for_mariadb&lt;/li>
+&lt;li>MOVE-4303 Change database driver to MariaDB&lt;/li>
+&lt;li>MOVE-4303 Re-add flyway migrations for MariaDB&lt;/li>
+&lt;li>Merge pull request #65 from felleslosningerMOVE-4306_Utilgjengeleg-metrikk-endepunkt-etter-oppgradering-av-OrganizationRegistry&lt;/li>
+&lt;li>Disable Redis in test health check to fix Github Actions tests and remove non-existent session.store-type property&lt;/li>
+&lt;li>Remove temp logging&lt;/li>
+&lt;li>More cleanup and debugging pipeline tests&lt;/li>
+&lt;li>Remove trailing slash&lt;/li>
+&lt;li>Remove temporary logging&lt;/li>
+&lt;li>Cleanup and testing pipeline&lt;/li>
+&lt;li>MOVE-4306 Added tests for all actuator endpoints and required test config&lt;/li>
+&lt;li>MOVE-4306 expose all actuator endpoints&lt;/li>
+&lt;li>cleanup&lt;/li>
+&lt;li>MOVE-4306 Apparantly the messageConverter did not get added if of the same type as an existing one.&lt;/li>
+&lt;li>MOVE-4306 Fix 500 error when trying to reach prometheus.&lt;/li>
+&lt;li>MOVE-4306 Expose error&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-a89735a84b253e3f9ddea8bb4c9ebcd0784f73ad/</link><pubDate>Thu, 20 Mar 2025 11:43:02 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-a89735a84b253e3f9ddea8bb4c9ebcd0784f73ad/</guid><description>&lt;ul>
 &lt;li>Merge pull request #107 from felleslosningerfeature-MOVE-4380&lt;/li>
 &lt;li>MOVE-4380 upgrade spring boot and whipe trivyignore&lt;/li>
 &lt;li>Merge pull request #106 from felleslosningertest_maven_release_plugin&lt;/li>
