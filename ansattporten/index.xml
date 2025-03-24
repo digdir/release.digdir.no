@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansattporten on Release notes</title><link>https://release.digdir.no/ansattporten/</link><description>Recent content in Ansattporten on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 24 Mar 2025 06:35:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/ansattporten/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7f8bd989d54d206d23486d1c4b3f55db05d41227/</link><pubDate>Mon, 24 Mar 2025 06:35:27 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7f8bd989d54d206d23486d1c4b3f55db05d41227/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansattporten on Release notes</title><link>https://release.digdir.no/ansattporten/</link><description>Recent content in Ansattporten on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 24 Mar 2025 12:53:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/ansattporten/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-a6679eb19c6d42a073b78df2e896415c837ad8b5/</link><pubDate>Mon, 24 Mar 2025 12:53:15 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-oidc-demo-client-a6679eb19c6d42a073b78df2e896415c837ad8b5/</guid><description>&lt;ul>
+&lt;li>ID-5208: legg til eit steg i login-flyt for å unngå post-redirects.. (#318)&lt;/li>
+&lt;li>ID-5207: csp header for minidsi (#317)&lt;/li>
+&lt;li>ID-5160: Pen formattering av JWTer fra responser (#315)&lt;/li>
+&lt;li>ID-5158: Støtte for query.jwt i demoklient (#314)&lt;/li>
+&lt;li>ID-5192: Støtte for client_secret_jwt (#313)&lt;/li>
+&lt;li>ID-5157: Støtte for pushed authorization requests (#312)&lt;/li>
+&lt;li>ID-5103: Endre klientid (#310)&lt;/li>
+&lt;li>ID-5100: korrigere url (#307)&lt;/li>
+&lt;li>ID-5100: konfigurasjon for eidas (#304)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7f8bd989d54d206d23486d1c4b3f55db05d41227/</link><pubDate>Mon, 24 Mar 2025 06:35:27 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7f8bd989d54d206d23486d1c4b3f55db05d41227/</guid><description>&lt;ul>
 &lt;li>ID-5217: sette auth code lifetime til 60 sekunder (#831)&lt;/li>
 &lt;li>ID-5202: legg til entraid acr verdi i ansattporten (#830)&lt;/li>
 &lt;li>ID-5209: email claim i idporten (#828)&lt;/li>
