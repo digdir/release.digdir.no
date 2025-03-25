@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 25 Mar 2025 06:59:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-varsling-078ccbc9c4534d2ed5cd7c9b72df6c148d643efd/</link><pubDate>Tue, 25 Mar 2025 06:59:27 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-varsling-078ccbc9c4534d2ed5cd7c9b72df6c148d643efd/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 25 Mar 2025 07:03:33 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-profile-5b82a89851d6072e65969ce68cd75e4e3fc174f4/</link><pubDate>Tue, 25 Mar 2025 07:03:33 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-profile-5b82a89851d6072e65969ce68cd75e4e3fc174f4/</guid><description>&lt;ul>
+&lt;li>Merge pull request #131 from felleslosningerdependabotmavenorg.springframework.boot-spring-boot-starter-parent-3.4.4&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge pull request #128 from felleslosningerdependabotmavenio.opentelemetry.instrumentation-opentelemetry-instrumentation-api-2.14.0&lt;/li>
+&lt;li>Merge pull request #129 from felleslosningerdependabotmavenlogback.version-1.5.18&lt;/li>
+&lt;li>Merge pull request #130 from felleslosningerdependabotmavenno.idporten.logging-idporten-access-log-spring-boot-3-starter-2.7.1&lt;/li>
+&lt;li>Merge pull request #121 from felleslosningerdependabotmavencom.nimbusds-oauth2-oidc-sdk-11.23.1&lt;/li>
+&lt;li>Merge pull request #120 from felleslosningerdependabotmavenio.netty-netty-common-4.1.119.Final&lt;/li>
+&lt;li>Merge pull request #125 from felleslosningerdependabotmavenio.opentelemetry.instrumentation-opentelemetry-instrumentation-api-2.13.3&lt;/li>
+&lt;li>Merge pull request #127 from felleslosningerMIN-2038-totp-mobile-ux&lt;/li>
+&lt;li>translations&lt;/li>
+&lt;li>ADD: copy button&lt;/li>
+&lt;li>ADD: secret key to mobile view&lt;/li>
+&lt;li>Merge pull request #126 from felleslosningerMIN-2076-text-changes&lt;/li>
+&lt;li>EDIT: relative path&lt;/li>
+&lt;li>FIX: texts and cat image&lt;/li>
+&lt;li>Merge pull request #124 from felleslosningerMIN-2056-logget-out-page&lt;/li>
+&lt;li>EDIT: code split cat&lt;/li>
+&lt;li>EDIT: remove emoji and make sure full page spinner is only on initial load&lt;/li>
+&lt;li>translations&lt;/li>
+&lt;li>switch cat&lt;/li>
+&lt;li>ADD: logged out page&lt;/li>
+&lt;li>Merge pull request #122 from felleslosningerMIN-2054-ux-improvements&lt;/li>
+&lt;li>translations&lt;/li>
+&lt;li>wip&lt;/li>
+&lt;li>cleanup&lt;/li>
+&lt;li>FIX: mobile layout&lt;/li>
+&lt;li>MIN-2061: ux feedback issues&lt;/li>
+&lt;li>FIX: minid logo size in safari&lt;/li>
+&lt;li>ADD: totp deletion disclaimer&lt;/li>
+&lt;li>MIN-2055: stepped totp modal&lt;/li>
+&lt;li>MIN-2055: wip&lt;/li>
+&lt;li>EDIT: move change password button&lt;/li>
+&lt;li>MIN-2057: pid as placeholder for name&lt;/li>
+&lt;li>MIN-2058: more click inviting dropdowns&lt;/li>
+&lt;li>MIN-2059: full page spinner&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-varsling-078ccbc9c4534d2ed5cd7c9b72df6c148d643efd/</link><pubDate>Tue, 25 Mar 2025 06:59:27 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-varsling-078ccbc9c4534d2ed5cd7c9b72df6c148d643efd/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-backend-be6c412ef5ffd29364a48ec40d485aa06ac14849/</link><pubDate>Tue, 25 Mar 2025 06:54:59 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-backend-be6c412ef5ffd29364a48ec40d485aa06ac14849/</guid><description>&lt;ul>
 &lt;li>&amp;mdash; (#124)&lt;/li>
