@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Mar 2025 07:46:22 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-07998357860691307b7f2849e0f8c65507951203/</link><pubDate>Wed, 26 Mar 2025 07:46:22 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-07998357860691307b7f2849e0f8c65507951203/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Mar 2025 08:07:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-freg-gateway-973cc3bdd03259c4c4134e21c0604b86fdeb91f8/</link><pubDate>Wed, 26 Mar 2025 08:07:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-freg-gateway-973cc3bdd03259c4c4134e21c0604b86fdeb91f8/</guid><description>&lt;ul>
+&lt;li>KRR-898 Refaktorering av freg-gateway i to moduler (#357)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>ID-5086: Legg til nullsjekk på vergemål (#347)&lt;/li>
+&lt;li>MIN-1932 Rettet path (#340)&lt;/li>
+&lt;li>MIN-1929 Ny tjeneste for å hente ut spesifikk adressetype (#333)&lt;/li>
+&lt;li>Retter path til freg (#329)&lt;/li>
+&lt;li>AOS-494 application.yaml-filer for event-statistikk (#327)&lt;/li>
+&lt;li>KRR-885 internal-oauth-api for minprofil (#316)&lt;/li>
+&lt;li>MIN-1837 internal oauth api support (#294)&lt;/li>
+&lt;li>Eksponerer adressetype for skjermede adresser. (#312)&lt;/li>
+&lt;li>MIN-1840 Rettet server-port url til freg (#300)&lt;/li>
+&lt;li>MINID-1840 Tester endring i application-.yaml (#299)&lt;/li>
+&lt;li>Rettet api-key i application-test.yaml (#298)&lt;/li>
+&lt;li>MIN-1840 Flyttet override-filer til freg-gateway-repo (#296)&lt;/li>
+&lt;li>Fjernet restene av standalone-profilen (#295)&lt;/li>
+&lt;li>Rettet metodenavn (#293)&lt;/li>
+&lt;li>MIN-1801 Endrer sti mot Folkeregisteret for å slå sammen FregClient&amp;hellip; (#292)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-07998357860691307b7f2849e0f8c65507951203/</link><pubDate>Wed, 26 Mar 2025 07:46:22 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-07998357860691307b7f2849e0f8c65507951203/</guid><description>&lt;ul>
 &lt;li>KRR-937 Retter telefonnummer i footer (#543)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-datawasher-6de4d19fdf2dcb36603fca13643d38880d91bd90/</link><pubDate>Tue, 25 Mar 2025 07:06:03 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-datawasher-6de4d19fdf2dcb36603fca13643d38880d91bd90/</guid><description>&lt;ul>
