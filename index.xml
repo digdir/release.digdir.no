@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Mar 2025 11:28:07 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-ab5cda9ffbf56e311036d0a44d0312bc2c4ebc24/</link><pubDate>Wed, 26 Mar 2025 11:28:07 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-ab5cda9ffbf56e311036d0a44d0312bc2c4ebc24/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Mar 2025 11:41:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-2f1c28857593c95e95dac324a703d72d541ef07d/</link><pubDate>Wed, 26 Mar 2025 11:41:27 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-2f1c28857593c95e95dac324a703d72d541ef07d/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-934 Egne tjenester for postkasseeverandørene for aktivering (#517)&lt;/li>
+&lt;li>KRR-932 Tjeneste for info om postkasse (#516)&lt;/li>
+&lt;li>KRR-900 Scope krr:globalaudit.read (#512)&lt;/li>
+&lt;li>KRR-901 Rydde i validering av kontaktopplysninger (#488)&lt;/li>
+&lt;li>KRR-900 Endepunkt for historikk for kontaktinfo (#504)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-ab5cda9ffbf56e311036d0a44d0312bc2c4ebc24/</link><pubDate>Wed, 26 Mar 2025 11:28:07 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-ab5cda9ffbf56e311036d0a44d0312bc2c4ebc24/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-933 Postkasseoperatør skal kunne opprette inaktiv postkasse (#611)&lt;/li>
 &lt;li>KRR-932 Tjeneste for info om postkasse (#610)&lt;/li>
