@@ -4,6 +4,10 @@
 &lt;li>Update .trivyignore (#140)&lt;/li>
 &lt;li>Testing FC (#135)&lt;/li>
 &lt;li>ID-4848: bytt jre image i default dev docker (#125)&lt;/li>
+&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-fa7008ae01d38ef3e69d7572628fac07777e02d2/</link><pubDate>Mon, 31 Mar 2025 17:37:13 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-fa7008ae01d38ef3e69d7572628fac07777e02d2/</guid><description>&lt;ul>
+&lt;li>Annonsere DPoP i metadata (#835)&lt;/li>
+&lt;li>ID-5213: Oppdatere Luna Client lib til v.10.7.2 (#834)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-claimsprovider-fullmakt-356bd6dec463ab125953c82c5440317e4f2909a2/</link><pubDate>Mon, 24 Mar 2025 13:35:43 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-claimsprovider-fullmakt-356bd6dec463ab125953c82c5440317e4f2909a2/</guid><description>&lt;ul>
 &lt;li>ID-5234: Fiks login som meg selv (#79)&lt;/li>
 &lt;li>ID-5176: Oppdatert GUI (#75)&lt;/li>
