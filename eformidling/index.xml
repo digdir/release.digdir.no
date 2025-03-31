@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 24 Mar 2025 08:28:12 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-bc2357bcc5f376f82f77a640b5b945aea64fe29e/</link><pubDate>Mon, 24 Mar 2025 08:28:12 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-bc2357bcc5f376f82f77a640b5b945aea64fe29e/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eformidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in Eformidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 31 Mar 2025 11:16:54 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-010fe150d4ab07f268358ed1887c9a0add82adb6/</link><pubDate>Mon, 31 Mar 2025 11:16:54 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-010fe150d4ab07f268358ed1887c9a0add82adb6/</guid><description>&lt;ul>
+&lt;li>Merge pull request #32 from felleslosningerfeaturejava21&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge pull request #31 from felleslosningerfeaturejava21&lt;/li>
+&lt;li>Update to j21 based common, bump spring boot version&lt;/li>
+&lt;li>Whipe trivyignore&lt;/li>
+&lt;li>Merge pull request #30 from felleslosningerMOVE-3948_use-main-github-workflow-branch&lt;/li>
+&lt;li>chore: Add CVE-2024-45338 to .trivyignore&lt;/li>
+&lt;li>chore: Add CVE-2024-45337 to .trivyignore&lt;/li>
+&lt;li>build: Use main workflow branch instead of efm adaptations&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-bc2357bcc5f376f82f77a640b5b945aea64fe29e/</link><pubDate>Mon, 24 Mar 2025 08:28:12 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-bc2357bcc5f376f82f77a640b5b945aea64fe29e/</guid><description>&lt;ul>
 &lt;li>Merge pull request #377 from felleslosningerMOVE-4327_Ny-strategi-for-oppretting-av-Virksert-klient-i-ServiceRegistry&lt;/li>
 &lt;li>Update Spring-Security version to fix CVE-2025-22228&lt;/li>
 &lt;li>MOVE-4327 Refactor VirksertConfig to be much shorter&lt;/li>
