@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 08 Apr 2025 10:50:54 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-scope-api-52d03e8e7a29506a7084b37a78b2c5432ba3a2b5/</link><pubDate>Tue, 08 Apr 2025 10:50:54 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-scope-api-52d03e8e7a29506a7084b37a78b2c5432ba3a2b5/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 08 Apr 2025 10:53:45 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-client-sync-app-4c1280fdb4b18426983b9f721b5aa4d4835eeb56/</link><pubDate>Tue, 08 Apr 2025 10:53:45 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-client-sync-app-4c1280fdb4b18426983b9f721b5aa4d4835eeb56/</guid><description>&lt;ul>
+&lt;li>ID-5275: rydde i config og overrides (#570)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>ID-5230: Prod-instillinger og flytte default til application.yaml (#569)&lt;/li>
+&lt;li>ID-5264: fiks paginering og event origin (#568)&lt;/li>
+&lt;li>ID-5262: legge til previous origins (#567)&lt;/li>
+&lt;li>ID-5229: Gå mot nytt sp-api i test (#566)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-scope-api-52d03e8e7a29506a7084b37a78b2c5432ba3a2b5/</link><pubDate>Tue, 08 Apr 2025 10:50:54 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-scope-api-52d03e8e7a29506a7084b37a78b2c5432ba3a2b5/</guid><description>&lt;ul>
 &lt;li>EUW-111: Nye claims for eIDAS NOBID pid (#353)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>ID-5250: Switche fra gammelt til nytt sp-api (#350)&lt;/li>
