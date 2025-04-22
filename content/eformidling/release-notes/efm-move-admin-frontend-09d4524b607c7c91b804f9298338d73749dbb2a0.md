@@ -1,0 +1,11 @@
+---
+title: eformidling
+date: 2025-04-22T09:47:29Z
+---
+- Merge pull request #275 from felleslosningerMOVE-4382_statistics-with-dates
+- test: Refactor Elasticsearch image name in Testcontainers tests
+- test: MOVE-4382: Use mock bean in stead of internal test configuration class
+- refactor: Remove unnecessary imports
+- test: MOVE-4382: Add UsageIntegration integration test
+- fix: MOVE-4382: DateTime format in Elasticsearch statistics query
+
