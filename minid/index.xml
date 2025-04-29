@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 29 Apr 2025 06:25:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</link><pubDate>Tue, 29 Apr 2025 06:25:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 29 Apr 2025 06:26:06 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-787f01299bb147cbe70d9c4548bd30c5ed67222f/</link><pubDate>Tue, 29 Apr 2025 06:26:06 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-787f01299bb147cbe70d9c4548bd30c5ed67222f/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2175: fix bug too many attempts text (#185)&lt;/li>
+&lt;li>MIN-2174: Fixed bug with invalid activation-code (#183)&lt;/li>
+&lt;li>MIN-2176: Removed duplicate isValid() validation on phonenumber (#181)&lt;/li>
+&lt;li>MIN-2146 bugfixing validering av mobilnummer (#178)&lt;/li>
+&lt;li>MIN-2114: Phone country code input (#176)&lt;/li>
+&lt;li>Ikkje rapportere om hibp dersom passordet er ugyldig (#173)&lt;/li>
+&lt;li>Featureswitch hibp (#172)&lt;/li>
+&lt;li>Fjerne feilkode frå feilmeldinga som brukaren ser (#164)&lt;/li>
+&lt;li>MIN-2027 sjekke om passord har vorte lekka (#163)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</link><pubDate>Tue, 29 Apr 2025 06:25:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</guid><description>&lt;ul>
 &lt;li>MIN-2179 cache timeout fix (#645)&lt;/li>
 &lt;li>MIN-1892_internal_oauth_api_client (#642)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
