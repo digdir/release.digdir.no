@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 11 Apr 2025 06:13:45 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-f04a417e7d8bbe4cd3eb4cdc2f0a2a7da6d61f70/</link><pubDate>Fri, 11 Apr 2025 06:13:45 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-f04a417e7d8bbe4cd3eb4cdc2f0a2a7da6d61f70/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 29 Apr 2025 06:25:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</link><pubDate>Tue, 29 Apr 2025 06:25:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</guid><description>&lt;ul>
+&lt;li>MIN-2179 cache timeout fix (#645)&lt;/li>
+&lt;li>MIN-1892_internal_oauth_api_client (#642)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2154 use unreserved metric label (#635)&lt;/li>
+&lt;li>MIN-2154 invalid activationcode statistics (#634)&lt;/li>
+&lt;li>MIN-2150 event log order issuer (#631)&lt;/li>
+&lt;li>MIN-2092 fix qr kode (#614)&lt;/li>
+&lt;li>MIN-2012 endre url for registrering av aktiveringsbrev (#613)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-f04a417e7d8bbe4cd3eb4cdc2f0a2a7da6d61f70/</link><pubDate>Fri, 11 Apr 2025 06:13:45 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-f04a417e7d8bbe4cd3eb4cdc2f0a2a7da6d61f70/</guid><description>&lt;ul>
 &lt;li>MIN-2140: Change text on compromised (#610)&lt;/li>
 &lt;li>MIN-2140: Change text on compromised (#608)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-datawasher-7ed0aed4e96036de8f0000b075debe248919d56d/</link><pubDate>Mon, 07 Apr 2025 07:40:32 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-datawasher-7ed0aed4e96036de8f0000b075debe248919d56d/</guid><description>&lt;ul>

@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 29 Apr 2025 06:16:37 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-226d0fa1d3c94ff6919e1dc9ff35828307498505/</link><pubDate>Tue, 29 Apr 2025 06:16:37 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-226d0fa1d3c94ff6919e1dc9ff35828307498505/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 29 Apr 2025 06:25:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</link><pubDate>Tue, 29 Apr 2025 06:25:50 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-680e079dfb5f87e6ca706ee8a2141083f2fbc9db/</guid><description>&lt;ul>
+&lt;li>MIN-2179 cache timeout fix (#645)&lt;/li>
+&lt;li>MIN-1892_internal_oauth_api_client (#642)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2154 use unreserved metric label (#635)&lt;/li>
+&lt;li>MIN-2154 invalid activationcode statistics (#634)&lt;/li>
+&lt;li>MIN-2150 event log order issuer (#631)&lt;/li>
+&lt;li>MIN-2092 fix qr kode (#614)&lt;/li>
+&lt;li>MIN-2012 endre url for registrering av aktiveringsbrev (#613)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-226d0fa1d3c94ff6919e1dc9ff35828307498505/</link><pubDate>Tue, 29 Apr 2025 06:16:37 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-226d0fa1d3c94ff6919e1dc9ff35828307498505/</guid><description>&lt;ul>
 &lt;li>KRR-955 Bekreft skal ikke settes i createOrUpdateUser dersom (#547)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-3e0160ef8b4c71ad7258cebf2a8098765a7b5eb3/</link><pubDate>Tue, 29 Apr 2025 06:05:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-3e0160ef8b4c71ad7258cebf2a8098765a7b5eb3/</guid><description>&lt;ul>
