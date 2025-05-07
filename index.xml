@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 07 May 2025 10:31:30 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-77d9f0401c34a16b7b5fd89b7627f1c63e8476f3/</link><pubDate>Wed, 07 May 2025 10:31:30 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-77d9f0401c34a16b7b5fd89b7627f1c63e8476f3/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 07 May 2025 11:04:57 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-bbb7d79db488543eeae250267218bda79b9d24aa/</link><pubDate>Wed, 07 May 2025 11:04:57 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-bbb7d79db488543eeae250267218bda79b9d24aa/</guid><description>&lt;ul>
+&lt;li>ID-5342: Legg til name claim for entraid i ansattporten (#1216)&lt;/li>
+&lt;li>ID-5339: enable fbh i prod og sette allowlist igjen (#1213)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>ID-5337: disable fbh i prod (#1211)&lt;/li>
+&lt;li>ID-5296: true blue (#1208)&lt;/li>
+&lt;li>ID-5303: Legg til entraid i ansattporten test (#1207)&lt;/li>
+&lt;li>ID-5296: idporten-ansattporten (#1205)&lt;/li>
+&lt;li>ID-5296: Oppdatere login ift nytt navn på claimsprovider (#1203)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-77d9f0401c34a16b7b5fd89b7627f1c63e8476f3/</link><pubDate>Wed, 07 May 2025 10:31:30 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-77d9f0401c34a16b7b5fd89b7627f1c63e8476f3/</guid><description>&lt;ul>
 &lt;li>MIN-2208 enable HIBP i prod (#368)&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-datawash-a95adf9a3c9f22f7cbe10e69772de56ba5b500a1/</link><pubDate>Wed, 07 May 2025 08:32:30 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-datawash-a95adf9a3c9f22f7cbe10e69772de56ba5b500a1/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
