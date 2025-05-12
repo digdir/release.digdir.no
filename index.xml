@@ -4,6 +4,10 @@
 &lt;li>KRR-972 Ta i bruk idporten-actuator-starter i krr-admin&lt;/li>
 &lt;li>KRR-972 Ta i bruk idporten-actuator-starter i krr-admin&lt;/li>
 &lt;li>external-dependency-health-checks&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-9fcd7143d9d29b09963df71ed6f2cf221670062f/</link><pubDate>Mon, 12 May 2025 11:48:22 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-9fcd7143d9d29b09963df71ed6f2cf221670062f/</guid><description>&lt;ul>
+&lt;li>KRR-963 Tillater syntetisk telefonnummer i systest og test (#577)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-963 Tillater syntetisk telefonnummer i systest og test (#572)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-8d4afb509053925253574f0472f4b4c07ea24596/</link><pubDate>Mon, 12 May 2025 07:39:37 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-8d4afb509053925253574f0472f4b4c07ea24596/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-7c39db97528556bf7c19f26cd0b106ac38f3ef0b/</link><pubDate>Mon, 12 May 2025 06:42:59 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-7c39db97528556bf7c19f26cd0b106ac38f3ef0b/</guid><description>&lt;ul>

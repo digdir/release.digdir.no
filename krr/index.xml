@@ -4,6 +4,10 @@
 &lt;li>KRR-972 Ta i bruk idporten-actuator-starter i krr-admin&lt;/li>
 &lt;li>KRR-972 Ta i bruk idporten-actuator-starter i krr-admin&lt;/li>
 &lt;li>external-dependency-health-checks&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-9fcd7143d9d29b09963df71ed6f2cf221670062f/</link><pubDate>Mon, 12 May 2025 11:48:22 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-9fcd7143d9d29b09963df71ed6f2cf221670062f/</guid><description>&lt;ul>
+&lt;li>KRR-963 Tillater syntetisk telefonnummer i systest og test (#577)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-963 Tillater syntetisk telefonnummer i systest og test (#572)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-835268b4e0e52618cb2d9c01ef1561c4b67d3e7d/</link><pubDate>Mon, 05 May 2025 12:40:02 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-835268b4e0e52618cb2d9c01ef1561c4b67d3e7d/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-962 Valgmulighet for overskriving i import av testdata&lt;/li>
