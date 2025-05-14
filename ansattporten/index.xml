@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansattporten on Release notes</title><link>https://release.digdir.no/ansattporten/</link><description>Recent content in Ansattporten on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 12 May 2025 06:19:44 +0000</lastBuildDate><atom:link href="https://release.digdir.no/ansattporten/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7c39db97528556bf7c19f26cd0b106ac38f3ef0b/</link><pubDate>Mon, 12 May 2025 06:19:44 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7c39db97528556bf7c19f26cd0b106ac38f3ef0b/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansattporten on Release notes</title><link>https://release.digdir.no/ansattporten/</link><description>Recent content in Ansattporten on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 14 May 2025 05:27:16 +0000</lastBuildDate><atom:link href="https://release.digdir.no/ansattporten/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7c39db97528556bf7c19f26cd0b106ac38f3ef0b/</link><pubDate>Wed, 14 May 2025 05:27:16 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-7c39db97528556bf7c19f26cd0b106ac38f3ef0b/</guid><description>&lt;ul>
 &lt;li>ID-5310: Oppdatere Audit-log for client-auth (#860)&lt;/li>
-&lt;li>ID-5334: keygenerator var i docker image. fjernet (#859)&lt;/li>
-&lt;li>ID-5296: legge til type ansattporten:orgno (#858)&lt;/li>
-&lt;li>ID-5142: fjerne jwks generator. flyttet til idporten-c2id-tools (#857)&lt;/li>
-&lt;li>EUW-161: NOBID eIDAS2 PID fix nationality (#856)&lt;/li>
-&lt;li>ID-5221: acr trust groups (#852)&lt;/li>
-&lt;li>Library upgrades&lt;/li>
-&lt;li>ID-4770: Godkjent rar-type for orgno-claimsprovider (#854)&lt;/li>
-&lt;li>EUW-112: NOBID eIDAS2 PID birth place (#849)&lt;/li>
-&lt;li>EUW-103: NOBID eIDAS2 PID nationality (#848)&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-bbb7d79db488543eeae250267218bda79b9d24aa/</link><pubDate>Wed, 07 May 2025 11:04:57 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-bbb7d79db488543eeae250267218bda79b9d24aa/</guid><description>&lt;ul>
 &lt;li>ID-5342: Legg til name claim for entraid i ansattporten (#1216)&lt;/li>
 &lt;li>ID-5339: enable fbh i prod og sette allowlist igjen (#1213)&lt;/li>
