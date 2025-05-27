@@ -6,6 +6,13 @@
 &lt;li>KRR-988 Ryddejobb for postkasser&lt;/li>
 &lt;li>KRR-988 Ryddejobb for postkasser&lt;/li>
 &lt;li>KRR-988 Ryddejobb for postkasser&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-24076ad7b364ae6b3d8176d28d4a54977c38cb04/</link><pubDate>Tue, 27 May 2025 06:03:15 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-24076ad7b364ae6b3d8176d28d4a54977c38cb04/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-991 Postkasse synkronisering skal ignorere innledende nuller i (#675)&lt;/li>
+&lt;li>KRR-990 Tjeneste for synkronisering av postkasse (#674)&lt;/li>
+&lt;li>KRR-989 Endring av case i e-post skal ikke trigge revalidering (#673)&lt;/li>
+&lt;li>KRR-987 Fail fast filter i krr-backend dersom Hikari poolen er full (#672)&lt;/li>
+&lt;li>KRR-986 Utvidelse av helseendepunktet som tar hensyn til Hikari poolen (#671)&lt;/li>
 &lt;/ul></description></item><item><title>maskinporten</title><link>https://release.digdir.no/maskinporten/release-notes/maskinporten-client-sync-28858af9bf88f98ee5f633dd2f2b431c468d29c6/</link><pubDate>Mon, 26 May 2025 07:36:50 +0000</pubDate><guid>https://release.digdir.no/maskinporten/release-notes/maskinporten-client-sync-28858af9bf88f98ee5f633dd2f2b431c468d29c6/</guid><description>&lt;ul>
 &lt;li>MP-736: oppgrader kafka-clients (#116)&lt;/li>
 &lt;li>ID-5418: Oppgradere til java 23 (#114)&lt;/li>

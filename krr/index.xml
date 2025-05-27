@@ -6,6 +6,13 @@
 &lt;li>KRR-988 Ryddejobb for postkasser&lt;/li>
 &lt;li>KRR-988 Ryddejobb for postkasser&lt;/li>
 &lt;li>KRR-988 Ryddejobb for postkasser&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-24076ad7b364ae6b3d8176d28d4a54977c38cb04/</link><pubDate>Tue, 27 May 2025 06:03:15 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-24076ad7b364ae6b3d8176d28d4a54977c38cb04/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-991 Postkasse synkronisering skal ignorere innledende nuller i (#675)&lt;/li>
+&lt;li>KRR-990 Tjeneste for synkronisering av postkasse (#674)&lt;/li>
+&lt;li>KRR-989 Endring av case i e-post skal ikke trigge revalidering (#673)&lt;/li>
+&lt;li>KRR-987 Fail fast filter i krr-backend dersom Hikari poolen er full (#672)&lt;/li>
+&lt;li>KRR-986 Utvidelse av helseendepunktet som tar hensyn til Hikari poolen (#671)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-b09828466f404185a0f5730550f5ca9626e544e7/</link><pubDate>Thu, 15 May 2025 20:37:33 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-b09828466f404185a0f5730550f5ca9626e544e7/</guid><description>&lt;ul>
 &lt;li>KRR-956 Tjeneste for å markere at bruker ikke ønsker postkasse (#561)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
