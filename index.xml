@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Jun 2025 05:57:53 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-7d2f6c854b2945ec40f0eec83ff80a3a44ba3874/</link><pubDate>Thu, 05 Jun 2025 05:57:53 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-7d2f6c854b2945ec40f0eec83ff80a3a44ba3874/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Jun 2025 07:08:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-ead6dc86d91cf600326d97add5025d8e34b9698d/</link><pubDate>Thu, 05 Jun 2025 07:08:17 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-ead6dc86d91cf600326d97add5025d8e34b9698d/</guid><description>&lt;ul>
+&lt;li>Merge pull request #115 from felleslosningerdependabotmavenorg.jacoco-jacoco-maven-plugin-0.8.13&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.jacoco-jacoco-maven-plugin-0.8.13&lt;/li>
+&lt;li>Merge pull request #111 from felleslosningerdependabotmavenorg.hsqldb-hsqldb-2.7.4&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.hsqldb-hsqldb-2.7.4&lt;/li>
+&lt;li>Merge pull request #114 from felleslosningerdependabotmavenorg.yaml-snakeyaml-2.4&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.yaml-snakeyaml-2.4&lt;/li>
+&lt;li>Merge pull request #110 from felleslosningerdependabotmavenorg.projectlombok-lombok-1.18.38&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.projectlombok-lombok-1.18.38&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.yaml-snakeyaml-2.4&lt;/li>
+&lt;li>Merge pull request #120 from felleslosningerCVE-2024-47554&lt;/li>
+&lt;li>update commons-io because of CVE-2024-47554&lt;/li>
+&lt;li>Merge pull request #108 from felleslosningerMOVE-3332&lt;/li>
+&lt;li>Merge branch main into MOVE-3332&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.projectlombok-lombok-1.18.38&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.hsqldb-hsqldb-2.7.4&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.yaml-snakeyaml-2.4&lt;/li>
+&lt;li>Merge branch main into dependabotmavenorg.jacoco-jacoco-maven-plugin-0.8.13&lt;/li>
+&lt;li>Merge pull request #118 from felleslosningerdependabotmavenio.micrometer-micrometer-registry-prometheus-1.15.0&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>Merge branch main into MOVE-3332&lt;/li>
+&lt;li>Merge pull request #109 from felleslosningerMOVE4316&lt;/li>
+&lt;li>Upgrade spring boot because of vulnerability CVE-2025-22235&lt;/li>
+&lt;li>MOVE-4316 - change github workflow setup&lt;/li>
+&lt;li>Upgrade to version 3.4.5 of spring because of vulnerability CVE-2025-22235 and CVE-2025-22228&lt;/li>
+&lt;li>Update to new efm-common with centralization of certification validation.&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-7d2f6c854b2945ec40f0eec83ff80a3a44ba3874/</link><pubDate>Thu, 05 Jun 2025 05:57:53 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-7d2f6c854b2945ec40f0eec83ff80a3a44ba3874/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2241: Reduce log-level and clean up sseEmitter in all scenarios (#643)&lt;/li>
 &lt;li>MIN-2233 wallet backend quarantine support (#639)&lt;/li>
