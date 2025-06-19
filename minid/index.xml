@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 12 Jun 2025 05:07:23 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-68b7d9cd2cb9e21edc8ad6b122c3d25133f22027/</link><pubDate>Thu, 12 Jun 2025 05:07:23 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-68b7d9cd2cb9e21edc8ad6b122c3d25133f22027/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 19 Jun 2025 07:11:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-e65ece62469fb34fc42a4d0df515736446dd94d0/</link><pubDate>Thu, 19 Jun 2025 07:11:15 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-e65ece62469fb34fc42a4d0df515736446dd94d0/</guid><description>&lt;ul>
+&lt;li>MIN-2276: Fix phone-input value not initialized (#227)&lt;/li>
+&lt;li>MIN-2270: Fix phone input value update when changing country (#226)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2264: Skip pid input in MOTS registration (#223)&lt;/li>
+&lt;li>MIN-2260 ulik path backend (#220)&lt;/li>
+&lt;li>MIN-2240 app controller (#219)&lt;/li>
+&lt;li>MIN-2249: Translation for countries in phone input (#216)&lt;/li>
+&lt;li>MIN-2248: motf link route (#215)&lt;/li>
+&lt;li>MIN-2212: App verification as default with MOTF (#214)&lt;/li>
+&lt;li>MIN-2237 fix valideringsfeil logging (#213)&lt;/li>
+&lt;li>MIN-2202: Meta description (#208)&lt;/li>
+&lt;li>MIN-2204: Web component frontend (#207)&lt;/li>
+&lt;li>MIN-2203 json response fra backend (#206)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-68b7d9cd2cb9e21edc8ad6b122c3d25133f22027/</link><pubDate>Thu, 12 Jun 2025 05:07:23 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-68b7d9cd2cb9e21edc8ad6b122c3d25133f22027/</guid><description>&lt;ul>
 &lt;li>MIN-2261: Move minid-proxy tenant to application.yaml (#389)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2251: Move Transactional from class- to method-level.. (#386)&lt;/li>
