@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 08 Jul 2025 05:57:30 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-02fc2413177252a5e0e09d444f9acaab7db41ef8/</link><pubDate>Tue, 08 Jul 2025 05:57:30 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-02fc2413177252a5e0e09d444f9acaab7db41ef8/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 08 Jul 2025 06:24:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-login-02fc2413177252a5e0e09d444f9acaab7db41ef8/</link><pubDate>Tue, 08 Jul 2025 06:24:26 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-login-02fc2413177252a5e0e09d444f9acaab7db41ef8/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>ID-5531: Endringer i CSP for form-action (#1251)&lt;/li>
+&lt;li>ID-5531: endre csp til å berre bruke scheme og ikkje full url (#1250)&lt;/li>
+&lt;li>ID-5506: fjerne tilbake-uri (#1245)&lt;/li>
+&lt;li>ID-5521: fikse minidsi secret (#1247)&lt;/li>
+&lt;li>ID-5348: Legg til redirect uri i csp form-action dynamisk (#1243)&lt;/li>
+&lt;li>ID-5507: legge til request params (#1244)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-02fc2413177252a5e0e09d444f9acaab7db41ef8/</link><pubDate>Tue, 08 Jul 2025 05:57:30 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-login-02fc2413177252a5e0e09d444f9acaab7db41ef8/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>ID-5531: Endringer i CSP for form-action (#1251)&lt;/li>
 &lt;li>ID-5531: endre csp til å berre bruke scheme og ikkje full url (#1250)&lt;/li>
