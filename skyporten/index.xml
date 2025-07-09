@@ -2,6 +2,8 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MP-736: oppgrader kafka-clients (#116)&lt;/li>
 &lt;li>ID-5418: Oppgradere til java 23 (#114)&lt;/li>
+&lt;/ul></description></item><item><title>skyporten</title><link>https://release.digdir.no/skyporten/release-notes/skyporten-scope-api-eb8229850aaf3f815168b163a4b91fc5cc8679c0/</link><pubDate>Wed, 09 Jul 2025 06:54:07 +0000</pubDate><guid>https://release.digdir.no/skyporten/release-notes/skyporten-scope-api-eb8229850aaf3f815168b163a4b91fc5cc8679c0/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>skyporten</title><link>https://release.digdir.no/skyporten/release-notes/skyporten-oauth2-server-0e8d5f071940cd9ca34c8e84ee1b9752ad0eb973/</link><pubDate>Wed, 09 Jul 2025 06:47:12 +0000</pubDate><guid>https://release.digdir.no/skyporten/release-notes/skyporten-oauth2-server-0e8d5f071940cd9ca34c8e84ee1b9752ad0eb973/</guid><description>&lt;ul>
 &lt;li>MP-751: prøver redis caching (#633)&lt;/li>
 &lt;li>MP-742: PoC for eu verksemder (#632)&lt;/li>
