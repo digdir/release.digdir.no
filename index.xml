@@ -4,6 +4,8 @@
 &lt;li>ID-5527: peke statiske design ressurser til latest på static.idporten.no (#743)&lt;/li>
 &lt;li>ID-5516: Legge på gjennomløpsmetrics (#744)&lt;/li>
 &lt;li>ID-5509: fikse minidsi issuer i prod (#739)&lt;/li>
+&lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-altinn-gateway-2fc7ca9775679e893fe4872dbcffa46cb35b8460/</link><pubDate>Wed, 09 Jul 2025 06:45:51 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-altinn-gateway-2fc7ca9775679e893fe4872dbcffa46cb35b8460/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-minid-integration-90d392e5dc565bf724a3efebbe1a8c0bca27e5dd/</link><pubDate>Wed, 09 Jul 2025 06:44:57 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-minid-integration-90d392e5dc565bf724a3efebbe1a8c0bca27e5dd/</guid><description>&lt;ul>
 &lt;li>ID-5550: fjerne BID som required AMR (#746)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
