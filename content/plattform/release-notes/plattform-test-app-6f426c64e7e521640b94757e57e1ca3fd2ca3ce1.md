@@ -1,0 +1,92 @@
+---
+title: plattform
+date: 2025-08-06T12:04:59Z
+---
+- Update README.md
+- Merge pull request #432 from felleslosningereskwor-patch-CVE-2025-24813
+- Update .trivyignore (CVE-2025-24813)
+- Merge pull request #428 from felleslosningereskwor-patch-1
+- PF-2233 Update GreetingController.java
+- Merge pull request #427 from felleslosningereskwor-patch-1
+- PF-1122 Update README.md
+- Merge pull request #426 from felleslosningereskwor-patch-1
+- PF-12345 README.md
+- Test latest label creation commits
+- More testing
+- Test step summary improvements
+- Another label creation test
+- Test improved label creation
+- Test automated GitHub label creation (cd-repo)
+- Actually test new PR approve and merge fix
+- Test new PR approve and merge fix
+- Merge pull request #424 from felleslosningereskwor-patch-2
+- Update README.md
+- Update README.md
+- Merge pull request #423 from felleslosningereskwor-patch-1
+- Update README.md
+- Merge pull request #422 from felleslosningereskwor-patch-1
+- Update README.md
+- Merge pull request #421 from felleslosningereskwor-patch-1
+- Update README.md
+- Test merge and approve composite workflow again
+- Test new composite approve and merge PR workflow
+- Merge pull request #420 from felleslosningereskwor-patch-1
+- Update README.md
+- Back to main call-update-image
+- Test change
+- Update README.md
+- Revert Test NPM auth fix
+- Test NPM auth fix
+- Use correct references again
+- Ignore CVEs stopping the pipeline
+- Test new empty string check in github-workflowsci-call-update-image
+- Library upgrades
+- Test automerge fix branch
+- Another yamllint test
+- More yamllint testing
+- Use branch for testing yamllint fix
+- Test Trivy scan on Maven builds
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- More testing
+- Another test bites the dust
+- Another test
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Update README.md
+- Update README.md
+- PF-000 - Update README.md (#410)
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Update call-maventests.yml
+- Update call-maventests.yml
+- Update call-maventests.yml
+- PF-1810 Cleanup after merge to main (#401)
+- Update README.md (commit 23)
+- Check if surefire plugin downgrade fixes pipeline (#399)
+- PF-1810 Pipeline testing (#398)
+- Use new Kustomize version
+- Update README.md
+- Merge pull request #397 from felleslosningertest-ghcr
+- Testing ghcr
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Update .trivyignore
+- Update pom.xml
+- Update call-buildimage.yml
+- Update call-release.yml
+- Update call-buildimage.yml
+- Update call-buildimage.yml
+- Set PF-1709-1 as workflow branch for test
+
