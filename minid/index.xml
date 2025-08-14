@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 14 Aug 2025 06:12:53 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-63ebeff3a6639c2cd639c6d3dfd637f199a759fa/</link><pubDate>Thu, 14 Aug 2025 06:12:53 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-63ebeff3a6639c2cd639c6d3dfd637f199a759fa/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 14 Aug 2025 06:22:23 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-varsling-48f60d9a706f8fdc705dcd4e6737036d3ca3c526/</link><pubDate>Thu, 14 Aug 2025 06:22:23 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-varsling-48f60d9a706f8fdc705dcd4e6737036d3ca3c526/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2258 update github workflows (#309)&lt;/li>
+&lt;li>KRR-994 Whitelisting av mobilnummer for Altinn Core i KT (#300)&lt;/li>
+&lt;li>KRR-976 Egne epostadresser for testmiljø (#292)&lt;/li>
+&lt;li>KRR-000 Hviteliste helsenorge-app (#299)&lt;/li>
+&lt;li>KRR-981 Slår på sms-filter i kt (#296)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-63ebeff3a6639c2cd639c6d3dfd637f199a759fa/</link><pubDate>Thu, 14 Aug 2025 06:12:53 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-63ebeff3a6639c2cd639c6d3dfd637f199a759fa/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2258 update GitHub workflows (#282)&lt;/li>
 &lt;li>MIN-2258 update github workflows (#281)&lt;/li>
