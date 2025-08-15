@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 15 Aug 2025 07:05:52 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-d3a9867b83ffc05601b3c445936ee9e2c2eaf464/</link><pubDate>Fri, 15 Aug 2025 07:05:52 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-d3a9867b83ffc05601b3c445936ee9e2c2eaf464/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 15 Aug 2025 07:20:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-bfb5b4d2535b3a0faf225b6e5511cf5b3088ee2e/</link><pubDate>Fri, 15 Aug 2025 07:20:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-bfb5b4d2535b3a0faf225b6e5511cf5b3088ee2e/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-1012 Ta i bruk maven-verifier-plugin for å komme rundt surefire (#591)&lt;/li>
+&lt;li>KRR-1011 Maven-surefire-plugin 3.5.3 kjører ikke cucumber-testene (#588)&lt;/li>
+&lt;li>KRR-1009 Tjeneste for bytte av personidentifikator for 65-populasjonen (#583)&lt;/li>
+&lt;li>KRR-1008 Endringopprettelse av testdata for en bruker (#582)&lt;/li>
+&lt;li>KRR-1004 AntPathRequestMatcher er deprecated (#580)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-d3a9867b83ffc05601b3c445936ee9e2c2eaf464/</link><pubDate>Fri, 15 Aug 2025 07:05:52 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-d3a9867b83ffc05601b3c445936ee9e2c2eaf464/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-1012 Ta i bruk maven-verifier-plugin for å komme rundt surefire (#704)&lt;/li>
 &lt;li>KRR-1010 Verfikasjonsdato og valideringsdato skal ikke settes dersom (#696)&lt;/li>
