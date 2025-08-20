@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 19 Aug 2025 09:57:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-5221423e2b760b585cdfdd7a37913c518ed824da/</link><pubDate>Tue, 19 Aug 2025 09:57:26 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-5221423e2b760b585cdfdd7a37913c518ed824da/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 20 Aug 2025 06:15:55 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b43b363425b71ecc0e8f75ef2bc6a3b7478607a9/</link><pubDate>Wed, 20 Aug 2025 06:15:55 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b43b363425b71ecc0e8f75ef2bc6a3b7478607a9/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2298: Får feilmelding når NORMAL brukar prøver å bestille aktiveringsbrev i systest. 2. (#411)&lt;/li>
+&lt;li>MIN-2298: Får feilmelding når NORMAL brukar prøver å bestille aktiveringsbrev i systest (#410)&lt;/li>
+&lt;li>MIN-2298 fix cors (#408)&lt;/li>
+&lt;li>MIN-2206: web component frontend (#406)&lt;/li>
+&lt;li>MIN-2289 omskriving (#405)&lt;/li>
+&lt;li>MIN-2258 update github workflows (#401)&lt;/li>
+&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-5221423e2b760b585cdfdd7a37913c518ed824da/</link><pubDate>Tue, 19 Aug 2025 09:57:26 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-5221423e2b760b585cdfdd7a37913c518ed824da/</guid><description>&lt;ul>
 &lt;li>ID-5594: reverter log4j bump (#916)&lt;/li>
 &lt;li>ID-5593: revert tomcat bump (#915)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
