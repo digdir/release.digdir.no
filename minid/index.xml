@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 20 Aug 2025 06:15:55 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b43b363425b71ecc0e8f75ef2bc6a3b7478607a9/</link><pubDate>Wed, 20 Aug 2025 06:15:55 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b43b363425b71ecc0e8f75ef2bc6a3b7478607a9/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 20 Aug 2025 06:24:06 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-si-2cee12145882b4d4d91aaf9aea0d84f41fd9c610/</link><pubDate>Wed, 20 Aug 2025 06:24:06 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-si-2cee12145882b4d4d91aaf9aea0d84f41fd9c610/</guid><description>&lt;ul>
+&lt;li>MIN-2346 La til auditlogging og eventlogging for sendt epost (#112)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2315 Fjernet linje for automatisk utfylling av otc (#110)&lt;/li>
+&lt;li>MIN-2315 pom (#108)&lt;/li>
+&lt;li>MIN-2315 Fjernet linje for automatisk utfylling av otc (#106)&lt;/li>
+&lt;li>MIN-2302: corrected key i application-prod.yml (#102)&lt;/li>
+&lt;li>MIN-2302: ta i bruk email-tjeneste i minid-commons (#100)&lt;/li>
+&lt;li>MIN-2299 fjerne referansar til MinID i epost (#93)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b43b363425b71ecc0e8f75ef2bc6a3b7478607a9/</link><pubDate>Wed, 20 Aug 2025 06:15:55 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b43b363425b71ecc0e8f75ef2bc6a3b7478607a9/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2298: Får feilmelding når NORMAL brukar prøver å bestille aktiveringsbrev i systest. 2. (#411)&lt;/li>
 &lt;li>MIN-2298: Får feilmelding når NORMAL brukar prøver å bestille aktiveringsbrev i systest (#410)&lt;/li>
