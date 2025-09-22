@@ -1,0 +1,45 @@
+---
+title: eformidling
+date: 2025-06-05T07:14:29Z
+---
+- Merge pull request #352 from felleslosningerdependabotmavenpl.project13.maven-git-commit-id-plugin-4.9.10
+- Merge branch main into dependabotmavenpl.project13.maven-git-commit-id-plugin-4.9.10
+- Merge pull request #356 from felleslosningerdependabotmavenorg.springframework.restdocs-spring-restdocs-asciidoctor-3.0.3
+- Merge branch main into dependabotmavenorg.springframework.restdocs-spring-restdocs-asciidoctor-3.0.3
+- Merge pull request #361 from felleslosningerdependabotmavencom.github.ben-manes.caffeine-caffeine-3.2.0
+- Merge branch main into dependabotmavencom.github.ben-manes.caffeine-caffeine-3.2.0
+- Merge pull request #378 from felleslosningerdependabotmavenorg.projectlombok-lombok-1.18.38
+- Merge branch main into dependabotmavenorg.projectlombok-lombok-1.18.38
+- Merge pull request #379 from felleslosningerdependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge branch main into dependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge pull request #380 from felleslosningerdependabotmavenorg.owasp-dependency-check-maven-12.1.1
+- Merge branch main into dependabotmavenorg.owasp-dependency-check-maven-12.1.1
+- Merge pull request #382 from felleslosningerdependabotmavenorg.jvnet.jaxb-jaxb-plugin-annotate-4.0.9
+- Merge branch main into dependabotmavenorg.jvnet.jaxb-jaxb-plugin-annotate-4.0.9
+- Merge pull request #384 from felleslosningerdependabotmavencommons-io-commons-io-2.19.0
+- Merge branch main into dependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge branch main into dependabotmavenorg.owasp-dependency-check-maven-12.1.1
+- Merge branch main into dependabotmavenorg.jvnet.jaxb-jaxb-plugin-annotate-4.0.9
+- Merge branch main into dependabotmavencommons-io-commons-io-2.19.0
+- Merge pull request #388 from felleslosningerMOVE-abcd_remove-dependabot-pr-limit
+- Merge branch main into MOVE-abcd_remove-dependabot-pr-limit
+- Merge branch main into dependabotmavenpl.project13.maven-git-commit-id-plugin-4.9.10
+- Merge branch main into dependabotmavenorg.springframework.restdocs-spring-restdocs-asciidoctor-3.0.3
+- Merge branch main into dependabotmavencom.github.ben-manes.caffeine-caffeine-3.2.0
+- Merge branch main into dependabotmavenorg.projectlombok-lombok-1.18.38
+- Merge branch main into dependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge branch main into dependabotmavenorg.owasp-dependency-check-maven-12.1.1
+- Merge branch main into dependabotmavenorg.jvnet.jaxb-jaxb-plugin-annotate-4.0.9
+- Merge branch main into dependabotmavencommons-io-commons-io-2.19.0
+- Merge pull request #390 from felleslosningerdependabotmavenio.mockk-mockk-1.14.2
+- Library upgrades
+- Merge branch main into dependabotmavenpl.project13.maven-git-commit-id-plugin-4.9.10
+- Merge branch main into dependabotmavenorg.springframework.restdocs-spring-restdocs-asciidoctor-3.0.3
+- Merge branch main into dependabotmavencom.github.ben-manes.caffeine-caffeine-3.2.0
+- Merge branch main into dependabotmavenorg.projectlombok-lombok-1.18.38
+- Merge branch main into dependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge branch main into dependabotmavenorg.jvnet.jaxb-jaxb-plugin-annotate-4.0.9
+- Merge branch main into dependabotmavenorg.owasp-dependency-check-maven-12.1.1
+- MOVE-abcd: Remove Dependabot PR limit
+- Merge branch main into dependabotmavencommons-io-commons-io-2.19.0
+

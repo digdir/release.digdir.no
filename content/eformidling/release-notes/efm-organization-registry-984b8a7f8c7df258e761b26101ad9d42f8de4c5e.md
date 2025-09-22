@@ -1,0 +1,37 @@
+---
+title: eformidling
+date: 2025-06-05T07:11:04Z
+---
+- Merge pull request #74 from felleslosningerdependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge branch main into dependabotmavennet.logstash.logback-logstash-logback-encoder-8.1
+- Merge pull request #77 from felleslosningerdependabotmavenorg.wiremock-wiremock-standalone-3.13.0
+- Merge branch main into dependabotmavenorg.wiremock-wiremock-standalone-3.13.0
+- Merge pull request #86 from felleslosningerMOVE-abcd_remove-dependabot-pr-limit
+- Merge branch main into MOVE-abcd_remove-dependabot-pr-limit
+- Merge pull request #83 from felleslosningerdependabotmavenorg.webjars.npm-sweetalert2-11.22.0
+- Merge branch main into MOVE-abcd_remove-dependabot-pr-limit
+- Merge branch main into dependabotmavenorg.webjars.npm-sweetalert2-11.22.0
+- Merge pull request #79 from felleslosningerdependabotmavenorg.webjars-datatables-2.3.0
+- Merge branch main into dependabotmavenorg.webjars-datatables-2.3.0
+- Merge pull request #84 from felleslosningerdependabotmavenorg.webjars-bootstrap-5.3.6
+- Merge branch main into dependabotmavenorg.webjars-bootstrap-5.3.6
+- Merge pull request #89 from felleslosningerdependabotmavenorg.flywaydb-flyway-database-hsqldb-11.9.0
+- Merge branch main into dependabotmavenorg.flywaydb-flyway-database-hsqldb-11.9.0
+- Merge pull request #88 from felleslosningerdependabotmavenorg.apache.commons-commons-text-1.13.1
+- Library upgrades
+- Merge branch main into dependabotmavenorg.webjars-datatables-2.3.0
+- Merge branch main into dependabotmavenorg.wiremock-wiremock-standalone-3.13.0
+- Merge branch main into dependabotmavenorg.webjars.npm-sweetalert2-11.22.0
+- Merge branch main into dependabotmavenorg.webjars-bootstrap-5.3.6
+- Merge pull request #87 from felleslosningerdependabotmavenshedlock.version-6.8.0
+- MOVE-abcd: Remove Dependabot PR limit
+- Merge pull request #80 from felleslosningerMOVE-4317
+- Update spring boot version because of CVE-2025-22235
+- Update workflow setup
+- Merge pull request #69 from felleslosningerfeature-MOVE-4406
+- Update spring boot version for CVE
+- Merge pull request #68 from felleslosningerfeature-MOVE-4380
+- Merge branch main into feature-MOVE-4380
+- Added comment on potential bug in production file
+- Added comment on potential bug in production file
+
