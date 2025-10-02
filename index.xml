@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 30 Sep 2025 06:43:42 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-44aa607a2f87275196a6b128a80858e5c8234b49/</link><pubDate>Tue, 30 Sep 2025 06:43:42 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-44aa607a2f87275196a6b128a80858e5c8234b49/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 02 Oct 2025 10:47:28 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-cf01cd9f03eb117b06e7eb4881bf2e79e245a6df/</link><pubDate>Thu, 02 Oct 2025 10:47:28 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-cf01cd9f03eb117b06e7eb4881bf2e79e245a6df/</guid><description>&lt;ul>
+&lt;li>MIN-2524 missing english text (#284)&lt;/li>
+&lt;li>MIN-2238: build trigger (#283)&lt;/li>
+&lt;li>MIN-2238: Håndtere MNBS-19 fra MNUB (steg i feil rekkefølge) (#282)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2516 Netty-dependency-management (#279)&lt;/li>
+&lt;li>MIN-2516 Redis-config (#277)&lt;/li>
+&lt;li>MIN-2400 fix hibp (#275)&lt;/li>
+&lt;li>MIN-2453 sende ut sms (#268)&lt;/li>
+&lt;li>MIN-2452: Fix html-kode synlig på siden (#266)&lt;/li>
+&lt;li>MIN-2397 legge til epost validering (#263)&lt;/li>
+&lt;li>MIN-2440: håndter trace context i tråd i SseController (#260)&lt;/li>
+&lt;li>MIN-2438: Update workflows (#258)&lt;/li>
+&lt;li>MIN-2437: Legg til manglende konfig for Kafka (#257)&lt;/li>
+&lt;li>MIN-2419: fjern correlation_id, bruk trace_id (#253)&lt;/li>
+&lt;li>MIN-2394 generere eingangskode og integrere mot minid-varsling (#250)&lt;/li>
+&lt;li>MIN-2349: feil path til favicon - gir 404 (#248)&lt;/li>
+&lt;li>MIN-2354: oppdater kafka-topic (#245)&lt;/li>
+&lt;li>MIN-2332: Ønsker i Registrering er OK side når jeg registrert mobil som mfa-metode 2 (#244)&lt;/li>
+&lt;li>MIN-2332: Ønsker i Registrering er OK side når jeg registrert mobil som mfa-metode (#243)&lt;/li>
+&lt;li>MIN-2327: legg inn mulighet at registrere mobil som mfa-metode med qr-kode (#241)&lt;/li>
+&lt;li>MIN-2291: Automatic dashes in activation code when inputting manually (#234)&lt;/li>
+&lt;li>MIN-2295: Submit source to finalize (#233)&lt;/li>
+&lt;li>MIN-2269 fix MOTS registrering (#232)&lt;/li>
+&lt;li>MIN-2285 bugfix csp header (#230)&lt;/li>
+&lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-44aa607a2f87275196a6b128a80858e5c8234b49/</link><pubDate>Tue, 30 Sep 2025 06:43:42 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-44aa607a2f87275196a6b128a80858e5c8234b49/</guid><description>&lt;ul>
 &lt;li>ID-5626: oppgradere c2id til version 19.2 (#929)&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-44aa607a2f87275196a6b128a80858e5c8234b49/</link><pubDate>Mon, 29 Sep 2025 10:15:54 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-44aa607a2f87275196a6b128a80858e5c8234b49/</guid><description>&lt;ul>
 &lt;li>ID-5626: oppgradere c2id til version 19.2 (#929)&lt;/li>
