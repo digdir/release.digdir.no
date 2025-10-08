@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 08 Oct 2025 09:00:49 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-ee096168ae4db171213df2b69aea8f9661ab5cdb/</link><pubDate>Wed, 08 Oct 2025 09:00:49 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-ee096168ae4db171213df2b69aea8f9661ab5cdb/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 08 Oct 2025 10:06:06 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-5822aaa20d82e94b94c543489f39c0be4eb3e887/</link><pubDate>Wed, 08 Oct 2025 10:06:06 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-5822aaa20d82e94b94c543489f39c0be4eb3e887/</guid><description>&lt;ul>
+&lt;li>MOVE-4557: build(deps): Spring Boot 3.5.6&lt;/li>
+&lt;li>MOVE-4557: build(deps): organization-registry-client&lt;/li>
+&lt;li>MOVE-4557: fix: Extend DTO layer in Virksert&lt;/li>
+&lt;li>MOVE-4496 Updated path, test still not working.&lt;/li>
+&lt;li>MOVE-4496 Fix flaky tests, remove trailing slash and update url. 3940 tests running locally&lt;/li>
+&lt;li>MOVE-4496 All codeceptJS tests for GUI now running on local computer&lt;/li>
+&lt;li>MOVE-4557: test: Fix CodeceptJS tests&lt;/li>
+&lt;li>MOVE-4496 refine logic on triggers&lt;/li>
+&lt;li>MOVE-4496 Run codeceptjs tests based on trigger and PR to main&lt;/li>
+&lt;li>MOVE-4557: feat: Certificate response DTOs&lt;/li>
+&lt;li>MOVE-4557: feat: Verify certificate ownership before delete&lt;/li>
+&lt;li>MOVE-4557: refactor: Remove not-used methods&lt;/li>
+&lt;li>MOVE-4557: Delete the certificate&lt;/li>
+&lt;li>MOVE-4557: fix: Certificate view and API endpoint&lt;/li>
+&lt;li>MOVE-4496: test: Fix Docker test setup&lt;/li>
+&lt;li>MOVE-abcd: Remove commented lines from POM&lt;/li>
+&lt;li>MOVE-abcd: Remove Dependabot PR limit&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-ee096168ae4db171213df2b69aea8f9661ab5cdb/</link><pubDate>Wed, 08 Oct 2025 09:00:49 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-organization-registry-ee096168ae4db171213df2b69aea8f9661ab5cdb/</guid><description>&lt;ul>
 &lt;li>MOVE-4587 Organization-registry feiler etter oppgradering av asciidoctor (#118)&lt;/li>
 &lt;li>MOVE-4585 Feil referanse til production-profilen (#117)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
