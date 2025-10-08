@@ -3,6 +3,9 @@
 &lt;li>Merge branch main into dependabotmavenno.idporten-lib-maskinporten-client-5.0.0&lt;/li>
 &lt;li>Build fix&lt;/li>
 &lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-datamaintainer-d42f93143f3d380e49ebd93077a2b355e26a8ec3/</link><pubDate>Wed, 08 Oct 2025 06:29:24 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-datamaintainer-d42f93143f3d380e49ebd93077a2b355e26a8ec3/</guid><description>&lt;ul>
+&lt;li>Build fix&lt;/li>
+&lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-dde6b81920c6621539fa400611f87b61748dda6d/</link><pubDate>Wed, 08 Oct 2025 06:24:40 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-dde6b81920c6621539fa400611f87b61748dda6d/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>ID-5676: Auditlogging av access tokens (#936)&lt;/li>
