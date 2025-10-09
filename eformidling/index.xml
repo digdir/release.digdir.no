@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 09 Oct 2025 07:22:49 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-move-admin-0d57a6b315ef199e5af3be159a5567a581fa2c07/</link><pubDate>Thu, 09 Oct 2025 07:22:49 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-move-admin-0d57a6b315ef199e5af3be159a5567a581fa2c07/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 09 Oct 2025 07:26:12 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-move-admin-frontend-0d57a6b315ef199e5af3be159a5567a581fa2c07/</link><pubDate>Thu, 09 Oct 2025 07:26:12 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-move-admin-frontend-0d57a6b315ef199e5af3be159a5567a581fa2c07/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MOVE-4547 fjerne 9908 (#296)&lt;/li>
+&lt;li>MOVE-4547 Fjerne siste rester av 9908NO_ORGNR&lt;/li>
+&lt;li>MOVE-4571 Excel-eksporten av Organisasjoner viser alltid Nei for alle (#295)&lt;/li>
+&lt;li>MOVE-4571 Excel-eksporten av Organisasjoner viser alltid Nei for alle meldingstyper&lt;/li>
+&lt;li>MOVE-4566 UsageIntegration feiler pga serialnumber i sender (#294)&lt;/li>
+&lt;li>MOVE-4566 UsageIntegration feiler pga serialnumber i sender&lt;/li>
+&lt;li>MOVE-4566 UsageIntegration feiler pga serialnumber i sender&lt;/li>
+&lt;li>MOVE-4565 Rapporten takler ikke IP-log entries som har FIKS sender (#293)&lt;/li>
+&lt;li>MOVE-4565 Rapporten takler ikke IP-log entries som har FIKS sender&lt;/li>
+&lt;li>MOVE-4564 Feil i dersom roles er null i KT (#292)&lt;/li>
+&lt;li>MOVE-4564 Feil i dersom roles er null i KT&lt;/li>
+&lt;li>MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT (#291)&lt;/li>
+&lt;li>MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT&lt;/li>
+&lt;li>MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT (#290)&lt;/li>
+&lt;li>MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT&lt;/li>
+&lt;li>MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT (#289)&lt;/li>
+&lt;li>MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3 (#279)&lt;/li>
+&lt;li>Fjerner utkomentert linje&lt;/li>
+&lt;li>Fjerner Slf4j fra klasse&lt;/li>
+&lt;li>Removing CodeceptJS&lt;/li>
+&lt;li>MOVE-3304 Oppdater README for MoveAdmin&lt;/li>
+&lt;li>MOVE-3304 Oppdater README for MoveAdmin&lt;/li>
+&lt;li>Elastic fix&lt;/li>
+&lt;li>Debug logging level i dev&lt;/li>
+&lt;li>Fix broken certificates&lt;/li>
+&lt;li>Add access token to apivirksertcertificates query&lt;/li>
+&lt;li>Add access token to apivirksertcertificates query&lt;/li>
+&lt;li>Fixing websocket&lt;/li>
+&lt;li>Add access token to apivirksertcertificates query&lt;/li>
+&lt;li>CORS&lt;/li>
+&lt;li>Fix actuator endpoints&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3&lt;/li>
+&lt;li>MOVE-4318 (#278)&lt;/li>
+&lt;li>Update workflow setup (#277)&lt;/li>
+&lt;li>Use Testcontainers annotation in NotifierESIntegrationTest.java instead of manual starting and closing testcontainer (#276)&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-move-admin-0d57a6b315ef199e5af3be159a5567a581fa2c07/</link><pubDate>Thu, 09 Oct 2025 07:22:49 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-move-admin-0d57a6b315ef199e5af3be159a5567a581fa2c07/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MOVE-4547 fjerne 9908 (#296)&lt;/li>
 &lt;li>MOVE-4547 Fjerne siste rester av 9908NO_ORGNR&lt;/li>
