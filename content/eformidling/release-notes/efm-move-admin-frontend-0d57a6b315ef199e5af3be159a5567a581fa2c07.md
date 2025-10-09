@@ -1,0 +1,66 @@
+---
+title: eformidling
+date: 2025-10-09T07:26:12Z
+---
+- Library upgrades
+- MOVE-4547 fjerne 9908 (#296)
+- MOVE-4547 Fjerne siste rester av 9908NO_ORGNR
+- MOVE-4571 Excel-eksporten av Organisasjoner viser alltid Nei for alle (#295)
+- MOVE-4571 Excel-eksporten av Organisasjoner viser alltid Nei for alle meldingstyper
+- MOVE-4566 UsageIntegration feiler pga serialnumber i sender (#294)
+- MOVE-4566 UsageIntegration feiler pga serialnumber i sender
+- MOVE-4566 UsageIntegration feiler pga serialnumber i sender
+- MOVE-4565 Rapporten takler ikke IP-log entries som har FIKS sender (#293)
+- MOVE-4565 Rapporten takler ikke IP-log entries som har FIKS sender
+- MOVE-4564 Feil i dersom roles er null i KT (#292)
+- MOVE-4564 Feil i dersom roles er null i KT
+- MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT (#291)
+- MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT
+- MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT (#290)
+- MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT
+- MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT (#289)
+- MOVE-4563 Nye env variabler blir ikke eksponert for ReactJS i KT
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3 (#279)
+- Fjerner utkomentert linje
+- Fjerner Slf4j fra klasse
+- Removing CodeceptJS
+- MOVE-3304 Oppdater README for MoveAdmin
+- MOVE-3304 Oppdater README for MoveAdmin
+- Elastic fix
+- Debug logging level i dev
+- Fix broken certificates
+- Add access token to apivirksertcertificates query
+- Add access token to apivirksertcertificates query
+- Fixing websocket
+- Add access token to apivirksertcertificates query
+- CORS
+- Fix actuator endpoints
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-3660 Oppgradere efm-move-admin til Java 21 og Spring Boot 3
+- MOVE-4318 (#278)
+- Update workflow setup (#277)
+- Use Testcontainers annotation in NotifierESIntegrationTest.java instead of manual starting and closing testcontainer (#276)
+
