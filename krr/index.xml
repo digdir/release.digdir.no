@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 24 Oct 2025 06:56:47 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-a5629c5c126f7fac5b39576cb9ddbe3ff019ef39/</link><pubDate>Fri, 24 Oct 2025 06:56:47 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-a5629c5c126f7fac5b39576cb9ddbe3ff019ef39/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 24 Oct 2025 07:02:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-58173544ddc43775bc0f02c2e84f2fe8753e4693/</link><pubDate>Fri, 24 Oct 2025 07:02:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-58173544ddc43775bc0f02c2e84f2fe8753e4693/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-1034 update client config after redis rename (#666)&lt;/li>
+&lt;li>trigge pipeline&lt;/li>
+&lt;li>trigge pipeline&lt;/li>
+&lt;li>update client config after redis rename&lt;/li>
+&lt;li>KRR-1032 CVE-2025-58056 (#661)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-a5629c5c126f7fac5b39576cb9ddbe3ff019ef39/</link><pubDate>Fri, 24 Oct 2025 06:56:47 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-a5629c5c126f7fac5b39576cb9ddbe3ff019ef39/</guid><description>&lt;ul>
 &lt;li>KRR-1032 CVE-2025-58056&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-freg-gateway-e4e2edb72224d450f925079f2f2347a01ca852ce/</link><pubDate>Fri, 24 Oct 2025 06:56:39 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-freg-gateway-e4e2edb72224d450f925079f2f2347a01ca852ce/</guid><description>&lt;ul>
+&lt;li>KRR-1030 Rettet config endret readme.md (#475)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-aa16b1a2e664cea52b9dcad42d255fe7d790b13a/</link><pubDate>Wed, 15 Oct 2025 06:20:14 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-aa16b1a2e664cea52b9dcad42d255fe7d790b13a/</guid><description>&lt;ul>
 &lt;li>KRR-1031 Ny Digipost-logo (#659)&lt;/li>
