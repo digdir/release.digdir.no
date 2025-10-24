@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 24 Oct 2025 07:02:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-58173544ddc43775bc0f02c2e84f2fe8753e4693/</link><pubDate>Fri, 24 Oct 2025 07:02:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-58173544ddc43775bc0f02c2e84f2fe8753e4693/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 24 Oct 2025 08:00:29 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minid-varsling-93765ee1b48ba74cc494a0c3885235676b49cf62/</link><pubDate>Fri, 24 Oct 2025 08:00:29 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minid-varsling-93765ee1b48ba74cc494a0c3885235676b49cf62/</guid><description>&lt;ul>
+&lt;li>MIN-2561 mer feil (#360)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2561 Rettet config (#356)&lt;/li>
+&lt;li>MIN-2561 Rettet enhetstester (#355)&lt;/li>
+&lt;li>MIN-2561 Oppgradering av idporten-lib-maskinporten-client (#354)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-58173544ddc43775bc0f02c2e84f2fe8753e4693/</link><pubDate>Fri, 24 Oct 2025 07:02:38 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-58173544ddc43775bc0f02c2e84f2fe8753e4693/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-1034 update client config after redis rename (#666)&lt;/li>
 &lt;li>trigge pipeline&lt;/li>
