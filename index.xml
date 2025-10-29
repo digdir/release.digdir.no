@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 28 Oct 2025 08:15:13 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-fc3ffdfb823e3dc0e8c6c17c883db73ce43142d1/</link><pubDate>Tue, 28 Oct 2025 08:15:13 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-fc3ffdfb823e3dc0e8c6c17c883db73ce43142d1/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 29 Oct 2025 05:08:43 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-37c2d6b9604d70f409195beb4570029993acfab1/</link><pubDate>Wed, 29 Oct 2025 05:08:43 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-37c2d6b9604d70f409195beb4570029993acfab1/</guid><description>&lt;ul>
+&lt;li>MIN-2602 Ryddet så mockclients implementerer interface i stedet for å subklasse (#443)&lt;/li>
+&lt;li>MIN-2595 Oppdatert idporten-lib-maskinporten-client til 5.0.1 (#442)&lt;/li>
+&lt;li>MIN-2584 Optional boolean used to set emailmobile verified in KRR (#441)&lt;/li>
+&lt;li>MIN-2582 legge til ON DELETE CASCADE på foreign keys pluss rydde i gammal data (#440)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2471 Lagt inn linjeskift i tekster (#432)&lt;/li>
+&lt;li>MIN-2495 fix set mfa create ved tom brukar (#429)&lt;/li>
+&lt;li>MIN-2470 optional mfaMethod ved create (#428)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/minprofil-fc3ffdfb823e3dc0e8c6c17c883db73ce43142d1/</link><pubDate>Tue, 28 Oct 2025 08:15:13 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/minprofil-fc3ffdfb823e3dc0e8c6c17c883db73ce43142d1/</guid><description>&lt;ul>
 &lt;li>KRR-1039 Hindre mange samtidige deployments av MinProfil (#670)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-9db2c9c9e9d8bcce6788fb8c34c122f6754713b1/</link><pubDate>Tue, 28 Oct 2025 08:15:12 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-9db2c9c9e9d8bcce6788fb8c34c122f6754713b1/</guid><description>&lt;ul>
