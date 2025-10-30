@@ -1,0 +1,11 @@
+---
+title: eformidling
+date: 2025-10-30T08:57:53Z
+---
+- MOVE-4636 Unhandled exception after connection closed  (#312)
+- Library upgrades
+- MOVE-4636 Unhandled exception after connection closed for ExceptionWebSocketHandlerDecorator
+- MOVE-4621 Forsøker å få move-admin til å sjekke etter nye efm-common (#305)
+- MOVE-4621 Forsøker å få move-admin til å sjekke etter nye efm-commons versjoner
+- Removing netty.version override
+
