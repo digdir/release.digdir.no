@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 30 Oct 2025 07:40:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-si-a250b42a950dccddd1f8a0e9a182f8f949058419/</link><pubDate>Thu, 30 Oct 2025 07:40:38 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-si-a250b42a950dccddd1f8a0e9a182f8f949058419/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 30 Oct 2025 07:43:56 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-profile-465e44333e7cc943732f6bff947e7883f2c618ee/</link><pubDate>Thu, 30 Oct 2025 07:43:56 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-profile-465e44333e7cc943732f6bff947e7883f2c618ee/</guid><description>&lt;ul>
+&lt;li>MIN-2601 Ikke så overflødig instansiering av jwtGrantInterceptor likevel (#240)&lt;/li>
+&lt;li>MIN-2601 Skrevet om mock-clients til interfacer i stedet for subklassing (#239)&lt;/li>
+&lt;li>MIN-2591 Oppdatert idporten-lib-maskinporten-client til 5.0.1 (#238)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2560 oppdatere pekere til redis-ha (#235)&lt;/li>
+&lt;li>MIN-2560 endrer redis-pod til redis-ha (#229)&lt;/li>
+&lt;li>MIN-2447 Nullsjekk på response.krr når man setter språk. (#226)&lt;/li>
+&lt;li>MIN-2456 out of bound password field (#218)&lt;/li>
+&lt;li>MIN-2506 added data-testid to logout button (#216)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-si-a250b42a950dccddd1f8a0e9a182f8f949058419/</link><pubDate>Thu, 30 Oct 2025 07:40:38 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-si-a250b42a950dccddd1f8a0e9a182f8f949058419/</guid><description>&lt;ul>
 &lt;li>MIN-2597 Oppgraderer idporten-lib-maskinporten-client til 5.0.1 (#143)&lt;/li>
 &lt;li>MIN-2560 oppdetere peikara til redis ha (#141)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
