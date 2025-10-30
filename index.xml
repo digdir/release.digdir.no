@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 29 Oct 2025 12:59:48 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-407459cb8f481ab553d87ff96c39efbd85e12a19/</link><pubDate>Wed, 29 Oct 2025 12:59:48 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-407459cb8f481ab553d87ff96c39efbd85e12a19/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 30 Oct 2025 07:01:31 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-9d2f854c780f39b7e7ec7822cb41cbc6d329b776/</link><pubDate>Thu, 30 Oct 2025 07:01:31 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-9d2f854c780f39b7e7ec7822cb41cbc6d329b776/</guid><description>&lt;ul>
+&lt;li>MIN-2618 Rullet tilbake MIN-2361. Lagt til ekstra test. (#746)&lt;/li>
+&lt;li>MIN-2504: Prøv igjen fungerer ikke etter avslag på innlogging med app (#745)&lt;/li>
+&lt;li>MIN-2604 Skriver om MockClients til å bruke interfacer. Retter deprecated meto (#743)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2596 Oppdatert idporten-lib-maskinporten-client til 5.0.1 (#741)&lt;/li>
+&lt;li>MIN-2560 oppdatere pekere til redis-ha (#738)&lt;/li>
+&lt;li>MIN-2560 endrer bruk av redis til redis-ha (#732)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-407459cb8f481ab553d87ff96c39efbd85e12a19/</link><pubDate>Wed, 29 Oct 2025 12:59:48 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-407459cb8f481ab553d87ff96c39efbd85e12a19/</guid><description>&lt;ul>
 &lt;li>MIN-2564: Send mfa method in correct attribute (#758)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2294 Legger til personIdentifier i MINID-NOTIFICATION-36-USER-STATE-FINALIZE (#751)&lt;/li>
