@@ -1,0 +1,32 @@
+---
+title: eformidling
+date: 2025-11-04T11:03:23Z
+---
+- MOVE-4612 (#414)
+- MOVE-4612
+- MOVE-4612 (#413)
+- GravatarMOVE-4612
+- MOVE-4612
+- trivy
+- MOVE-4612
+- MOVE-4612
+- MOVE-4612
+- fiks port (#412)
+- fiks port
+- MOVE-4269 - Slå opp adresser i Norsk Helsenett (#410)
+- MOVE-4269 review kommentarer
+- fix build pipeline on pull request
+- MOVE-4534 småfiks før merge
+- MOVE-4534 småfiks før merge
+- MOVE-4534 feilhåndterig  test dekning service registry
+- MOVE-4534 feilhåndterig  test dekning service registry
+- MOVE-4268 Fail handling on EntityService  Unit test  wiremock
+- MOVE-4268 Fail handling on NhnService  Unit test  wiremock
+- MOVE-4534 failing test fix
+- MOVE-4534 lege til nhn-process og refaktorering
+- MOVE-4524 service registry lookup basert på HerID
+- MOVE-4520 hente patient informasjon fra FREG
+- Ta i bruk LookupParam fra NHN kode
+- DPH service registry entry
+- legg til DPH service record
+
