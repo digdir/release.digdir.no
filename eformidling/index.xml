@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 31 Oct 2025 10:28:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-348bc3ac78acadcf263abefbfc7756a52b21e501/</link><pubDate>Fri, 31 Oct 2025 10:28:15 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-348bc3ac78acadcf263abefbfc7756a52b21e501/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 04 Nov 2025 11:03:23 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-2fd79c930cb2ced10766b1fbe6e8e8d4d5736444/</link><pubDate>Tue, 04 Nov 2025 11:03:23 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-2fd79c930cb2ced10766b1fbe6e8e8d4d5736444/</guid><description>&lt;ul>
+&lt;li>MOVE-4612 (#414)&lt;/li>
+&lt;li>MOVE-4612&lt;/li>
+&lt;li>MOVE-4612 (#413)&lt;/li>
+&lt;li>GravatarMOVE-4612&lt;/li>
+&lt;li>MOVE-4612&lt;/li>
+&lt;li>trivy&lt;/li>
+&lt;li>MOVE-4612&lt;/li>
+&lt;li>MOVE-4612&lt;/li>
+&lt;li>MOVE-4612&lt;/li>
+&lt;li>fiks port (#412)&lt;/li>
+&lt;li>fiks port&lt;/li>
+&lt;li>MOVE-4269 - Slå opp adresser i Norsk Helsenett (#410)&lt;/li>
+&lt;li>MOVE-4269 review kommentarer&lt;/li>
+&lt;li>fix build pipeline on pull request&lt;/li>
+&lt;li>MOVE-4534 småfiks før merge&lt;/li>
+&lt;li>MOVE-4534 småfiks før merge&lt;/li>
+&lt;li>MOVE-4534 feilhåndterig test dekning service registry&lt;/li>
+&lt;li>MOVE-4534 feilhåndterig test dekning service registry&lt;/li>
+&lt;li>MOVE-4268 Fail handling on EntityService Unit test wiremock&lt;/li>
+&lt;li>MOVE-4268 Fail handling on NhnService Unit test wiremock&lt;/li>
+&lt;li>MOVE-4534 failing test fix&lt;/li>
+&lt;li>MOVE-4534 lege til nhn-process og refaktorering&lt;/li>
+&lt;li>MOVE-4524 service registry lookup basert på HerID&lt;/li>
+&lt;li>MOVE-4520 hente patient informasjon fra FREG&lt;/li>
+&lt;li>Ta i bruk LookupParam fra NHN kode&lt;/li>
+&lt;li>DPH service registry entry&lt;/li>
+&lt;li>legg til DPH service record&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-348bc3ac78acadcf263abefbfc7756a52b21e501/</link><pubDate>Fri, 31 Oct 2025 10:28:15 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-348bc3ac78acadcf263abefbfc7756a52b21e501/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MOVE-3308 Update readme to follow standard template. (#49)&lt;/li>
 &lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-move-admin-2e81aa865748eaacc39971951a91c4226bfd2446/</link><pubDate>Thu, 30 Oct 2025 08:57:53 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-move-admin-2e81aa865748eaacc39971951a91c4226bfd2446/</guid><description>&lt;ul>
