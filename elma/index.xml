@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ELMA on Release notes</title><link>https://release.digdir.no/elma/</link><description>Recent content in ELMA on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 12 Nov 2025 08:39:11 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-521fc10d4cf05f680e8d58ea2f8a918e44fa3247/</link><pubDate>Wed, 12 Nov 2025 08:39:11 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-521fc10d4cf05f680e8d58ea2f8a918e44fa3247/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ELMA on Release notes</title><link>https://release.digdir.no/elma/</link><description>Recent content in ELMA on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 20 Nov 2025 13:54:35 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-28ebbe6940bf1c0f7754697a1248063b59d91fbb/</link><pubDate>Thu, 20 Nov 2025 13:54:35 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-28ebbe6940bf1c0f7754697a1248063b59d91fbb/</guid><description>&lt;ul>
+&lt;li>MOVE-4635 Peike elma prod til redis sentinel (#656)&lt;/li>
+&lt;li>Update configmainapplication-prod.yml&lt;/li>
+&lt;li>MOVE-4635 Peike elma prod til redis sentinel, til redis ha er klart for prod&lt;/li>
+&lt;li>MOVE-4673 Opprette egen elma-test-cucumber modul (#655)&lt;/li>
+&lt;li>MOVE-4663 Ta i bruk cucumber-test-lib for eksisterende cucumber-tester (#653)&lt;/li>
+&lt;li>MOVE-4685 Downgrade tomcat embed core to fix seemingly local only pro (#654)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-521fc10d4cf05f680e8d58ea2f8a918e44fa3247/</link><pubDate>Wed, 12 Nov 2025 08:39:11 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-521fc10d4cf05f680e8d58ea2f8a918e44fa3247/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MOVE-4655 Sette read timeout riktig i ELMA (#647)&lt;/li>
 &lt;li>MOVE-4648 Bytte ut WebClient med RestClient i ELMA (#646)&lt;/li>
