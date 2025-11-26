@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 12 Nov 2025 13:04:26 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-ed9def1979378c81c3f671a9a716c17eda68ab6f/</link><pubDate>Wed, 12 Nov 2025 13:04:26 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-ed9def1979378c81c3f671a9a716c17eda68ab6f/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Nov 2025 05:11:52 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-4e9726751fd14a9369a27f55a53edb4ca0c3f6a0/</link><pubDate>Wed, 26 Nov 2025 05:11:52 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-4e9726751fd14a9369a27f55a53edb4ca0c3f6a0/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2669 varsling om inaktivitet (#464)&lt;/li>
+&lt;li>MIN-2680 dummy (#466)&lt;/li>
+&lt;li>MIN-2680 Rettet logging og lagt til tester for sletting av bruker (#465)&lt;/li>
+&lt;li>MIN-2693 indexar pluss jobb for å slette CLOSED brukarar (#460)&lt;/li>
+&lt;li>MIN-2680 Nytt endepunkt DELETE apiuser, sikret med scope minid:admin.user.write (#461)&lt;/li>
+&lt;li>MIN-2674: Rename wallet-backend - wallet-registration, mus (#458)&lt;/li>
+&lt;li>MIN-2381: Log terms of service (#457)&lt;/li>
+&lt;li>MIN-2551 slettejobb inaktive brukarar (#454)&lt;/li>
+&lt;li>MIN-2635 robustifisere last_login (#453)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-ed9def1979378c81c3f671a9a716c17eda68ab6f/</link><pubDate>Wed, 12 Nov 2025 13:04:26 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-ed9def1979378c81c3f671a9a716c17eda68ab6f/</guid><description>&lt;ul>
 &lt;li>MIN-2692: Mindre layout endringer i landingssiden (#456)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2303: Ny landingsside (#453)&lt;/li>
