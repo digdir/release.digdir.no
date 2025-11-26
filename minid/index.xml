@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Nov 2025 05:11:52 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-4e9726751fd14a9369a27f55a53edb4ca0c3f6a0/</link><pubDate>Wed, 26 Nov 2025 05:11:52 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-4e9726751fd14a9369a27f55a53edb4ca0c3f6a0/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 26 Nov 2025 06:02:01 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-6fd86dd6e12e6ee20f041f2f265cbed200cb6cda/</link><pubDate>Wed, 26 Nov 2025 06:02:01 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-6fd86dd6e12e6ee20f041f2f265cbed200cb6cda/</guid><description>&lt;ul>
+&lt;li>MIN-2711 Endrer redis-referanser i kt (#789)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2711 Endrer redis-referanser i systest (#784)&lt;/li>
+&lt;li>MIN-2680 Fjernet triksing for test (#779)&lt;/li>
+&lt;li>MIN-2680 Triksing for å teste datavasker (#778)&lt;/li>
+&lt;li>MIN-2680 Triksing for å teste datavasker (#777)&lt;/li>
+&lt;li>MIN-2695: Dato manglet i e-post brukaren får når han allerede har bestilt MinID brev (#776)&lt;/li>
+&lt;li>MIN-2673: Rename wallet-backend - wallet-registration, nub (#773)&lt;/li>
+&lt;li>MIN-2657: Update template yaml (#769)&lt;/li>
+&lt;li>MIN-2613 update RestTemplate to RestClient (#764)&lt;/li>
+&lt;li>MIN-2617 Sender rent engelskspråklig sms når bruker kommer fra minid-onthefly. Sletter RegistrationEndpoint, ActivationLetterRegistrationService og RegistrationService. (#761)&lt;/li>
+&lt;li>MIN-2583 send verified contactinfo to mus (#759)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-4e9726751fd14a9369a27f55a53edb4ca0c3f6a0/</link><pubDate>Wed, 26 Nov 2025 05:11:52 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-4e9726751fd14a9369a27f55a53edb4ca0c3f6a0/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2669 varsling om inaktivitet (#464)&lt;/li>
 &lt;li>MIN-2680 dummy (#466)&lt;/li>
