@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 27 Nov 2025 08:32:51 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b9bea268b42915826f67ebf289956e8d89ee49cd/</link><pubDate>Thu, 27 Nov 2025 08:32:51 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b9bea268b42915826f67ebf289956e8d89ee49cd/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 27 Nov 2025 11:55:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-datawasher-02b35b9e451a9ee22e1c0d1b97726555abe03351/</link><pubDate>Thu, 27 Nov 2025 11:55:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-datawasher-02b35b9e451a9ee22e1c0d1b97726555abe03351/</guid><description>&lt;ul>
+&lt;li>MIN-2571 Logger antall slettede brukere uansett, endret auditId (#410)&lt;/li>
+&lt;li>MIN-2571 Mer Spring-knoting (#409)&lt;/li>
+&lt;li>MIN-2571 Definerer AuditLoggingWashListener som bean (#408)&lt;/li>
+&lt;li>MIN-2571 Fjerner SCOPE_PROTOTYPE fra _AuditLoggingWashListener (#407)&lt;/li>
+&lt;li>MIN-2571 Auditlogger sum av slettede personer og feilende events (#406)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2680 Kalle delete i stedet for closed når person er død (#395)&lt;/li>
+&lt;li>MIN-2667 Får kall til minid-user-service til å feile (#394)&lt;/li>
+&lt;li>MIN-2667 Avbryter kjøring hvis returverdi fra en event er 4xx (#393)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b9bea268b42915826f67ebf289956e8d89ee49cd/</link><pubDate>Thu, 27 Nov 2025 08:32:51 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-b9bea268b42915826f67ebf289956e8d89ee49cd/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2587: accept terms checkbox (#461)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-32b73c0babc8509307566f81996df09820a59d7e/</link><pubDate>Wed, 26 Nov 2025 11:56:49 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-32b73c0babc8509307566f81996df09820a59d7e/</guid><description>&lt;ul>
