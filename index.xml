@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 27 Nov 2025 13:47:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-datawasher-92a44feeae97f7d44c5b8aa006a7bf109f5687f8/</link><pubDate>Thu, 27 Nov 2025 13:47:17 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-datawasher-92a44feeae97f7d44c5b8aa006a7bf109f5687f8/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 28 Nov 2025 07:02:59 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-notification-server-cd3a01cc295702be21bb97ccdfafde90c94e6a02/</link><pubDate>Fri, 28 Nov 2025 07:02:59 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-notification-server-cd3a01cc295702be21bb97ccdfafde90c94e6a02/</guid><description>&lt;ul>
+&lt;li>MIN-2725 rette namn i response nubs (#787)&lt;/li>
+&lt;li>MIN-2711 Oppdatert redis i kt (#785)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2711 Endret redis i systest (#781)&lt;/li>
+&lt;li>MIN-2656 fjerne mus kall for finduser (#770)&lt;/li>
+&lt;li>MIN-2647 brukar med status closed får ikkje logga av (#766)&lt;/li>
+&lt;li>MIN-2651 ikkje sende otc viss brukar i feil tilstand (#767)&lt;/li>
+&lt;li>MIN-2645 sjekke korrekt state i onboarding (#765)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-datawasher-92a44feeae97f7d44c5b8aa006a7bf109f5687f8/</link><pubDate>Thu, 27 Nov 2025 13:47:17 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-datawasher-92a44feeae97f7d44c5b8aa006a7bf109f5687f8/</guid><description>&lt;ul>
 &lt;li>MIN-2571 Resetter reportCounts veed finished. (#411)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-6431d854a730da2f8bb712ba331eb79811575759/</link><pubDate>Thu, 27 Nov 2025 13:30:54 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-6431d854a730da2f8bb712ba331eb79811575759/</guid><description>&lt;ul>
 &lt;li>MIN-2728 Auditlogge source (#489)&lt;/li>
