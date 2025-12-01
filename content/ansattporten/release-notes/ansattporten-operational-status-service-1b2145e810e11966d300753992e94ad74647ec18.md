@@ -1,6 +1,6 @@
 ---
 title: ansattporten
-date: 2025-10-21T10:12:56Z
+date: 2025-12-01T10:13:54Z
 ---
 - ID-5715: oppgradere til java 25 (#190)
 
