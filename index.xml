@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 06 Jan 2026 11:01:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-06c0994df8d72b66e7b220c735270992b6bdba41/</link><pubDate>Tue, 06 Jan 2026 11:01:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-06c0994df8d72b66e7b220c735270992b6bdba41/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 06 Jan 2026 11:50:56 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-d40861912b50291115e2a1955cfa1188cad517a6/</link><pubDate>Tue, 06 Jan 2026 11:50:56 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-d40861912b50291115e2a1955cfa1188cad517a6/</guid><description>&lt;ul>
+&lt;li>MOVE-4187 Sannsynlegmuleg økt forekomst av database deadlock på ny (#668)&lt;/li>
+&lt;li>Move-4311 Changes to pass Peppol Directory part of Peppols SMP testbed (#667)&lt;/li>
+&lt;li>MOVE-Update logurl for test (#666)&lt;/li>
+&lt;li>MOVE-4036 Erstatta CodeceptJS-testane i ELMA (#665)&lt;/li>
+&lt;li>MOVE-4711: elma-rest-api må sjekke sikkerhet før validering av input (#664)&lt;/li>
+&lt;li>MOVE-4476: Send notice to other users about newly created user (#662)&lt;/li>
+&lt;li>MOVE-4675 Skrive cucumber-tester for elma-rest-api (#661)&lt;/li>
+&lt;li>MOVE-4693: restapi filtering with lastModificationDate (#660)&lt;/li>
+&lt;li>Move-4311 konformitetstest vha peppol testbed (#659)&lt;/li>
+&lt;li>MOVE-4674 Skrive cucumber-tester for elma-provider (#658)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-06c0994df8d72b66e7b220c735270992b6bdba41/</link><pubDate>Tue, 06 Jan 2026 11:01:17 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-06c0994df8d72b66e7b220c735270992b6bdba41/</guid><description>&lt;ul>
 &lt;li>KRR-1094 Fjerne midlertidig utvidet logging av requests mot freg-gateway (#183)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-1090 Midlertig logging av requesten mot freg-gateway (#180)&lt;/li>
