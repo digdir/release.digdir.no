@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 08 Jan 2026 07:49:32 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-a9b94b5ab03c8586cc16bef0a1d1b22c7edc4b5d/</link><pubDate>Thu, 08 Jan 2026 07:49:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-a9b94b5ab03c8586cc16bef0a1d1b22c7edc4b5d/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kontaktregisteret on Release notes</title><link>https://release.digdir.no/krr/</link><description>Recent content in Kontaktregisteret on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 08 Jan 2026 08:05:11 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-a8a934b5b81898d385f9f52b0acc18c24a97d06b/</link><pubDate>Thu, 08 Jan 2026 08:05:11 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-oppslagstjenesten-rest-a8a934b5b81898d385f9f52b0acc18c24a97d06b/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>KRR-1060 Feil i dokumentasjion for nye hendelsetjeneste (#667)&lt;/li>
+&lt;li>KRR-1059 Skru på eventsøk i test (#665)&lt;/li>
+&lt;li>KRR-1057 Tjeneste for søk etter eventer med e-post og mobilnummer (#664)&lt;/li>
+&lt;li>KRR-1056 Lage klient mot log-event-api (#662)&lt;/li>
+&lt;li>KRR-1037 Hindre mange samtidige deployments av Oppslagstjenesten (#655)&lt;/li>
+&lt;li>KRR-1032 CVE-2025-58056 (#653)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-backend-a9b94b5ab03c8586cc16bef0a1d1b22c7edc4b5d/</link><pubDate>Thu, 08 Jan 2026 07:49:32 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-backend-a9b94b5ab03c8586cc16bef0a1d1b22c7edc4b5d/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-1062 Endre hendelsestekst for validering av e-post via kode (#789)&lt;/li>
 &lt;li>KRR-1061 Skjule eventlogging for enkelte klienter (#782)&lt;/li>
