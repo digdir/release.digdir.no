@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 16 Jan 2026 11:13:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-dfaed4c2c1307b55542231f390fc7e4c2d9c844d/</link><pubDate>Fri, 16 Jan 2026 11:13:50 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-dfaed4c2c1307b55542231f390fc7e4c2d9c844d/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 16 Jan 2026 12:20:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-53cb611bc4de50f60b3b3a9a913b6404e96e939a/</link><pubDate>Fri, 16 Jan 2026 12:20:50 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-53cb611bc4de50f60b3b3a9a913b6404e96e939a/</guid><description>&lt;ul>
+&lt;li>MOVE-4788: Refactor Spring Security configurations (#180)&lt;/li>
+&lt;li>Build(deps): bump org.jacoco:jacoco-maven-plugin from 0.8.13 to 0.8.14 (#177)&lt;/li>
+&lt;li>Build(deps): bump org.glassfish.jaxb:jaxb-core from 4.0.5 to 4.0.6 (#176)&lt;/li>
+&lt;li>Build(deps): bump org.codehaus.mojo:versions-maven-plugin&lt;/li>
+&lt;li>Build(deps): bump org.springframework.boot:spring-boot-starter-parent&lt;/li>
+&lt;li>MOVE-4745 Oppgradera VirkSert til Spring Boot 4&lt;/li>
+&lt;li>Build(deps): bump org.apache.maven.plugins:maven-release-plugin&lt;/li>
+&lt;li>Build(deps): bump org.apache.maven.plugins:maven-source-plugin&lt;/li>
+&lt;li>Build(deps): bump actionssetup-java from 4.4.0 to 5.0.0&lt;/li>
+&lt;li>Build(deps): bump network.oxalis.vefa:peppol-common from 4.1.1 to 4.2.1&lt;/li>
+&lt;li>Build(deps): bump mikepenzaction-junit-report from 4 to 6&lt;/li>
+&lt;li>Build(deps): bump commons-io:commons-io from 2.19.0 to 2.21.0&lt;/li>
+&lt;li>Build(deps): bump actionscheckout from 5 to 6&lt;/li>
+&lt;li>Build(deps): bump org.apache.maven.plugins:maven-compiler-plugin&lt;/li>
+&lt;li>MOVE-4753 Forsøker å fikse byggescriptene&lt;/li>
+&lt;li>MOVE-4753 Forsøker å fikse byggescriptene&lt;/li>
+&lt;li>MOVE-4753 Forsøker å fikse byggescriptene&lt;/li>
+&lt;li>MOVE-4753 Oppdatere byggescriptene til Virksert&lt;/li>
+&lt;li>MOVE-4753 Oppdatere byggescriptene til Virksert&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-dfaed4c2c1307b55542231f390fc7e4c2d9c844d/</link><pubDate>Fri, 16 Jan 2026 11:13:50 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-dfaed4c2c1307b55542231f390fc7e4c2d9c844d/</guid><description>&lt;ul>
 &lt;li>MOVE-4746: Some more places that needs to be updated for java 25 (#443)&lt;/li>
 &lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-05a41e0e955ca0149d7b162bc8305e24be177bf6/</link><pubDate>Fri, 16 Jan 2026 09:57:05 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-05a41e0e955ca0149d7b162bc8305e24be177bf6/</guid><description>&lt;ul>
 &lt;li>MOVE-4790 Option to fully disable Healthcare from ServiceRecordContro (#450)&lt;/li>
