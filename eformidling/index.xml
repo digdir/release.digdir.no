@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 16 Jan 2026 12:20:50 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-53cb611bc4de50f60b3b3a9a913b6404e96e939a/</link><pubDate>Fri, 16 Jan 2026 12:20:50 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-53cb611bc4de50f60b3b3a9a913b6404e96e939a/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eFormidling on Release notes</title><link>https://release.digdir.no/eformidling/</link><description>Recent content in eFormidling on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 20 Jan 2026 08:42:35 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-cf431d1ba2f5f8d2988b7accb15e72f2d53fe238/</link><pubDate>Tue, 20 Jan 2026 08:42:35 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-cf431d1ba2f5f8d2988b7accb15e72f2d53fe238/</guid><description>&lt;ul>
+&lt;li>MOVE-4215 Reduce too high cache time for ks fiks token (#452)&lt;/li>
+&lt;li>MOVE-4790 Option to fully disable Healthcare from ServiceRecordContro (#450)&lt;/li>
+&lt;li>MOVE-4790 Option to fully disable Healthcare from ServiceRecordController&lt;/li>
+&lt;li>MOVE-4688 Fjerning av driftsmiljø-spesifikke Spring-profilar (#446)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MOVE-4688 Fjerning av driftsmiljø-spesifikke Spring-profilar frå ServiceRegistry&lt;/li>
+&lt;li>MOVE-4215: Ta i bruk KS sin REST-klient for å avgjera om ei verksemd kan ta imot meldingar over SvarUT (#421)&lt;/li>
+&lt;li>MOVE-4778 SR: Slå opp mottakers prefererte skriftspråk (#444)&lt;/li>
+&lt;li>MOVE-4778 SR: Slå opp mottakers prefererte skriftspråk&lt;/li>
+&lt;li>MOVE-4778 SR: Slå opp mottakers prefererte skriftspråk&lt;/li>
+&lt;li>MOVE-4778 SR: Slå opp mottakers prefererte skriftspråk&lt;/li>
+&lt;li>MOVE-4778 SR: Slå opp mottakers prefererte skriftspråk&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-virksert-53cb611bc4de50f60b3b3a9a913b6404e96e939a/</link><pubDate>Fri, 16 Jan 2026 12:20:50 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-virksert-53cb611bc4de50f60b3b3a9a913b6404e96e939a/</guid><description>&lt;ul>
 &lt;li>MOVE-4788: Refactor Spring Security configurations (#180)&lt;/li>
 &lt;li>Build(deps): bump org.jacoco:jacoco-maven-plugin from 0.8.13 to 0.8.14 (#177)&lt;/li>
 &lt;li>Build(deps): bump org.glassfish.jaxb:jaxb-core from 4.0.5 to 4.0.6 (#176)&lt;/li>
