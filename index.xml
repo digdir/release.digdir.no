@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 26 Jan 2026 11:55:31 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-9057c18d7ee1485f42d734517ab07d290a07cc24/</link><pubDate>Mon, 26 Jan 2026 11:55:31 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-9057c18d7ee1485f42d734517ab07d290a07cc24/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 27 Jan 2026 16:26:10 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-dpv-proxy-535c4a79fb9acb8bfc39b50f8e8b0be984025b4b/</link><pubDate>Tue, 27 Jan 2026 16:26:10 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-dpv-proxy-535c4a79fb9acb8bfc39b50f8e8b0be984025b4b/</guid><description>&lt;ul>
+&lt;li>Updated todo&lt;/li>
+&lt;li>Removed K6 tests (they are moved to eformidling-tests repo)&lt;/li>
+&lt;li>Added hello world workflow and instructions&lt;/li>
+&lt;li>Switched to use more modern scenarios syntax&lt;/li>
+&lt;li>Fixing examples&lt;/li>
+&lt;li>Tests fetches token, docker tested, also fixed documentation&lt;/li>
+&lt;li>Fetch token now works with ENV variables&lt;/li>
+&lt;li>Fetch token code - first attempt&lt;/li>
+&lt;/ul></description></item><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-9057c18d7ee1485f42d734517ab07d290a07cc24/</link><pubDate>Mon, 26 Jan 2026 11:55:31 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-9057c18d7ee1485f42d734517ab07d290a07cc24/</guid><description>&lt;ul>
 &lt;li>MOVE-4820 Peike elma til ny Redis-klient (#670)&lt;/li>
 &lt;li>MOVE-4820 Peike elma til ny Redis-klient&lt;/li>
 &lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-move-admin-frontend-f387f53a036a44893693827f066db3a32a64ae20/</link><pubDate>Mon, 26 Jan 2026 09:54:40 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-move-admin-frontend-f387f53a036a44893693827f066db3a32a64ae20/</guid><description>&lt;ul>
