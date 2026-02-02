@@ -3,6 +3,10 @@
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-1133 Telleren nullstilles ved fortsett (#217)&lt;/li>
 &lt;li>KRR-1130 Mulighet til å fortsette bulk oppdatering ved feil (#216)&lt;/li>
+&lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-freg-gateway-4922be7565d31f0968d0a54e56801688a91a4ebc/</link><pubDate>Mon, 02 Feb 2026 12:15:22 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-freg-gateway-4922be7565d31f0968d0a54e56801688a91a4ebc/</guid><description>&lt;ul>
+&lt;li>MIN-2876: Legg til catalog-info.yaml for FREG-gateway i Backstage (#523)&lt;/li>
+&lt;li>KRR-1116 DecodeException ved Connection Reset (#518)&lt;/li>
+&lt;li>KRR-1114 Retry for FregClient fungerer ikke (#517)&lt;/li>
 &lt;/ul></description></item><item><title>krr</title><link>https://release.digdir.no/krr/release-notes/krr-admin-4ea8ebe228aafd2e127245105adf69551042b839/</link><pubDate>Fri, 16 Jan 2026 13:00:49 +0000</pubDate><guid>https://release.digdir.no/krr/release-notes/krr-admin-4ea8ebe228aafd2e127245105adf69551042b839/</guid><description>&lt;ul>
 &lt;li>KRR-1118 Legge til flere en org i på vegne av (#202)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
