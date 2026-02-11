@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Feb 2026 07:09:19 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-si-c5e35243f1d21ecf177654cc883cd17b55ce5e2b/</link><pubDate>Wed, 11 Feb 2026 07:09:19 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-si-c5e35243f1d21ecf177654cc883cd17b55ce5e2b/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Feb 2026 07:13:51 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-c38c53934d5146bb26007b6a935af32a0c18eed5/</link><pubDate>Wed, 11 Feb 2026 07:13:51 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-c38c53934d5146bb26007b6a935af32a0c18eed5/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-2832 moglegheit stoppe innloggingar (#793)&lt;/li>
+&lt;li>MIN-2859: Update dependencies in catalog-info.yaml (#792)&lt;/li>
+&lt;li>MIN-2859: Update catalog-info.yaml with detailed description and depe (#791)&lt;/li>
+&lt;li>MIN-2006: Oppdaterer oversettelser (#789)&lt;/li>
+&lt;li>MIN-2006: Viser nå feilmelding på samisk hvis passord ikke validerer (#788)&lt;/li>
+&lt;li>MIN-2857 Feature-switch for brukervilkår for eksisterende brukere (#787)&lt;/li>
+&lt;li>MIN-2846: Add serialVersionUID (#786)&lt;/li>
+&lt;li>MIN-2581 Sørger for å bare kalle terms en gang (#784)&lt;/li>
+&lt;li>MIN-2581 Legger til terms i SecurityConfig (#783)&lt;/li>
+&lt;li>MIN-2581 Nytt skjermbilde for brukervilkår (#782)&lt;/li>
+&lt;li>MIN-2795 support for wallet (#781)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-si-c5e35243f1d21ecf177654cc883cd17b55ce5e2b/</link><pubDate>Wed, 11 Feb 2026 07:09:19 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-si-c5e35243f1d21ecf177654cc883cd17b55ce5e2b/</guid><description>&lt;ul>
 &lt;li>MIN-2867: Add catalog-info.yaml for minid-si component (#168)&lt;/li>
 &lt;li>MIN-2850: Add serialVersionUID to MinIdSiSession (#167)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
