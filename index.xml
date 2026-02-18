@@ -2,6 +2,9 @@
 &lt;li>MIN-2911 Ekstra oversettelse (#361)&lt;/li>
 &lt;li>MIN-2911 eid.difi.no - norge.no (#360)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-15fed985ac81b670572917abd5b438b320b0a295/</link><pubDate>Wed, 18 Feb 2026 08:22:53 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-15fed985ac81b670572917abd5b438b320b0a295/</guid><description>&lt;ul>
+&lt;li>MIN-2911 Oversettelser oppdatert igjen (#803)&lt;/li>
+&lt;li>MIN-2911 eid.difi.no - norge.no (#802)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-8176eeaab8c9a71d7cc20f3ee8996fdaefd829b3/</link><pubDate>Wed, 18 Feb 2026 08:12:06 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-8176eeaab8c9a71d7cc20f3ee8996fdaefd829b3/</guid><description>&lt;ul>
 &lt;li>MIN-2936: Feil indent i application-test.yml (#481)&lt;/li>
 &lt;li>MIN-2936: Set legacy hostname to aktiveringbrev.minid.dev for systest (#480)&lt;/li>
