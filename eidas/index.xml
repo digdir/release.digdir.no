@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eIDAS on Release notes</title><link>https://release.digdir.no/eidas/</link><description>Recent content in eIDAS on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 02 Mar 2026 09:31:35 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eidas/index.xml" rel="self" type="application/rss+xml"/><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-3effbe60130d6a102ef7f451cad46bd8229866c5/</link><pubDate>Mon, 02 Mar 2026 09:31:35 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-3effbe60130d6a102ef7f451cad46bd8229866c5/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eIDAS on Release notes</title><link>https://release.digdir.no/eidas/</link><description>Recent content in eIDAS on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Mar 2026 10:06:07 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eidas/index.xml" rel="self" type="application/rss+xml"/><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-freg-gateway-36a0e8326f0f9eae76d73201b6613574f759c473/</link><pubDate>Fri, 06 Mar 2026 10:06:07 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-freg-gateway-36a0e8326f0f9eae76d73201b6613574f759c473/</guid><description>&lt;ul>
+&lt;li>KRR-1176 Endret server.port (#542)&lt;/li>
+&lt;li>KRR-1175 Endret key-alias (#541)&lt;/li>
+&lt;li>KRR-1175 Første forslag til application-efm-.yml-filer (#540)&lt;/li>
+&lt;li>PF-2275 fix: remove default value and specify for all (#539)&lt;/li>
+&lt;li>PF-2275 Variable for deployment-environment (#538)&lt;/li>
+&lt;li>MIN-2690 Oppdatert FregClientConfig og noen dependencies (#535)&lt;/li>
+&lt;li>MIN-2960 Oppdatert til Spring boot 4, Feign - Http Service Clients (#525)&lt;/li>
+&lt;li>MIN-2876: Legg til catalog-info.yaml for FREG-gateway i Backstage (#523)&lt;/li>
+&lt;/ul></description></item><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-3effbe60130d6a102ef7f451cad46bd8229866c5/</link><pubDate>Mon, 02 Mar 2026 09:31:35 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-idporten-connector-3effbe60130d6a102ef7f451cad46bd8229866c5/</guid><description>&lt;ul>
 &lt;li>remove unnecessary permissions (#223)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>fix: wrong land code Slovenia (#222)&lt;/li>
