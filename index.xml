@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Mar 2026 07:17:01 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-varsling-8d111bf795c49113fcc58dd367e70e1369ba0be6/</link><pubDate>Fri, 06 Mar 2026 07:17:01 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-varsling-8d111bf795c49113fcc58dd367e70e1369ba0be6/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Mar 2026 07:20:53 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-operational-status-service-f8aa6792870d65572cef1062efe17e5fef47824d/</link><pubDate>Fri, 06 Mar 2026 07:20:53 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-operational-status-service-f8aa6792870d65572cef1062efe17e5fef47824d/</guid><description>&lt;ul>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>SP-2084: Støtte for å hente ut både aktive og kommende statusmeldinger (#218)&lt;/li>
+&lt;li>SP-2074: Inluderer ikke lenger expired statuser (#224)&lt;/li>
+&lt;li>SP-2074: Spring boot 4 and dependabots (#223)&lt;/li>
+&lt;li>SP-1951 Peker nå til nye redis noder i prod også (#217)&lt;/li>
+&lt;li>SP-2024 Paotvers docs (#213)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-varsling-8d111bf795c49113fcc58dd367e70e1369ba0be6/</link><pubDate>Fri, 06 Mar 2026 07:17:01 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-varsling-8d111bf795c49113fcc58dd367e70e1369ba0be6/</guid><description>&lt;ul>
 &lt;li>KRR-000 Whiteliste mobilnummer i KT (#408)&lt;/li>
 &lt;li>KRR-000 Whiteliste mobilnummer i KT (#406)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
