@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 09 Mar 2026 11:54:32 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-a6db7a548e099012885b686717b81e3adc65a3c4/</link><pubDate>Mon, 09 Mar 2026 11:54:32 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-a6db7a548e099012885b686717b81e3adc65a3c4/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 09 Mar 2026 12:02:40 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-service-registry-aaaadf7bcdb5194255e18ba56289e6ab5cf02998/</link><pubDate>Mon, 09 Mar 2026 12:02:40 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-service-registry-aaaadf7bcdb5194255e18ba56289e6ab5cf02998/</guid><description>&lt;ul>
+&lt;li>MOVE-4590 Add support for new eformidling scopes (#459)&lt;/li>
+&lt;li>updated readme with pipeline info&lt;/li>
+&lt;li>MOVE-4761 Change to ci-build-image workflow run-ci (#455)&lt;/li>
+&lt;li>Move 4707 pemcertificate istedenfor dercertificate (#456)&lt;/li>
+&lt;li>MOVE-4801 HTTP header-basert feature toggle for beta-funksjoner (#453)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MOVE-4801 Støtte for HTTP header-basert feature toggle for beta-funksjonar i SR&lt;/li>
+&lt;li>MOVE-4801 Støtte for HTTP header-basert feature toggle for beta-funksjonar i SR&lt;/li>
+&lt;li>MOVE-4801 Støtte for HTTP header-basert feature toggle for beta-funksjonar i SR&lt;/li>
+&lt;li>MOVE-4707 service registry eksponerer PEM&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-backend-a6db7a548e099012885b686717b81e3adc65a3c4/</link><pubDate>Mon, 09 Mar 2026 11:54:32 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-backend-a6db7a548e099012885b686717b81e3adc65a3c4/</guid><description>&lt;ul>
 &lt;li>MIN-2987 eksponer postal_code in json (#830)&lt;/li>
 &lt;/ul></description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-c2d3b9ebb794e22eda50ff5f09cad1c9e22a7357/</link><pubDate>Mon, 09 Mar 2026 09:49:53 +0000</pubDate><guid>https://release.digdir.no/ansattporten/release-notes/ansattporten-c2id-server-c2d3b9ebb794e22eda50ff5f09cad1c9e22a7357/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
