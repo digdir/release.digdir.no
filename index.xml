@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 09 Mar 2026 13:54:09 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-a538d725c36e35c69a13499a841d2ea21b5c8000/</link><pubDate>Mon, 09 Mar 2026 13:54:09 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-a538d725c36e35c69a13499a841d2ea21b5c8000/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 09 Mar 2026 14:29:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-logstash-122c67df86736c4bcd221a26b1d92bff035db921/</link><pubDate>Mon, 09 Mar 2026 14:29:27 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-logstash-122c67df86736c4bcd221a26b1d92bff035db921/</guid><description>&lt;ul>
+&lt;li>Cleaning up unused files&lt;/li>
+&lt;li>Ignoring CVE-2025-22874&lt;/li>
+&lt;li>Running on ubuntu latest&lt;/li>
+&lt;li>More tweaking&lt;/li>
+&lt;li>Fixing syntax issue in debug step&lt;/li>
+&lt;li>Added some debugging&lt;/li>
+&lt;li>Logstash 9.0.2 trying to avoid CVEs&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MOVE-1634 Testerun av felles CI&lt;/li>
+&lt;li>Oppdatert dokumentasjon&lt;/li>
+&lt;li>Fixed tagging for tcp&lt;/li>
+&lt;li>MOVE-1634 Konfig av 3 taggede endepunkt&lt;/li>
+&lt;/ul></description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-a538d725c36e35c69a13499a841d2ea21b5c8000/</link><pubDate>Mon, 09 Mar 2026 13:54:09 +0000</pubDate><guid>https://release.digdir.no/eformidling/release-notes/efm-sr-proxy-a538d725c36e35c69a13499a841d2ea21b5c8000/</guid><description>&lt;ul>
 &lt;li>MOVE-Add dependency override for jackson because of GHSA-72hv-8253-57qq (#61)&lt;/li>
 &lt;li>MOVE-4590 Update to use new eformidling scopes (#60)&lt;/li>
 &lt;li>MOVE-4767 Harmonize pipeline (#59)&lt;/li>
