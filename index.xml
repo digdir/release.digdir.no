@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 18 Mar 2026 11:11:19 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-operational-status-service-1f888e437418a4b8976350c27b08ab14f37f6584/</link><pubDate>Wed, 18 Mar 2026 11:11:19 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-operational-status-service-1f888e437418a4b8976350c27b08ab14f37f6584/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 18 Mar 2026 12:08:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/release-notes/elma-web-30cea173c24bc8b27defe00ae360f12decfa4e51/</link><pubDate>Wed, 18 Mar 2026 12:08:17 +0000</pubDate><guid>https://release.digdir.no/elma/release-notes/elma-web-30cea173c24bc8b27defe00ae360f12decfa4e51/</guid><description>&lt;ul>
+&lt;li>MOVE-4740: Upgrade to Java 25 and Spring Boot 4 (#687)&lt;/li>
+&lt;li>MOVE-4140 Rydda i SML-konfigurasjonen (#695)&lt;/li>
+&lt;li>MOVE-4887 revert (#694)&lt;/li>
+&lt;li>MOVE-4926 Bedre feilhåndtering i SML-klienten (#693)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MOVE-4900 Fjerne tabellen service_provider_domains og all bruk av den (#686)&lt;/li>
+&lt;li>MOVE-4899 ServiceProvider skal ikke kunne bruke skjulte domener (#685)&lt;/li>
+&lt;li>MOVE-4882 Migrate from restdocs-api-spec to springdoc (#673)&lt;/li>
+&lt;li>MOVE-4887 tilpassa elma til sml insourcing hjå peppol for test miljø (#675)&lt;/li>
+&lt;li>MOVE-4898 Som administrator vil jeg kunne skjule domener (#684)&lt;/li>
+&lt;li>MOVE-4897 Forenkle ELMA sin byggepipeline (#683)&lt;/li>
+&lt;li>MOVE-4897 Forenkle ELMA sin byggepipeline (#682)&lt;/li>
+&lt;li>MOVE-4897 Forenkle ELMA sin byggepipeline (#681)&lt;/li>
+&lt;li>MOVE-4897 Forenkle ELMA sin byggepipeline (#680)&lt;/li>
+&lt;li>MOVE-4852 Feil ved registrering av nytt domene på service-provider (#679)&lt;/li>
+&lt;li>MOVE-4861 E-post om nye brukere eller ikke (#674)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-operational-status-service-1f888e437418a4b8976350c27b08ab14f37f6584/</link><pubDate>Wed, 18 Mar 2026 11:11:19 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-operational-status-service-1f888e437418a4b8976350c27b08ab14f37f6584/</guid><description>&lt;ul>
 &lt;li>SP-2143: Støtte for tags på melding, slik at man lettere kan filtrere de (#227)&lt;/li>
 &lt;/ul></description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-50bcc15a4008836247e26582bbfca17abf2d37a5/</link><pubDate>Wed, 18 Mar 2026 06:35:06 +0000</pubDate><guid>https://release.digdir.no/idporten/release-notes/idporten-c2id-server-50bcc15a4008836247e26582bbfca17abf2d37a5/</guid><description>&lt;ul>
 &lt;li>ID-6206: remove nobid:pid scope support (#1004)&lt;/li>
