@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Mar 2026 12:29:42 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-10705456b74c812f0d181ab9a25bf4152ffa1800/</link><pubDate>Tue, 24 Mar 2026 12:29:42 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-10705456b74c812f0d181ab9a25bf4152ffa1800/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Mar 2026 12:38:59 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</link><pubDate>Tue, 24 Mar 2026 12:38:59 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</guid><description>&lt;ul>
+&lt;li>MIN-2961 operational-status (#391)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-3019 update footer link to norge.no (#389)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-10705456b74c812f0d181ab9a25bf4152ffa1800/</link><pubDate>Tue, 24 Mar 2026 12:29:42 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-user-frontend-10705456b74c812f0d181ab9a25bf4152ffa1800/</guid><description>&lt;ul>
 &lt;li>MIN-2961 Byttet navn på mp-client i systest og test (#500)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-2961 Rettet klient-id for maskinporten-klient i test (#494)&lt;/li>
 &lt;li>MIN-2961 Rettet url i systest (#493)&lt;/li>
 &lt;li>MIN-2961 Viser operational status (#492)&lt;/li>
 &lt;li>MIN-3018 update to link to norge.no (#491)&lt;/li>
-&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</link><pubDate>Tue, 24 Mar 2026 12:10:36 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</guid><description>&lt;ul>
-&lt;li>MIN-2961 operational-status (#391)&lt;/li>
-&lt;li>Library upgrades&lt;/li>
-&lt;li>MIN-3019 update footer link to norge.no (#389)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-operational-status-service-1f888e437418a4b8976350c27b08ab14f37f6584/</link><pubDate>Wed, 18 Mar 2026 11:11:19 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-operational-status-service-1f888e437418a4b8976350c27b08ab14f37f6584/</guid><description>&lt;ul>
 &lt;li>SP-2143: Støtte for tags på melding, slik at man lettere kan filtrere de (#227)&lt;/li>
 &lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-profile-4153a8245aea1afc0d4828cd1e318b5c7bf4d485/</link><pubDate>Mon, 16 Mar 2026 10:01:06 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-profile-4153a8245aea1afc0d4828cd1e318b5c7bf4d485/</guid><description>&lt;ul>
