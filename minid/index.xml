@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 24 Mar 2026 12:38:59 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</link><pubDate>Tue, 24 Mar 2026 12:38:59 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 14 Apr 2026 06:11:54 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-2cbf3c84f7ed5a7e86f041abea70bb65267d9a01/</link><pubDate>Tue, 14 Apr 2026 06:11:54 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-2cbf3c84f7ed5a7e86f041abea70bb65267d9a01/</guid><description>&lt;ul>
+&lt;li>MIN-3139: Thread pool native argon2 implementation (#572)&lt;/li>
+&lt;li>MIN-3134: Add unit tests for Argon2PasswordEncoder functionality (#571)&lt;/li>
+&lt;li>MIN-3134: Add Argon2id support for password encoding and update depen (#570)&lt;/li>
+&lt;li>MIN-3132 auke antal epostar i notifiseringsjobb (#565)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-3108 Litt oppdatering (#564)&lt;/li>
+&lt;li>MIN-3064: Add JWT support and fallback logic for deleteUser endpoint (#561)&lt;/li>
+&lt;li>MIN-2966: Ny admin-endepunkt for d-nummer søk (#558)&lt;/li>
+&lt;li>MIN-2963_max_72_byte_password (#552)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</link><pubDate>Tue, 24 Mar 2026 12:38:59 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-onthefly-frontend-f70cbc5af6f1980ecf964e89d965aa1c4e9a178a/</guid><description>&lt;ul>
 &lt;li>MIN-2961 operational-status (#391)&lt;/li>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>MIN-3019 update footer link to norge.no (#389)&lt;/li>

@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 13 Apr 2026 14:12:30 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-freg-gateway-9fd747162f9fba68170b1a5edca2e5020deca1ee/</link><pubDate>Mon, 13 Apr 2026 14:12:30 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-freg-gateway-9fd747162f9fba68170b1a5edca2e5020deca1ee/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 14 Apr 2026 06:11:54 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-user-service-2cbf3c84f7ed5a7e86f041abea70bb65267d9a01/</link><pubDate>Tue, 14 Apr 2026 06:11:54 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-user-service-2cbf3c84f7ed5a7e86f041abea70bb65267d9a01/</guid><description>&lt;ul>
+&lt;li>MIN-3139: Thread pool native argon2 implementation (#572)&lt;/li>
+&lt;li>MIN-3134: Add unit tests for Argon2PasswordEncoder functionality (#571)&lt;/li>
+&lt;li>MIN-3134: Add Argon2id support for password encoding and update depen (#570)&lt;/li>
+&lt;li>MIN-3132 auke antal epostar i notifiseringsjobb (#565)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-3108 Litt oppdatering (#564)&lt;/li>
+&lt;li>MIN-3064: Add JWT support and fallback logic for deleteUser endpoint (#561)&lt;/li>
+&lt;li>MIN-2966: Ny admin-endepunkt for d-nummer søk (#558)&lt;/li>
+&lt;li>MIN-2963_max_72_byte_password (#552)&lt;/li>
+&lt;/ul></description></item><item><title>eidas</title><link>https://release.digdir.no/eidas/release-notes/eidas-freg-gateway-9fd747162f9fba68170b1a5edca2e5020deca1ee/</link><pubDate>Mon, 13 Apr 2026 14:12:30 +0000</pubDate><guid>https://release.digdir.no/eidas/release-notes/eidas-freg-gateway-9fd747162f9fba68170b1a5edca2e5020deca1ee/</guid><description>&lt;ul>
 &lt;li>Library upgrades&lt;/li>
 &lt;li>KRR-1175 Lagt til url i application-efm-prod.yml (#549)&lt;/li>
 &lt;li>KRR-1175 Rettet application-efm-prod.yml (#545)&lt;/li>
