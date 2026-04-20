@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 20 Apr 2026 06:04:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-42e4ae1f9a42934d274f1abaa1c6c25de01f6ae5/</link><pubDate>Mon, 20 Apr 2026 06:04:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-42e4ae1f9a42934d274f1abaa1c6c25de01f6ae5/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MinID on Release notes</title><link>https://release.digdir.no/minid/</link><description>Recent content in MinID on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 20 Apr 2026 06:08:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-auth-f152193d6ae96e10ff13f225e45bac7e0c509ba3/</link><pubDate>Mon, 20 Apr 2026 06:08:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-auth-f152193d6ae96e10ff13f225e45bac7e0c509ba3/</guid><description>&lt;ul>
+&lt;li>MIN-3171 Ikkje tillate å endre til det samme passordet frontend (#857)&lt;/li>
+&lt;li>Library upgrades&lt;/li>
+&lt;li>MIN-3166: Prometheus queue metric (#854)&lt;/li>
+&lt;li>MIN-3147: Fix Swagger nonce (#851)&lt;/li>
+&lt;li>MIN-3130 Fikser tomcat-versjon og trivyignore (#853)&lt;/li>
+&lt;li>MIN-3130 Returnerer feilmelding hvis epost eller mobil mangler for new-password (#848)&lt;/li>
+&lt;li>MIN-3109: Update workflow (#845)&lt;/li>
+&lt;li>MIN-3094: log.info for when queues are in use (#842)&lt;/li>
+&lt;li>MIN-2986 Oppdatert flyway-dependencies. (#838)&lt;/li>
+&lt;li>MIN-3020 update footer with links to norge.no (#832)&lt;/li>
+&lt;li>MIN-2961 Filtrerer operationalStatus basert på tags (#829)&lt;/li>
+&lt;li>MIN-2812 oppgradert oidc-server-sdk (#824)&lt;/li>
+&lt;li>MIN-2812 trivy &amp;hellip; (#822)&lt;/li>
+&lt;li>MIN-2812 Mer rydding i dependencies for å få access-log til å funke (#821)&lt;/li>
+&lt;li>MIN-2812 Retter serialisering (#816)&lt;/li>
+&lt;li>MIN-2812 mer serialisering (#815)&lt;/li>
+&lt;li>MIN-2812 Retter serialisering (#814)&lt;/li>
+&lt;li>MIN-2812 Oppdatert til Spring boot 4 (#811)&lt;/li>
+&lt;/ul></description></item><item><title>minid</title><link>https://release.digdir.no/minid/release-notes/minid-new-password-42e4ae1f9a42934d274f1abaa1c6c25de01f6ae5/</link><pubDate>Mon, 20 Apr 2026 06:04:41 +0000</pubDate><guid>https://release.digdir.no/minid/release-notes/minid-new-password-42e4ae1f9a42934d274f1abaa1c6c25de01f6ae5/</guid><description>&lt;ul>
 &lt;li>MIN-3171 ikkje tillate å bytte til det gamle passordet (#407)&lt;/li>
 &lt;li>MIN-3130 Mer trivyignore og pom.xml (#406)&lt;/li>
 &lt;li>MIN-3130 Returnerer MinIDProblem hvis det er problemer (#401)&lt;/li>
