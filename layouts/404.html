@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="not-found">
+    <p class="not-found__code">404</p>
+    <h1 class="ds-heading" data-size="xl">Siden ble ikke funnet</h1>
+    <p class="ds-paragraph" data-size="md">
+      Siden du leter etter finnes ikke eller har blitt flyttet.
+    </p>
+    <a href="{{ "/" | relURL }}" class="ds-button" data-variant="secondary">← Tilbake til forsiden</a>
+  </div>
+{{ end }}

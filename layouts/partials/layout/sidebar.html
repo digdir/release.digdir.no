@@ -1,0 +1,24 @@
+<aside class="site-sidebar" id="site-sidebar" aria-label="Produktnavigasjon" inert>
+  <nav>
+    <p class="sidebar-nav__title ds-heading" data-size="2xs">Produkter</p>
+    <ul class="sidebar-nav__list">
+      <li class="sidebar-nav__item">
+        <a href="{{ "/" | relURL }}"
+           {{ if .IsHome }}aria-current="page"{{ end }}>
+          Alle
+        </a>
+      </li>
+      {{ range hugo.Data.products }}
+      {{ $productURL := printf "/%s/" .slug | relURL }}
+      {{ $isCurrentSection := eq $.Page.Section .slug }}
+      {{ $isCurrentPage := eq $.Page.RelPermalink $productURL }}
+      <li class="sidebar-nav__item">
+        <a href="{{ $productURL }}"
+           {{ if or $isCurrentSection $isCurrentPage }}aria-current="page"{{ end }}>
+          {{ .name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</aside>

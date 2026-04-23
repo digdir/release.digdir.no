@@ -1,7 +1,4 @@
 ---
 title: Release notes
-label_color: stone
-menu:
-  main:
-    name: Alle
+description: "Gir beskrivelse av endringer og feilrettinger som er gjort i fellesløsningene."
 ---

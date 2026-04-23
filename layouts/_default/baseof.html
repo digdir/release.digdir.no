@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "nb" }}" data-color-scheme="light" data-color="neutral">
+<head>
+  {{ partial "layout/head.html" . }}
+</head>
+<body data-size="sm">
+  <a href="#main-content" class="ds-skip-link">Hopp til hovedinnhold</a>
+
+  {{ partial "layout/header.html" . }}
+
+  <div class="page-wrapper">
+    {{ partial "layout/sidebar.html" . }}
+
+    <main id="main-content" class="site-main">
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+
+  {{ partial "layout/footer.html" . }}
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('sidebar-toggle');
+      var sidebar = document.getElementById('site-sidebar');
+      if (!toggle || !sidebar) return;
+
+      var mq = window.matchMedia('(min-width: 992px)');
+
+      function isDesktop() { return mq.matches; }
+
+      function openSidebar() {
+        sidebar.classList.add('is-open');
+        sidebar.removeAttribute('inert');
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', 'Lukk navigasjonsmeny');
+      }
+
+      function closeSidebar() {
+        sidebar.classList.remove('is-open');
+        if (!isDesktop()) sidebar.setAttribute('inert', '');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Åpne navigasjonsmeny');
+      }
+
+      function syncInert() {
+        if (isDesktop()) {
+          sidebar.removeAttribute('inert');
+        } else if (!sidebar.classList.contains('is-open')) {
+          sidebar.setAttribute('inert', '');
+        }
+      }
+
+      mq.addEventListener('change', syncInert);
+      syncInert();
+
+      toggle.addEventListener('click', function() {
+        if (sidebar.classList.contains('is-open')) {
+          closeSidebar();
+        } else {
+          openSidebar();
+        }
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && sidebar.classList.contains('is-open')) {
+          closeSidebar();
+          toggle.focus();
+        }
+      });
+
+      document.addEventListener('click', function(e) {
+        if (sidebar.classList.contains('is-open') && !sidebar.contains(e.target) && !toggle.contains(e.target)) {
+          closeSidebar();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

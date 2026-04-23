@@ -40,7 +40,8 @@ jobs:
             const fileContent = templateFile
               .replace('<title>', '${{ github.event.client_payload.title }}')
               .replace('<date>', '${{ github.event.client_payload.date }}')
-              .replace('<issues>', releaseNotes);
+              .replace('<issues>', releaseNotes)
+              .replace('<product>', '${{ github.event.client_payload.product }}');
 
             fs.writeFileSync(filePath, fileContent, 'utf8');
 

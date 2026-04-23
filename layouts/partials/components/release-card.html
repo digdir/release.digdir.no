@@ -1,0 +1,27 @@
+<li>
+  {{ $sectionPage := .Site.GetPage (printf "/%s" .Section) }}
+  {{ $title := .Title }}
+  {{ if and $sectionPage $sectionPage.Title }}
+    {{ $title = $sectionPage.Title }}
+  {{ end }}
+
+  <a href="{{ .RelPermalink }}" class="ds-card release-card-wrapper" data-color="neutral">
+    <div class="ds-card__block">
+
+      <h2 class="ds-heading release-card__title" data-size="sm">{{ $title }}</h2>
+
+      <p class="ds-paragraph release-card__date" data-size="sm">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "2. January 2006" }}
+        </time>
+      </p>
+
+      <hr class="ds-divider release-card__divider" aria-hidden="true">
+
+      <div class="release-detail__content">
+        {{ .Content }}
+      </div>
+
+    </div>
+  </a>
+</li>
