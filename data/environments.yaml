@@ -1,0 +1,7 @@
+- slug: kt-notes
+  displayName: "Test"
+  color: warning
+
+- slug: prod-notes
+  displayName: "Produksjon"
+  color: success

@@ -1,5 +1,10 @@
 {{ define "main" }}
-  <h1 class="ds-heading page-title" data-size="xl">{{ .Title }}</h1>
+  {{- $isEnvSection := and (not .IsHome) (not .Parent.IsHome) -}}
+  {{- $displayTitle := .Title -}}
+  {{- if $isEnvSection -}}
+    {{- $displayTitle = .Parent.Title -}}
+  {{- end -}}
+  <h1 class="ds-heading page-title" data-size="xl">{{ $displayTitle }}</h1>
 
   {{ if .IsHome }}
     {{ with .Description }}
@@ -15,78 +20,21 @@
   {{ $paginator := .Paginate $rawPages }}
 
   {{ if $paginator.Pages }}
+
+    {{ partial "components/env-filter.html" . }}
+
     <ul class="release-list">
       {{ range $index, $page := $paginator.Pages }}
         {{ if $.IsHome }}
-          {{ partial "components/release-card.html" $page }}
+          {{ partial "components/release-card.html" (dict "Page" $page "ShowTitle" true) }}
         {{ else }}
           {{ $isLatest := and (eq $index 0) (eq $paginator.PageNumber 1) }}
-          {{ partial "components/release-inline-card.html" (dict "Page" $page "IsLatest" $isLatest) }}
+          {{ partial "components/release-card.html" (dict "Page" $page "IsLatest" $isLatest) }}
         {{ end }}
       {{ end }}
     </ul>
 
-    {{ if gt $paginator.TotalPages 1 }}
-      {{ $cur := $paginator.PageNumber }}
-      {{ $tot := $paginator.TotalPages }}
-      {{ $win := 4 }}
-      {{ $lo := math.Max 1 (sub $cur $win) }}
-      {{ $hi := math.Min $tot (add $cur $win) }}
-
-      <div class="pagination-wrapper">
-        <ds-pagination>
-          <nav class="pagination-nav" aria-label="Sidenavigasjon">
-
-            {{ if $paginator.HasPrev }}
-              <a href="{{ $paginator.Prev.URL }}" class="pagination-nav__page pagination-nav__prev" rel="prev">← Forrige</a>
-            {{ else }}
-              <span class="pagination-nav__page pagination-nav__prev pagination-nav__disabled" aria-disabled="true">← Forrige</span>
-            {{ end }}
-
-            <span class="pagination-nav__mobile-info" aria-hidden="true">{{ $cur }} / {{ $tot }}</span>
-
-            {{ $first := index $paginator.Pagers 0 }}
-            {{ if eq $first $paginator }}
-              <span class="pagination-nav__page" aria-current="page">1</span>
-            {{ else }}
-              <a href="{{ $first.URL }}" class="pagination-nav__page">1</a>
-            {{ end }}
-
-            {{ if gt $lo 2 }}
-              <span class="pagination-nav__ellipsis">…</span>
-            {{ end }}
-
-            {{ range $paginator.Pagers }}
-              {{ if and (gt .PageNumber 1) (lt .PageNumber $tot) (ge .PageNumber $lo) (le .PageNumber $hi) }}
-                {{ if eq . $paginator }}
-                  <span class="pagination-nav__page" aria-current="page">{{ .PageNumber }}</span>
-                {{ else }}
-                  <a href="{{ .URL }}" class="pagination-nav__page">{{ .PageNumber }}</a>
-                {{ end }}
-              {{ end }}
-            {{ end }}
-
-            {{ if lt $hi (sub $tot 1) }}
-              <span class="pagination-nav__ellipsis">…</span>
-            {{ end }}
-
-            {{ $last := index $paginator.Pagers (sub $tot 1) }}
-            {{ if eq $last $paginator }}
-              <span class="pagination-nav__page" aria-current="page">{{ $tot }}</span>
-            {{ else }}
-              <a href="{{ $last.URL }}" class="pagination-nav__page">{{ $tot }}</a>
-            {{ end }}
-
-            {{ if $paginator.HasNext }}
-              <a href="{{ $paginator.Next.URL }}" class="pagination-nav__page pagination-nav__next" rel="next">Neste →</a>
-            {{ else }}
-              <span class="pagination-nav__page pagination-nav__next pagination-nav__disabled" aria-disabled="true">Neste →</span>
-            {{ end }}
-
-          </nav>
-        </ds-pagination>
-      </div>
-    {{ end }}
+    {{ partial "components/pagination.html" $paginator }}
 
   {{ else }}
     {{ partial "components/empty-state.html" . }}

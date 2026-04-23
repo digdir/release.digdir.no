@@ -37,6 +37,14 @@ jobs:
             printf -- "---\ntitle: %s\n---\n" "${PRODUCT}" > "$INDEX_FILE"
           fi
 
+          # Create _index.md for the env-notes section if it does not exist.
+          # Hugo requires this file to register the directory as a section,
+          # which enables the env-filter buttons (e.g. Test / Produksjon) on the product page.
+          NOTES_INDEX="${{ github.workspace }}/content/${PRODUCT}/${NOTES_FOLDER}/_index.md"
+          if [ ! -f "$NOTES_INDEX" ]; then
+            printf -- "---\n---\n" > "$NOTES_INDEX"
+          fi
+
           # Add the product to data/products.yaml for sidebar navigation if not already present.
           # Update the 'name' field manually for a better display name, e.g. "ID-porten" instead of "idporten".
           YAML_FILE="${{ github.workspace }}/data/products.yaml"

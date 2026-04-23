@@ -1,0 +1,23 @@
+{{- /*
+  Renders an environment badge (ds-tag) based on which *-notes subfolder
+  the page lives in.
+
+  Usage: {{ partial "components/env-badge.html" $page }}
+
+  The partial derives the environment slug from the file path:
+    content/idporten/prod-notes/file.md  →  "prod-notes"
+    content/krr/kt-notes/file.md         →  "kt-notes"
+*/ -}}
+{{- $page := . -}}
+{{- $parts := split $page.File.Dir "/" -}}
+{{- $envSlug := "" -}}
+{{- if ge (len $parts) 2 -}}
+  {{- $envSlug = index $parts 1 -}}
+{{- end -}}
+{{- if $envSlug -}}
+  {{- range hugo.Data.environments -}}
+    {{- if eq .slug $envSlug -}}
+      <span class="ds-tag env-badge" data-color="{{ .color }}" data-size="sm">{{ .displayName }}</span>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

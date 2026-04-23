@@ -213,25 +213,30 @@ a {
 }
 
 
-/* Release cards — shared hover state */
+/* Release card */
 
-.release-card-wrapper,
-.release-inline-card {
+.release-card {
   color: var(--ds-color-text-default, #292C30);
 }
 
-.release-card-wrapper:hover,
-.release-inline-card:hover {
+.release-card:hover {
   background-color: #dce8f5 !important;
   box-shadow: inset 0 0 0 2px var(--digdir-color-primary) !important;
   color: var(--ds-color-text-default, #292C30);
 }
 
-
-/* Release card (home/list view) */
+.release-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--ds-size-2, 8px);
+  margin-bottom: var(--ds-size-2, 8px);
+}
 
 .release-card__title {
-  margin: 0 0 var(--ds-size-2, 8px);
+  margin: 0;
+  flex: 1;
+  min-width: 0;
 }
 
 .release-card__date {
@@ -239,34 +244,36 @@ a {
   color: var(--ds-color-text-subtle);
 }
 
-.release-card__divider {
-  margin: var(--ds-size-3, 12px) 0;
-}
-
-
-/* Release inline card (section view) */
-
-.release-inline-card__header {
+.release-card__badges {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: var(--ds-size-3, 12px);
+  gap: var(--ds-size-1, 4px);
+  flex-shrink: 0;
 }
 
-.release-inline-card__badge,
+.release-card__badge--latest,
 .release-detail__badge {
   background-color: var(--digdir-color-primary) !important;
   color: #ffffff !important;
   flex-shrink: 0;
 }
 
-.release-inline-card__date {
-  margin: 0;
-  color: var(--ds-color-text-subtle);
+.release-card__divider {
+  margin: var(--ds-size-3, 12px) 0;
+}
+
+/* Compact variant — product section view: date + badges in header, no product title */
+
+.release-card--compact .release-card__header {
+  align-items: center;
+  margin-bottom: var(--ds-size-3, 12px);
+}
+
+.release-card--compact .release-card__date {
   font-weight: 600;
 }
 
-.release-inline-card__divider {
+.release-card--compact .release-card__divider {
   margin: 0 0 var(--ds-size-4, 16px);
 }
 
@@ -537,7 +544,89 @@ a {
 }
 
 
-/* Responsive */
+/* ── Environment Badges ──────────────────────────────────────── */
+
+.env-badge {
+  flex-shrink: 0;
+}
+
+
+/* ── Environment Filter Toolbar ─────────────────────────────── */
+
+.env-filter-toolbar {
+  margin-bottom: var(--ds-size-5, 20px);
+}
+
+.env-filter__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ds-size-2, 8px);
+  align-items: center;
+}
+
+.env-filter__btn {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 var(--ds-size-3, 12px);
+  border-radius: var(--ds-border-radius-full, 9999px);
+  border: 1.5px solid var(--ds-color-border-default, #bdc5cf);
+  background: var(--ds-color-surface-default, #ffffff);
+  color: var(--ds-color-text-default, #292C30);
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+  white-space: nowrap;
+  line-height: 1;
+  user-select: none;
+}
+
+.env-filter__btn:hover {
+  background: var(--ds-color-surface-hover, #e9eef7);
+  border-color: var(--digdir-color-primary);
+  color: var(--digdir-color-primary);
+}
+
+/* Active / current state — neutral primary by default */
+.env-filter__btn--active,
+.env-filter__btn[aria-current="page"] {
+  background: var(--digdir-color-primary);
+  border-color: var(--digdir-color-primary);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.env-filter__btn--active:hover,
+.env-filter__btn[aria-current="page"]:hover {
+  background: #153361;
+  border-color: #153361;
+  color: #ffffff;
+}
+
+/* Env-specific active colours — match Designsystemet data-color tokens */
+.env-filter__btn[data-env-color="success"].env-filter__btn--active,
+.env-filter__btn[data-env-color="success"][aria-current="page"] {
+  background: var(--ds-color-success-base-default, #2b7a3e);
+  border-color: var(--ds-color-success-base-default, #2b7a3e);
+}
+
+.env-filter__btn[data-env-color="warning"].env-filter__btn--active,
+.env-filter__btn[data-env-color="warning"][aria-current="page"] {
+  background: var(--ds-color-warning-base-default, #c05e0c);
+  border-color: var(--ds-color-warning-base-default, #c05e0c);
+}
+
+.env-filter__btn[data-env-color="info"].env-filter__btn--active,
+.env-filter__btn[data-env-color="info"][aria-current="page"] {
+  background: var(--ds-color-info-base-default, #0a5bb5);
+  border-color: var(--ds-color-info-base-default, #0a5bb5);
+}
+
+
+/* ── Responsive */
 
 @media (min-width: 600px) {
   .site-footer__grid {

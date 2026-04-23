@@ -1,0 +1,39 @@
+{{ define "main" }}
+  {{- $home := .Site.Home -}}
+
+  <h1 class="ds-heading page-title" data-size="xl">{{ $home.Title }}</h1>
+
+  {{ with $home.Description }}
+    <p class="ds-paragraph page-description" data-size="md">{{ . }}</p>
+  {{ end }}
+
+  {{/* Collect all release pages for this env across all products.
+       A release page lives at content/{product}/{env-slug}/{release}.md,
+       so .File.Dir = "{product}/{env-slug}/" and index 1 = env-slug. */}}
+  {{- $envSlug := .Section -}}
+  {{- $envPages := slice -}}
+  {{- range .Site.RegularPages -}}
+    {{- $parts := split .File.Dir "/" -}}
+    {{- if and (ge (len $parts) 2) (eq (index $parts 1) $envSlug) -}}
+      {{- $envPages = $envPages | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $paginator := .Paginate (sort $envPages "Date" "desc") -}}
+
+  {{ if $paginator.Pages }}
+
+    {{ partial "components/env-filter.html" . }}
+
+    <ul class="release-list">
+      {{ range $paginator.Pages }}
+        {{ partial "components/release-card.html" (dict "Page" . "ShowTitle" true) }}
+      {{ end }}
+    </ul>
+
+    {{ partial "components/pagination.html" $paginator }}
+
+  {{ else }}
+    {{ partial "components/empty-state.html" . }}
+  {{ end }}
+{{ end }}
