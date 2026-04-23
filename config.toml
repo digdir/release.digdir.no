@@ -8,9 +8,6 @@ paginate = 10
   logoAlt = "Digdir logo"
   siteDescription = "Gir beskrivelse av endringer og feilrettinger som er gjort i fellesløsningene."
 
-[taxonomies]
-  product = "products"
-
 [markup]
   defaultMarkdownHandler = 'goldmark'
   [markup.goldmark]
@@ -24,5 +21,3 @@ paginate = 10
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
-  taxonomy = ["HTML"]
-  term = ["HTML", "RSS"]

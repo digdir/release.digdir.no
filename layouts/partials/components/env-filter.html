@@ -2,7 +2,7 @@
 {{- $isHome := .IsHome -}}
 
 {{/* Detect env-aggregate page: a top-level section whose slug matches one of the env slugs.
-     e.g. /prod-notes/, /kt-notes/, /systest-notes/ */}}
+     e.g. /prod-releases/, /kt-releases/, /systest-releases/ */}}
 {{- $isEnvAggregate := false -}}
 {{- if and (not $isHome) $currentPage.Parent.IsHome -}}
   {{- range hugo.Data.environments -}}
@@ -53,7 +53,7 @@
 {{- else -}}
 
 {{/* Product section: link-based navigation between a product's env sub-sections.
-     Shown on both the product root (/idporten/) and any env sub-section (/idporten/prod-notes/).
+     Shown on both the product root (/idporten/) and any env sub-section (/idporten/prod-releases/).
      Only rendered when the product has more than one env sub-section. */}}
 {{- $isEnvSection := and (not .IsHome) (not .Parent.IsHome) -}}
 {{- $productPage := . -}}
