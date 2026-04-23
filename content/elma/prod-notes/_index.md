@@ -1,0 +1,4 @@
+---
+aliases:
+  - /elma/release-notes/
+---

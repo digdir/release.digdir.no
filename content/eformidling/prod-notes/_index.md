@@ -1,0 +1,4 @@
+---
+aliases:
+  - /eformidling/release-notes/
+---

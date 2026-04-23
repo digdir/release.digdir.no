@@ -1,0 +1,4 @@
+---
+aliases:
+  - /eidas/release-notes/
+---
