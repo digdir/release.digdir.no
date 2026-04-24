@@ -18,6 +18,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
 
+      - name: Write GitHub client payload to summary
+        uses: felleslosninger/github-workflows/.github/actions/json-to-summary@main
+        with:
+          json-payload: ${{ toJson(github.event.client_payload) }}
+          title: "GitHub Client Payload (update-release-notes-2)"
+
       - run: |
           mkdir -p ${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/
 
