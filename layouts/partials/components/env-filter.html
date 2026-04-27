@@ -2,7 +2,7 @@
 {{- $isHome := .IsHome -}}
 
 {{/* Detect env-aggregate page: a top-level section whose slug matches one of the env slugs.
-     e.g. /prod-releases/, /kt-releases/, /systest-releases/ */}}
+     e.g. /prod-releases/, /test-releases/, /systest-releases/ */}}
 {{- $isEnvAggregate := false -}}
 {{- if and (not $isHome) $currentPage.Parent.IsHome -}}
   {{- range hugo.Data.environments -}}

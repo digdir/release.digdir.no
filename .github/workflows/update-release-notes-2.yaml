@@ -23,6 +23,8 @@ jobs:
           PRODUCT="${{ github.event.client_payload.product }}"
           # Use {environment}-releases/ as folder name. Falls back to prod-releases/ if environment is not set (backward compatible).
           ENV="${{ github.event.client_payload.environment }}"
+          # Map 'kt' to 'test' for internal consistency
+          ENV="${ENV//kt/test}"
           # Falls back to prod-releases/ if environment is not set in the payload (e.g. older versions of publish-release-notes that do not include this field).
           NOTES_FOLDER="${ENV:-prod}-releases"
           echo "NOTES_FOLDER=${NOTES_FOLDER}" >> $GITHUB_ENV

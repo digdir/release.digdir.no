@@ -5,8 +5,8 @@
   Usage: {{ partial "components/env-badge.html" $page }}
 
   The partial derives the environment slug from the file path:
-    content/idporten/prod-releases/file.md  →  "prod-releases"
-    content/krr/kt-releases/file.md         →  "kt-releases"
+    content/idporten/prod-releases/file.md    →  "prod-releases"
+    content/krr/test-releases/file.md         →  "test-releases"
 */ -}}
 {{- $page := . -}}
 {{- $parts := split $page.File.Dir "/" -}}
