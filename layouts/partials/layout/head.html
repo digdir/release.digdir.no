@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.siteDescription }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@digdir/designsystemet-css@1.13.2/dist/src/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@digdir/designsystemet-css@1.13.2/dist/theme/designsystemet.css">
+
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@digdir/designsystemet-web@1.13.2/dist/esm/index.js"></script>
+
+<link rel="icon" type="image/png" href="{{ "/images/digdir_positiv.png" | relURL }}">

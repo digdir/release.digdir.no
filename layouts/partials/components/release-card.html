@@ -1,0 +1,71 @@
+{{/*
+  Unified release card component.
+
+  Usage — aggregate / home view (shows product title):
+    {{ partial "components/release-card.html" (dict "Page" $page "ShowTitle" true) }}
+
+  Usage — product section view (date header, optional "Siste versjon" badge):
+    {{ partial "components/release-card.html" (dict "Page" $page "IsLatest" $isLatest) }}
+
+  Parameters:
+    Page      (required) — the release page object
+    ShowTitle (bool, default false) — true renders product title + env badge in header
+    IsLatest  (bool, default false) — true adds "Siste versjon" badge (only relevant when ShowTitle=false)
+*/}}
+{{- $page      := .Page -}}
+{{- $showTitle := .ShowTitle | default false -}}
+{{- $isLatest  := .IsLatest  | default false -}}
+
+{{/* Env slug from file path: content/{product}/{env-slug}/{release}.md → index 1 = env-slug */}}
+{{- $parts   := split $page.File.Dir "/" -}}
+{{- $envSlug := "" -}}
+{{- if ge (len $parts) 2 -}}
+  {{- $envSlug = index $parts 1 -}}
+{{- end -}}
+
+<li{{ if $envSlug }} data-env="{{ $envSlug }}"{{ end }}>
+  <a href="{{ $page.RelPermalink }}"
+     class="ds-card release-card{{ if not $showTitle }} release-card--compact{{ end }}"
+     data-color="neutral">
+    <div class="ds-card__block">
+
+      <div class="release-card__header">
+        {{- if $showTitle -}}
+          {{/* Aggregate / home: product title on left, env badge on right */}}
+          {{- $section := $page.Site.GetPage (printf "/%s" $page.Section) -}}
+          <h2 class="ds-heading release-card__title" data-size="sm">
+            {{- $section.Title | default $page.Title -}}
+          </h2>
+          {{ partial "components/env-badge.html" $page }}
+        {{- else -}}
+          {{/* Product section: date on left, badges on right */}}
+          <time class="ds-paragraph release-card__date" data-size="sm"
+                datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{- partial "helpers/date-no.html" $page.Date -}} kl {{ $page.Date.Format "15:04" }} UTC
+          </time>
+          <div class="release-card__badges">
+            {{ partial "components/env-badge.html" $page }}
+            {{- if $isLatest -}}
+              <span class="ds-tag release-card__badge--latest" data-size="sm">Siste versjon</span>
+            {{- end -}}
+          </div>
+        {{- end -}}
+      </div>
+
+      {{- if $showTitle -}}
+        <p class="ds-paragraph release-card__date" data-size="sm">
+          <time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{- partial "helpers/date-no.html" $page.Date -}} kl {{ $page.Date.Format "15:04" }} UTC
+          </time>
+        </p>
+      {{- end -}}
+
+      <hr class="ds-divider release-card__divider" aria-hidden="true">
+
+      <div class="release-detail__content">
+        {{ $page.Content }}
+      </div>
+
+    </div>
+  </a>
+</li>

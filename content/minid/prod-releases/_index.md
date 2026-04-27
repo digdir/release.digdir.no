@@ -1,0 +1,4 @@
+---
+aliases:
+  - /minid/release-notes/
+---

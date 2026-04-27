@@ -1,0 +1,4 @@
+---
+aliases:
+  - /ansattporten/release-notes/
+---

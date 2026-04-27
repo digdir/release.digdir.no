@@ -1,0 +1,98 @@
+{{- $currentPage := . -}}
+{{- $isHome := .IsHome -}}
+
+{{/* Detect env-aggregate page: a top-level section whose slug matches one of the env slugs.
+     e.g. /prod-releases/, /test-releases/, /systest-releases/ */}}
+{{- $isEnvAggregate := false -}}
+{{- if and (not $isHome) $currentPage.Parent.IsHome -}}
+  {{- range hugo.Data.environments -}}
+    {{- if eq .slug $currentPage.Section -}}
+      {{- $isEnvAggregate = true -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if or $isHome $isEnvAggregate -}}
+
+{{/* Home / env-aggregate: link-based navigation between environments.
+     "Alle" links to home (/), each env links to its aggregate page. */}}
+<nav class="env-filter-toolbar" aria-label="Filtrer etter miljø">
+  <div class="env-filter__group">
+    {{- $allActive := $isHome -}}
+    <a href="/"
+       class="env-filter__btn{{ if $allActive }} env-filter__btn--active{{ end }}"
+       {{- if $allActive }} aria-current="page"{{ end }}>
+      Alle
+    </a>
+    {{- range hugo.Data.environments -}}
+      {{- $envPage := site.GetPage (printf "/%s" .slug) -}}
+      {{- if $envPage -}}
+        {{/* Only show this env button if at least one release exists for it */}}
+        {{- $thisSlug := .slug -}}
+        {{- $hasData := false -}}
+        {{- range site.RegularPages -}}
+          {{- $parts := split .File.Dir "/" -}}
+          {{- if and (ge (len $parts) 2) (eq (index $parts 1) $thisSlug) -}}
+            {{- $hasData = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $hasData -}}
+          {{- $active := eq $currentPage.Section .slug -}}
+          <a href="{{ $envPage.RelPermalink }}"
+             class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
+             data-env-color="{{ .color }}"
+             {{- if $active }} aria-current="page"{{ end }}>
+            {{ .displayName }}
+          </a>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </div>
+</nav>
+
+{{- else -}}
+
+{{/* Product section: link-based navigation between a product's env sub-sections.
+     Shown on both the product root (/idporten/) and any env sub-section (/idporten/prod-releases/).
+     Only rendered when the product has more than one env sub-section. */}}
+{{- $isEnvSection := and (not .IsHome) (not .Parent.IsHome) -}}
+{{- $productPage := . -}}
+{{- if $isEnvSection -}}
+  {{- $productPage = .Parent -}}
+{{- end -}}
+
+{{- $envLinks := slice -}}
+{{- range hugo.Data.environments -}}
+  {{- $envConfig := . -}}
+  {{- range $productPage.Sections -}}
+    {{- $parts := split (strings.TrimSuffix "/" .RelPermalink) "/" -}}
+    {{- $slug   := index $parts (sub (len $parts) 1) -}}
+    {{- if eq $envConfig.slug $slug -}}
+      {{- $envLinks = $envLinks | append (dict "section" . "config" $envConfig) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $envLinks) 0 -}}
+<nav class="env-filter-toolbar" aria-label="Filtrer etter miljø">
+  <div class="env-filter__group">
+    {{- $allActive := eq $currentPage.RelPermalink $productPage.RelPermalink -}}
+    <a href="{{ $productPage.RelPermalink }}"
+       class="env-filter__btn{{ if $allActive }} env-filter__btn--active{{ end }}"
+       {{- if $allActive }} aria-current="page"{{ end }}>
+      Alle
+    </a>
+    {{- range $envLinks -}}
+      {{- $active := eq $currentPage.RelPermalink .section.RelPermalink -}}
+      <a href="{{ .section.RelPermalink }}"
+         class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
+         data-env-color="{{ .config.color }}"
+         {{- if $active }} aria-current="page"{{ end }}>
+        {{ .config.displayName }}
+      </a>
+    {{- end -}}
+  </div>
+</nav>
+{{- end -}}
+
+{{- end -}}

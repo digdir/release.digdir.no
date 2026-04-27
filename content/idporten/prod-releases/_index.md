@@ -1,0 +1,4 @@
+---
+aliases:
+  - /idporten/release-notes/
+---

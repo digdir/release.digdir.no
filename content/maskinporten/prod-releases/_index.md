@@ -1,0 +1,4 @@
+---
+aliases:
+  - /maskinporten/release-notes/
+---

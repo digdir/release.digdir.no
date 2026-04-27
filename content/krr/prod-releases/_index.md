@@ -1,0 +1,4 @@
+---
+aliases:
+  - /krr/release-notes/
+---

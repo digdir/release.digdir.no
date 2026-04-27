@@ -1,0 +1,69 @@
+{{/*
+  Renders pagination navigation.
+  Context: the paginator object (e.g. $paginator from .Paginate).
+
+  Usage:
+    {{ partial "components/pagination.html" $paginator }}
+*/}}
+{{- $p := . -}}
+{{ if gt $p.TotalPages 1 }}
+  {{- $cur := $p.PageNumber -}}
+  {{- $tot := $p.TotalPages -}}
+  {{- $win := 4 -}}
+  {{- $lo  := math.Max 1 (sub $cur $win) -}}
+  {{- $hi  := math.Min $tot (add $cur $win) -}}
+
+  <div class="pagination-wrapper">
+    <ds-pagination>
+      <nav class="pagination-nav" aria-label="Sidenavigasjon">
+
+        {{ if $p.HasPrev }}
+          <a href="{{ $p.Prev.URL }}" class="pagination-nav__page pagination-nav__prev" rel="prev">← Forrige</a>
+        {{ else }}
+          <span class="pagination-nav__page pagination-nav__prev pagination-nav__disabled" aria-disabled="true">← Forrige</span>
+        {{ end }}
+
+        <span class="pagination-nav__mobile-info" aria-hidden="true">{{ $cur }} / {{ $tot }}</span>
+
+        {{ $first := index $p.Pagers 0 }}
+        {{ if eq $first $p }}
+          <span class="pagination-nav__page" aria-current="page">1</span>
+        {{ else }}
+          <a href="{{ $first.URL }}" class="pagination-nav__page">1</a>
+        {{ end }}
+
+        {{ if gt $lo 2 }}
+          <span class="pagination-nav__ellipsis">…</span>
+        {{ end }}
+
+        {{ range $p.Pagers }}
+          {{ if and (gt .PageNumber 1) (lt .PageNumber $tot) (ge .PageNumber $lo) (le .PageNumber $hi) }}
+            {{ if eq . $p }}
+              <span class="pagination-nav__page" aria-current="page">{{ .PageNumber }}</span>
+            {{ else }}
+              <a href="{{ .URL }}" class="pagination-nav__page">{{ .PageNumber }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if lt $hi (sub $tot 1) }}
+          <span class="pagination-nav__ellipsis">…</span>
+        {{ end }}
+
+        {{ $last := index $p.Pagers (sub $tot 1) }}
+        {{ if eq $last $p }}
+          <span class="pagination-nav__page" aria-current="page">{{ $tot }}</span>
+        {{ else }}
+          <a href="{{ $last.URL }}" class="pagination-nav__page">{{ $tot }}</a>
+        {{ end }}
+
+        {{ if $p.HasNext }}
+          <a href="{{ $p.Next.URL }}" class="pagination-nav__page pagination-nav__next" rel="next">Neste →</a>
+        {{ else }}
+          <span class="pagination-nav__page pagination-nav__next pagination-nav__disabled" aria-disabled="true">Neste →</span>
+        {{ end }}
+
+      </nav>
+    </ds-pagination>
+  </div>
+{{ end }}

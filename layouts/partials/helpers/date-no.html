@@ -1,0 +1,8 @@
+{{/*
+  Renders a date with Norwegian month name.
+  Input: a time.Time value (e.g. .Date)
+  Output: e.g. "2. mai 2026"
+*/}}
+{{- $months := slice "januar" "februar" "mars" "april" "mai" "juni" "juli" "august" "september" "oktober" "november" "desember" -}}
+{{- $month := index $months (sub (int (.Format "1")) 1) -}}
+{{- printf "%s. %s %s" (.Format "2") $month (.Format "2006") -}}

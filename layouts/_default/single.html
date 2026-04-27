@@ -1,18 +1,43 @@
 {{ define "main" }}
+  {{ partial "components/breadcrumbs.html" . }}
 
+  {{ $sectionPage := .Site.GetPage (printf "/%s" .Section) }}
+  {{ $title := .Title }}
+  {{ if and $sectionPage $sectionPage.Title }}
+    {{ $title = $sectionPage.Title | default (humanize .Section) }}
+  {{ end }}
 
+  <div class="release-detail__meta">
+    {{ partial "components/env-badge.html" . }}
+    {{ with .Params.version }}
+      <span class="ds-tag" data-color="neutral" data-variant="outline" data-size="sm">v{{ . }}</span>
+    {{ end }}
+    <time class="ds-paragraph release-detail__date" data-size="sm" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+      {{ partial "helpers/date-no.html" .Date }} kl {{ .Date.Format "15:04" }} UTC
+    </time>
+  </div>
 
+  <h1 class="ds-heading page-title" data-size="xl">{{ $title }}</h1>
 
-<div class="container my-3">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="py-2 mb-3">
-                <a href="/" class="text-gray-600 text-decoration-none hover:text-gray-900"> ← Tilbake</a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        {{ .Render "li" }}
-    </div>
-</div>
+  {{ with .Params.summary }}
+    <p class="ds-paragraph page-description" data-size="md" data-variant="long">{{ . }}</p>
+  {{ end }}
+
+  <hr class="ds-divider release-detail__divider" aria-hidden="true">
+
+  <div class="release-detail__content">
+    {{ .Content }}
+  </div>
+
+  <div class="release-detail__back">
+    {{ if $sectionPage }}
+      <a href="{{ $sectionPage.RelPermalink }}" class="ds-button" data-variant="secondary" data-size="sm">
+        ← Tilbake til {{ $sectionPage.Title }}
+      </a>
+    {{ else }}
+      <a href="{{ "/" | relURL }}" class="ds-button" data-variant="secondary" data-size="sm">
+        ← Tilbake til alle releases
+      </a>
+    {{ end }}
+  </div>
 {{ end }}

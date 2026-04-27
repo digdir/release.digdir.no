@@ -18,6 +18,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
 
+      - name: Setup product folder and notes directory
+        run: |
+          PRODUCT="${{ github.event.client_payload.product }}"
+          # Use {environment}-releases/ as folder name. Falls back to prod-releases/ if environment is not set (backward compatible).
+          ENV="${{ github.event.client_payload.environment }}"
+          # Map 'kt' to 'test' for internal consistency
+          ENV="${ENV//kt/test}"
+          # Falls back to prod-releases/ if environment is not set in the payload (e.g. older versions of publish-release-notes that do not include this field).
+          NOTES_FOLDER="${ENV:-prod}-releases"
+          echo "NOTES_FOLDER=${NOTES_FOLDER}" >> $GITHUB_ENV
+
+          mkdir -p ${{ github.workspace }}/content/${PRODUCT}/${NOTES_FOLDER}/
+
+          # Create _index.md for the product section if it does not exist.
+          # Hugo uses the title from this file for the <h1> heading and <title> on the section page.
+          # Update the title manually for a better display name, e.g. "ID-porten" instead of "idporten".
+          INDEX_FILE="${{ github.workspace }}/content/${PRODUCT}/_index.md"
+          if [ ! -f "$INDEX_FILE" ]; then
+            printf -- "---\ntitle: %s\n---\n" "${PRODUCT}" > "$INDEX_FILE"
+          fi
+
+          # Create _index.md for the env-notes section if it does not exist.
+          # Hugo requires this file to register the directory as a section,
+          # which enables the env-filter buttons (e.g. Test / Produksjon) on the product page.
+          NOTES_INDEX="${{ github.workspace }}/content/${PRODUCT}/${NOTES_FOLDER}/_index.md"
+          if [ ! -f "$NOTES_INDEX" ]; then
+            printf -- "---\n---\n" > "$NOTES_INDEX"
+          fi
+
+          # Add the product to data/products.yaml for sidebar navigation if not already present.
+          # Update the 'name' field manually for a better display name, e.g. "ID-porten" instead of "idporten".
+          YAML_FILE="${{ github.workspace }}/data/products.yaml"
+          if ! grep -q "slug: ${PRODUCT}" "$YAML_FILE"; then
+            printf -- "- slug: %s\n  name: %s\n" "${PRODUCT}" "${PRODUCT}" >> "$YAML_FILE"
+          fi
       - name: Write GitHub client payload to summary
         uses: felleslosninger/github-workflows/.github/actions/json-to-summary@main
         with:
@@ -34,7 +69,8 @@ jobs:
           script: |
             const fs = require('fs');
             const templatePath = '${{ github.workspace }}/.github/templates/template.md';
-            const filePath = '${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.sha }}.md';
+            const notesFolder = process.env.NOTES_FOLDER;
+            const filePath = `${{ github.workspace }}/content/${{ github.event.client_payload.product }}/${notesFolder}/${{ github.event.client_payload.application-name }}-${{ github.event.client_payload.sha }}.md`;
             const templateFile = fs.readFileSync(templatePath, 'utf8');
             const releaseNotesArray = JSON.parse('${{ github.event.client_payload.release-notes }}');
             let releaseNotes = '';
@@ -46,7 +82,9 @@ jobs:
             const fileContent = templateFile
               .replace('<title>', '${{ github.event.client_payload.title }}')
               .replace('<date>', '${{ github.event.client_payload.date }}')
-              .replace('<issues>', releaseNotes);
+              .replace('<issues>', releaseNotes)
+              .replace('<product>', '${{ github.event.client_payload.product }}')
+              .replace('<environment>', '${{ github.event.client_payload.environment }}'));
 
             fs.writeFileSync(filePath, fileContent, 'utf8');
 

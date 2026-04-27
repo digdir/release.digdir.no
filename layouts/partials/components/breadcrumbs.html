@@ -1,0 +1,14 @@
+<ds-breadcrumbs class="ds-breadcrumbs breadcrumbs-wrapper" aria-label="Du er her:">
+  <ol>
+    <li>
+      <a href="{{ "/" | relURL }}" class="ds-link">Hjem</a>
+    </li>
+    {{ $productPage := .Site.GetPage (printf "/%s" .Section) }}
+    {{ if and $productPage (ne .Section "") }}
+      <li>
+        <a href="{{ $productPage.RelPermalink }}" class="ds-link">{{ $productPage.Title }}</a>
+      </li>
+    {{ end }}
+    <li aria-current="page">{{ .Title }}</li>
+  </ol>
+</ds-breadcrumbs>

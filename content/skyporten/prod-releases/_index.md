@@ -1,0 +1,4 @@
+---
+aliases:
+  - /skyporten/release-notes/
+---

@@ -1,32 +1,23 @@
-disableKinds = ["taxonomy","taxonomyTerm"]
-
 baseURL = 'https://release.digdir.no'
 languageCode = 'nb'
 title = 'Release notes'
+paginate = 10
 
-timeZone = "Europe/Oslo"
-
-defaultContentLanguage = 'no'
-
-sectionPagesMenu = 'main'
-pluralizelisttitles = false
-
-theme = 'digdir-hugo-theme'
-
-[outputFormats]
-[outputFormats.JSON]
-mediatype = "application/json"
-baseName = "index"
-isPlainText = true
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+[params]
+  logoURL = "/images/digdir_positiv.png"
+  logoAlt = "Digdir logo"
+  siteDescription = "Gir beskrivelse av endringer og feilrettinger som er gjort i fellesløsningene."
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
   [markup.goldmark]
-      [markup.goldmark.extensions]     
-        linkify = false
+    [markup.goldmark.extensions]
+      linkify = false
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
 
-[params]
-  logo = "/images/digdir_positiv.png"
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
