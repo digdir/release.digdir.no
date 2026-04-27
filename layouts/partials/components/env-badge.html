@@ -17,7 +17,7 @@
 {{- if $envSlug -}}
   {{- range hugo.Data.environments -}}
     {{- if eq .slug $envSlug -}}
-      <span class="ds-tag env-badge" data-color="{{ .color }}" data-size="sm">{{ .displayName }}</span>
+      <span class="ds-tag env-badge" data-size="sm">{{ .displayName }}</span>
     {{- end -}}
   {{- end -}}
 {{- end -}}

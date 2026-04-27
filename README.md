@@ -33,3 +33,22 @@ menu:
 ```
 
 The `weight` parameter controls the order in the sidebar (lower numbers appear first). The product display name comes from the `title` field.
+
+## Test releases
+
+To add test releases for a product:
+
+1. Create a `test-releases` folder in your product directory:
+   ```bash
+   mkdir -p content/my-product/test-releases
+   ```
+
+2. Create an empty `_index.md` file in the test-releases folder:
+   ```bash
+   echo "---
+   ---" > content/my-product/test-releases/_index.md
+   ```
+
+3. Add your test release files (e.g., `my-test-release.md`) to this folder
+
+The test releases will automatically appear as a "Test" button next to "Produksjon" on the product pages. Produksjon remains the default active tab.

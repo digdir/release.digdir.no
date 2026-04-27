@@ -15,15 +15,9 @@
 {{- if or $isHome $isEnvAggregate -}}
 
 {{/* Home / env-aggregate: link-based navigation between environments.
-     "Alle" links to home (/), each env links to its aggregate page. */}}
+     Each env links to its aggregate page. */}}
 <nav class="env-filter-toolbar" aria-label="Filtrer etter miljø">
   <div class="env-filter__group">
-    {{- $allActive := $isHome -}}
-    <a href="/"
-       class="env-filter__btn{{ if $allActive }} env-filter__btn--active{{ end }}"
-       {{- if $allActive }} aria-current="page"{{ end }}>
-      Alle
-    </a>
     {{- range hugo.Data.environments -}}
       {{- $envPage := site.GetPage (printf "/%s" .slug) -}}
       {{- if $envPage -}}
@@ -37,10 +31,10 @@
           {{- end -}}
         {{- end -}}
         {{- if $hasData -}}
-          {{- $active := eq $currentPage.Section .slug -}}
+          {{/* On homepage, default Produksjon (prod-releases) as active */}}
+          {{- $active := or (and $isHome (eq .slug "prod-releases")) (eq $currentPage.Section .slug) -}}
           <a href="{{ $envPage.RelPermalink }}"
              class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
-             data-env-color="{{ .color }}"
              {{- if $active }} aria-current="page"{{ end }}>
             {{ .displayName }}
           </a>
@@ -76,17 +70,11 @@
 {{- if gt (len $envLinks) 0 -}}
 <nav class="env-filter-toolbar" aria-label="Filtrer etter miljø">
   <div class="env-filter__group">
-    {{- $allActive := eq $currentPage.RelPermalink $productPage.RelPermalink -}}
-    <a href="{{ $productPage.RelPermalink }}"
-       class="env-filter__btn{{ if $allActive }} env-filter__btn--active{{ end }}"
-       {{- if $allActive }} aria-current="page"{{ end }}>
-      Alle
-    </a>
     {{- range $envLinks -}}
-      {{- $active := eq $currentPage.RelPermalink .section.RelPermalink -}}
+      {{/* On product root, default Produksjon (prod-releases) as active */}}
+      {{- $active := or (and (not $isEnvSection) (eq .config.slug "prod-releases")) (eq $currentPage.RelPermalink .section.RelPermalink) -}}
       <a href="{{ .section.RelPermalink }}"
          class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
-         data-env-color="{{ .config.color }}"
          {{- if $active }} aria-current="page"{{ end }}>
         {{ .config.displayName }}
       </a>

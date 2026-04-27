@@ -16,7 +16,15 @@
 
   {{ $rawPages := .RegularPagesRecursive }}
   {{ if .IsHome }}
-    {{ $rawPages = sort (where .Site.RegularPages "Kind" "page") "Date" "desc" }}
+    {{/* Default to Produksjon (prod-releases) on homepage - filter by file path */}}
+    {{ $prodPages := slice }}
+    {{ range .Site.RegularPages }}
+      {{ $parts := split .File.Dir "/" }}
+      {{ if and (ge (len $parts) 2) (eq (index $parts 1) "prod-releases") }}
+        {{ $prodPages = $prodPages | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $rawPages = sort $prodPages "Date" "desc" }}
   {{ end }}
 
   {{ $paginator := .Paginate $rawPages }}

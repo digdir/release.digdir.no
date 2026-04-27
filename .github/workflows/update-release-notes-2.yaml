@@ -18,9 +18,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
 
-      - name: Setup product folder and notes directory
+      - name: Resolve environment and folder name
         run: |
-          PRODUCT="${{ github.event.client_payload.product }}"
           # Use {environment}-releases/ as folder name. Falls back to prod-releases/ if environment is not set (backward compatible).
           ENV="${{ github.event.client_payload.environment }}"
           # Map 'kt' to 'test' for internal consistency
@@ -28,6 +27,10 @@ jobs:
           # Falls back to prod-releases/ if environment is not set in the payload (e.g. older versions of publish-release-notes that do not include this field).
           NOTES_FOLDER="${ENV:-prod}-releases"
           echo "NOTES_FOLDER=${NOTES_FOLDER}" >> $GITHUB_ENV
+
+      - name: Setup content directories and index files
+        run: |
+          PRODUCT="${{ github.event.client_payload.product }}"
 
           mkdir -p ${{ github.workspace }}/content/${PRODUCT}/${NOTES_FOLDER}/
 
@@ -39,7 +42,7 @@ jobs:
             printf -- "---\ntitle: %s\n---\n" "${PRODUCT}" > "$INDEX_FILE"
           fi
 
-          # Create _index.md for the env-notes section if it does not exist.
+          # Create _index.md for the env-releases section if it does not exist.
           # Hugo requires this file to register the directory as a section,
           # which enables the env-filter buttons (e.g. Test / Produksjon) on the product page.
           NOTES_INDEX="${{ github.workspace }}/content/${PRODUCT}/${NOTES_FOLDER}/_index.md"
@@ -47,20 +50,11 @@ jobs:
             printf -- "---\n---\n" > "$NOTES_INDEX"
           fi
 
-          # Add the product to data/products.yaml for sidebar navigation if not already present.
-          # Update the 'name' field manually for a better display name, e.g. "ID-porten" instead of "idporten".
-          YAML_FILE="${{ github.workspace }}/data/products.yaml"
-          if ! grep -q "slug: ${PRODUCT}" "$YAML_FILE"; then
-            printf -- "- slug: %s\n  name: %s\n" "${PRODUCT}" "${PRODUCT}" >> "$YAML_FILE"
-          fi
       - name: Write GitHub client payload to summary
         uses: felleslosninger/github-workflows/.github/actions/json-to-summary@main
         with:
           json-payload: ${{ toJson(github.event.client_payload) }}
           title: "GitHub Client Payload (update-release-notes-2)"
-
-      - run: |
-          mkdir -p ${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/
 
       - name: Create release notes list
         id: release-note-list

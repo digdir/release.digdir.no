@@ -1,7 +1,5 @@
-- slug: test-releases
-  displayName: "Test"
-  color: warning
-
 - slug: prod-releases
   displayName: "Produksjon"
-  color: success
+
+- slug: test-releases
+  displayName: "Test"
