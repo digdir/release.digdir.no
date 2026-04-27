@@ -30,6 +30,7 @@ jobs:
         with:
           hugo-version: '0.160.1'
           extended: true
+          extended: false
 
       - name: Build with Hugo
         run: hugo --environment production -F --minify
