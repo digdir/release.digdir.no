@@ -13,3 +13,23 @@ Run local server: `hugo serve`
 
 Build site with: `hugo`
 
+## Adding products manually
+
+Create a new product folder:
+
+```bash
+mkdir -p content/my-product
+```
+
+Then add the file with a title and menu entry:
+
+```yaml
+---
+title: My Product Name
+menu:
+  sidebar:
+    weight: 10
+---
+```
+
+The `weight` parameter controls the order in the sidebar (lower numbers appear first). The product display name comes from the `title` field.

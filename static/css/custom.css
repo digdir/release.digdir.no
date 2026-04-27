@@ -44,8 +44,12 @@ a {
   color: var(--digdir-color-primary);
 }
 
+a:focus-visible {
+  outline: 2px solid var(--digdir-color-primary);
+  outline-offset: 2px;
+}
 
-/* Header */
+
 
 .site-header {
   background-color: #ffffff;
@@ -103,6 +107,11 @@ a {
 .site-header .sidebar-toggle {
   flex-shrink: 0;
   border: 1px solid var(--ds-color-border-subtle, #dce3ee);
+}
+
+.site-header .sidebar-toggle:focus-visible {
+  outline: 2px solid var(--digdir-color-primary);
+  outline-offset: 2px;
 }
 
 
@@ -168,6 +177,11 @@ a {
   transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
 }
 
+.sidebar-nav__item a:focus-visible {
+  outline: 2px solid var(--digdir-color-primary);
+  outline-offset: 2px;
+}
+
 .sidebar-nav__item a:hover {
   background-color: var(--ds-color-surface-hover, #e9eef7);
   border-left-color: var(--ds-color-border-default, #8fadd4);
@@ -217,6 +231,11 @@ a {
 
 .release-card {
   color: var(--ds-color-text-default, #292C30);
+}
+
+.release-card:focus-visible {
+  outline: 2px solid var(--digdir-color-primary);
+  outline-offset: 2px;
 }
 
 .release-card:hover {
@@ -403,6 +422,11 @@ a {
   transition: background 0.12s, border-color 0.12s;
 }
 
+.pagination-nav__page:focus-visible {
+  outline: 2px solid var(--digdir-color-primary);
+  outline-offset: 2px;
+}
+
 .pagination-nav__page:hover {
   background: var(--ds-color-surface-hover, #e9eef7);
   border-color: var(--ds-color-border-default, #8fadd4);
@@ -448,13 +472,13 @@ a {
 
 .footer-brand__text {
   font-size: 0.9375rem;
-  color: rgba(255, 255, 255, .7);
+  color: #ffffff;
   line-height: 1.65;
   margin: 0;
 }
 
 .footer-brand__link {
-  color: rgba(255, 255, 255, .85);
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -481,10 +505,15 @@ a {
 }
 
 .footer-links__item a {
-  color: rgba(255, 255, 255, .75);
+  color: #ffffff;
   font-size: 0.9375rem;
   text-decoration: none;
   transition: color 0.12s;
+}
+
+.footer-links__item a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 .footer-links__item a:hover {
@@ -494,14 +523,19 @@ a {
 
 .footer-contact__item {
   font-size: 0.9375rem;
-  color: rgba(255, 255, 255, .75);
+  color: #ffffff;
   margin-bottom: var(--ds-size-2, 8px);
 }
 
 .footer-contact__item a {
-  color: rgba(255, 255, 255, .85);
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.12s;
+}
+
+.footer-contact__item a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 .footer-contact__item a:hover {
@@ -510,12 +544,12 @@ a {
 }
 
 .footer-contact__item span {
-  color: rgba(255, 255, 255, .75);
+  color: #ffffff;
 }
 
 .footer-contact__note {
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, .65);
+  color: #ffffff;
   margin: var(--ds-size-1, 4px) 0 0;
 }
 
@@ -567,7 +601,7 @@ a {
 .env-filter__btn {
   display: inline-flex;
   align-items: center;
-  height: 32px;
+  height: 44px;
   padding: 0 var(--ds-size-3, 12px);
   border-radius: var(--ds-border-radius-full, 9999px);
   border: 1.5px solid var(--ds-color-border-default, #bdc5cf);
@@ -582,6 +616,11 @@ a {
   white-space: nowrap;
   line-height: 1;
   user-select: none;
+}
+
+.env-filter__btn:focus-visible {
+  outline: 2px solid var(--digdir-color-primary);
+  outline-offset: 2px;
 }
 
 .env-filter__btn:hover {

@@ -4,17 +4,11 @@
   {{ $sectionPage := .Site.GetPage (printf "/%s" .Section) }}
   {{ $title := .Title }}
   {{ if and $sectionPage $sectionPage.Title }}
-    {{ $title = $sectionPage.Title }}
+    {{ $title = $sectionPage.Title | default (humanize .Section) }}
   {{ end }}
-
-  {{ $latestPage := index (sort $sectionPage.RegularPagesRecursive "Date" "desc") 0 }}
-  {{ $isLatest := and $latestPage (eq .Permalink $latestPage.Permalink) }}
 
   <div class="release-detail__meta">
     {{ partial "components/env-badge.html" . }}
-    {{ if $isLatest }}
-      <span class="ds-tag release-detail__badge" data-size="sm">Siste versjon</span>
-    {{ end }}
     {{ with .Params.version }}
       <span class="ds-tag" data-color="neutral" data-variant="outline" data-size="sm">v{{ . }}</span>
     {{ end }}

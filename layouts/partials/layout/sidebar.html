@@ -8,14 +8,13 @@
           Alle
         </a>
       </li>
-      {{ range hugo.Data.products }}
-      {{ $productURL := printf "/%s/" .slug | relURL }}
-      {{ $isCurrentSection := eq $.Page.Section .slug }}
-      {{ $isCurrentPage := eq $.Page.RelPermalink $productURL }}
+      {{ range .Site.Menus.sidebar }}
+      {{ $isCurrentSection := and (not $.Page.IsHome) (eq $.Page.Section .Identifier) }}
+      {{ $isCurrentPage := and (not $.Page.IsHome) (eq $.Page.RelPermalink .URL) }}
       <li class="sidebar-nav__item">
-        <a href="{{ $productURL }}"
+        <a href="{{ .URL | relURL }}"
            {{ if or $isCurrentSection $isCurrentPage }}aria-current="page"{{ end }}>
-          {{ .name }}
+          {{ .Name }}
         </a>
       </li>
       {{ end }}

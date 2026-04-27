@@ -2,7 +2,9 @@
   {{- $isEnvSection := and (not .IsHome) (not .Parent.IsHome) -}}
   {{- $displayTitle := .Title -}}
   {{- if $isEnvSection -}}
-    {{- $displayTitle = .Parent.Title -}}
+    {{- $displayTitle = .Parent.Title | default (humanize .Parent.Section) -}}
+  {{- else if not .IsHome -}}
+    {{- $displayTitle = .Title | default (humanize .Section) -}}
   {{- end -}}
   <h1 class="ds-heading page-title" data-size="xl">{{ $displayTitle }}</h1>
 
