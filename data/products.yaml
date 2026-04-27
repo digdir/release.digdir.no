@@ -1,9 +1,10 @@
+# Matcher <product> fra release note og overskriver til lesbar navn
 - slug: ansattporten
   name: Ansattporten
 - slug: eformidling
   name: eFormidling
 - slug: eidas
-  name: eIDAS
+  name: eIDAS 1.0
 - slug: elma
   name: ELMA
 - slug: idporten
