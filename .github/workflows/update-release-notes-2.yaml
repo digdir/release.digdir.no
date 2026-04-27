@@ -53,6 +53,14 @@ jobs:
           if ! grep -q "slug: ${PRODUCT}" "$YAML_FILE"; then
             printf -- "- slug: %s\n  name: %s\n" "${PRODUCT}" "${PRODUCT}" >> "$YAML_FILE"
           fi
+      - name: Write GitHub client payload to summary
+        uses: felleslosninger/github-workflows/.github/actions/json-to-summary@main
+        with:
+          json-payload: ${{ toJson(github.event.client_payload) }}
+          title: "GitHub Client Payload (update-release-notes-2)"
+
+      - run: |
+          mkdir -p ${{ github.workspace }}/content/${{ github.event.client_payload.product }}/release-notes/
 
       - name: Create release notes list
         id: release-note-list
