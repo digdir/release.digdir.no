@@ -74,7 +74,7 @@ jobs:
               .replace('<date>', '${{ github.event.client_payload.date }}')
               .replace('<issues>', releaseNotes)
               .replace('<product>', '${{ github.event.client_payload.product }}')
-              .replace('<environment>', '${{ github.event.client_payload.environment }}'));
+              .replace('<environment>', '${{ github.event.client_payload.environment }}');
 
             fs.writeFileSync(filePath, fileContent, 'utf8');
 
