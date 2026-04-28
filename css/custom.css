@@ -645,24 +645,6 @@ a:focus-visible {
   color: #ffffff;
 }
 
-/* Env-specific active colours — match Designsystemet data-color tokens */
-.env-filter__btn[data-env-color="success"].env-filter__btn--active,
-.env-filter__btn[data-env-color="success"][aria-current="page"] {
-  background: var(--ds-color-success-base-default, #2b7a3e);
-  border-color: var(--ds-color-success-base-default, #2b7a3e);
-}
-
-.env-filter__btn[data-env-color="warning"].env-filter__btn--active,
-.env-filter__btn[data-env-color="warning"][aria-current="page"] {
-  background: var(--ds-color-warning-base-default, #c05e0c);
-  border-color: var(--ds-color-warning-base-default, #c05e0c);
-}
-
-.env-filter__btn[data-env-color="info"].env-filter__btn--active,
-.env-filter__btn[data-env-color="info"][aria-current="page"] {
-  background: var(--ds-color-info-base-default, #0a5bb5);
-  border-color: var(--ds-color-info-base-default, #0a5bb5);
-}
 
 
 /* ── Responsive */
