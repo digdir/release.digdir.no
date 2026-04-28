@@ -9,11 +9,7 @@
     content/krr/test-releases/file.md         →  "test-releases"
 */ -}}
 {{- $page := . -}}
-{{- $parts := split $page.File.Dir "/" -}}
-{{- $envSlug := "" -}}
-{{- if ge (len $parts) 2 -}}
-  {{- $envSlug = index $parts 1 -}}
-{{- end -}}
+{{- $envSlug := partial "helpers/env-slug.html" $page -}}
 {{- if $envSlug -}}
   {{- range hugo.Data.environments -}}
     {{- if eq .slug $envSlug -}}

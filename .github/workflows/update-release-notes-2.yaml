@@ -36,7 +36,7 @@ jobs:
           # Update the title manually for a better display name, e.g. "ID-porten" instead of "idporten".
           INDEX_FILE="${{ github.workspace }}/content/${PRODUCT}/_index.md"
           if [ ! -f "$INDEX_FILE" ]; then
-            printf -- "---\ntitle: %s\n---\n" "${PRODUCT}" > "$INDEX_FILE"
+            printf -- "---\ntitle: %s\nmenu:\n  sidebar:\n---\n" "${PRODUCT}" > "$INDEX_FILE"
           fi
 
           # Create _index.md for the env-notes section if it does not exist.

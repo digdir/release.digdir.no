@@ -1,0 +1,12 @@
+{{- /*
+  Returns the environment slug for a release page by reading its file path.
+  content/{product}/{env-slug}/{release}.md → "env-slug"
+
+  Usage: {{- $envSlug := partial "helpers/env-slug.html" $page -}}
+*/ -}}
+{{- $parts := split .File.Dir "/" -}}
+{{- $envSlug := "" -}}
+{{- if ge (len $parts) 2 -}}
+  {{- $envSlug = index $parts 1 -}}
+{{- end -}}
+{{- return $envSlug -}}
