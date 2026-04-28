@@ -17,10 +17,10 @@
         </a>
       </li>
       {{ range .Site.Menus.sidebar }}
-      {{ $isUnderItem := and (not $.Page.IsHome) (strings.HasPrefix $.Page.RelPermalink .URL) }}
+      {{ $isSubPage := and (not $.Page.IsHome) (strings.HasPrefix $.Page.RelPermalink .URL) }}
       <li class="sidebar-nav__item">
         <a href="{{ .URL | relURL }}"
-           {{ if $isUnderItem }}aria-current="page"{{ end }}>
+           {{ if $isSubPage }}aria-current="page"{{ end }}>
           {{ .Name }}
         </a>
       </li>
