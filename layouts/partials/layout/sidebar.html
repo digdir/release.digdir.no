@@ -2,18 +2,25 @@
   <nav>
     <p class="sidebar-nav__title ds-heading" data-size="2xs">Produkter</p>
     <ul class="sidebar-nav__list">
+      {{- $isEnvAggregate := false -}}
+      {{- if and (not .Page.IsHome) .Page.Parent.IsHome -}}
+        {{- range hugo.Data.environments -}}
+          {{- if eq .slug $.Page.Section -}}
+            {{- $isEnvAggregate = true -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
       <li class="sidebar-nav__item">
         <a href="{{ "/" | relURL }}"
-           {{ if .IsHome }}aria-current="page"{{ end }}>
+           {{ if or .IsHome $isEnvAggregate }}aria-current="page"{{ end }}>
           Alle
         </a>
       </li>
       {{ range .Site.Menus.sidebar }}
-      {{ $isCurrentSection := and (not $.Page.IsHome) (eq $.Page.Section .Identifier) }}
-      {{ $isCurrentPage := and (not $.Page.IsHome) (eq $.Page.RelPermalink .URL) }}
+      {{ $isUnderItem := and (not $.Page.IsHome) (strings.HasPrefix $.Page.RelPermalink .URL) }}
       <li class="sidebar-nav__item">
         <a href="{{ .URL | relURL }}"
-           {{ if or $isCurrentSection $isCurrentPage }}aria-current="page"{{ end }}>
+           {{ if $isUnderItem }}aria-current="page"{{ end }}>
           {{ .Name }}
         </a>
       </li>
