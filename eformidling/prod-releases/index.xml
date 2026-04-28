@@ -163,6 +163,8 @@
 &lt;li&gt;Build(deps): bump jakarta.xml.bind:jakarta.xml.bind-api&lt;/li&gt;
 &lt;li&gt;Build(deps): bump org.glassfish.jaxb:jaxb-runtime from 4.0.5 to 4.0.6&lt;/li&gt;
 &lt;li&gt;Build(deps): bump org.projectlombok:lombok from 1.18.38 to 1.18.42&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-move-admin-9ef09de36999c2d94f62a4cffe50266e0b0731f8/</link><pubDate>Tue, 18 Nov 2025 11:26:27 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-move-admin-9ef09de36999c2d94f62a4cffe50266e0b0731f8/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-148c632c314a18e8ec8ec7ca9c03dca0f45859d1/</link><pubDate>Tue, 18 Nov 2025 11:13:41 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-148c632c314a18e8ec8ec7ca9c03dca0f45859d1/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-1be142755b8d272df00e78bbb615cc6e3dae25ac/</link><pubDate>Fri, 14 Nov 2025 13:14:19 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-1be142755b8d272df00e78bbb615cc6e3dae25ac/</guid><description>&lt;ul&gt;

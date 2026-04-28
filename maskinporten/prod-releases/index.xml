@@ -249,6 +249,8 @@
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;MP-627: skru skyporten i prod til å hente klienter og scopes fra redis (#531)&lt;/li&gt;
 &lt;li&gt;MP-604: les scopes fra redis (#525)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>maskinporten</title><link>https://release.digdir.no/maskinporten/prod-releases/maskinporten-scope-api-d4c4ff3ac9567127615ea29bfabeb3a428370f50/</link><pubDate>Wed, 18 Dec 2024 11:59:53 +0000</pubDate><guid>https://release.digdir.no/maskinporten/prod-releases/maskinporten-scope-api-d4c4ff3ac9567127615ea29bfabeb3a428370f50/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>maskinporten</title><link>https://release.digdir.no/maskinporten/prod-releases/maskinporten-scope-api-a6cc6c6f437627d4d2f0dcbc0363103c0334ff53/</link><pubDate>Thu, 12 Dec 2024 15:06:33 +0000</pubDate><guid>https://release.digdir.no/maskinporten/prod-releases/maskinporten-scope-api-a6cc6c6f437627d4d2f0dcbc0363103c0334ff53/</guid><description>&lt;ul&gt;
 &lt;li&gt;MP-655: rydde bort gamle scope-prefix indexer i alle miljø. litt renaming (#293)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>maskinporten</title><link>https://release.digdir.no/maskinporten/prod-releases/maskinporten-client-sync-b9385dd7cac91bc27dd7de179bf5a90769e71eb8/</link><pubDate>Thu, 12 Dec 2024 14:46:00 +0000</pubDate><guid>https://release.digdir.no/maskinporten/prod-releases/maskinporten-client-sync-b9385dd7cac91bc27dd7de179bf5a90769e71eb8/</guid><description>&lt;ul&gt;
