@@ -188,8 +188,7 @@ a:focus-visible {
   color: var(--digdir-color-primary);
 }
 
-.sidebar-nav__item a[aria-current="page"],
-.sidebar-nav__item a.is-active {
+.sidebar-nav__item a[aria-current="page"] {
   background-color: #dce8f5;
   border-left-color: var(--digdir-color-primary);
   font-weight: 600;
@@ -270,8 +269,7 @@ a:focus-visible {
   flex-shrink: 0;
 }
 
-.release-card__badge--latest,
-.release-detail__badge {
+.release-card__badge--latest {
   background-color: var(--digdir-color-primary) !important;
   color: #ffffff !important;
   flex-shrink: 0;
@@ -480,6 +478,11 @@ a:focus-visible {
 .footer-brand__link {
   color: #ffffff;
   text-decoration: underline;
+}
+
+.footer-brand__link:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 .footer-brand__link:hover {
