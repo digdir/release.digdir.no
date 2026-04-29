@@ -16,14 +16,7 @@
 {{- $showTitle := .ShowTitle | default false -}}
 {{- $isLatest  := .IsLatest  | default false -}}
 
-{{/* Env slug from file path: content/{product}/{env-slug}/{release}.md → index 1 = env-slug */}}
-{{- $parts   := split $page.File.Dir "/" -}}
-{{- $envSlug := "" -}}
-{{- if ge (len $parts) 2 -}}
-  {{- $envSlug = index $parts 1 -}}
-{{- end -}}
-
-<li{{ if $envSlug }} data-env="{{ $envSlug }}"{{ end }}>
+<li>
   <a href="{{ $page.RelPermalink }}"
      class="ds-card release-card{{ if not $showTitle }} release-card--compact{{ end }}"
      data-color="neutral">

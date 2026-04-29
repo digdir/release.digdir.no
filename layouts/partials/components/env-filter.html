@@ -31,8 +31,7 @@
         {{- $thisSlug := .slug -}}
         {{- $hasData := false -}}
         {{- range site.RegularPages -}}
-          {{- $parts := split .File.Dir "/" -}}
-          {{- if and (ge (len $parts) 2) (eq (index $parts 1) $thisSlug) -}}
+          {{- if eq (partial "helpers/env-slug.html" .) $thisSlug -}}
             {{- $hasData = true -}}
           {{- end -}}
         {{- end -}}
@@ -40,7 +39,6 @@
           {{- $active := eq $currentPage.Section .slug -}}
           <a href="{{ $envPage.RelPermalink }}"
              class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
-             data-env-color="{{ .color }}"
              {{- if $active }} aria-current="page"{{ end }}>
             {{ .displayName }}
           </a>
@@ -86,7 +84,6 @@
       {{- $active := eq $currentPage.RelPermalink .section.RelPermalink -}}
       <a href="{{ .section.RelPermalink }}"
          class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
-         data-env-color="{{ .config.color }}"
          {{- if $active }} aria-current="page"{{ end }}>
         {{ .config.displayName }}
       </a>

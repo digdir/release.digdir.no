@@ -1,7 +1,9 @@
 baseURL = 'https://release.digdir.no'
-languageCode = 'nb'
+locale = 'nb'
 title = 'Release notes'
-paginate = 10
+
+[pagination]
+  pagerSize = 10
 
 [params]
   logoURL = "/images/digdir_positiv.png"

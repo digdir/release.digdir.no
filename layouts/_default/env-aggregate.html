@@ -13,8 +13,7 @@
   {{- $envSlug := .Section -}}
   {{- $envPages := slice -}}
   {{- range .Site.RegularPages -}}
-    {{- $parts := split .File.Dir "/" -}}
-    {{- if and (ge (len $parts) 2) (eq (index $parts 1) $envSlug) -}}
+    {{- if eq (partial "helpers/env-slug.html" .) $envSlug -}}
       {{- $envPages = $envPages | append . -}}
     {{- end -}}
   {{- end -}}

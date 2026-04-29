@@ -1,3 +1,5 @@
 ---
-title: digital-lommebok
+title: Digital Lommebok
+menu:
+  sidebar:
 ---
