@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 04 May 2026 07:57:44 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-freg-gateway-338a37792868347a67356ac139ded6fd1f2200a2/</link><pubDate>Mon, 04 May 2026 07:57:44 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-freg-gateway-338a37792868347a67356ac139ded6fd1f2200a2/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 04 May 2026 08:04:01 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-admin-11417b9eeadcbfb878d8f27f0402eaa67cc49b51/</link><pubDate>Mon, 04 May 2026 08:04:01 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-admin-11417b9eeadcbfb878d8f27f0402eaa67cc49b51/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;Update .trivyignore&lt;/li&gt;
+&lt;li&gt;Update .trivyignore&lt;/li&gt;
+&lt;li&gt;PF-2343 Test new PR checks workflow (#247)&lt;/li&gt;
+&lt;li&gt;Use branch for testing&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-freg-gateway-338a37792868347a67356ac139ded6fd1f2200a2/</link><pubDate>Mon, 04 May 2026 07:57:44 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-freg-gateway-338a37792868347a67356ac139ded6fd1f2200a2/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;KRR-1175 Lagt til url i application-efm-prod.yml (#549)&lt;/li&gt;
 &lt;li&gt;KRR-1175 Rettet application-efm-prod.yml (#545)&lt;/li&gt;
