@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/krr/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 13 Mar 2026 08:40:44 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minprofil-5cc3d453000f40a67953e2a6f5b523d0e39695fd/</link><pubDate>Fri, 13 Mar 2026 08:40:44 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minprofil-5cc3d453000f40a67953e2a6f5b523d0e39695fd/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/krr/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 04 May 2026 07:57:44 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-freg-gateway-338a37792868347a67356ac139ded6fd1f2200a2/</link><pubDate>Mon, 04 May 2026 07:57:44 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-freg-gateway-338a37792868347a67356ac139ded6fd1f2200a2/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;KRR-1175 Lagt til url i application-efm-prod.yml (#549)&lt;/li&gt;
+&lt;li&gt;KRR-1175 Rettet application-efm-prod.yml (#545)&lt;/li&gt;
+&lt;li&gt;MIN-2960 Rettet versjon av access-starter (#544)&lt;/li&gt;
+&lt;li&gt;KRR-1176 Endret server.port (#542)&lt;/li&gt;
+&lt;li&gt;KRR-1175 Endret key-alias (#541)&lt;/li&gt;
+&lt;li&gt;KRR-1175 Første forslag til application-efm-.yml-filer (#540)&lt;/li&gt;
+&lt;li&gt;PF-2275 fix: remove default value and specify for all (#539)&lt;/li&gt;
+&lt;li&gt;PF-2275 Variable for deployment-environment (#538)&lt;/li&gt;
+&lt;li&gt;MIN-2690 Oppdatert FregClientConfig og noen dependencies (#535)&lt;/li&gt;
+&lt;li&gt;MIN-2960 Oppdatert til Spring boot 4, Feign - Http Service Clients (#525)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minprofil-5cc3d453000f40a67953e2a6f5b523d0e39695fd/</link><pubDate>Fri, 13 Mar 2026 08:40:44 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minprofil-5cc3d453000f40a67953e2a6f5b523d0e39695fd/</guid><description>&lt;ul&gt;
 &lt;li&gt;KRR-1195 Fix bug caused by quotation marks (#753)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;KRR-1195 Fix bug caused by quotation marks&lt;/li&gt;
