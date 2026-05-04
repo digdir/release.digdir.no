@@ -10,6 +10,17 @@
 &lt;li&gt;PF-2275 Variable for deployment-environment (#538)&lt;/li&gt;
 &lt;li&gt;MIN-2690 Oppdatert FregClientConfig og noen dependencies (#535)&lt;/li&gt;
 &lt;li&gt;MIN-2960 Oppdatert til Spring boot 4, Feign - Http Service Clients (#525)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minid-varsling-bda4c7fd16921e091f68995721e9a98a90cceecc/</link><pubDate>Mon, 04 May 2026 07:57:44 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minid-varsling-bda4c7fd16921e091f68995721e9a98a90cceecc/</guid><description>&lt;ul&gt;
+&lt;li&gt;KRR-000 whitelist mobilnummer skatt kt (#433)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;KRR-000 Whiteliste mobilnummer for skatt i KT (#431)&lt;/li&gt;
+&lt;li&gt;KRR-1204 Whitelisting av mobilnummer (#428)&lt;/li&gt;
+&lt;li&gt;MIN-3115: Update workflow (#423)&lt;/li&gt;
+&lt;li&gt;KRR-1199 Whitelisting av mobilnummer (#417)&lt;/li&gt;
+&lt;li&gt;MIN-3014 Ny epostserver (#415)&lt;/li&gt;
+&lt;li&gt;MIN-2942 Leveringskvitteringar for LM (#411)&lt;/li&gt;
+&lt;li&gt;KRR-000 Whiteliste mobilnummer i KT (#408)&lt;/li&gt;
+&lt;li&gt;KRR-000 Whiteliste mobilnummer i KT (#406)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>skyporten</title><link>https://release.digdir.no/skyporten/prod-releases/skyporten-oauth2-server-811f4797560b17a50264c75d2a85db40cf7fc797/</link><pubDate>Mon, 04 May 2026 07:19:30 +0000</pubDate><guid>https://release.digdir.no/skyporten/prod-releases/skyporten-oauth2-server-811f4797560b17a50264c75d2a85db40cf7fc797/</guid><description>&lt;ul&gt;
 &lt;li&gt;MP-922: Property-styring av skew (#767)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-status-list-cdd0eac9de54247f49300a7e36411c767408ed60/</link><pubDate>Mon, 04 May 2026 07:15:13 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-status-list-cdd0eac9de54247f49300a7e36411c767408ed60/</guid><description>&lt;ul&gt;
