@@ -1,6 +1,6 @@
 ---
 title: minid
-date: 2026-05-05T06:16:46Z
+date: 2026-05-05T06:43:53Z
 environment: 
 ---
 - MIN-3232: Add detailed authentication data to activity log events. (#311)
