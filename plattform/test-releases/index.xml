@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/plattform/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 05 May 2026 20:30:21 +0000</lastBuildDate><atom:link href="https://release.digdir.no/plattform/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>plattform</title><link>https://release.digdir.no/plattform/test-releases/plattform-test-app-67c8f5206d8c1e2279c5aac43adf3fbb7cb132be/</link><pubDate>Tue, 05 May 2026 20:30:21 +0000</pubDate><guid>https://release.digdir.no/plattform/test-releases/plattform-test-app-67c8f5206d8c1e2279c5aac43adf3fbb7cb132be/</guid><description>&lt;ul&gt;
+&lt;li&gt;PF-2368 More CD repo permissions testing&lt;/li&gt;
+&lt;li&gt;PF-2368 Test CD repo permissions&lt;/li&gt;
+&lt;li&gt;Add permissions to dev workflow&lt;/li&gt;
+&lt;li&gt;Update deploy.yml - back to main&lt;/li&gt;
+&lt;li&gt;Update pull-request-image.yml&lt;/li&gt;
+&lt;li&gt;Testing ci-pr-checks permissions&lt;/li&gt;
+&lt;li&gt;Edge case testing ci-pr-checks.yml&lt;/li&gt;
+&lt;li&gt;Update Docker workflow reference to main branch&lt;/li&gt;
+&lt;li&gt;Update workflow reference to main branch&lt;/li&gt;
+&lt;li&gt;Consolidate workflow permissions placement&lt;/li&gt;
+&lt;li&gt;Adding permissions for workflow file in app-repo&lt;/li&gt;
+&lt;li&gt;Testing permissions for ci-build-publish-image&lt;/li&gt;
+&lt;li&gt;Add pull-requests:write for PR label workflow&lt;/li&gt;
+&lt;li&gt;Use branch for testing label workflow permissions&lt;/li&gt;
+&lt;li&gt;Test branch for dev workflow&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
