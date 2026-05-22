@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 22 May 2026 05:54:40 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-trustlist-service-3b4c71a96a4e60933383128f4241d3033e2bbbcf/</link><pubDate>Fri, 22 May 2026 05:54:40 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-trustlist-service-3b4c71a96a4e60933383128f4241d3033e2bbbcf/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 22 May 2026 06:04:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-auth-e139b8f0c002ec5b4b3c3a7da654121060f44834/</link><pubDate>Fri, 22 May 2026 06:04:41 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-auth-e139b8f0c002ec5b4b3c3a7da654121060f44834/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-3329: Enable new-device notifications in production configuration (#881)&lt;/li&gt;
+&lt;li&gt;MIN-3325: Add Redis-based distributed locking to QuarantineService fo (#880)&lt;/li&gt;
+&lt;li&gt;MIN-3324: Replace RedisCacheManagerBuilderCustomizer with explicit Ca (#879)&lt;/li&gt;
+&lt;li&gt;MIN-3311: Replace logging with exception throwing in CustomCacheError (#878)&lt;/li&gt;
+&lt;li&gt;MIN-3292: Detect and register login device for new-device notifications (#877)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3283: Add striped locking to QuarantineService for thread-safe ac (#875)&lt;/li&gt;
+&lt;li&gt;MIN-3281_bugfix_redis (#871)&lt;/li&gt;
+&lt;li&gt;MIN-3254: Improve static asset caching in WebConfig (#870)&lt;/li&gt;
+&lt;li&gt;MIN-3252: Refine logging details, restrict DeveloperCookieController (#869)&lt;/li&gt;
+&lt;li&gt;MIN-3186: Fix quarantine for MWR (#862)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-trustlist-service-3b4c71a96a4e60933383128f4241d3033e2bbbcf/</link><pubDate>Fri, 22 May 2026 05:54:40 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-trustlist-service-3b4c71a96a4e60933383128f4241d3033e2bbbcf/</guid><description>&lt;ul&gt;
 &lt;li&gt;EUW-1497: prod-profil og endre til ECDSA-signering for 119-612 tillistlista (#136)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-service-2592e2f0b6915f317a76579f816d0db3fec7f041/</link><pubDate>Fri, 22 May 2026 05:38:51 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-service-2592e2f0b6915f317a76579f816d0db3fec7f041/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
