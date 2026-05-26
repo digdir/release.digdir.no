@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 26 May 2026 09:05:32 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-login-a72b761f764b632e14e5504a426d04291b17c540/</link><pubDate>Tue, 26 May 2026 09:05:32 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-login-a72b761f764b632e14e5504a426d04291b17c540/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 26 May 2026 18:04:57 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>plattform</title><link>https://release.digdir.no/plattform/test-releases/plattform-test-app-2fe9f4f6d2345c63bd3f9c77b16b540be3386a29/</link><pubDate>Tue, 26 May 2026 18:04:57 +0000</pubDate><guid>https://release.digdir.no/plattform/test-releases/plattform-test-app-2fe9f4f6d2345c63bd3f9c77b16b540be3386a29/</guid><description>&lt;ul&gt;
+&lt;li&gt;Update header format in README.md&lt;/li&gt;
+&lt;li&gt;Change workflow references to main branch&lt;/li&gt;
+&lt;li&gt;Change header from H1 to H2 in README.md&lt;/li&gt;
+&lt;li&gt;Update header level in README.md&lt;/li&gt;
+&lt;li&gt;Change header from H1 to H2 in README&lt;/li&gt;
+&lt;li&gt;Testing PF-2416&lt;/li&gt;
+&lt;li&gt;Update .trivyignore&lt;/li&gt;
+&lt;li&gt;Back to main&lt;/li&gt;
+&lt;li&gt;PF-2305 Test new image metadata composite action&lt;/li&gt;
+&lt;li&gt;Back to main&lt;/li&gt;
+&lt;li&gt;PF-2384 Node 24 upgrade testing&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-login-a72b761f764b632e14e5504a426d04291b17c540/</link><pubDate>Tue, 26 May 2026 09:05:32 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-login-a72b761f764b632e14e5504a426d04291b17c540/</guid><description>&lt;ul&gt;
 &lt;li&gt;ID-6462: Logge feilmeldinger med ulik loglevel basert på http-status (#1450)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-onthefly-school-d8b3b5bf26045fc120026969af5c4c4d76eb8206/</link><pubDate>Fri, 22 May 2026 08:06:24 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-onthefly-school-d8b3b5bf26045fc120026969af5c4c4d76eb8206/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3081 Oppdatert GUI for rektor klassevisning (#222)&lt;/li&gt;
