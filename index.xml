@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 04 Jun 2026 06:50:38 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eidas</title><link>https://release.digdir.no/eidas/prod-releases/eidas-freg-gateway-df3c422a3a537318eefefb8c58064cd74592806b/</link><pubDate>Thu, 04 Jun 2026 06:50:38 +0000</pubDate><guid>https://release.digdir.no/eidas/prod-releases/eidas-freg-gateway-df3c422a3a537318eefefb8c58064cd74592806b/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 04 Jun 2026 06:51:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-freg-gateway-df3c422a3a537318eefefb8c58064cd74592806b/</link><pubDate>Thu, 04 Jun 2026 06:51:15 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-freg-gateway-df3c422a3a537318eefefb8c58064cd74592806b/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;PBLEID-000 MIN-2895 Mer dummy endringer (#579)&lt;/li&gt;
+&lt;li&gt;PBLEID-000 MIN-2895 Oppdatert README.md (#578)&lt;/li&gt;
+&lt;li&gt;MIN-2895: Made historikk query parameter optional with default (#577)&lt;/li&gt;
+&lt;li&gt;MIN-2895 Updated github workflow permissions (#576)&lt;/li&gt;
+&lt;li&gt;MIN-2895: Oppdatert getFlerePersoner med støtte for historikk o (#575)&lt;/li&gt;
+&lt;li&gt;MIN-2895: Oppdatert freg-integration-lib til versjon 2.0.1 (#571)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eidas</title><link>https://release.digdir.no/eidas/prod-releases/eidas-freg-gateway-df3c422a3a537318eefefb8c58064cd74592806b/</link><pubDate>Thu, 04 Jun 2026 06:50:38 +0000</pubDate><guid>https://release.digdir.no/eidas/prod-releases/eidas-freg-gateway-df3c422a3a537318eefefb8c58064cd74592806b/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;PBLEID-000 MIN-2895 Mer dummy endringer (#579)&lt;/li&gt;
 &lt;li&gt;PBLEID-000 MIN-2895 Oppdatert README.md (#578)&lt;/li&gt;
