@@ -1,0 +1,43 @@
+---
+title: plattform
+date: 2026-06-08T19:35:09Z
+environment: kt
+---
+- PF-2445 Test update image security fixes
+- Use artifact-name
+- PF-2418 Test Maven publish security fixes
+- PF-2414 Test image build security fixes
+- Back to main
+- Testing PF-2414
+- Make it easier to trigger PR pipeline
+- PF-2305 Test new image metadata composite action
+- Back to main
+- Library upgrades
+- Clean up permissions in PR checks
+- Test Dependabot auto-merge with Node 24 workflow
+- Update .trivyignore
+- PF-2384 Node 24 upgrade testing
+- Update .trivyignore
+- Testing ci-pr-checks permissions
+- Testing permissions for build-image with quarkus
+- Drop artifact-name input
+- Add files to support SBOM scanning with sbom-path and artifact-name
+- Test sbom-path and artifact-name combo
+- More SBOM testing
+- Use correct workflow
+- Adding permissions to ci-maven-deploy.yml
+- Update release.yml
+- Update release.yml
+- Adding permissions to ci-pr-checks
+- Update pull-request.yml
+- Adding permission to build-image
+- Testing least privelege with quarkus app
+- Update permissions in release workflow
+- Update release.yml
+- Remove unnecessary permissions in release workflow
+- Use contents:write for dependency graph upload
+- Add permissions as the repo is read-only right now
+- Add artifact release workflow for testing lib deploy
+- Another SBOM test
+- Test Trivy SBOM composite action
+
