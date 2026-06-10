@@ -14,10 +14,23 @@
     {{ end }}
   {{ end }}
 
-  {{ $rawPages := .RegularPagesRecursive }}
-  {{ if .IsHome }}
-    {{ $rawPages = sort (where .Site.RegularPages "Kind" "page") "Date" "desc" }}
-  {{ end }}
+  {{/* Collect pages for display */ -}}
+  {{- $rawPages := .RegularPagesRecursive -}}
+  {{- if .IsHome -}}
+    {{- $rawPages = sort (where .Site.RegularPages "Kind" "page") "Date" "desc" -}}
+  {{- else if $isEnvSection -}}
+    {{/* Product environment section - keep as is, show whatever is in this section */ -}}
+    {{- $rawPages = .RegularPagesRecursive -}}
+  {{- else -}}
+    {{/* Product root section - show only prod releases */ -}}
+    {{- $filtered := slice -}}
+    {{- range .RegularPagesRecursive -}}
+      {{- if and (strings.Contains .File.Dir "prod-releases") (not (strings.Contains .File.Dir "test-releases")) -}}
+        {{- $filtered = $filtered | append . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $rawPages = $filtered -}}
+  {{- end -}}
 
   {{ $paginator := .Paginate $rawPages }}
 

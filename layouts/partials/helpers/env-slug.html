@@ -1,12 +1,25 @@
 {{- /*
   Returns the environment slug for a release page by reading its file path.
-  content/{product}/{env-slug}/{release}.md → "env-slug"
+  content/{product}/{env-slug}/{release}.md → logical env slug
+  
+  Maps file paths to logical slugs:
+  - prod-releases/ → "prod"
+  - test-releases/ → "test"
 
   Usage: {{- $envSlug := partial "helpers/env-slug.html" $page -}}
 */ -}}
 {{- $parts := split .File.Dir "/" -}}
 {{- $envSlug := "" -}}
 {{- if ge (len $parts) 2 -}}
-  {{- $envSlug = index $parts 1 -}}
+  {{- $fileSlug := index $parts 1 -}}
+  {{/* Map file-path slugs to logical environment slugs */ -}}
+  {{- if eq $fileSlug "prod-releases" -}}
+    {{- $envSlug = "prod" -}}
+  {{- else if eq $fileSlug "test-releases" -}}
+    {{- $envSlug = "test" -}}
+  {{- else -}}
+    {{/* Fallback for any other slug (for future extensibility) */ -}}
+    {{- $envSlug = $fileSlug -}}
+  {{- end -}}
 {{- end -}}
 {{- return $envSlug -}}

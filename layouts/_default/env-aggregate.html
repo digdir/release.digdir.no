@@ -7,10 +7,25 @@
     <p class="ds-paragraph page-description" data-size="md">{{ . }}</p>
   {{ end }}
 
-  {{/* Collect all release pages for this env across all products.
-       A release page lives at content/{product}/{env-slug}/{release}.md,
-       so .File.Dir = "{product}/{env-slug}/" and index 1 = env-slug. */}}
-  {{- $envSlug := .Section -}}
+  {{/* Determine which environment to show:
+       - If on home page (/), show "prod" (prod-releases)
+       - If on /test/, show "test" (test-releases)
+       - If on a product page, show all envs for that product
+       - If on a product env page, show that specific env */ -}}
+  {{- $envSlug := "" -}}
+  {{- if .IsHome -}}
+    {{/* Home page shows prod releases */ -}}
+    {{- $envSlug = "prod" -}}
+  {{- else if eq .Section "test" -}}
+    {{/* /test/ section shows test releases */ -}}
+    {{- $envSlug = "test" -}}
+  {{- else -}}
+    {{/* Other sections (like /prod-releases/, /test-releases/) use their own slug */ -}}
+    {{- $envSlug = .Section -}}
+  {{- end -}}
+
+  {{/* Collect all release pages for this environment across all products.
+       A release page lives at content/{product}/{env-slug}/{release}.md */ -}}
   {{- $envPages := slice -}}
   {{- range .Site.RegularPages -}}
     {{- if eq (partial "helpers/env-slug.html" .) $envSlug -}}
