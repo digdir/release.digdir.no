@@ -6,9 +6,6 @@
      - /test/ -> showing test
      OR a legacy section page (/prod-releases/, /test-releases/) */ -}}
 {{- $isTopLevelEnv := or $isHome (eq .Section "test") (eq .Section "prod-releases") (eq .Section "test-releases") -}}
-{{- if and (not $isHome) $currentPage.Parent.IsHome -}}
-  {{- $isTopLevelEnv = true -}}
-{{- end -}}
 
 {{- if $isTopLevelEnv -}}
 

@@ -22,14 +22,25 @@
     {{/* Product environment section - keep as is, show whatever is in this section */ -}}
     {{- $rawPages = .RegularPagesRecursive -}}
   {{- else -}}
-    {{/* Product root section - show only prod releases */ -}}
-    {{- $filtered := slice -}}
+    {{/* Product root section:
+         - Prefer prod releases when they exist
+         - Fallback to test releases when prod is missing */ -}}
+    {{- $prodPages := slice -}}
+    {{- $testPages := slice -}}
     {{- range .RegularPagesRecursive -}}
-      {{- if and (strings.Contains .File.Dir "prod-releases") (not (strings.Contains .File.Dir "test-releases")) -}}
-        {{- $filtered = $filtered | append . -}}
+      {{- $envSlug := partial "helpers/env-slug.html" . -}}
+      {{- if eq $envSlug "prod" -}}
+        {{- $prodPages = $prodPages | append . -}}
+      {{- else if eq $envSlug "test" -}}
+        {{- $testPages = $testPages | append . -}}
       {{- end -}}
     {{- end -}}
-    {{- $rawPages = $filtered -}}
+
+    {{- if gt (len $prodPages) 0 -}}
+      {{- $rawPages = $prodPages -}}
+    {{- else -}}
+      {{- $rawPages = $testPages -}}
+    {{- end -}}
   {{- end -}}
 
   {{ $paginator := .Paginate $rawPages }}
