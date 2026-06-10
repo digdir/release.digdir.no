@@ -1,7 +1,13 @@
-- slug: prod-releases
+- slug: prod
   displayName: "Produksjon"
   color: success
+  # File path mapping: content/{product}/prod-releases/ files use this config
 
-- slug: test-releases
+- slug: test
   displayName: "Test"
   color: warning
+  # File path mapping: content/{product}/test-releases/ files use this config
+
+# Legacy slug mappings (for backward compat in template logic)
+# prod-releases → prod
+# test-releases → test

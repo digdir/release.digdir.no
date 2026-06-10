@@ -1,5 +1,5 @@
 ---
-title: plattform
+title: Plattform
 menu:
   sidebar:
 ---

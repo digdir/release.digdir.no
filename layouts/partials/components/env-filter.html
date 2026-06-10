@@ -1,92 +1,85 @@
 {{- $currentPage := . -}}
 {{- $isHome := .IsHome -}}
 
-{{/* Detect env-aggregate page: a top-level section whose slug matches one of the env slugs.
-     e.g. /prod-releases/, /test-releases/, /systest-releases/ */}}
-{{- $isEnvAggregate := false -}}
-{{- if and (not $isHome) $currentPage.Parent.IsHome -}}
-  {{- range hugo.Data.environments -}}
-    {{- if eq .slug $currentPage.Section -}}
-      {{- $isEnvAggregate = true -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
+{{/* Detect if we're on a top-level environment page:
+     - home page (/) -> showing prod
+     - /test/ -> showing test
+     OR a legacy section page (/prod-releases/, /test-releases/) */ -}}
+{{- $isTopLevelEnv := or $isHome (eq .Section "test") (eq .Section "prod-releases") (eq .Section "test-releases") -}}
 
-{{- if or $isHome $isEnvAggregate -}}
+{{- if $isTopLevelEnv -}}
 
-{{/* Home / env-aggregate: link-based navigation between environments.
-     "Alle" links to home (/), each env links to its aggregate page. */}}
+{{/* Top-level environment toggle: switch between Produksjon and Test.
+     - / (home) shows Produksjon (active)
+     - /test/ shows Test (active)
+     Clicking toggles between them. */ -}}
 <nav class="env-filter-toolbar" aria-label="Filtrer etter miljø">
   <div class="env-filter__group">
-    {{- $allActive := $isHome -}}
+    {{- $prodActive := or $isHome (eq .Section "prod-releases") -}}
+    {{- $testActive := or (eq .Section "test") (eq .Section "test-releases") -}}
+    
     <a href="/"
-       class="env-filter__btn{{ if $allActive }} env-filter__btn--active{{ end }}"
-       {{- if $allActive }} aria-current="page"{{ end }}>
-      Alle
+      class="env-filter__btn{{ if $prodActive }} env-filter__btn--active{{ end }}"
+      {{- if $prodActive }} aria-current="page"{{ end }}>
+      Produksjon
     </a>
-    {{- range hugo.Data.environments -}}
-      {{- $envPage := site.GetPage (printf "/%s" .slug) -}}
-      {{- if $envPage -}}
-        {{/* Only show this env button if at least one release exists for it */}}
-        {{- $thisSlug := .slug -}}
-        {{- $hasData := false -}}
-        {{- range site.RegularPages -}}
-          {{- if eq (partial "helpers/env-slug.html" .) $thisSlug -}}
-            {{- $hasData = true -}}
-          {{- end -}}
-        {{- end -}}
-        {{- if $hasData -}}
-          {{- $active := eq $currentPage.Section .slug -}}
-          <a href="{{ $envPage.RelPermalink }}"
-             class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
-             {{- if $active }} aria-current="page"{{ end }}>
-            {{ .displayName }}
-          </a>
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
+    
+    <a href="/test/"
+      class="env-filter__btn{{ if $testActive }} env-filter__btn--active{{ end }}"
+      {{- if $testActive }} aria-current="page"{{ end }}>
+      Test
+    </a>
   </div>
 </nav>
 
 {{- else -}}
 
-{{/* Product section: link-based navigation between a product's env sub-sections.
-     Shown on both the product root (/idporten/) and any env sub-section (/idporten/prod-releases/).
-     Only rendered when the product has more than one env sub-section. */}}
-{{- $isEnvSection := and (not .IsHome) (not .Parent.IsHome) -}}
+{{/* Product section: toggle between a product's Produksjon and Test sub-sections.
+     Shown on both the product root (/idporten/) and any env sub-section (/idporten/test/).
+     Only rendered when the product has more than one env sub-section or can have both. */ -}}
+{{- $isProductSection := and (not .IsHome) (eq .Parent.Section "") -}}
+{{- $isEnvSection := and (not .IsHome) (not .Parent.IsHome) (ne .Section "") -}}
 {{- $productPage := . -}}
 {{- if $isEnvSection -}}
   {{- $productPage = .Parent -}}
+  {{- $isProductSection = true -}}
 {{- end -}}
 
 {{- $envLinks := slice -}}
-{{- range hugo.Data.environments -}}
-  {{- $envConfig := . -}}
-  {{- range $productPage.Sections -}}
-    {{- $parts := split (strings.TrimSuffix "/" .RelPermalink) "/" -}}
-    {{- $slug   := index $parts (sub (len $parts) 1) -}}
-    {{- if eq $envConfig.slug $slug -}}
-      {{- $envLinks = $envLinks | append (dict "section" . "config" $envConfig) -}}
-    {{- end -}}
+
+{{/* Look for prod-releases and test-releases sub-sections under this product */ -}}
+{{- range $productPage.Sections -}}
+  {{- $envFile := .File.TranslationBaseName -}}
+  {{- $envSlug := "" -}}
+  {{- if or (hasPrefix .RelPermalink (printf "%sprod-releases" $productPage.RelPermalink)) -}}
+    {{- $envSlug = "prod" -}}
+  {{- else if or (hasPrefix .RelPermalink (printf "%stest-releases" $productPage.RelPermalink)) (hasPrefix .RelPermalink (printf "%stest" $productPage.RelPermalink)) -}}
+    {{- $envSlug = "test" -}}
+  {{- end -}}
+  {{- if ne $envSlug "" -}}
+    {{- $envLinks = $envLinks | append (dict "section" . "slug" $envSlug) -}}
   {{- end -}}
 {{- end -}}
 
-{{- if gt (len $envLinks) 0 -}}
+{{- if gt (len $envLinks) 1 -}}
 <nav class="env-filter-toolbar" aria-label="Filtrer etter miljø">
   <div class="env-filter__group">
-    {{- $allActive := eq $currentPage.RelPermalink $productPage.RelPermalink -}}
+    {{- $prodActive := eq $currentPage.RelPermalink $productPage.RelPermalink -}}
     <a href="{{ $productPage.RelPermalink }}"
-       class="env-filter__btn{{ if $allActive }} env-filter__btn--active{{ end }}"
-       {{- if $allActive }} aria-current="page"{{ end }}>
-      Alle
+      class="env-filter__btn{{ if $prodActive }} env-filter__btn--active{{ end }}"
+      {{- if $prodActive }} aria-current="page"{{ end }}>
+      Produksjon
     </a>
+    
     {{- range $envLinks -}}
-      {{- $active := eq $currentPage.RelPermalink .section.RelPermalink -}}
-      <a href="{{ .section.RelPermalink }}"
-         class="env-filter__btn{{ if $active }} env-filter__btn--active{{ end }}"
-         {{- if $active }} aria-current="page"{{ end }}>
-        {{ .config.displayName }}
-      </a>
+      {{- if eq .slug "test" -}}
+       {{- $testActive := eq $currentPage.RelPermalink .section.RelPermalink -}}
+       <a href="{{ .section.RelPermalink }}"
+          class="env-filter__btn{{ if $testActive }} env-filter__btn--active{{ end }}"
+          {{- if $testActive }} aria-current="page"{{ end }}>
+          Test
+       </a>
+      {{- end -}}
     {{- end -}}
   </div>
 </nav>
