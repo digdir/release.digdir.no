@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/minid/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 12 Jun 2026 06:03:37 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-varsling-da6559c504eb3d14ae93449e8223396baab3381a/</link><pubDate>Fri, 12 Jun 2026 06:03:37 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-varsling-da6559c504eb3d14ae93449e8223396baab3381a/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/minid/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 15 Jun 2026 06:09:00 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-onthefly-frontend-fc3e3c0626af141aea33435fc7e9b86e6bbf84a2/</link><pubDate>Mon, 15 Jun 2026 06:09:00 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-onthefly-frontend-fc3e3c0626af141aea33435fc7e9b86e6bbf84a2/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-3301 Add the new langauge selector from minid-elements (#424)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3173 ux and text (#421)&lt;/li&gt;
+&lt;li&gt;MIN-3365: Update SHA-256 fingerprint for non-production environment i (#419)&lt;/li&gt;
+&lt;li&gt;MIN-3257 remove repassword field (#412)&lt;/li&gt;
+&lt;li&gt;MIN-3211 wcag-2.2.1 (#411)&lt;/li&gt;
+&lt;li&gt;MIN-3150 wcag (#406)&lt;/li&gt;
+&lt;li&gt;MIN-2935 improve screen readers (#401)&lt;/li&gt;
+&lt;li&gt;MIN-3114: Update workflow (#398)&lt;/li&gt;
+&lt;li&gt;MIN-3092: Accessability statement (#394)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-varsling-da6559c504eb3d14ae93449e8223396baab3381a/</link><pubDate>Fri, 12 Jun 2026 06:03:37 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-varsling-da6559c504eb3d14ae93449e8223396baab3381a/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3390 numerisk avsender for Spania, USA og Kanada (#456)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;KRR-000_whitelist_kt (#454)&lt;/li&gt;
