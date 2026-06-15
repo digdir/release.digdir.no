@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/eformidling/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 29 Apr 2026 07:01:51 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-virksert-b659b06fc8de703a9844c4919b32a99c064c7d2e/</link><pubDate>Wed, 29 Apr 2026 07:01:51 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-virksert-b659b06fc8de703a9844c4919b32a99c064c7d2e/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/eformidling/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 15 Jun 2026 11:03:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-eureka-server-5c117fcd6571c808da0a37f573c29df7188ced61/</link><pubDate>Mon, 15 Jun 2026 11:03:41 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-eureka-server-5c117fcd6571c808da0a37f573c29df7188ced61/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-5091 Mariadb-driver i Eureka (#44)&lt;/li&gt;
+&lt;li&gt;MOVE-5091 Mariadb-driver i Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5091 Mariadb-driver i Eureka (#43)&lt;/li&gt;
+&lt;li&gt;MOVE-5091 Mariadb-driver i Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka (#41)&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-5087 Oppdatere Eureka&lt;/li&gt;
+&lt;li&gt;MOVE-3730 Fix access for dependabot&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-virksert-b659b06fc8de703a9844c4919b32a99c064c7d2e/</link><pubDate>Wed, 29 Apr 2026 07:01:51 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-virksert-b659b06fc8de703a9844c4919b32a99c064c7d2e/</guid><description>&lt;ul&gt;
 &lt;li&gt;Build(deps): bump org.springframework.boot:spring-boot-starter-parent from 4.0.2 to 4.0.6 (#203)&lt;/li&gt;
 &lt;li&gt;MOVE-4906 remove failsafe setup and run PR checks with mvn test&lt;/li&gt;
 &lt;li&gt;MOVE-4906 Rename to WebMvcTest&lt;/li&gt;
