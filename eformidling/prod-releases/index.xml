@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/eformidling/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 18 Jun 2026 12:25:06 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-93a32afc9a784fa3abce1ef32f46a071bff55b96/</link><pubDate>Thu, 18 Jun 2026 12:25:06 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-93a32afc9a784fa3abce1ef32f46a071bff55b96/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/eformidling/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 24 Jun 2026 10:08:07 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-58d3a0457cfbe59176043785603fdbb4bb719c0b/</link><pubDate>Wed, 24 Jun 2026 10:08:07 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-58d3a0457cfbe59176043785603fdbb4bb719c0b/</guid><description>&lt;ul&gt;
+&lt;li&gt;Removed logging og JTW, enable debug logging of content&lt;/li&gt;
+&lt;li&gt;Added a SpringBoot 4 Jackson 3 workaround for fetching tokens (see JwtTokenClientSB4.java)&lt;/li&gt;
+&lt;li&gt;Returns authorized orgno instead of just checking access liste&lt;/li&gt;
+&lt;li&gt;Fixed some typos&lt;/li&gt;
+&lt;li&gt;Minor tweaks og readme&lt;/li&gt;
+&lt;li&gt;Log the accesslist fetch on cache update&lt;/li&gt;
+&lt;li&gt;Adding manual tests for debugging access list issues&lt;/li&gt;
+&lt;li&gt;MOVE-4970 added access list caching&lt;/li&gt;
+&lt;li&gt;Oppdatert TODO lista&lt;/li&gt;
+&lt;li&gt;Lagt til ekstra metric for proxy errors&lt;/li&gt;
+&lt;li&gt;Oppgradert bygg til Java 25&lt;/li&gt;
+&lt;li&gt;Oppgradert til Spring Boot 4.1.0 (fremdeles på Java 21) og fått Claude til å fikse noen tester.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-93a32afc9a784fa3abce1ef32f46a071bff55b96/</link><pubDate>Thu, 18 Jun 2026 12:25:06 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-dpv-proxy-93a32afc9a784fa3abce1ef32f46a071bff55b96/</guid><description>&lt;ul&gt;
 &lt;li&gt;Oppdatert README&lt;/li&gt;
 &lt;li&gt;Log the accesslist fetch on cache update&lt;/li&gt;
 &lt;li&gt;Adding manual tests for debugging access list issues&lt;/li&gt;
