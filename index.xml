@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 30 Jun 2026 09:42:30 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-new-password-d913b4ae5fd20e74c16a0344f0115fac714fdd1e/</link><pubDate>Tue, 30 Jun 2026 09:42:30 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-new-password-d913b4ae5fd20e74c16a0344f0115fac714fdd1e/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 01 Jul 2026 06:02:45 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-user-service-e334dbea0126404b8c251c23ac1e48cc80c9f58d/</link><pubDate>Wed, 01 Jul 2026 06:02:45 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-user-service-e334dbea0126404b8c251c23ac1e48cc80c9f58d/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3381 Added profileCreatedAtEpochMs to return value from AdminController (#633)&lt;/li&gt;
+&lt;li&gt;MIN-3455 oppdatere feilhandtering (#632)&lt;/li&gt;
+&lt;li&gt;MIN-3383: Use dynamic groupId for Kafka listener in ConfigRefreshList (#629)&lt;/li&gt;
+&lt;li&gt;MIN-3383: Enhance minidconfig endpoint to expose admin-overridable c (#626)&lt;/li&gt;
+&lt;li&gt;MIN-3383: Allow unauthenticated access to minidconfig actuator endpoint (#622)&lt;/li&gt;
+&lt;li&gt;MIN-2895 Add GET apiadminallUsers endpoint with optional (#621)&lt;/li&gt;
+&lt;li&gt;MIN-3379 moglegheit for å sperre brukarar som ikkje finst (#620)&lt;/li&gt;
+&lt;li&gt;MIN-3383: integrate Spring Cloud Config and add monitored background job logging (#619)&lt;/li&gt;
+&lt;li&gt;MIN-3356 nye teksta i epost om sletting, pluss litt plukk (#616)&lt;/li&gt;
+&lt;li&gt;MIN-3330: Localize unknown values in new-device notification messages (#613)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-new-password-d913b4ae5fd20e74c16a0344f0115fac714fdd1e/</link><pubDate>Tue, 30 Jun 2026 09:42:30 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-new-password-d913b4ae5fd20e74c16a0344f0115fac714fdd1e/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3470 omskriving feilhandtering (#420)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/test-releases/ansattporten-user-service-61564eabe05525c2964466af94c7f9f17611aca7/</link><pubDate>Tue, 30 Jun 2026 08:22:29 +0000</pubDate><guid>https://release.digdir.no/ansattporten/test-releases/ansattporten-user-service-61564eabe05525c2964466af94c7f9f17611aca7/</guid><description>&lt;ul&gt;
