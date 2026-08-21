@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/idporten/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 21 Aug 2026 10:48:15 +0000</lastBuildDate><atom:link href="https://release.digdir.no/idporten/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-login-52f94b57a46d9261dc766a154f28778a01613022/</link><pubDate>Fri, 21 Aug 2026 10:48:15 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-login-52f94b57a46d9261dc766a154f28778a01613022/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/idporten/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 21 Aug 2026 11:33:48 +0000</lastBuildDate><atom:link href="https://release.digdir.no/idporten/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-c2id-hsm-test-13cb6d83fd50a7715446fb16e20ca04738ef10cd/</link><pubDate>Fri, 21 Aug 2026 11:33:48 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-c2id-hsm-test-13cb6d83fd50a7715446fb16e20ca04738ef10cd/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-6776 oppdatert for få ny sha (#123)&lt;/li&gt;
+&lt;li&gt;ID-6762 Sjekke at idporten-hsm-test image følger SLSA (#122)&lt;/li&gt;
+&lt;li&gt;ID-6762 oppdatert workflow. (#121)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;ID-6675: Bytt til shared workflows (#119)&lt;/li&gt;
+&lt;li&gt;ID-6275: Fikse bygg og SBOM generering III (#102)&lt;/li&gt;
+&lt;li&gt;ID-6275: Skifte ut Trivy i bygg SBOM II (#101)&lt;/li&gt;
+&lt;li&gt;ID-6275: Skifte ut Trivy i bygg SBOM (#100)&lt;/li&gt;
+&lt;li&gt;ID-6275: Skifte ut trivy action (#99)&lt;/li&gt;
+&lt;li&gt;ID-6042: Feilrette image signing (#94)&lt;/li&gt;
+&lt;li&gt;ID-6041: Signering av docker image (#93)&lt;/li&gt;
+&lt;li&gt;ID-5191: Patch av CMU i HSM for fiks av genering av sjølvsignert sertifikat (#67)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-login-52f94b57a46d9261dc766a154f28778a01613022/</link><pubDate>Fri, 21 Aug 2026 10:48:15 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-login-52f94b57a46d9261dc766a154f28778a01613022/</guid><description>&lt;ul&gt;
 &lt;li&gt;ID-6756: Rydde vekk gamle eidas claims (#1485)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-c2id-hsm-test-92ee508dc515d423a886a5b330321ab98d1a0a7e/</link><pubDate>Fri, 21 Aug 2026 08:43:03 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-c2id-hsm-test-92ee508dc515d423a886a5b330321ab98d1a0a7e/</guid><description>&lt;ul&gt;
 &lt;li&gt;ID-4605: Workaround for version 10.7.2 duplicate libCryptoki2.so (#53)&lt;/li&gt;
