@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/plattform/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Sat, 29 Aug 2026 18:34:49 +0000</lastBuildDate><atom:link href="https://release.digdir.no/plattform/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>plattform</title><link>https://release.digdir.no/plattform/test-releases/plattform-test-app-be79bf7b8cdf0473ffe43b6769ab5d5f4cff1e66/</link><pubDate>Sat, 29 Aug 2026 18:34:49 +0000</pubDate><guid>https://release.digdir.no/plattform/test-releases/plattform-test-app-be79bf7b8cdf0473ffe43b6769ab5d5f4cff1e66/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/plattform/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 02 Sep 2026 17:26:14 +0000</lastBuildDate><atom:link href="https://release.digdir.no/plattform/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>plattform</title><link>https://release.digdir.no/plattform/test-releases/plattform-test-app-ed112e561eee16f6a6bbd263472fb5866cc5c841/</link><pubDate>Wed, 02 Sep 2026 17:26:14 +0000</pubDate><guid>https://release.digdir.no/plattform/test-releases/plattform-test-app-ed112e561eee16f6a6bbd263472fb5866cc5c841/</guid><description>&lt;ul&gt;
+&lt;li&gt;Merge pull request #559 from felleslosningerrevert-pipeline-testing-pinned-workflows&lt;/li&gt;
+&lt;li&gt;revert back to main&lt;/li&gt;
+&lt;li&gt;Merge pull request #558 from felleslosningerflow-map-ux-tweaks&lt;/li&gt;
+&lt;li&gt;copilot fix 3&lt;/li&gt;
+&lt;li&gt;copilot fix 2&lt;/li&gt;
+&lt;li&gt;copilot fix 1&lt;/li&gt;
+&lt;li&gt;Merge branch main into flow-map-ux-tweaks&lt;/li&gt;
+&lt;li&gt;v1&lt;/li&gt;
+&lt;li&gt;Test ghcr&lt;/li&gt;
+&lt;li&gt;PF-2574 Test new CR login composite action&lt;/li&gt;
+&lt;li&gt;PF-2306 Test new Maven composite actions for image and lib&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>plattform</title><link>https://release.digdir.no/plattform/test-releases/plattform-test-app-be79bf7b8cdf0473ffe43b6769ab5d5f4cff1e66/</link><pubDate>Sat, 29 Aug 2026 18:34:49 +0000</pubDate><guid>https://release.digdir.no/plattform/test-releases/plattform-test-app-be79bf7b8cdf0473ffe43b6769ab5d5f4cff1e66/</guid><description>&lt;ul&gt;
 &lt;li&gt;Back to main&lt;/li&gt;
 &lt;li&gt;PF-2246 Test improved step summary&lt;/li&gt;
 &lt;li&gt;PF-2246 Test step summary improvements&lt;/li&gt;
