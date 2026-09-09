@@ -7,17 +7,6 @@
 &lt;li&gt;EUW-1791: Støtt list- og map-claims i legg tilrediger 2.0 (#76)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;EUW-1784: Stepper og fullføringsvisning for utstedelse (#71)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-verifier-service-e082645c5d06cc4e4de154d944bd634c4bc3b491/</link><pubDate>Wed, 09 Sep 2026 12:19:53 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-verifier-service-e082645c5d06cc4e4de154d944bd634c4bc3b491/</guid><description>&lt;ul&gt;
-&lt;li&gt;EUW-1793: lagt til CVEs i trivy-ignore (#82)&lt;/li&gt;
-&lt;li&gt;EUW-1793: Flytte idporten-login client-id til vault (#77)&lt;/li&gt;
-&lt;li&gt;EUW-1796: Forenkle AI-instruksjoner og kodestandard (#80)&lt;/li&gt;
-&lt;li&gt;EUW-1783: Korriger admin-URLer for bevistyper (#79)&lt;/li&gt;
-&lt;li&gt;EUW-1782: Skru på redigerlegg til 2.0 i test, fjern gamle knappar (#78)&lt;/li&gt;
-&lt;li&gt;EUW-1791: Støtt list- og map-claims i legg tilrediger 2.0 (#76)&lt;/li&gt;
-&lt;li&gt;Library upgrades&lt;/li&gt;
-&lt;li&gt;EUW-1784: Stepper og fullføringsvisning for utstedelse (#71)&lt;/li&gt;
-&lt;li&gt;EUW-1785: Standardiserer nynorsk tekst i issuer-demo (#70)&lt;/li&gt;
-&lt;li&gt;EUW-1724: Vent med redirect til fanen er synlig etter delt pid-bevis for autentisering (#52)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-ea7fa155bb9d21baf6436051dd371e7e60db3106/</link><pubDate>Wed, 09 Sep 2026 09:35:56 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-ea7fa155bb9d21baf6436051dd371e7e60db3106/</guid><description>&lt;ul&gt;
 &lt;li&gt;EUW-1783: Korriger admin-URLer for bevistyper (#79)&lt;/li&gt;
 &lt;li&gt;EUW-1782: Skru på redigerlegg til 2.0 i test, fjern gamle knappar (#78)&lt;/li&gt;
