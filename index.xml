@@ -4,6 +4,9 @@
 &lt;li&gt;ID-6759: mappe logos til minio objectstorage (#45)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;ID-6276: Bytte ut trivy med felles workflow (#43)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/test-releases/ansattporten-freg-gateway-527bb91d3b8f1605a2176b9b426843806ad5ebf5/</link><pubDate>Tue, 15 Sep 2026 08:30:50 +0000</pubDate><guid>https://release.digdir.no/ansattporten/test-releases/ansattporten-freg-gateway-527bb91d3b8f1605a2176b9b426843806ad5ebf5/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-3635: MWB tenant (#622)&lt;/li&gt;
+&lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#621)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-user-service-9ab569b7c8c4a14706875c69fd6ce514b58c4888/</link><pubDate>Tue, 15 Sep 2026 06:39:33 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-user-service-9ab569b7c8c4a14706875c69fd6ce514b58c4888/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#700)&lt;/li&gt;
