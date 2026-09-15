@@ -5,6 +5,11 @@
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;EUW-1798: Fjern entitlement-administrasjon og hindre SSRF via ca_id (#34)&lt;/li&gt;
 &lt;li&gt;EUW-1801: Håndterer manglende bevismetadata (#31)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-rp-register-admin-3af2f78125627f1e6b3c19bf5e04940d1b0030db/</link><pubDate>Tue, 15 Sep 2026 05:59:29 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-rp-register-admin-3af2f78125627f1e6b3c19bf5e04940d1b0030db/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;EUW-1798: Fjern entitlement-administrasjon og hindre SSRF via ca_id (#34)&lt;/li&gt;
+&lt;li&gt;EUW-1801: Håndterer manglende bevismetadata (#31)&lt;/li&gt;
+&lt;li&gt;EUW-1803: Hindre revoking av issuer-sertifikat på tvers av relying parties (#30)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-issuer-server-dfc1d40b5a930fe4387a78865b3fcc55477b54b2/</link><pubDate>Mon, 14 Sep 2026 11:50:25 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-issuer-server-dfc1d40b5a930fe4387a78865b3fcc55477b54b2/</guid><description>&lt;ul&gt;
 &lt;li&gt;EUW-1788: Parse key attestations (#72)&lt;/li&gt;
 &lt;li&gt;EUW-1805: Forenkle designsystem- og layoutregler (#85)&lt;/li&gt;
