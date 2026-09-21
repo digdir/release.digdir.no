@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 18 Sep 2026 17:54:57 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-web-c13086b0da9e6c4a6ec0eb966b21c7849152470f/</link><pubDate>Fri, 18 Sep 2026 17:54:57 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-web-c13086b0da9e6c4a6ec0eb966b21c7849152470f/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 21 Sep 2026 07:50:13 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-c2id-hsm-test-048576aeec12aa0ec972c8cd4f0e32f27c534c16/</link><pubDate>Mon, 21 Sep 2026 07:50:13 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-c2id-hsm-test-048576aeec12aa0ec972c8cd4f0e32f27c534c16/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-6776 oppdatert for få ny sha (#123)&lt;/li&gt;
+&lt;li&gt;ID-6762 Sjekke at idporten-hsm-test image følger SLSA (#122)&lt;/li&gt;
+&lt;li&gt;ID-6762 oppdatert workflow. (#121)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;ID-6675: Bytt til shared workflows (#119)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>plattform</title><link>https://release.digdir.no/plattform/test-releases/plattform-test-app-49ecbdf9bbc071fefe466ded57dfad9d35c8acef/</link><pubDate>Mon, 21 Sep 2026 05:12:04 +0000</pubDate><guid>https://release.digdir.no/plattform/test-releases/plattform-test-app-49ecbdf9bbc071fefe466ded57dfad9d35c8acef/</guid><description>&lt;ul&gt;
+&lt;li&gt;Update deploy.yml&lt;/li&gt;
+&lt;li&gt;Update deploy.yml&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-web-c13086b0da9e6c4a6ec0eb966b21c7849152470f/</link><pubDate>Fri, 18 Sep 2026 17:54:57 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-web-c13086b0da9e6c4a6ec0eb966b21c7849152470f/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-5161 Oppdater AGENTS.md og fiks typo i sertifikat-timeout (#768)&lt;/li&gt;
 &lt;li&gt;MOVE-5157 Timeout ved opplasting av sertifikat i ELMA (#767)&lt;/li&gt;
 &lt;li&gt;MOVE-5148 Maskinporten authentication in elma-rest-api (#764)&lt;/li&gt;
