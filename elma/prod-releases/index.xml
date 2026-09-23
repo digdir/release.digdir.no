@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/elma/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 23 Sep 2026 09:58:05 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-web-f80084465c732525caf1b660f9804a9679b4e46a/</link><pubDate>Wed, 23 Sep 2026 09:58:05 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-web-f80084465c732525caf1b660f9804a9679b4e46a/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/elma/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 23 Sep 2026 10:02:09 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-rest-api-f80084465c732525caf1b660f9804a9679b4e46a/</link><pubDate>Wed, 23 Sep 2026 10:02:09 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-rest-api-f80084465c732525caf1b660f9804a9679b4e46a/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-4367 Audit-logga endringar av prosessar og dokumenttypar (#769)&lt;/li&gt;
+&lt;li&gt;MOVE-5161 Oppdater AGENTS.md og fiks typo i sertifikat-timeout (#768)&lt;/li&gt;
+&lt;li&gt;MOVE-5157 Timeout ved opplasting av sertifikat i ELMA (#767)&lt;/li&gt;
+&lt;li&gt;MOVE-5148 Maskinporten authentication in elma-rest-api (#764)&lt;/li&gt;
+&lt;li&gt;MOVE-5159 Opplastingsknapp fungerer ikke (#766)&lt;/li&gt;
+&lt;li&gt;MOVE-3925 Kapabilitetsoppslag i Elma returnerer i enkelte tilfeller (#765)&lt;/li&gt;
+&lt;li&gt;MOVE-4471 Kreve 2-faktorautentisering for brukere i Elma (#762)&lt;/li&gt;
+&lt;li&gt;MOVE-4229 ignore mail in health check for provider (#763)&lt;/li&gt;
+&lt;li&gt;MOVE-5150 Styling for Org Title for edit participant form i Elma Web (#761)&lt;/li&gt;
+&lt;li&gt;MOVE-4019 Slutta å senda e-postar til sluttbrukarar ved registrering (#760)&lt;/li&gt;
+&lt;li&gt;MOVE-5067 F-002 Injeksjon av rutingsendepunkt via skyggeregistrering (#759)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-web-f80084465c732525caf1b660f9804a9679b4e46a/</link><pubDate>Wed, 23 Sep 2026 09:58:05 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-web-f80084465c732525caf1b660f9804a9679b4e46a/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-4367 Audit-logga endringar av prosessar og dokumenttypar (#769)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-web-c13086b0da9e6c4a6ec0eb966b21c7849152470f/</link><pubDate>Fri, 18 Sep 2026 17:54:57 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-web-c13086b0da9e6c4a6ec0eb966b21c7849152470f/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-5161 Oppdater AGENTS.md og fiks typo i sertifikat-timeout (#768)&lt;/li&gt;
