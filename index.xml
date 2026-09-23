@@ -3,6 +3,11 @@
 &lt;li&gt;EUW-1849: Meir dynamisk filtrering av datasettet over brukarstader (#44)&lt;/li&gt;
 &lt;li&gt;EUW-1840 migrere til designsystemet og fjerne idporten-design (#41)&lt;/li&gt;
 &lt;li&gt;EUW-1839: Ny systest-local-profil for lookup-web (#40)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-02f4bf4a974e17bb316e4e7fb0cc6bd960fa7c44/</link><pubDate>Wed, 23 Sep 2026 11:04:51 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-02f4bf4a974e17bb316e4e7fb0cc6bd960fa7c44/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-3780 Legga inn BSD 3-lisens på efm-service-registry (#506)&lt;/li&gt;
+&lt;li&gt;MOVE-3780 Legga inn BSD 3-lisens på efm-service-registry&lt;/li&gt;
+&lt;li&gt;MOVE-3780 Legga inn BSD 3-lisens på efm-service-registry&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-fullmakt-demo-client-01e3d55107baeb3315c75e8c474e01e03479fb5e/</link><pubDate>Wed, 23 Sep 2026 10:52:41 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-fullmakt-demo-client-01e3d55107baeb3315c75e8c474e01e03479fb5e/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;ID-6854 implementert DS til fullmakt demo klient (#237)&lt;/li&gt;
