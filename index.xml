@@ -25,6 +25,8 @@
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;EUW-1854: Endre dependabot-gruppenavn til maven (#54)&lt;/li&gt;
 &lt;li&gt;EUW-1854: Dependabot n PR per app (#47)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-user-service-de01ff8cdf91eea24ad029e55cad85ce35d5a8b8/</link><pubDate>Thu, 24 Sep 2026 14:41:59 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-user-service-de01ff8cdf91eea24ad029e55cad85ce35d5a8b8/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-6693 fetch users by last washed (#377)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-87b9cd2775c87ee039ba50f1c727d306ba7da4ba/</link><pubDate>Thu, 24 Sep 2026 13:01:38 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-87b9cd2775c87ee039ba50f1c727d306ba7da4ba/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;EUW-1871: Håndter ERROR i polling på verifikasjon (#157)&lt;/li&gt;
