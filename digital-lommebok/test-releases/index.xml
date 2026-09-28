@@ -9,6 +9,17 @@
 &lt;li&gt;EUW-1840 migrere til designsystemet og fjerne idporten-design (#41)&lt;/li&gt;
 &lt;li&gt;EUW-1839: Ny systest-local-profil for lookup-web (#40)&lt;/li&gt;
 &lt;li&gt;EUW-1828: Equinor paa tillitslista (#39)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-service-0441ff5854f82933bc67c30a5943269b7920609a/</link><pubDate>Mon, 28 Sep 2026 11:21:37 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-service-0441ff5854f82933bc67c30a5943269b7920609a/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;EUW-1885: Støtte custom mediatype applicationvnd.lotejson for trustlist 119-602 (#62)&lt;/li&gt;
+&lt;li&gt;EUW-1854: Endre dependabot-gruppenavn til maven (#54)&lt;/li&gt;
+&lt;li&gt;EUW-1854: Dependabot n PR per app (#47)&lt;/li&gt;
+&lt;li&gt;EUW-1855: Globalt søk og oppdatert forside (#46)&lt;/li&gt;
+&lt;li&gt;EUW-1857: Oppdatere information URI for Equinor paa tillitslista (#45)&lt;/li&gt;
+&lt;li&gt;EUW-1849: Meir dynamisk filtrering av datasettet over brukarstader (#44)&lt;/li&gt;
+&lt;li&gt;EUW-1840 migrere til designsystemet og fjerne idporten-design (#41)&lt;/li&gt;
+&lt;li&gt;EUW-1839: Ny systest-local-profil for lookup-web (#40)&lt;/li&gt;
+&lt;li&gt;EUW-1828: Equinor paa tillitslista (#39)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-selfservice-069f8781c9d4c592ce0444a607cb98c18b21ca07/</link><pubDate>Mon, 28 Sep 2026 11:19:41 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-selfservice-069f8781c9d4c592ce0444a607cb98c18b21ca07/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;EUW-1885: Støtte custom mediatype applicationvnd.lotejson for trustlist 119-602 (#62)&lt;/li&gt;
