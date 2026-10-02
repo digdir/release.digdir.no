@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/minid/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 25 Sep 2026 11:58:46 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-si-0fd73c233652fd68da2be111c9a4265ab14682fd/</link><pubDate>Fri, 25 Sep 2026 11:58:46 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-si-0fd73c233652fd68da2be111c9a4265ab14682fd/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/minid/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 02 Oct 2026 07:49:33 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-onthefly-school-3db72cca471565c6a9140243c776cdc5b6d98520/</link><pubDate>Fri, 02 Oct 2026 07:49:33 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-onthefly-school-3db72cca471565c6a9140243c776cdc5b6d98520/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-3749: Chat name prompt behind a switch, focus the name field (#296)&lt;/li&gt;
+&lt;li&gt;MIN-3749: Ask for the visitors name before the Genesys chat opens (#295)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3737: Add the Genesys chat client from minid-auth behind a feature switch (#289)&lt;/li&gt;
+&lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#288)&lt;/li&gt;
+&lt;li&gt;MIN-3219-tekster-laerar-app (#287)&lt;/li&gt;
+&lt;li&gt;MIN-3490 fleire testIDar på rektor- og lærargrensesnitta (#282)&lt;/li&gt;
+&lt;li&gt;MIN-3576 fix teljar minid brukara per klasse (#283)&lt;/li&gt;
+&lt;li&gt;MIN-3704 - Fiks for ERROR 500 frå OAuth2AuthorizationRequestRedirectFilter (#277)&lt;/li&gt;
+&lt;li&gt;MIN-3688: Feide-testrealm: orgsrealm-fallback, ekte pre-prod Brreg og lokal (#275)&lt;/li&gt;
+&lt;li&gt;MIN-3560: Update APP_LANDING_PAGE_URL values to new domains in all en (#273)&lt;/li&gt;
+&lt;li&gt;MIN-3604 unit test for audit log regresjon (#272)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-si-0fd73c233652fd68da2be111c9a4265ab14682fd/</link><pubDate>Fri, 25 Sep 2026 11:58:46 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-si-0fd73c233652fd68da2be111c9a4265ab14682fd/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3782: Update email sending logic to check allowed addresses (#239)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#231)&lt;/li&gt;
