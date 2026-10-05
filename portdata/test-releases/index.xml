@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/portdata/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 05 Oct 2026 07:24:12 +0000</lastBuildDate><atom:link href="https://release.digdir.no/portdata/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>portdata</title><link>https://release.digdir.no/portdata/test-releases/portdata-api-86613c2ba2967789c7d87c43e2a9260a4c315ef0/</link><pubDate>Mon, 05 Oct 2026 07:24:12 +0000</pubDate><guid>https://release.digdir.no/portdata/test-releases/portdata-api-86613c2ba2967789c7d87c43e2a9260a4c315ef0/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;Update jackson2.version to 2.22.3 for CVE-2026-68497 fix&lt;/li&gt;
+&lt;li&gt;Add logging for S3 configuration values and mask secret key&lt;/li&gt;
+&lt;li&gt;Enhance error handling in LogoObjectStorage and LogoExceptionHandler&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
