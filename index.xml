@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 05 Oct 2026 08:56:55 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-oauth-server-45dc4debee2896e4ad2611385764e0d401af8615/</link><pubDate>Mon, 05 Oct 2026 08:56:55 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-oauth-server-45dc4debee2896e4ad2611385764e0d401af8615/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 05 Oct 2026 09:00:19 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>portdata</title><link>https://release.digdir.no/portdata/test-releases/portdata-api-01d7cc0ac173160da91e3b5daa5e8d9e00bf2d68/</link><pubDate>Mon, 05 Oct 2026 09:00:19 +0000</pubDate><guid>https://release.digdir.no/portdata/test-releases/portdata-api-01d7cc0ac173160da91e3b5daa5e8d9e00bf2d68/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-6926: fiks delete scope (#98)&lt;/li&gt;
+&lt;li&gt;Merge branch main into ID-6926&lt;/li&gt;
+&lt;li&gt;Update Dependabot credentials and modify pull request workflow to use image-based checks&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;Merge branch ID-6926 of github.com:felleslosningeridporten-portdata-api into ID-6926&lt;/li&gt;
+&lt;li&gt;fikse openapi doc&lt;/li&gt;
+&lt;li&gt;Potential fix for pull request finding Clarify the temporary approach revisit criteria&lt;/li&gt;
+&lt;li&gt;Update .gitignore to ignore all files in the .idea directory&lt;/li&gt;
+&lt;li&gt;Remove unused configuration files and add test for scope deletion behavior&lt;/li&gt;
+&lt;li&gt;Document scope deletion behavior and explicit handling of scope_access rows&lt;/li&gt;
+&lt;li&gt;Refactor scope deletion logic to ensure related scope access is removed before deleting the scope&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-oauth-server-45dc4debee2896e4ad2611385764e0d401af8615/</link><pubDate>Mon, 05 Oct 2026 08:56:55 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-oauth-server-45dc4debee2896e4ad2611385764e0d401af8615/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-issuer-server-d89029562fa905f60e9db8383290688677c9c41a/</link><pubDate>Mon, 05 Oct 2026 08:54:18 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-issuer-server-d89029562fa905f60e9db8383290688677c9c41a/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
