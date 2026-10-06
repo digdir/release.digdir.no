@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 06 Oct 2026 06:41:31 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-notification-server-402108003510d733a6b73af30f89c6d274f68f97/</link><pubDate>Tue, 06 Oct 2026 06:41:31 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-notification-server-402108003510d733a6b73af30f89c6d274f68f97/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Tue, 06 Oct 2026 06:45:47 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-varsling-71789c3234b1efb80c8cd789a716cf9c34e1b53f/</link><pubDate>Tue, 06 Oct 2026 06:45:47 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-varsling-71789c3234b1efb80c8cd789a716cf9c34e1b53f/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-3822: Upgrade logging libraries, pending Dependabot bumps and Trivy fixes (#523)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3782 bruke minid-commons sin epost sendar (#519)&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist_kt (#517)&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist_kt (#512)&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist_kt (#511)&lt;/li&gt;
+&lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#507)&lt;/li&gt;
+&lt;li&gt;MIN-3604 unit test for audit log regresjon (#499)&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist_kt (#497)&lt;/li&gt;
+&lt;li&gt;MIN-3570: Remove MWR tenant (#494)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-notification-server-402108003510d733a6b73af30f89c6d274f68f97/</link><pubDate>Tue, 06 Oct 2026 06:41:31 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-notification-server-402108003510d733a6b73af30f89c6d274f68f97/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#951)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-freg-gateway-621b9d0a294253675b29a0e288d464b7c17581ba/</link><pubDate>Tue, 06 Oct 2026 06:38:43 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-freg-gateway-621b9d0a294253675b29a0e288d464b7c17581ba/</guid><description>&lt;ul&gt;
