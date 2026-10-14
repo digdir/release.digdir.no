@@ -1,0 +1,11 @@
+---
+title: elma
+date: 2026-10-14T11:06:11Z
+environment: prod
+---
+- MOVE-5174: GUI-feil ved endring av deltakar (#780)
+- MOVE-5174 Retta 500-feil når elma-web viser skjema på nytt etter feil (#778)
+- MOVE-5165 Update github credentials (#772)
+- MOVE-4472 Maskinporten for admin og PEPPOL-autoritet, client ID flytta til authable (#771)
+- MOVE-4672 Handtering av utgåtte sertifikat i ELMA (#770)
+
