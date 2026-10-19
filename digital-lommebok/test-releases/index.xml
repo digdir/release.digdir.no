@@ -9,6 +9,14 @@
 &lt;li&gt;EUW-1918: WalletRelyingParty migrasjon for å støtte TS5 (#97)&lt;/li&gt;
 &lt;li&gt;EUW-1920: Legg til TS2TS5-felter for tjeneste (#96)&lt;/li&gt;
 &lt;li&gt;EUW-1944: legge til depends_on i Docker Compose (#95)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-admin-92a7fc666fa21eb84606e2438d3086a2b974ecba/</link><pubDate>Mon, 19 Oct 2026 10:04:04 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-admin-92a7fc666fa21eb84606e2438d3086a2b974ecba/</guid><description>&lt;ul&gt;
+&lt;li&gt;EUW-1947: Versjoner statiske ressurser med innholdshash (#98)&lt;/li&gt;
+&lt;li&gt;EUW-1952: Fiks tømming av bevisfilter i beviskatalogen (#99)&lt;/li&gt;
+&lt;li&gt;EUW-1951: Støtt null i claim-stier ved metadata-parsing i credential-registerybeviskatalogen (#81)&lt;/li&gt;
+&lt;li&gt;EUW-1937: Tillate bevisdefinisjoner frå metadata som har andre ugyldige bevisdefinisjoner (#94)&lt;/li&gt;
+&lt;li&gt;EUW-1918: WalletRelyingParty migrasjon for å støtte TS5 (#97)&lt;/li&gt;
+&lt;li&gt;EUW-1920: Legg til TS2TS5-felter for tjeneste (#96)&lt;/li&gt;
+&lt;li&gt;EUW-1944: legge til depends_on i Docker Compose (#95)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-selfservice-92a7fc666fa21eb84606e2438d3086a2b974ecba/</link><pubDate>Mon, 19 Oct 2026 10:04:04 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-rp-register-selfservice-92a7fc666fa21eb84606e2438d3086a2b974ecba/</guid><description>&lt;ul&gt;
 &lt;li&gt;EUW-1947: Versjoner statiske ressurser med innholdshash (#98)&lt;/li&gt;
 &lt;li&gt;EUW-1952: Fiks tømming av bevisfilter i beviskatalogen (#99)&lt;/li&gt;
