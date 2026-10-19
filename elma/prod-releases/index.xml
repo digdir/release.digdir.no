@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/elma/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 19 Oct 2026 10:54:17 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-rest-api-7abb21f1649290d953da56adc6be2936b97ba3d2/</link><pubDate>Mon, 19 Oct 2026 10:54:17 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-rest-api-7abb21f1649290d953da56adc6be2936b97ba3d2/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/elma/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 19 Oct 2026 10:58:20 +0000</lastBuildDate><atom:link href="https://release.digdir.no/elma/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-batch-7abb21f1649290d953da56adc6be2936b97ba3d2/</link><pubDate>Mon, 19 Oct 2026 10:58:20 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-batch-7abb21f1649290d953da56adc6be2936b97ba3d2/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-5226 Abort-knappen virker ikke i PIN-bildet (#827)&lt;/li&gt;
+&lt;li&gt;MOVE-5217 Ta i bruk Designsystemet i ELMA (#826)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MOVE-5198 SPID må registreres med kun main ID før andre varianter (#819)&lt;/li&gt;
+&lt;li&gt;MOVE-5195 Man skal bare kunne registrere MLS dokumenttype på en SPIS ICD (#810)&lt;/li&gt;
+&lt;li&gt;MOVE-5177 ServiceProvider får ikke lagt til process på deltaker pga (#788)&lt;/li&gt;
+&lt;li&gt;MOVE-5178 Quick fix av duplicate document type process feilen (#787)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-rest-api-7abb21f1649290d953da56adc6be2936b97ba3d2/</link><pubDate>Mon, 19 Oct 2026 10:54:17 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-rest-api-7abb21f1649290d953da56adc6be2936b97ba3d2/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-5226 Abort-knappen virker ikke i PIN-bildet (#827)&lt;/li&gt;
 &lt;li&gt;MOVE-5217 Ta i bruk Designsystemet i ELMA (#826)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;

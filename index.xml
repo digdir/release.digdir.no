@@ -27,6 +27,14 @@
 &lt;li&gt;EUW-1941: Forenkle databaseoppsettet (#92)&lt;/li&gt;
 &lt;li&gt;EUW-1925: Slå sammen sertifikattabeller (#91)&lt;/li&gt;
 &lt;li&gt;EUW-1933: Bevar lagrede bevistypar ved redigering (#90)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>elma</title><link>https://release.digdir.no/elma/prod-releases/elma-batch-7abb21f1649290d953da56adc6be2936b97ba3d2/</link><pubDate>Mon, 19 Oct 2026 10:58:20 +0000</pubDate><guid>https://release.digdir.no/elma/prod-releases/elma-batch-7abb21f1649290d953da56adc6be2936b97ba3d2/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-5226 Abort-knappen virker ikke i PIN-bildet (#827)&lt;/li&gt;
+&lt;li&gt;MOVE-5217 Ta i bruk Designsystemet i ELMA (#826)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MOVE-5198 SPID må registreres med kun main ID før andre varianter (#819)&lt;/li&gt;
+&lt;li&gt;MOVE-5195 Man skal bare kunne registrere MLS dokumenttype på en SPIS ICD (#810)&lt;/li&gt;
+&lt;li&gt;MOVE-5177 ServiceProvider får ikke lagt til process på deltaker pga (#788)&lt;/li&gt;
+&lt;li&gt;MOVE-5178 Quick fix av duplicate document type process feilen (#787)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-rp-register-service-68c0dd9a2098c030c1a7a2ee636b5a8203525f96/</link><pubDate>Mon, 19 Oct 2026 10:57:15 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/prod-releases/digital-lommebok-rp-register-service-68c0dd9a2098c030c1a7a2ee636b5a8203525f96/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;EUW-1955: Støtte for WRPService IntendedUses (TS5) optimalisert db lese strategi (#103)&lt;/li&gt;
