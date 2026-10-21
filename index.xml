@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 21 Oct 2026 07:03:49 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-organization-registry-5b5f4f2188e928153cee8145d8d045dd82f745dd/</link><pubDate>Wed, 21 Oct 2026 07:03:49 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-organization-registry-5b5f4f2188e928153cee8145d8d045dd82f745dd/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 21 Oct 2026 07:10:48 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-virksert-a67b5f806fcd75554d84834333fd542df977f0ac/</link><pubDate>Wed, 21 Oct 2026 07:10:48 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-virksert-a67b5f806fcd75554d84834333fd542df977f0ac/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-5227 Retta etter review&lt;/li&gt;
+&lt;li&gt;MOVE-5227 Spring Session med Redis i VirkSert&lt;/li&gt;
+&lt;li&gt;MOVE-5239 Bump Bouncy Castle to 1.86&lt;/li&gt;
+&lt;li&gt;MOVE-5238 Kjør CodeceptJS-testene på pull requests&lt;/li&gt;
+&lt;li&gt;MOVE-5234 CodeceptJS feiler mot MailDev 3&lt;/li&gt;
+&lt;li&gt;MOVE-5236 Dependabot for Virksert feiler&lt;/li&gt;
+&lt;li&gt;MOVE-5234 CodeceptJS-testene feiler i oppstarten&lt;/li&gt;
+&lt;li&gt;MOVE-5222 Ta i bruk Designsystemet i Virksert&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-organization-registry-5b5f4f2188e928153cee8145d8d045dd82f745dd/</link><pubDate>Wed, 21 Oct 2026 07:03:49 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-organization-registry-5b5f4f2188e928153cee8145d8d045dd82f745dd/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-5249 Lagrar berre tokena i sesjonen, ikkje klientregistreringa (#225)&lt;/li&gt;
 &lt;li&gt;MOVE-5224 Redis-sesjonar verkar ikkje i OrganizationRegistry (#223)&lt;/li&gt;
 &lt;li&gt;MOVE-5225 Herding av sesjonar, cookies og utlogging i Organization Registry (#222)&lt;/li&gt;
