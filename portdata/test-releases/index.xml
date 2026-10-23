@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/portdata/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 23 Oct 2026 07:41:44 +0000</lastBuildDate><atom:link href="https://release.digdir.no/portdata/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>portdata</title><link>https://release.digdir.no/portdata/test-releases/portdata-api-7d4aac46038b3759320f7931e79e584d3246f8aa/</link><pubDate>Fri, 23 Oct 2026 07:41:44 +0000</pubDate><guid>https://release.digdir.no/portdata/test-releases/portdata-api-7d4aac46038b3759320f7931e79e584d3246f8aa/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/portdata/test-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 23 Oct 2026 11:35:14 +0000</lastBuildDate><atom:link href="https://release.digdir.no/portdata/test-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>portdata</title><link>https://release.digdir.no/portdata/test-releases/portdata-api-f6ee43070c024e8be05f237aaeb28d425f70314f/</link><pubDate>Fri, 23 Oct 2026 11:35:14 +0000</pubDate><guid>https://release.digdir.no/portdata/test-releases/portdata-api-f6ee43070c024e8be05f237aaeb28d425f70314f/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-7067: Standardverdier for CRL-intervall i Value&lt;/li&gt;
+&lt;li&gt;ID-7067: Gjør CRL-intervall konfigurerbart&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;ID-7067: Hent CRL-er n gang i døgnet&lt;/li&gt;
+&lt;li&gt;ID-7053: Logo endpoints return 500 instead of 400404 (#129)&lt;/li&gt;
+&lt;li&gt;Update miniomc image for local dev&lt;/li&gt;
+&lt;li&gt;Remove recommendations for miniomc troubleshooting&lt;/li&gt;
+&lt;li&gt;LogoControllerTest: registrer GlobalExceptionHandler,&lt;/li&gt;
+&lt;li&gt;Logo endpoints return 500 instead of 400404&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>portdata</title><link>https://release.digdir.no/portdata/test-releases/portdata-api-7d4aac46038b3759320f7931e79e584d3246f8aa/</link><pubDate>Fri, 23 Oct 2026 07:41:44 +0000</pubDate><guid>https://release.digdir.no/portdata/test-releases/portdata-api-7d4aac46038b3759320f7931e79e584d3246f8aa/</guid><description>&lt;ul&gt;
 &lt;li&gt;ID-7019: flytt kafka-pakken til no.idporten.portdata&lt;/li&gt;
 &lt;li&gt;ID-7019: utelat nb fra språk-maps i responsen og legg til kontrakttester for kafka-events&lt;/li&gt;
 &lt;li&gt;ID-7019: språk-descriptions som maps, og bytt ut CloudSync-DTOer med portdata-modellene&lt;/li&gt;
