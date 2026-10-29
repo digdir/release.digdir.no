@@ -466,6 +466,8 @@
 &lt;li&gt;EUW-1865: Feature switch for mindre streng challenge-håndtering ifm webuild (#149)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-auth-sources-connector-7212bd605ba57d041e71a7bc6b9ede25146b495c/</link><pubDate>Wed, 23 Sep 2026 09:43:34 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-auth-sources-connector-7212bd605ba57d041e71a7bc6b9ede25146b495c/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-verifier-service-3e7948c1691fc969334ad9fd67ba89ece48da48c/</link><pubDate>Wed, 23 Sep 2026 07:53:34 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-verifier-service-3e7948c1691fc969334ad9fd67ba89ece48da48c/</guid><description>&lt;ul&gt;
+&lt;li&gt;EUW-1603: Legge inn klient-spesifikk api-key i verifier-service API (#120)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-f5db0795d07ae052aaac2786769154d806bd1eae/</link><pubDate>Wed, 23 Sep 2026 07:51:43 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-f5db0795d07ae052aaac2786769154d806bd1eae/</guid><description>&lt;ul&gt;
 &lt;li&gt;EUW-1853: Legge til api-key mot verifiser-service i bevisgenerator (#148)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;

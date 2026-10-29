@@ -1823,6 +1823,8 @@
 &lt;li&gt;EUW-1857: Oppdatere information URI for Equinor paa tillitslista (#45)&lt;/li&gt;
 &lt;li&gt;EUW-1849: Meir dynamisk filtrering av datasettet over brukarstader (#44)&lt;/li&gt;
 &lt;li&gt;EUW-1840 migrere til designsystemet og fjerne idporten-design (#41)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-verifier-service-3e7948c1691fc969334ad9fd67ba89ece48da48c/</link><pubDate>Wed, 23 Sep 2026 07:53:34 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-verifier-service-3e7948c1691fc969334ad9fd67ba89ece48da48c/</guid><description>&lt;ul&gt;
+&lt;li&gt;EUW-1603: Legge inn klient-spesifikk api-key i verifier-service API (#120)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>digital-lommebok</title><link>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-f5db0795d07ae052aaac2786769154d806bd1eae/</link><pubDate>Wed, 23 Sep 2026 07:51:43 +0000</pubDate><guid>https://release.digdir.no/digital-lommebok/test-releases/digital-lommebok-issuer-ui-demo-f5db0795d07ae052aaac2786769154d806bd1eae/</guid><description>&lt;ul&gt;
 &lt;li&gt;EUW-1853: Legge til api-key mot verifiser-service i bevisgenerator (#148)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
@@ -1964,6 +1966,11 @@
 &lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-client-sync-app-255a4a7345525e3351cda72c2fd1507afbb924c9/</link><pubDate>Fri, 18 Sep 2026 06:57:15 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-client-sync-app-255a4a7345525e3351cda72c2fd1507afbb924c9/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-freg-gateway-9c8e4d4402e7d3eda8e775de1b0e6a36ed48f27e/</link><pubDate>Fri, 18 Sep 2026 06:54:33 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-freg-gateway-9c8e4d4402e7d3eda8e775de1b0e6a36ed48f27e/</guid><description>&lt;ul&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3649: Remove mpid-provider tenant (#627)&lt;/li&gt;
+&lt;li&gt;MIN-3635: MWB tenant (#622)&lt;/li&gt;
+&lt;li&gt;MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#621)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/prod-releases/idporten-freg-gateway-9c8e4d4402e7d3eda8e775de1b0e6a36ed48f27e/</link><pubDate>Fri, 18 Sep 2026 06:54:28 +0000</pubDate><guid>https://release.digdir.no/idporten/prod-releases/idporten-freg-gateway-9c8e4d4402e7d3eda8e775de1b0e6a36ed48f27e/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;MIN-3649: Remove mpid-provider tenant (#627)&lt;/li&gt;
 &lt;li&gt;MIN-3635: MWB tenant (#622)&lt;/li&gt;
