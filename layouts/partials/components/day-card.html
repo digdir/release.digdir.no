@@ -1,0 +1,81 @@
+{{- /*
+  Day card: all release notes of one day and environment in one card.
+  Changes are deduplicated and grouped by product and one-hour deployment window
+  (see helpers/release-groups.html).
+
+  Usage:
+    {{ partial "components/day-card.html" (dict "Pages" $dayPages) }}
+
+  Parameters:
+    Pages       (required) — release pages of one day and environment (helpers/release-days.html)
+    ShowProduct (bool, default false) — product heading per group, for views that mix products
+    IsLatest    (bool, default false) — adds the "Siste versjon" badge
+    ProductSlug (string, optional) — limits the detail page to one product
+*/ -}}
+{{- $pages       := .Pages -}}
+{{- $showProduct := .ShowProduct | default false -}}
+{{- $isLatest    := .IsLatest    | default false -}}
+{{- $productSlug := .ProductSlug | default "" -}}
+{{- $groups      := partial "helpers/release-groups.html" $pages -}}
+
+{{- with $groups -}}
+  {{- $first    := index $pages 0 -}}
+  {{- $date     := time.In "Europe/Oslo" $first.Date -}}
+  {{- $weekdays := slice "søndag" "mandag" "tirsdag" "onsdag" "torsdag" "fredag" "lørdag" -}}
+  {{- $titleId  := printf "day-%s-%s" ($date.Format "2006-01-02") (partial "helpers/env-slug.html" $first) -}}
+  {{- $dayURL   := printf "/release-days/%s/%s/" ($date.Format "2006-01-02") (partial "helpers/env-slug.html" $first) | relURL -}}
+  {{- if $productSlug -}}
+    {{- $dayURL = printf "/release-days/%s/%s/%s/" ($date.Format "2006-01-02") (partial "helpers/env-slug.html" $first) $productSlug | relURL -}}
+  {{- end -}}
+
+<li>
+  <article class="ds-card release-card day-card" data-color="neutral">
+    <div class="ds-card__block">
+
+      <div class="day-card__header">
+        <h2 class="ds-heading day-card__title" id="{{ $titleId }}" data-size="sm">
+          <a class="day-card__link" href="{{ $dayURL }}">
+            <time datetime="{{ $date.Format "2006-01-02" }}">
+              {{- printf "%s %s" (title (index $weekdays (int $date.Weekday))) (partial "helpers/date-no.html" $date) -}}
+            </time>
+          </a>
+        </h2>
+        <div class="day-card__badges">
+          {{ partial "components/env-badge.html" $first }}
+          {{- if $isLatest -}}
+            <span class="ds-tag release-card__badge--latest" data-size="sm">Siste versjon</span>
+          {{- end -}}
+        </div>
+      </div>
+
+      <hr class="ds-divider day-card__divider" aria-hidden="true">
+
+      {{- range . }}
+      <div class="day-card__group{{ if $showProduct }} day-card__group--with-product{{ end }}">
+        <div class="day-card__group-head">
+          {{- if $showProduct }}
+          <h3 class="ds-heading day-card__product" data-size="xs">{{ .Product }}</h3>
+          {{- end }}
+          <p class="ds-paragraph day-card__time" data-size="sm">
+            {{- $sameDisplayedMinute := and (eq (.Start.Format "15:04") (.End.Format "15:04")) (eq (.Start.Format "MST") (.End.Format "MST")) -}}
+            {{- if $sameDisplayedMinute -}}
+              <time datetime="{{ .Start.Format "2006-01-02T15:04:05Z07:00" }}">kl {{ .Start.Format "15:04 MST" }}</time>
+            {{- else if eq (.Start.Format "MST") (.End.Format "MST") -}}
+              <time datetime="{{ .Start.Format "2006-01-02T15:04:05Z07:00" }}">kl {{ .Start.Format "15:04" }}</time>–<time datetime="{{ .End.Format "2006-01-02T15:04:05Z07:00" }}">{{ .End.Format "15:04 MST" }}</time>
+            {{- else -}}
+              <time datetime="{{ .Start.Format "2006-01-02T15:04:05Z07:00" }}">kl {{ .Start.Format "15:04 MST" }}</time>–<time datetime="{{ .End.Format "2006-01-02T15:04:05Z07:00" }}">{{ .End.Format "15:04 MST" }}</time>
+            {{- end }}
+          </p>
+        </div>
+        <ul class="day-card__changes">
+          {{- range .Lines }}
+          <li>{{ . | markdownify }}</li>
+          {{- end }}
+        </ul>
+      </div>
+      {{- end }}
+
+    </div>
+  </article>
+</li>
+{{- end -}}

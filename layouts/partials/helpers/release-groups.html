@@ -1,0 +1,60 @@
+{{- /*
+  Groups a day's release notes by product and one-hour deployment windows.
+
+  Duplicate changes are shown once per product and window, compared without regard to case
+  and spacing. Each window is anchored to its first deployment and cannot exceed one hour.
+
+  Input:  release pages of one day, any order
+  Output: groups, newest deployment first
+            [{Product, ProductKey, Start, End, Lines}]
+          Lines are the change texts as markdown, in the order they first appear.
+*/ -}}
+{{- $seen := newScratch -}}
+{{- $groupOf := newScratch -}}
+{{- $currentGroupOf := newScratch -}}
+{{- $windowStartOf := newScratch -}}
+{{- $nextIndexOf := newScratch -}}
+{{- $groupKeys := slice -}}
+{{- $oneHour := time.ParseDuration "1h" -}}
+{{- range sort . "Date" "asc" -}}
+  {{- $page := . -}}
+  {{- $pageDate := time.In "Europe/Oslo" $page.Date -}}
+  {{- $productKey := $page.Section -}}
+  {{- $product := ($page.Site.GetPage (printf "/%s" $productKey)).Title | default $page.Title -}}
+  {{- $groupKey := $currentGroupOf.Get $productKey -}}
+  {{- $windowStart := $windowStartOf.Get $productKey -}}
+  {{- $startsNewGroup := not $groupKey -}}
+  {{- if not $startsNewGroup -}}
+    {{- $elapsedSeconds := sub $pageDate.Unix $windowStart.Unix -}}
+    {{- $startsNewGroup = gt $elapsedSeconds 3600 -}}
+  {{- end -}}
+  {{- if $startsNewGroup -}}
+    {{- $index := $nextIndexOf.Get $productKey | default 0 -}}
+    {{- $groupKey = printf "%s|%d" $productKey $index -}}
+    {{- $nextIndexOf.Set $productKey (add $index 1) -}}
+    {{- $currentGroupOf.Set $productKey $groupKey -}}
+    {{- $windowStartOf.Set $productKey $pageDate -}}
+    {{- $groupOf.Set $groupKey (dict "Product" $product "ProductKey" $productKey "Start" $pageDate "End" $pageDate "Lines" (slice)) -}}
+    {{- $groupKeys = $groupKeys | append $groupKey -}}
+  {{- else -}}
+    {{- $group := $groupOf.Get $groupKey -}}
+    {{- $groupOf.Set $groupKey (merge $group (dict "End" $pageDate)) -}}
+  {{- end -}}
+  {{- range split $page.RawContent "\n" -}}
+    {{- $text := trim (replaceRE `^\s*[-*+]\s+` "" .) " \t\r" -}}
+    {{- if $text -}}
+      {{- $change := printf "%s|%s" $groupKey (replaceRE `\s+` " " (lower $text)) -}}
+      {{- if not ($seen.Get $change) -}}
+        {{- $seen.Set $change true -}}
+        {{- $group := $groupOf.Get $groupKey -}}
+        {{- $groupOf.Set $groupKey (merge $group (dict "Lines" ($group.Lines | append $text))) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $groups := slice -}}
+{{- range $groupKeys -}}
+  {{- $groups = $groups | append ($groupOf.Get .) -}}
+{{- end -}}
+{{- return (sort $groups "End" "desc") -}}

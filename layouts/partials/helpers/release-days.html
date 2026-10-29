@@ -1,0 +1,32 @@
+{{- /*
+  Splits release pages into days, so that pagination counts days instead of release notes.
+  A day is one calendar date in Europe/Oslo and one environment.
+
+  Input:  release pages, any order
+  Output: dict
+    NewestPages - page.Pages with the newest page of each day, newest day first. Paginate this.
+    PagesByDay  - scratch; PagesByDay.Get $newestPage.RelPermalink returns all pages of that day, newest first.
+
+  Usage:
+    {{ $days := partial "helpers/release-days.html" $pages }}
+    {{ $paginator := .Paginate $days.NewestPages }}
+    {{ range $paginator.Pages }}
+      {{ partial "components/day-card.html" (dict "Pages" ($days.PagesByDay.Get .RelPermalink)) }}
+    {{ end }}
+*/ -}}
+{{- /* Typed as page.Pages, which Paginate requires. */ -}}
+{{- $newestPages := first 0 site.RegularPages -}}
+{{- $newestPermalinkOfDay := newScratch -}}
+{{- $pagesByDay := newScratch -}}
+{{- range sort (sort . "RelPermalink" "asc") "Date" "desc" -}}
+  {{- $localDate := time.In "Europe/Oslo" .Date -}}
+  {{- $day := printf "%s|%s" ($localDate.Format "2006-01-02") (partial "helpers/env-slug.html" .) -}}
+  {{- $newestPermalink := $newestPermalinkOfDay.Get $day -}}
+  {{- if not $newestPermalink -}}
+    {{- $newestPermalink = .RelPermalink -}}
+    {{- $newestPermalinkOfDay.Set $day $newestPermalink -}}
+    {{- $newestPages = $newestPages | append . -}}
+  {{- end -}}
+  {{- $pagesByDay.Add $newestPermalink (slice .) -}}
+{{- end -}}
+{{- return (dict "NewestPages" $newestPages "PagesByDay" $pagesByDay) -}}
