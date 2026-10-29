@@ -11,7 +11,7 @@ on:
       - opened
       - synchronize
   workflow_run:
-    workflows: ["Update release notes"]
+    workflows: ["Update release notes", "Retry release automerge"]
     types:
       - completed
 

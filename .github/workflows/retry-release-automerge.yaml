@@ -1,0 +1,55 @@
+name: Retry release automerge
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/scripts/**'
+      - '.github/workflows/update-release-notes-2.yaml'
+      - '.github/workflows/retry-release-automerge.yaml'
+
+jobs:
+  test-automerge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
+      - name: Test release automerge
+        run: python3 .github/scripts/test_release_automerge.py
+
+  retry-automerge:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: test-automerge
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Generate token for release notes app
+        uses: felleslosninger/github-actions/github-app-token@bb702913dc7fc7ba16f6a2ce32624ba9eaf54262 # pin@v0.7.4
+        id: generate-release-notes-token
+        with:
+          app-id: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_APP_ID }}
+          private-key: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_PRIVATE_KEY }}
+          installation-id: ${{ secrets.GH_APP_RELEASE_NOTES_UPDATER_INSTALLATION_ID }}
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
+        with:
+          ref: main
+      - name: Retry pending release pull requests
+        run: |
+          pull_requests=$(gh pr list --state open --label release-notes-automerge --limit 100 --json number --jq '.[].number')
+          status=0
+          for pull_request_number in $pull_requests; do
+            if ! bash .github/scripts/release-automerge.sh "$pull_request_number"; then
+              status=1
+            fi
+          done
+          exit "$status"
+        env:
+          APPROVAL_TOKEN: ${{ steps.generate-release-notes-token.outputs.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

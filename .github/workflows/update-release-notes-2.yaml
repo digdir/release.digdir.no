@@ -80,6 +80,14 @@ jobs:
 
             fs.writeFileSync(filePath, fileContent, 'utf8');
 
+      - name: Ensure release automerge label exists
+        run: |
+          gh label create release-notes-automerge --color 0E8A16 --description "Release notes awaiting automatic approval and merge" --force ||
+            gh api "repos/$GH_REPO/labels/release-notes-automerge" --silent
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create release notes pull request
         id: create-pull-request
         uses: peter-evans/create-pull-request@5e914681df9dc83aa4e4905692ca88beb2f9e91f # pin@v7.0.5
@@ -89,17 +97,12 @@ jobs:
           branch-suffix: random
           title: "New release notes for ${{ github.event.client_payload.application-name }}"
           delete-branch: true
+          labels: release-notes-automerge
 
-      - name: Auto approve
-        if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
-        run: gh pr review --approve "${{ steps.create-pull-request.outputs.pull-request-number }}"
+      - name: Approve and enable release automerge
+        if: ${{ steps.create-pull-request.outputs.pull-request-number }}
+        run: bash .github/scripts/release-automerge.sh "$PULL_REQUEST_NUMBER"
         env:
-          GH_TOKEN: ${{ steps.generate-release-notes-token.outputs.token }}
-
-      - name: Pull Request Activate Automerge
-        if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
-        run: |
-          sleep 3
-          gh pr merge --squash --auto --delete-branch "${{ steps.create-pull-request.outputs.pull-request-number }}"
-        env:
+          PULL_REQUEST_NUMBER: ${{ steps.create-pull-request.outputs.pull-request-number }}
+          APPROVAL_TOKEN: ${{ steps.generate-release-notes-token.outputs.token }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

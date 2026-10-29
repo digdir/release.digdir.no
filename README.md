@@ -11,6 +11,16 @@ Run local server: `hugo serve`
 
 Build site with: `hugo`
 
+## Automatic release merging
+
+New release PRs receive the `release-notes-automerge` label. Approval and squash/automerge each get up to five attempts, ten seconds apart, to recover from temporary GitHub errors and concurrent merges. Branch protection remains enforced.
+
+The **Retry release automerge** workflow follows up labelled, open release PRs every 15 minutes (GitHub may delay scheduled runs), and can also be started manually. Only same-repository PRs created by `github-actions[bot]`, targeting `main`, with a `release-notes-` branch are eligible. PRs with active automerge are left to GitHub; persistent failures fail the workflow and retain the label for later follow-up. The label remains on merged PRs as a record of intent.
+
+Existing unlabelled release PRs are not changed. After reviewing them, add `release-notes-automerge` to eligible PRs to opt them into follow-up.
+
+Run the offline regression tests with `python3 .github/scripts/test_release_automerge.py` (requires Python 3 and `jq`).
+
 ## Structure
 
 ```
