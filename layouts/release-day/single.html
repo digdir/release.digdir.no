@@ -2,15 +2,9 @@
   {{- $dateKey := .Params.releaseDate -}}
   {{- $environment := .Params.releaseEnvironment -}}
   {{- $productFilter := .Params.releaseProduct | default "" -}}
-  {{- $dayPages := slice -}}
-  {{- range site.RegularPages -}}
-    {{- $localDate := time.In "Europe/Oslo" .Date -}}
-    {{- $isReleasePage := or (hasSuffix .File.Dir "releases/") (hasSuffix .File.Dir "releases") -}}
-    {{- $isProductMatch := or (not $productFilter) (eq .Section $productFilter) -}}
-    {{- if and $isReleasePage (eq (partial "helpers/env-slug.html" .) $environment) (eq ($localDate.Format "2006-01-02") $dateKey) $isProductMatch -}}
-      {{- $dayPages = $dayPages | append . -}}
-    {{- end -}}
-  {{- end -}}
+  {{- $dayIndex := partialCached "helpers/release-day-index.html" site -}}
+  {{- $dayKey := printf "%s|%s|%s" $dateKey $environment $productFilter -}}
+  {{- $dayPages := index $dayIndex $dayKey -}}
   {{- if not $dayPages -}}
     {{- if $productFilter -}}
       {{- errorf "No release notes found for day %s in environment %s and product %s" $dateKey $environment $productFilter -}}
