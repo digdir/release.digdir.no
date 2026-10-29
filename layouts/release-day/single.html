@@ -1,0 +1,92 @@
+{{ define "main" }}
+  {{- $dateKey := .Params.releaseDate -}}
+  {{- $environment := .Params.releaseEnvironment -}}
+  {{- $productFilter := .Params.releaseProduct | default "" -}}
+  {{- $dayPages := slice -}}
+  {{- range site.RegularPages -}}
+    {{- $localDate := time.In "Europe/Oslo" .Date -}}
+    {{- $isReleasePage := or (hasSuffix .File.Dir "releases/") (hasSuffix .File.Dir "releases") -}}
+    {{- $isProductMatch := or (not $productFilter) (eq .Section $productFilter) -}}
+    {{- if and $isReleasePage (eq (partial "helpers/env-slug.html" .) $environment) (eq ($localDate.Format "2006-01-02") $dateKey) $isProductMatch -}}
+      {{- $dayPages = $dayPages | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $dayPages -}}
+    {{- if $productFilter -}}
+      {{- errorf "No release notes found for day %s in environment %s and product %s" $dateKey $environment $productFilter -}}
+    {{- else -}}
+      {{- errorf "No release notes found for day %s in environment %s" $dateKey $environment -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $dayPages = sort $dayPages "Date" "desc" -}}
+  {{- $first := index $dayPages 0 -}}
+  {{- $date := time.In "Europe/Oslo" $first.Date -}}
+  {{- $weekdays := slice "søndag" "mandag" "tirsdag" "onsdag" "torsdag" "fredag" "lørdag" -}}
+  {{- $titleId := printf "day-detail-%s-%s" $dateKey $environment -}}
+  {{- $productPages := newScratch -}}
+  {{- $productOrder := slice -}}
+  {{- range $dayPages -}}
+    {{- $productKey := .Section -}}
+    {{- $pages := $productPages.Get $productKey -}}
+    {{- if not $pages -}}
+      {{- $productPages.Set $productKey (slice .) -}}
+      {{- $productOrder = $productOrder | append $productKey -}}
+    {{- else -}}
+      {{- $productPages.Set $productKey ($pages | append .) -}}
+    {{- end -}}
+  {{- end -}}
+
+  <article class="ds-card day-card day-card--detail" data-color="neutral" aria-labelledby="{{ $titleId }}">
+    <div class="ds-card__block">
+      <div class="day-card__header">
+        <h1 class="ds-heading day-card__title" id="{{ $titleId }}" data-size="sm">
+          {{- printf "%s %s" (title (index $weekdays (int $date.Weekday))) (partial "helpers/date-no.html" $date) -}}
+        </h1>
+        {{ partial "components/env-badge.html" $first }}
+      </div>
+      <hr class="ds-divider day-card__divider" aria-hidden="true">
+
+      {{- range $productOrder -}}
+        {{- $productKey := . -}}
+        {{- $productPage := $first.Site.GetPage (printf "/%s" $productKey) -}}
+        {{- $productTitle := $productPage.Title | default $productKey -}}
+        <section class="day-card__group day-card__group--with-product">
+          <h2 class="ds-heading day-card__product" data-size="xs">{{ $productTitle }}</h2>
+          {{- range $productPages.Get $productKey -}}
+            {{- $releaseDate := time.In "Europe/Oslo" .Date -}}
+            <article class="release-day-detail__release">
+              <div class="release-day-detail__release-header">
+                <p class="ds-paragraph day-card__time" data-size="sm">
+                  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">kl {{ $releaseDate.Format "15:04:05 MST" }}</time>
+                </p>
+                {{- with .Params.version -}}
+                  <span class="ds-tag" data-color="neutral" data-variant="outline" data-size="sm">v{{ . }}</span>
+                {{- end -}}
+              </div>
+              {{- with .Params.summary -}}
+                <p class="ds-paragraph release-day-detail__summary">{{ . }}</p>
+              {{- end -}}
+              <div class="release-detail__content">{{ .Content }}</div>
+            </article>
+          {{- end -}}
+        </section>
+      {{- end -}}
+    </div>
+  </article>
+
+  {{- $backURL := "/" | relURL -}}
+  {{- $backLabel := "release notes" -}}
+  {{- if $productFilter -}}
+    {{- $backURL = printf "/%s/" $productFilter | relURL -}}
+    {{- $backLabel = $productFilter -}}
+    {{- with .Site.GetPage (printf "/%s" $productFilter) -}}
+      {{- $backLabel = .Title -}}
+    {{- end -}}
+  {{- else if eq $environment "test" -}}
+    {{- $backURL = "/test/" | relURL -}}
+    {{- $backLabel = "testmiljøet" -}}
+  {{- end -}}
+  <div class="release-day-detail__back">
+    <a class="ds-button" data-variant="secondary" data-size="sm" href="{{ $backURL }}">← Tilbake til {{ $backLabel }}</a>
+  </div>
+{{ end }}

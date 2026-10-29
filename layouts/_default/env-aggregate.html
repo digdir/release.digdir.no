@@ -33,7 +33,8 @@
     {{- end -}}
   {{- end -}}
 
-  {{- $paginator := .Paginate (sort $envPages "Date" "desc") -}}
+  {{- $days := partial "helpers/release-days.html" $envPages -}}
+  {{- $paginator := .Paginate $days.NewestPages -}}
 
   {{ if $paginator.Pages }}
 
@@ -41,7 +42,7 @@
 
     <ul class="release-list">
       {{ range $paginator.Pages }}
-        {{ partial "components/release-card.html" (dict "Page" . "ShowTitle" true) }}
+        {{ partial "components/day-card.html" (dict "Pages" ($days.PagesByDay.Get .RelPermalink) "ShowProduct" true) }}
       {{ end }}
     </ul>
 
