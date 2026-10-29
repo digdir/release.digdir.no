@@ -22,7 +22,27 @@
   {{- $first := index $dayPages 0 -}}
   {{- $date := time.In "Europe/Oslo" $first.Date -}}
   {{- $weekdays := slice "søndag" "mandag" "tirsdag" "onsdag" "torsdag" "fredag" "lørdag" -}}
+  {{- $dayLabel := printf "%s %s" (title (index $weekdays (int $date.Weekday))) (partial "helpers/date-no.html" $date) -}}
   {{- $titleId := printf "day-detail-%s-%s" $dateKey $environment -}}
+  {{- $currentURL := .RelPermalink -}}
+  {{- $parentURL := "/" | relURL -}}
+  {{- $parentLabel := "Produksjon" -}}
+  {{- $productLabel := $productFilter -}}
+  {{- if $productFilter -}}
+    {{- $parentURL = printf "/%s/" $productFilter | relURL -}}
+    {{- $parentLabel = $productLabel -}}
+    {{- with .Site.GetPage (printf "/%s" $productFilter) -}}
+      {{- $productLabel = .Title -}}
+      {{- $parentLabel = $productLabel -}}
+    {{- end -}}
+    {{- if eq $environment "test" -}}
+      {{- $parentURL = printf "/%s/test-releases/" $productFilter | relURL -}}
+      {{- $parentLabel = "Test" -}}
+    {{- end -}}
+  {{- else if eq $environment "test" -}}
+    {{- $parentURL = "/test/" | relURL -}}
+    {{- $parentLabel = "Test" -}}
+  {{- end -}}
   {{- $productPages := newScratch -}}
   {{- $productOrder := slice -}}
   {{- range $dayPages -}}
@@ -36,11 +56,28 @@
     {{- end -}}
   {{- end -}}
 
+  <ds-breadcrumbs class="ds-breadcrumbs breadcrumbs-wrapper" aria-label="Du er her:">
+    <a class="ds-link" href="{{ $parentURL }}" aria-label="Tilbake til {{ $parentLabel }}">{{ $parentLabel }}</a>
+    <ol>
+      <li><a class="ds-link" href="{{ "/" | relURL }}">Hjem</a></li>
+      {{- if $productFilter -}}
+        {{- $productURL := printf "/%s/" $productFilter | relURL -}}
+        <li><a class="ds-link" href="{{ $productURL }}">{{ $productLabel }}</a></li>
+        {{- if eq $environment "test" -}}
+          <li><a class="ds-link" href="{{ $parentURL }}">Test</a></li>
+        {{- end -}}
+      {{- else if eq $environment "test" -}}
+        <li><a class="ds-link" href="{{ $parentURL }}">Test</a></li>
+      {{- end -}}
+      <li><a class="ds-link" href="{{ $currentURL }}" aria-current="page">{{ $dayLabel }}</a></li>
+    </ol>
+  </ds-breadcrumbs>
+
   <article class="ds-card day-card day-card--detail" data-color="neutral" aria-labelledby="{{ $titleId }}">
     <div class="ds-card__block">
       <div class="day-card__header">
         <h1 class="ds-heading day-card__title" id="{{ $titleId }}" data-size="sm">
-          {{- printf "%s %s" (title (index $weekdays (int $date.Weekday))) (partial "helpers/date-no.html" $date) -}}
+          {{- $dayLabel -}}
         </h1>
         {{ partial "components/env-badge.html" $first }}
       </div>
@@ -74,19 +111,7 @@
     </div>
   </article>
 
-  {{- $backURL := "/" | relURL -}}
-  {{- $backLabel := "release notes" -}}
-  {{- if $productFilter -}}
-    {{- $backURL = printf "/%s/" $productFilter | relURL -}}
-    {{- $backLabel = $productFilter -}}
-    {{- with .Site.GetPage (printf "/%s" $productFilter) -}}
-      {{- $backLabel = .Title -}}
-    {{- end -}}
-  {{- else if eq $environment "test" -}}
-    {{- $backURL = "/test/" | relURL -}}
-    {{- $backLabel = "testmiljøet" -}}
-  {{- end -}}
   <div class="release-day-detail__back">
-    <a class="ds-button" data-variant="secondary" data-size="sm" href="{{ $backURL }}">← Tilbake til {{ $backLabel }}</a>
+    <a class="ds-button" data-variant="secondary" data-size="sm" href="{{ $parentURL }}">← Tilbake til {{ $parentLabel }}</a>
   </div>
 {{ end }}
