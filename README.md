@@ -13,9 +13,7 @@ Build site with: `hugo`
 
 ## Automatic release publishing
 
-Release notes are approved, merged and published automatically, subject to branch protection. Pending releases are followed up after temporary failures.
-
-To include an older release PR in automatic follow-up, review it and add the `release-notes-automerge` label.
+Release notes are approved, merged and published automatically, with retries for temporary failures and branch protection preserved.
 
 ## Structure
 
