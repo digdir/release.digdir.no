@@ -1,0 +1,13 @@
+{{- /* Release pages by Oslo date, environment and optional product, shared by all day details. */ -}}
+{{- $pagesByDay := newScratch -}}
+{{- range site.RegularPages -}}
+  {{- $isReleasePage := or (hasSuffix .File.Dir "releases/") (hasSuffix .File.Dir "releases") -}}
+  {{- if $isReleasePage -}}
+    {{- $localDate := time.In "Europe/Oslo" .Date -}}
+    {{- $environment := partial "helpers/env-slug.html" . -}}
+    {{- $dayKey := printf "%s|%s|" ($localDate.Format "2006-01-02") $environment -}}
+    {{- $pagesByDay.Add $dayKey (slice .) -}}
+    {{- $pagesByDay.Add (printf "%s%s" $dayKey .Section) (slice .) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $pagesByDay.Values -}}

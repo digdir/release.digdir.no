@@ -6,6 +6,14 @@
   {{- else if not .IsHome -}}
     {{- $displayTitle = .Title | default (humanize .Section) -}}
   {{- end -}}
+  {{- $productSlug := "" -}}
+  {{- if not .IsHome -}}
+    {{- if $isEnvSection -}}
+      {{- $productSlug = .Parent.Section -}}
+    {{- else -}}
+      {{- $productSlug = .Section -}}
+    {{- end -}}
+  {{- end -}}
   <h1 class="ds-heading page-title" data-size="xl">{{ $displayTitle }}</h1>
 
   {{ if .IsHome }}
@@ -43,20 +51,17 @@
     {{- end -}}
   {{- end -}}
 
-  {{ $paginator := .Paginate $rawPages }}
+  {{ $days := partial "helpers/release-days.html" $rawPages }}
+  {{ $paginator := .Paginate $days.NewestPages }}
 
   {{ if $paginator.Pages }}
 
     {{ partial "components/env-filter.html" . }}
 
     <ul class="release-list">
-      {{ range $index, $page := $paginator.Pages }}
-        {{ if $.IsHome }}
-          {{ partial "components/release-card.html" (dict "Page" $page "ShowTitle" true) }}
-        {{ else }}
-          {{ $isLatest := and (eq $index 0) (eq $paginator.PageNumber 1) }}
-          {{ partial "components/release-card.html" (dict "Page" $page "IsLatest" $isLatest) }}
-        {{ end }}
+      {{ range $index, $newestPage := $paginator.Pages }}
+        {{ $isLatest := and (not $.IsHome) (eq $index 0) (eq $paginator.PageNumber 1) }}
+        {{ partial "components/day-card.html" (dict "Pages" ($days.PagesByDay.Get $newestPage.RelPermalink) "ShowProduct" $.IsHome "IsLatest" $isLatest "ProductSlug" $productSlug) }}
       {{ end }}
     </ul>
 

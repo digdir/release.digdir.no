@@ -1,0 +1,64 @@
+{{- $createdDays := newScratch -}}
+{{- $createdProductDays := newScratch -}}
+{{- range os.ReadDir "content" -}}
+  {{- $productDirectory := . -}}
+  {{- if $productDirectory.IsDir -}}
+    {{- $productPath := printf "content/%s" $productDirectory.Name -}}
+    {{- range os.ReadDir $productPath -}}
+      {{- $releaseDirectory := . -}}
+      {{- if and $releaseDirectory.IsDir (hasSuffix $releaseDirectory.Name "-releases") -}}
+        {{- $environment := replaceRE "-releases$" "" $releaseDirectory.Name -}}
+        {{- $releasePath := printf "%s/%s" $productPath $releaseDirectory.Name -}}
+        {{- range os.ReadDir $releasePath -}}
+          {{- $releaseFile := . -}}
+          {{- if and (not $releaseFile.IsDir) (hasSuffix $releaseFile.Name ".md") (ne $releaseFile.Name "_index.md") -}}
+            {{- $filePath := printf "%s/%s" $releasePath $releaseFile.Name -}}
+            {{- $frontMatterParts := split (os.ReadFile $filePath) "---" -}}
+            {{- if lt (len $frontMatterParts) 3 -}}
+              {{- errorf "Release note %q has no valid front matter" $filePath -}}
+            {{- else -}}
+              {{- $frontMatter := transform.Unmarshal (index $frontMatterParts 1) -}}
+              {{- if not $frontMatter.date -}}
+                {{- errorf "Release note %q has no date" $filePath -}}
+              {{- else -}}
+                {{- $releaseDate := time.AsTime $frontMatter.date -}}
+                {{- $localDate := time.In "Europe/Oslo" $releaseDate -}}
+                {{- $dateKey := $localDate.Format "2006-01-02" -}}
+                {{- $dayKey := printf "%s|%s" $dateKey $environment -}}
+                {{- if not ($createdDays.Get $dayKey) -}}
+                  {{- $createdDays.Set $dayKey true -}}
+                  {{- $page := dict
+                    "build" (dict "list" "never" "render" "always")
+                    "content" (dict "mediaType" "text/markdown" "value" "")
+                    "dates" (dict "date" $releaseDate)
+                    "kind" "page"
+                    "params" (dict "releaseDate" $dateKey "releaseEnvironment" $environment)
+                    "path" (printf "release-days/%s/%s" $dateKey $environment)
+                    "title" (printf "Releasenotater %s" $dateKey)
+                    "type" "release-day"
+                  -}}
+                  {{- $.AddPage $page -}}
+                {{- end -}}
+                {{- $productDayKey := printf "%s|%s|%s" $dateKey $environment $productDirectory.Name -}}
+                {{- if not ($createdProductDays.Get $productDayKey) -}}
+                  {{- $createdProductDays.Set $productDayKey true -}}
+                  {{- $productPage := dict
+                    "build" (dict "list" "never" "render" "always")
+                    "content" (dict "mediaType" "text/markdown" "value" "")
+                    "dates" (dict "date" $releaseDate)
+                    "kind" "page"
+                    "params" (dict "releaseDate" $dateKey "releaseEnvironment" $environment "releaseProduct" $productDirectory.Name)
+                    "path" (printf "release-days/%s/%s/%s" $dateKey $environment $productDirectory.Name)
+                    "title" (printf "Releasenotater %s" $dateKey)
+                    "type" "release-day"
+                  -}}
+                  {{- $.AddPage $productPage -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
