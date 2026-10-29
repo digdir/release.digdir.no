@@ -92,14 +92,30 @@ jobs:
 
       - name: Auto approve
         if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
-        run: gh pr review --approve "${{ steps.create-pull-request.outputs.pull-request-number }}"
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if gh pr review --approve "${{ steps.create-pull-request.outputs.pull-request-number }}"; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 5 ]; then
+              sleep 10
+            fi
+          done
+          exit 1
         env:
           GH_TOKEN: ${{ steps.generate-release-notes-token.outputs.token }}
 
       - name: Pull Request Activate Automerge
         if: ${{ steps.create-pull-request.outputs.pull-request-operation == 'created' }}
         run: |
-          sleep 3
-          gh pr merge --squash --auto --delete-branch "${{ steps.create-pull-request.outputs.pull-request-number }}"
+          for attempt in 1 2 3 4 5; do
+            if gh pr merge --squash --auto --delete-branch "${{ steps.create-pull-request.outputs.pull-request-number }}"; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 5 ]; then
+              sleep 10
+            fi
+          done
+          exit 1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

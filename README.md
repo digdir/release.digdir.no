@@ -11,6 +11,10 @@ Run local server: `hugo serve`
 
 Build site with: `hugo`
 
+## Automatic release publishing
+
+Release notes are approved, merged and published automatically, with retries for temporary failures and branch protection preserved.
+
 Day detail pages share a `partialCached` index of release notes by date in Europe/Oslo,
 environment and product, avoiding a full-site scan for every day page. To measure
 build performance, run `hugo --templateMetrics --templateMetricsHints`.
