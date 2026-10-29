@@ -125,6 +125,9 @@
 &lt;li&gt;ID-6851 Oppdater static resource med designsystem 1.21 (#41)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/prod-releases/idporten-fullmakt-demo-client-3f0447d5b43cf3f3317edad8f54f35926b4fd0d8/</link><pubDate>Tue, 15 Sep 2026 09:07:24 +0000</pubDate><guid>https://release.digdir.no/idporten/prod-releases/idporten-fullmakt-demo-client-3f0447d5b43cf3f3317edad8f54f35926b4fd0d8/</guid><description>&lt;ul&gt;
 &lt;li&gt;ID-6418 Importere designsystemet-css og fikse login screen med designstem (#233)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/prod-releases/idporten-saml2-proxy-0bcc052b6f9e5dc963feeba72def6531e15a3c20/</link><pubDate>Mon, 14 Sep 2026 11:37:21 +0000</pubDate><guid>https://release.digdir.no/idporten/prod-releases/idporten-saml2-proxy-0bcc052b6f9e5dc963feeba72def6531e15a3c20/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-6721: Workflow permissions (#480)&lt;/li&gt;
+&lt;li&gt;ID-6720: Slå av aktive SAML2-IDPer (#479)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>idporten</title><link>https://release.digdir.no/idporten/prod-releases/idporten-freg-gateway-77aee6e8c0aabdd504efa19fea56446413c03713/</link><pubDate>Thu, 03 Sep 2026 10:52:21 +0000</pubDate><guid>https://release.digdir.no/idporten/prod-releases/idporten-freg-gateway-77aee6e8c0aabdd504efa19fea56446413c03713/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-0000 oppdater avhengigheter og rydd pom (#620)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
