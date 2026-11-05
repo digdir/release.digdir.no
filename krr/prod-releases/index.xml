@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/krr/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Nov 2026 08:24:49 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-datawasher-76be659ef9b2040c3a97b76b29c622b4c2a3f3a9/</link><pubDate>Thu, 05 Nov 2026 08:24:49 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-datawasher-76be659ef9b2040c3a97b76b29c622b4c2a3f3a9/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/krr/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Nov 2026 08:27:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-backend-6f27f6a271a949af3207f34520f92ae83e923a2c/</link><pubDate>Thu, 05 Nov 2026 08:27:27 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-backend-6f27f6a271a949af3207f34520f92ae83e923a2c/</guid><description>&lt;ul&gt;
+&lt;li&gt;KRR-1236 Bump spring boot (#951)&lt;/li&gt;
+&lt;li&gt;Fix failing tests, cuncurrency tuning&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;Fix database deadlock for tests running concurrent&lt;/li&gt;
+&lt;li&gt;KRR-1223_Change_maven_credentials (#937)&lt;/li&gt;
+&lt;li&gt;KRR-1221_bump_idporten-validators (#935)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-datawasher-76be659ef9b2040c3a97b76b29c622b4c2a3f3a9/</link><pubDate>Thu, 05 Nov 2026 08:24:49 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-datawasher-76be659ef9b2040c3a97b76b29c622b4c2a3f3a9/</guid><description>&lt;ul&gt;
 &lt;li&gt;KRR-1236 bump to SB4.1.2 og krr-commons 2.0.3 (#450)&lt;/li&gt;
 &lt;li&gt;KRR-1236 bump to SB4.1.2 og krr-commons 2.0.3&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
