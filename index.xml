@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Nov 2026 08:32:16 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minid-varsling-1ae6c245aa5e2d42d05e83b10516d257fcd51c9e/</link><pubDate>Thu, 05 Nov 2026 08:32:16 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minid-varsling-1ae6c245aa5e2d42d05e83b10516d257fcd51c9e/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Nov 2026 08:35:23 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-oppslagstjenesten-rest-1d493cb6b66bf3923ea1c9e4643aebc0f6a9a4a5/</link><pubDate>Thu, 05 Nov 2026 08:35:23 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-oppslagstjenesten-rest-1d493cb6b66bf3923ea1c9e4643aebc0f6a9a4a5/</guid><description>&lt;ul&gt;
+&lt;li&gt;KRR-1236 Bump spring boot 4.1.2 and krr-commons to 2.0.3 (#804)&lt;/li&gt;
+&lt;li&gt;KRR-1236 Bump spring boot 4.1.2 and krr-commons to 2.0.3&lt;/li&gt;
+&lt;li&gt;KRR-1177 change test config setup (#803)&lt;/li&gt;
+&lt;li&gt;KRR-1177 change test config setup&lt;/li&gt;
+&lt;li&gt;KRR-1177 Splitte ut integrasjonstester til Failsafe (#802)&lt;/li&gt;
+&lt;li&gt;KRR-1177 Splitte ut integrasjonstester til Failsafe&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;KRR-1227_enable_delegation_source_prod (#795)&lt;/li&gt;
+&lt;li&gt;KRR-1223_Change_maven_credentials (#789)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minid-varsling-1ae6c245aa5e2d42d05e83b10516d257fcd51c9e/</link><pubDate>Thu, 05 Nov 2026 08:32:16 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minid-varsling-1ae6c245aa5e2d42d05e83b10516d257fcd51c9e/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3978 Oppdaterer til minid-commons 0.6.13 og tar i bruk minid-warmup (#543)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;MIN-3969 Oppdaterer til minid-commons 0.6.12 og ventende Dependabot-oppdateringer (#541)&lt;/li&gt;
