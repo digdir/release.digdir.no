@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/krr/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Nov 2026 08:35:23 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-oppslagstjenesten-rest-1d493cb6b66bf3923ea1c9e4643aebc0f6a9a4a5/</link><pubDate>Thu, 05 Nov 2026 08:35:23 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-oppslagstjenesten-rest-1d493cb6b66bf3923ea1c9e4643aebc0f6a9a4a5/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/krr/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 05 Nov 2026 08:36:34 +0000</lastBuildDate><atom:link href="https://release.digdir.no/krr/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-admin-9afdc1d639fb3c48967bd28cf4064852f48a9df3/</link><pubDate>Thu, 05 Nov 2026 08:36:34 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-admin-9afdc1d639fb3c48967bd28cf4064852f48a9df3/</guid><description>&lt;ul&gt;
+&lt;li&gt;KRR-1236 bump spring boot (#336)&lt;/li&gt;
+&lt;li&gt;Pin tomcat to avoid https:digdir.atlassian.netbrowseID-7094&lt;/li&gt;
+&lt;li&gt;KRR-1236 bump spring boot&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;KRR-1179 change test properties setup (#331)&lt;/li&gt;
+&lt;li&gt;KRR-1179 change test properties setup&lt;/li&gt;
+&lt;li&gt;azure token session (#323)&lt;/li&gt;
+&lt;li&gt;session timeout 30m (#322)&lt;/li&gt;
+&lt;li&gt;KRR-1179 Split integration tests out to failsafe (#321)&lt;/li&gt;
+&lt;li&gt;trivy&lt;/li&gt;
+&lt;li&gt;KRR-1179 Split integration tests out to failsafe&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/krr-oppslagstjenesten-rest-1d493cb6b66bf3923ea1c9e4643aebc0f6a9a4a5/</link><pubDate>Thu, 05 Nov 2026 08:35:23 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/krr-oppslagstjenesten-rest-1d493cb6b66bf3923ea1c9e4643aebc0f6a9a4a5/</guid><description>&lt;ul&gt;
 &lt;li&gt;KRR-1236 Bump spring boot 4.1.2 and krr-commons to 2.0.3 (#804)&lt;/li&gt;
 &lt;li&gt;KRR-1236 Bump spring boot 4.1.2 and krr-commons to 2.0.3&lt;/li&gt;
 &lt;li&gt;KRR-1177 change test config setup (#803)&lt;/li&gt;
