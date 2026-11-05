@@ -1,0 +1,40 @@
+---
+title: krr
+date: 2026-11-05T08:32:16Z
+environment: prod
+---
+- MIN-3978 Oppdaterer til minid-commons 0.6.13 og tar i bruk minid-warmup (#543)
+- Library upgrades
+- MIN-3969 Oppdaterer til minid-commons 0.6.12 og ventende Dependabot-oppdateringer (#541)
+- KRR-000_whitelist-kt (#531)
+- KRR-000_whitelist-kt (#530)
+- MIN-3822: Upgrade logging libraries, pending Dependabot bumps and Trivy fixes (#523)
+- MIN-3782 bruke minid-commons sin epost sendar (#519)
+- KRR-000_whitelist_kt (#517)
+- KRR-000_whitelist_kt (#512)
+- KRR-000_whitelist_kt (#511)
+- MIN-3734: Migrer til golden path-workflows og GH_PACKAGES-secrets (#507)
+- MIN-3604 unit test for audit log regresjon (#499)
+- KRR-000_whitelist_kt (#497)
+- MIN-3570: Remove MWR tenant (#494)
+- MIN-3278: Migrate to minid-commons 0.6.3 modules (#488)
+- MIN-3548: MWB tenant (#478)
+- MIN-3531: ta i bruk minid-config og minid-developer frå minid-commons 0.5.8 (#473)
+- MIN-3494 logback fix (#468)
+- MIN-3494 Nedgraderer spring-boot for å fikse auditlogging (#467)
+- KRR-000_whitelist_kt (#465)
+- MIN-3482 Oppdatert feilhandteringa til å bruke minid-commons (#463)
+- MIN-3390 numerisk avsender for Spania, USA og Kanada (#456)
+- KRR-000_whitelist_kt (#454)
+- KRR-000_whitelist_kt (#452)
+- KRR-000_whitelist_skatt (#449)
+- KRR-000_whitelist_kt (#448)
+- KRR-000_whitelist_kt (#446)
+- KRR-000_whitelist_skatt (#444)
+- KRR-000_whitelist_skatt (#443)
+- KRR-000_whitelist_mobilnummer_kt (#441)
+- KRR-000_whitelist_mobilnummer_kt (#440)
+- KRR-000_whitelist_mobilnummer_kt (#439)
+- KRR-000_whitelist_mobilnummer_kt (#437)
+- KRR-000_whitelist_mobilnummer_kt (#436)
+
