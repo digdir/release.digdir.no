@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/eformidling/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Nov 2026 11:39:53 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-virksert-30eecd22c7a11ac951a70b0646a13f00762960b7/</link><pubDate>Fri, 06 Nov 2026 11:39:53 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-virksert-30eecd22c7a11ac951a70b0646a13f00762960b7/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/eformidling/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Nov 2026 11:51:05 +0000</lastBuildDate><atom:link href="https://release.digdir.no/eformidling/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-b1bb7fe736faccb56e3285df9d6141acdff853d2/</link><pubDate>Fri, 06 Nov 2026 11:51:05 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-b1bb7fe736faccb56e3285df9d6141acdff853d2/</guid><description>&lt;ul&gt;
+&lt;li&gt;MOVE-5381 chore: Remove dead Java code (#540)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MOVE-5380 chore: Remove the unused yt Spring profile (#539)&lt;/li&gt;
+&lt;li&gt;MOVE-5332 fix: Bound caches and keep the JWT out of cache keys (#537)&lt;/li&gt;
+&lt;li&gt;MOVE-5389: fix: Restore cache metrics (#538)&lt;/li&gt;
+&lt;li&gt;MOVE-5390: fix: Stop running integration tests in parallel (#536)&lt;/li&gt;
+&lt;li&gt;MOVE-5317 feat: Remove duplicate mock controller (#533)&lt;/li&gt;
+&lt;li&gt;MOVE-5316 Require eFormidling scope on lookup endpoints (#531)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-virksert-30eecd22c7a11ac951a70b0646a13f00762960b7/</link><pubDate>Fri, 06 Nov 2026 11:39:53 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-virksert-30eecd22c7a11ac951a70b0646a13f00762960b7/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;Merge remote-tracking branch originmain into workMOVE-5388&lt;/li&gt;
 &lt;li&gt;MOVE-5388 Oppgrader organization-registry-client til 5.0.0 med internal-api-oauth. NB: krev ny nøkkel i OpenBao og eformidling-cd i alle miljø&lt;/li&gt;
