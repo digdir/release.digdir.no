@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Nov 2026 14:43:01 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/test-releases/ansattporten-operational-status-service-bdd142d56eb825d177974e87f69b36b203374194/</link><pubDate>Fri, 06 Nov 2026 14:43:01 +0000</pubDate><guid>https://release.digdir.no/ansattporten/test-releases/ansattporten-operational-status-service-bdd142d56eb825d177974e87f69b36b203374194/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 06 Nov 2026 14:44:53 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>idporten</title><link>https://release.digdir.no/idporten/test-releases/idporten-operational-status-service-bdd142d56eb825d177974e87f69b36b203374194/</link><pubDate>Fri, 06 Nov 2026 14:44:53 +0000</pubDate><guid>https://release.digdir.no/idporten/test-releases/idporten-operational-status-service-bdd142d56eb825d177974e87f69b36b203374194/</guid><description>&lt;ul&gt;
 &lt;li&gt;Merge pull request #51 from felleslosningerdependabotmavenoperational-status-serviceorg.springframework.boot-spring-boot-starter-parent-4.1.2&lt;/li&gt;
 &lt;li&gt;Merge pull request #50 from felleslosningerdependabotmavenoperational-status-serviceminor-and-patch-59fd4b7da8&lt;/li&gt;
 &lt;li&gt;Merge pull request #49 from felleslosningerdependabotmavenoperational-status-adminminor-and-patch-efb2ace15a&lt;/li&gt;
@@ -6,6 +6,16 @@
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;Merge pull request #48 from felleslosningermvnw-cmd-uten-eol-konvertering&lt;/li&gt;
 &lt;li&gt;Lagre mvnw.cmd uendret, så Dependabot ikke gir falske endringer&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/test-releases/ansattporten-operational-status-service-bdd142d56eb825d177974e87f69b36b203374194/</link><pubDate>Fri, 06 Nov 2026 14:43:01 +0000</pubDate><guid>https://release.digdir.no/ansattporten/test-releases/ansattporten-operational-status-service-bdd142d56eb825d177974e87f69b36b203374194/</guid><description>&lt;ul&gt;
+&lt;li&gt;Merge pull request #51 from felleslosningerdependabotmavenoperational-status-serviceorg.springframework.boot-spring-boot-starter-parent-4.1.2&lt;/li&gt;
+&lt;li&gt;Merge pull request #50 from felleslosningerdependabotmavenoperational-status-serviceminor-and-patch-59fd4b7da8&lt;/li&gt;
+&lt;li&gt;Merge pull request #49 from felleslosningerdependabotmavenoperational-status-adminminor-and-patch-efb2ace15a&lt;/li&gt;
+&lt;li&gt;Merge pull request #46 from felleslosningerdependabotgithub_actionsgithub-actions-31df092e2e&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;Merge pull request #48 from felleslosningermvnw-cmd-uten-eol-konvertering&lt;/li&gt;
+&lt;li&gt;Lagre mvnw.cmd uendret, så Dependabot ikke gir falske endringer&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eidas</title><link>https://release.digdir.no/eidas/test-releases/eidas-demo-country-ca-308ded67345f8f1936940c432d1bc2042c202ce4/</link><pubDate>Fri, 06 Nov 2026 14:42:59 +0000</pubDate><guid>https://release.digdir.no/eidas/test-releases/eidas-demo-country-ca-308ded67345f8f1936940c432d1bc2042c202ce4/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-6766 Oppdater README for lokal eIDAS-oppsett (#63)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-b1bb7fe736faccb56e3285df9d6141acdff853d2/</link><pubDate>Fri, 06 Nov 2026 11:51:05 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-b1bb7fe736faccb56e3285df9d6141acdff853d2/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-5381 chore: Remove dead Java code (#540)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
