@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/minid/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 09 Nov 2026 07:12:07 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-new-user-frontend-d9af367edbd2a1eb23184ae0a2c9adf6981db0eb/</link><pubDate>Mon, 09 Nov 2026 07:12:07 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-new-user-frontend-d9af367edbd2a1eb23184ae0a2c9adf6981db0eb/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/minid/prod-releases/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Mon, 09 Nov 2026 07:25:09 +0000</lastBuildDate><atom:link href="https://release.digdir.no/minid/prod-releases/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-onthefly-school-dcd386e9e18e136f8e1a8c3a187ac8321f601a74/</link><pubDate>Mon, 09 Nov 2026 07:25:09 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-onthefly-school-dcd386e9e18e136f8e1a8c3a187ac8321f601a74/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-4012: Genesys chat: offer the transcript by e-mail (#332)&lt;/li&gt;
+&lt;li&gt;MIN-4009 Oppdaterer til minid-commons 0.6.14 (#331)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3984 Switch on MINID_PLUSS_QR_ENABLED in all environments (#329)&lt;/li&gt;
+&lt;li&gt;MIN-3978 Oppdaterer til minid-commons 0.6.13 og tar i bruk minid-warmup (#328)&lt;/li&gt;
+&lt;li&gt;MIN-3969 Oppdaterer til minid-commons 0.6.12 og ventende Dependabot-oppdateringer (#327)&lt;/li&gt;
+&lt;li&gt;MIN-3866 Endre tekst i nedetidsplakat (#325)&lt;/li&gt;
+&lt;li&gt;MIN-3936 Fjern skuggen på page-card (#323)&lt;/li&gt;
+&lt;li&gt;MIN-3905 Feature switch for MinID Pluss QR code (#320)&lt;/li&gt;
+&lt;li&gt;MIN-3809 Admin modal improvements (#318)&lt;/li&gt;
+&lt;li&gt;MIN-3810 Language selector and translations (#317)&lt;/li&gt;
+&lt;li&gt;MIN-3768 wcag fixes (#316)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-new-user-frontend-d9af367edbd2a1eb23184ae0a2c9adf6981db0eb/</link><pubDate>Mon, 09 Nov 2026 07:12:07 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-new-user-frontend-d9af367edbd2a1eb23184ae0a2c9adf6981db0eb/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-4012: Genesys chat: offer the transcript by e-mail (#620)&lt;/li&gt;
 &lt;li&gt;MIN-4009 Oppdaterer til minid-commons 0.6.14 (#619)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
