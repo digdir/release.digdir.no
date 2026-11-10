@@ -8,6 +8,15 @@
 &lt;li&gt;MIN-4009 Oppdaterer til minid-commons 0.6.14 (#546)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;KRR-000_whitelist-kt (#544)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-user-profile-804b3c61bd6594233fba4bf63ed7eeec70cdeabf/</link><pubDate>Tue, 10 Nov 2026 07:10:04 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-user-profile-804b3c61bd6594233fba4bf63ed7eeec70cdeabf/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-4012: Genesys chat: offer the transcript by e-mail (#389)&lt;/li&gt;
+&lt;li&gt;MIN-4009 Oppdaterer til minid-commons 0.6.14 (#388)&lt;/li&gt;
+&lt;li&gt;MIN-3978 Oppdaterer til minid-commons 0.6.13 og tar i bruk minid-warmup (#387)&lt;/li&gt;
+&lt;li&gt;MIN-3969 Oppdaterer til minid-commons 0.6.12 og ventende Dependabot-oppdateringer (#386)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3937: Finn gjeldende innlogging ut fra iat i stedet for auth_time (#382)&lt;/li&gt;
+&lt;li&gt;MIN-3937: Aktivitetsloggen henter på nytt til gjeldende innlogging er med, og markerer den (#381)&lt;/li&gt;
+&lt;li&gt;MIN-3881: Godta AMR Minid-PLUSS ved innlogging, og vis årsak ved innloggingsfeil (#376)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-user-service-9fc70813f89d6c762b040373e3d32252a8adb57f/</link><pubDate>Tue, 10 Nov 2026 07:05:50 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-user-service-9fc70813f89d6c762b040373e3d32252a8adb57f/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-4009 Oppdaterer til minid-commons 0.6.14 (#746)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
