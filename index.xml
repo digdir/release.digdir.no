@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Nov 2026 09:04:10 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-25885cd69e01a87b84ce43a9338ba13756bb0c1a/</link><pubDate>Wed, 11 Nov 2026 09:04:10 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-25885cd69e01a87b84ce43a9338ba13756bb0c1a/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Wed, 11 Nov 2026 12:49:00 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-eureka-server-97c0ed1d2d85439616d1388cdee459cf159edbe3/</link><pubDate>Wed, 11 Nov 2026 12:49:00 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-eureka-server-97c0ed1d2d85439616d1388cdee459cf159edbe3/</guid><description>&lt;ul&gt;
+&lt;li&gt;PF-1283 - catalog-info.yaml for Backstage import (#40)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MOVE-5288 Upgrade to Spring Boot 4.1, Spring Cloud 2025.1 and Java 25 (#59)&lt;/li&gt;
+&lt;li&gt;MOVE-5288 Compare Config Server propertySources and profiles in order&lt;/li&gt;
+&lt;li&gt;MOVE-5288 Merge main into upgrade-spring-boot-4&lt;/li&gt;
+&lt;li&gt;MOVE-5288 Upgrade to Spring Boot 4.1, Spring Cloud 2025.1 and Java 25&lt;/li&gt;
+&lt;li&gt;MOVE-0000 turn tests on for PR checks in pipeline (#58)&lt;/li&gt;
+&lt;li&gt;MOVE-5165 migrate dependabot credentials (#56)&lt;/li&gt;
+&lt;li&gt;MOVE-5165 migrate dependabot credentials&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-25885cd69e01a87b84ce43a9338ba13756bb0c1a/</link><pubDate>Wed, 11 Nov 2026 09:04:10 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-service-registry-25885cd69e01a87b84ce43a9338ba13756bb0c1a/</guid><description>&lt;ul&gt;
 &lt;li&gt;MOVE-5383 chore: Remove unused files, config and stale docs (#545)&lt;/li&gt;
 &lt;li&gt;MOVE-5384 chore: Run tests against MariaDB in Testcontainers and drop H2 (#544)&lt;/li&gt;
 &lt;li&gt;MOVE-5400 fix: Bound ELMA revocation checks and cache SMP lookups (#543)&lt;/li&gt;
