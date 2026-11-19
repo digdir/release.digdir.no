@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 19 Nov 2026 06:50:25 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-user-service-cc278dbb17e5b9986fe3a006647348f46b179648/</link><pubDate>Thu, 19 Nov 2026 06:50:25 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-user-service-cc278dbb17e5b9986fe3a006647348f46b179648/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Thu, 19 Nov 2026 06:58:41 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-auth-f51c22b1a363fb6e74a294f21052086ae9e4c0c2/</link><pubDate>Thu, 19 Nov 2026 06:58:41 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-auth-f51c22b1a363fb6e74a294f21052086ae9e4c0c2/</guid><description>&lt;ul&gt;
+&lt;li&gt;MIN-4114 Henter konfigurasjon fra config-server på port 8081 (#1067)&lt;/li&gt;
+&lt;li&gt;MIN-4116: Genesys chat: name for every new conversation, flows transcript offer on agent end (#1066)&lt;/li&gt;
+&lt;li&gt;MIN-4047 remove WALLET MFA (#1065)&lt;/li&gt;
+&lt;li&gt;MIN-3405: Fikse tester og ui-fikser (#1064)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;MIN-3981 Enforce terms and condition on server side (#1058)&lt;/li&gt;
+&lt;li&gt;MIN-4078: Wallet return page survives a page load and shows the code without a login session (#1059)&lt;/li&gt;
+&lt;li&gt;MIN-4066: Login page: same corner radius as fields and buttons, no shadow (#1056)&lt;/li&gt;
+&lt;li&gt;MIN-4066: Login page: MinID on top as expandable option (#1054)&lt;/li&gt;
+&lt;li&gt;MIN-3935: Genesys chat: know the session from Genesys events, not its storage flag (#1053)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>minid</title><link>https://release.digdir.no/minid/prod-releases/minid-user-service-cc278dbb17e5b9986fe3a006647348f46b179648/</link><pubDate>Thu, 19 Nov 2026 06:50:25 +0000</pubDate><guid>https://release.digdir.no/minid/prod-releases/minid-user-service-cc278dbb17e5b9986fe3a006647348f46b179648/</guid><description>&lt;ul&gt;
 &lt;li&gt;MIN-3980 Set terms timestamp on re-registration (#750)&lt;/li&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>eformidling</title><link>https://release.digdir.no/eformidling/prod-releases/efm-logstash-b8eac97d7651b5635a701ec28ef09a5979ba475c/</link><pubDate>Wed, 18 Nov 2026 14:35:31 +0000</pubDate><guid>https://release.digdir.no/eformidling/prod-releases/efm-logstash-b8eac97d7651b5635a701ec28ef09a5979ba475c/</guid><description>&lt;ul&gt;
