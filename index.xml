@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 20 Nov 2026 12:09:27 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minprofil-3276a60ba5e626cd22278f3fffde9b3de5811598/</link><pubDate>Fri, 20 Nov 2026 12:09:27 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minprofil-3276a60ba5e626cd22278f3fffde9b3de5811598/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release notes</title><link>https://release.digdir.no/</link><description>Recent content on Release notes</description><generator>Hugo</generator><language>nb</language><lastBuildDate>Fri, 20 Nov 2026 12:19:02 +0000</lastBuildDate><atom:link href="https://release.digdir.no/index.xml" rel="self" type="application/rss+xml"/><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minid-varsling-2a33cd0de7dd5109214c359997ce21edad97502a/</link><pubDate>Fri, 20 Nov 2026 12:19:02 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minid-varsling-2a33cd0de7dd5109214c359997ce21edad97502a/</guid><description>&lt;ul&gt;
+&lt;li&gt;KRR-0000 whitelist (#557)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist-kt (#553)&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist-kt (#549)&lt;/li&gt;
+&lt;li&gt;MIN-4024 Escaper XML i SMS-payload til LINK Mobility og normaliserer mobilnummer (#547)&lt;/li&gt;
+&lt;li&gt;MIN-4009 Oppdaterer til minid-commons 0.6.14 (#546)&lt;/li&gt;
+&lt;li&gt;KRR-000_whitelist-kt (#544)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>krr</title><link>https://release.digdir.no/krr/prod-releases/minprofil-3276a60ba5e626cd22278f3fffde9b3de5811598/</link><pubDate>Fri, 20 Nov 2026 12:09:27 +0000</pubDate><guid>https://release.digdir.no/krr/prod-releases/minprofil-3276a60ba5e626cd22278f3fffde9b3de5811598/</guid><description>&lt;ul&gt;
 &lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;li&gt;KRR-1243 syntetiske fødselsnumre er nå av som standard og eksplisitt av i prod (#860)&lt;/li&gt;
 &lt;li&gt;patch CVE&lt;/li&gt;
