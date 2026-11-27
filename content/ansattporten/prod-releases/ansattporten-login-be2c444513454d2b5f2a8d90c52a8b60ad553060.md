@@ -1,0 +1,10 @@
+---
+title: ansattporten
+date: 2026-11-27T14:30:15Z
+environment: prod
+---
+- ID-7248: 400 på feilsider (#1559)
+- ID-7243: forward-scope-prefixes for eid (#1557)
+- ID-7212: 400 ved ugyldig tegnkoding (#1554)
+- Library upgrades
+
