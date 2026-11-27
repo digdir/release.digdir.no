@@ -9,6 +9,11 @@
 &lt;li&gt;ci: workflows&lt;/li&gt;
 &lt;li&gt;ci: workflows&lt;/li&gt;
 &lt;li&gt;ci: workflows&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-login-be2c444513454d2b5f2a8d90c52a8b60ad553060/</link><pubDate>Fri, 27 Nov 2026 14:30:15 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-login-be2c444513454d2b5f2a8d90c52a8b60ad553060/</guid><description>&lt;ul&gt;
+&lt;li&gt;ID-7248: 400 på feilsider (#1559)&lt;/li&gt;
+&lt;li&gt;ID-7243: forward-scope-prefixes for eid (#1557)&lt;/li&gt;
+&lt;li&gt;ID-7212: 400 ved ugyldig tegnkoding (#1554)&lt;/li&gt;
+&lt;li&gt;Library upgrades&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-user-service-179f1a7d9040f3decdffc9e5d204791b9a7ee20c/</link><pubDate>Tue, 24 Nov 2026 05:38:52 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-user-service-179f1a7d9040f3decdffc9e5d204791b9a7ee20c/</guid><description>&lt;ul&gt;
 &lt;li&gt;ID-6693 fetch users by last washed (#377)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>ansattporten</title><link>https://release.digdir.no/ansattporten/prod-releases/ansattporten-operational-status-service-d16f7ff7c86856489ea845a75f4b7921651d4167/</link><pubDate>Fri, 20 Nov 2026 13:09:02 +0000</pubDate><guid>https://release.digdir.no/ansattporten/prod-releases/ansattporten-operational-status-service-d16f7ff7c86856489ea845a75f4b7921651d4167/</guid><description>&lt;ul&gt;
